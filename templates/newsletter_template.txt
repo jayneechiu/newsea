@@ -1,0 +1,18 @@
+Reddit热门帖子 Newsletter - {{ date }}
+=======================================================
+
+{% for post in posts %}
+{{ loop.index }}. {{ post.title }}
+   来源: r/{{ post.subreddit }} | 作者: u/{{ post.author }}
+   评分: {{ post.score }} | 评论: {{ post.num_comments }}
+   链接: {{ post.permalink }}
+   {% if post.selftext %}
+   摘要: {{ post.selftext[:200] }}{% if post.selftext|length > 200 %}...{% endif %}
+   {% endif %}
+
+-------------------------------------------------------
+{% endfor %}
+
+总共 {{ total_posts }} 个热门帖子
+
+此邮件由Reddit Newsletter Bot自动生成
