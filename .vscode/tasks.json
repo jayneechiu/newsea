@@ -4,7 +4,7 @@
     {
       "label": "运行Reddit Newsletter Bot",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["main.py"],
       "group": "build",
       "isBackground": false,
@@ -13,7 +13,7 @@
     {
       "label": "运行增强版Newsletter Bot",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["enhanced_main.py"],
       "group": "build",
       "isBackground": false,
@@ -22,7 +22,7 @@
     {
       "label": "验证配置",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["tools.py", "validate-config"],
       "group": "test",
       "isBackground": false,
@@ -31,7 +31,7 @@
     {
       "label": "测试Reddit连接",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["tools.py", "test-reddit"],
       "group": "test",
       "isBackground": false,
@@ -40,7 +40,7 @@
     {
       "label": "测试邮件发送",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["tools.py", "test-email"],
       "group": "test",
       "isBackground": false,
@@ -49,7 +49,7 @@
     {
       "label": "运行完整测试",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["tools.py", "test-all"],
       "group": "test",
       "isBackground": false,
@@ -58,7 +58,7 @@
     {
       "label": "立即发送Newsletter",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["tools.py", "send-now"],
       "group": "build",
       "isBackground": false,
@@ -67,7 +67,7 @@
     {
       "label": "查看统计信息",
       "type": "shell",
-      "command": "C:/Users/Yuhan.Zhao/news/.venv/Scripts/python.exe",
+      "command": "python",
       "args": ["tools.py", "stats"],
       "group": "build",
       "isBackground": false,

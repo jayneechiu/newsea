@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Reddit Newsletter Bot - Main Entry Point
-自动抓取Reddit热门帖子并发送Newsletter的定时服务
-"""
+"""Reddit Newsletter Bot - Main Entry Point"""
 
 import schedule
 import time
@@ -13,9 +10,8 @@ from src.newsletter_sender import NewsletterSender
 from src.database_manager import DatabaseManager
 from src.config_manager import ConfigManager
 
-# 配置日志
 import os
-os.makedirs('data/logs', exist_ok=True)  # 确保日志目录存在
+os.makedirs('data/logs', exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -42,7 +38,6 @@ class RedditNewsletterBot:
         try:
             logger.info("开始执行每日Newsletter任务...")
             
-            # 1. 抓取Reddit热门帖子
             logger.info("正在抓取Reddit热门帖子...")
             posts = self.reddit_scraper.get_hot_posts()
             
@@ -50,22 +45,27 @@ class RedditNewsletterBot:
                 logger.warning("未找到新的热门帖子")
                 return
                 
-            # 2. 过滤已发送的帖子
             new_posts = self.db_manager.filter_new_posts(posts)
             
             if not new_posts:
                 logger.info("没有新的帖子需要发送")
                 return
                 
-            # 3. 生成并发送Newsletter
             logger.info(f"准备发送Newsletter，包含{len(new_posts)}个新帖子")
-            success = self.newsletter_sender.send_newsletter(new_posts)
+            success, editor_words = self.newsletter_sender.send_newsletter(new_posts)
             
             if success:
-                # 4. 记录已发送的帖子
                 self.db_manager.mark_posts_as_sent(new_posts)
+                self.db_manager.log_newsletter_send(
+                    len(new_posts), True, None, self.config.get_recipients(),
+                    editor_words, self.config.get_newsletter_title()
+                )
                 logger.info("Newsletter发送成功！")
             else:
+                self.db_manager.log_newsletter_send(
+                    len(new_posts), False, "发送失败", self.config.get_recipients(),
+                    editor_words, self.config.get_newsletter_title()
+                )
                 logger.error("Newsletter发送失败")
                 
         except Exception as e:

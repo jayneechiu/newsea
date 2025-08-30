@@ -9,10 +9,18 @@ Reddit热门帖子 Newsletter - {{ date }}
    {% if post.selftext %}
    摘要: {{ post.selftext[:200] }}{% if post.selftext|length > 200 %}...{% endif %}
    {% endif %}
+   {% if post.gpt_summary %}
+   分析: {{ post.gpt_summary }}
+   {% endif %}
 
 -------------------------------------------------------
 {% endfor %}
 
 总共 {{ total_posts }} 个热门帖子
 
+祝您阅读愉快！
+{{ editor_name }}
+{{ newsletter_title }} 编辑组
+
+-------------------------------------------------------
 此邮件由Reddit Newsletter Bot自动生成

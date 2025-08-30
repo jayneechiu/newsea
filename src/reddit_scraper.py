@@ -1,6 +1,4 @@
-"""
-Reddit Scraper - Reddit API集成模块
-"""
+"""Reddit Scraper - Reddit API集成模块"""
 
 import praw
 import logging
@@ -15,6 +13,10 @@ class RedditScraper:
     def __init__(self, config):
         self.config = config
         self.reddit = self._initialize_reddit_client()
+        self.gpt_client = None
+        if self.config.get_enable_gpt_summaries():
+            from src.chatgpt_client import ChatGPTClient
+            self.gpt_client = ChatGPTClient(self.config)
         
     def _initialize_reddit_client(self):
         """初始化Reddit客户端"""
@@ -27,7 +29,6 @@ class RedditScraper:
                 password=self.config.get_reddit_password()
             )
             
-            # 测试连接
             reddit.user.me()
             logger.info("Reddit API连接成功")
             return reddit
@@ -37,15 +38,7 @@ class RedditScraper:
             raise
     
     def get_hot_posts(self, limit: int = None) -> List[Dict]:
-        """
-        获取热门帖子
-        
-        Args:
-            limit: 获取帖子数量限制
-            
-        Returns:
-            帖子列表
-        """
+        """获取热门帖子"""
         try:
             limit = limit or self.config.get_posts_limit()
             subreddits = self.config.get_target_subreddits()
@@ -53,12 +46,10 @@ class RedditScraper:
             
             for subreddit_name in subreddits:
                 logger.info(f"正在抓取 r/{subreddit_name} 的热门帖子...")
-                
                 subreddit = self.reddit.subreddit(subreddit_name)
                 posts = subreddit.hot(limit=limit)
                 
                 for post in posts:
-                    # 只获取最近24小时的帖子
                     post_time = datetime.fromtimestamp(post.created_utc)
                     if datetime.now() - post_time <= timedelta(hours=24):
                         post_data = {
@@ -71,16 +62,22 @@ class RedditScraper:
                             'score': post.score,
                             'num_comments': post.num_comments,
                             'created_utc': post.created_utc,
-                            'selftext': post.selftext[:500] if post.selftext else "",  # 限制长度
+                            'selftext': post.selftext[:500] if post.selftext else "",
                             'is_video': post.is_video,
                             'over_18': post.over_18
                         }
+                        
+                        if self.config.get_enable_gpt_summaries():
+                            try:
+                                post_data['gpt_summary'] = self.gpt_client.summarize_and_analyze(post.title, post_data['selftext'])
+                            except Exception as e:
+                                post_data['gpt_summary'] = f"[分析失败: {e}]"
+                        else:
+                            post_data['gpt_summary'] = ""
+                        
                         all_posts.append(post_data)
             
-            # 按分数排序
             all_posts.sort(key=lambda x: x['score'], reverse=True)
-            
-            # 过滤NSFW内容（如果配置中禁用）
             if not self.config.get_include_nsfw():
                 all_posts = [post for post in all_posts if not post['over_18']]
             
@@ -92,15 +89,7 @@ class RedditScraper:
             return []
     
     def get_trending_posts(self, time_filter: str = 'day') -> List[Dict]:
-        """
-        获取趋势帖子
-        
-        Args:
-            time_filter: 时间过滤器 ('hour', 'day', 'week', 'month', 'year', 'all')
-            
-        Returns:
-            帖子列表
-        """
+        """获取趋势帖子"""
         try:
             subreddits = self.config.get_target_subreddits()
             all_posts = []
@@ -127,7 +116,6 @@ class RedditScraper:
                     all_posts.append(post_data)
             
             all_posts.sort(key=lambda x: x['score'], reverse=True)
-            
             if not self.config.get_include_nsfw():
                 all_posts = [post for post in all_posts if not post['over_18']]
             

@@ -12,6 +12,7 @@ tests/
 ├── test_reddit_connection.py      # Reddit API连接测试
 ├── test_email_connection.py       # 邮件发送功能测试
 ├── test_database.py              # 数据库功能测试
+├── test_gpt_connection.py         # GPT API连接测试
 └── test_full_system.py           # 完整系统测试
 ```
 
@@ -49,6 +50,9 @@ python test_email_connection.py
 # 数据库测试
 python test_database.py
 
+# GPT连接测试
+python test_gpt_connection.py
+
 # 完整系统测试
 python test_full_system.py
 ```
@@ -75,7 +79,15 @@ python test_full_system.py
 - ✅ 数据 CRUD 操作测试
 - ✅ 统计信息查询测试
 
-### 4. 完整系统测试 (`test_full_system.py`)
+### 4. GPT API 连接测试 (`test_gpt_connection.py`)
+
+- ✅ OpenAI API key 验证
+- ✅ GPT 模型连接测试
+- ✅ 基础对话功能测试
+- ✅ Reddit 帖子总结功能测试
+- ✅ Token 使用统计
+
+### 5. 完整系统测试 (`test_full_system.py`)
 
 - ✅ 运行所有上述测试
 - ✅ 生成综合测试报告

@@ -10,6 +10,9 @@ from dotenv import load_dotenv
 logger = logging.getLogger(__name__)
 
 class ConfigManager:
+    def get_chatgpt_api_key(self) -> str:
+        # 兼容 chatgpt_client.py，优先 CHATGPT_API_KEY，其次 OPENAI_API_KEY
+        return os.getenv('CHATGPT_API_KEY', os.getenv('OPENAI_API_KEY', ''))
     """配置管理器"""
     
     def __init__(self, config_file: str = '.env'):
@@ -24,7 +27,6 @@ class ConfigManager:
         except Exception as e:
             logger.warning(f"加载配置文件失败: {e}，将使用默认配置")
     
-    # Reddit API 配置
     def get_reddit_client_id(self) -> str:
         return os.getenv('REDDIT_CLIENT_ID', '')
     
@@ -120,6 +122,13 @@ class ConfigManager:
     
     def get_enable_editor_summary(self) -> bool:
         return os.getenv('ENABLE_EDITOR_SUMMARY', 'true').lower() == 'true'
+    
+    # Newsletter 编辑配置
+    def get_newsletter_editor_name(self) -> str:
+        return os.getenv('NEWSLETTER_EDITOR_NAME', 'Reddit Newsletter Team')
+    
+    def get_newsletter_title(self) -> str:
+        return os.getenv('NEWSLETTER_TITLE', 'Reddit 热门精选')
     
     # Web服务配置
     def get_web_host(self) -> str:

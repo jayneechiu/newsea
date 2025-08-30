@@ -165,6 +165,7 @@
       </div>
 
       <div class="summary">
+        <strong>编辑寄语：</strong> {{ editor_words }}<br />
         <strong>今日精选：{{ total_posts }} 个热门帖子</strong>
       </div>
 
@@ -174,16 +175,24 @@
           <span class="post-number">{{ loop.index }}</span>
           <a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a>
         </div>
-
         <div class="post-meta">
           <span class="subreddit">r/{{ post.subreddit }}</span>
           <span>作者: <span class="author">u/{{ post.author }}</span></span>
         </div>
-
         {% if post.selftext %}
         <div class="post-content">{{ post.selftext }}</div>
+        {% endif %} {% if post.gpt_summary %}
+        <div
+          class="post-content"
+          style="
+            background: #f0f7ff;
+            border-left: 4px solid #0077ff;
+            font-style: normal;
+          "
+        >
+          <strong>分析：</strong> {{ post.gpt_summary }}
+        </div>
         {% endif %}
-
         <div class="post-stats">
           <div class="stat-item">
             <span>👍</span>
@@ -200,7 +209,6 @@
           </div>
           {% endif %}
         </div>
-
         {% if post.url != post.permalink %}
         <div class="external-link">
           <a href="{{ post.url }}" target="_blank">查看原始链接 →</a>
@@ -211,6 +219,23 @@
 
       <div class="footer">
         <p><strong>共 {{ total_posts }} 个热门帖子</strong></p>
+        <div
+          style="
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            text-align: center;
+          "
+        >
+          <p style="margin: 5px 0; color: #666">祝您阅读愉快！</p>
+          <p style="margin: 5px 0; font-weight: bold; color: #333">
+            {{ editor_name }}
+          </p>
+          <p style="margin: 5px 0; color: #999; font-size: 0.9em">
+            {{ newsletter_title }} 编辑组
+          </p>
+        </div>
         <p>此邮件由 <strong>Reddit Newsletter Bot</strong> 自动生成</p>
         <p>内容来源于Reddit各大热门版块</p>
         <div class="unsubscribe">

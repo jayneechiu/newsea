@@ -21,20 +21,21 @@ class NewsletterSender:
     def __init__(self, config):
         self.config = config
         
-    def send_newsletter(self, posts: List[Dict]) -> bool:
-        """
-        发送Newsletter邮件
+    def send_newsletter(self, posts: List[Dict]) -> tuple[bool, str]:
+        """发送Newsletter邮件"""
+        if self.config.get_enable_editor_summary():
+            from src.chatgpt_client import ChatGPTClient
+            gpt_client = ChatGPTClient(self.config)
+            try:
+                editor_words = gpt_client.generate_editor_words(posts)
+            except Exception as e:
+                editor_words = f"[编辑寄语生成失败: {e}]"
+        else:
+            editor_words = "欢迎阅读本期 Reddit 热门帖子精选！"
         
-        Args:
-            posts: 帖子列表
-            
-        Returns:
-            发送是否成功
-        """
         try:
-            # 生成邮件内容
-            html_content = self._generate_newsletter_html(posts)
-            text_content = self._generate_newsletter_text(posts)
+            html_content = self._generate_newsletter_html(posts, editor_words)
+            text_content = self._generate_newsletter_text(posts, editor_words)
             
             # 创建邮件
             msg = MIMEMultipart('alternative')
@@ -42,83 +43,80 @@ class NewsletterSender:
             msg['From'] = self.config.get_smtp_from_email()
             msg['To'] = ', '.join(self.config.get_recipients())
             
-            # 添加文本和HTML版本
             part1 = MIMEText(text_content, 'plain', 'utf-8')
             part2 = MIMEText(html_content, 'html', 'utf-8')
             
             msg.attach(part1)
             msg.attach(part2)
             
-            # 发送邮件
             success = self._send_email(msg)
             
             if success:
                 logger.info(f"Newsletter发送成功，包含 {len(posts)} 个帖子")
             
-            return success
+            return success, editor_words
             
         except Exception as e:
             logger.error(f"发送Newsletter时出错: {e}")
-            return False
+            return False, editor_words
     
-    def _generate_newsletter_html(self, posts: List[Dict]) -> str:
+    def _generate_newsletter_html(self, posts: List[Dict], editor_words: str) -> str:
         """生成HTML格式的Newsletter内容"""
         template_path = os.path.join('templates', 'newsletter_template.html')
-        
         try:
             with open(template_path, 'r', encoding='utf-8') as f:
                 template_content = f.read()
         except FileNotFoundError:
             logger.error(f"模板文件未找到: {template_path}")
             raise FileNotFoundError(f"Newsletter模板文件不存在: {template_path}")
-        
         template = Template(template_content)
-        
         return template.render(
             posts=posts,
             date=datetime.now().strftime('%Y-%m-%d'),
-            total_posts=len(posts)
+            total_posts=len(posts),
+            editor_words=editor_words,
+            editor_name=self.config.get_newsletter_editor_name(),
+            newsletter_title=self.config.get_newsletter_title()
         )
     
-    def _generate_newsletter_text(self, posts: List[Dict]) -> str:
+    def _generate_newsletter_text(self, posts: List[Dict], editor_words: str) -> str:
         """生成纯文本格式的Newsletter内容"""
         template_path = os.path.join('templates', 'newsletter_template.txt')
-        
         try:
             with open(template_path, 'r', encoding='utf-8') as f:
                 template_content = f.read()
         except FileNotFoundError:
             logger.warning(f"文本模板文件未找到: {template_path}，使用默认格式")
-            return self._generate_default_text(posts)
-        
+            return self._generate_default_text(posts, editor_words)
         template = Template(template_content)
-        
         return template.render(
             posts=posts,
             date=datetime.now().strftime('%Y-%m-%d'),
-            total_posts=len(posts)
+            total_posts=len(posts),
+            editor_words=editor_words,
+            editor_name=self.config.get_newsletter_editor_name(),
+            newsletter_title=self.config.get_newsletter_title()
         )
     
-    def _generate_default_text(self, posts: List[Dict]) -> str:
+    def _generate_default_text(self, posts: List[Dict], editor_words: str) -> str:
         """生成默认的纯文本Newsletter内容"""
         lines = []
         lines.append(f"Reddit热门帖子 Newsletter - {datetime.now().strftime('%Y-%m-%d')}")
         lines.append("=" * 50)
+        lines.append(f"编辑寄语：{editor_words}\n")
         lines.append(f"今日精选：{len(posts)} 个热门帖子\n")
-        
         for i, post in enumerate(posts, 1):
             lines.append(f"{i}. {post['title']}")
             lines.append(f"   版块: r/{post['subreddit']} | 作者: u/{post['author']}")
             lines.append(f"   评分: {post['score']} | 评论: {post['num_comments']}")
-            
             if post['selftext']:
                 lines.append(f"   内容: {post['selftext'][:100]}...")
-            
+            if post.get('gpt_summary'):
+                lines.append(f"   分析: {post['gpt_summary']}")
             lines.append(f"   链接: {post['permalink']}")
             if post['url'] != post['permalink']:
                 lines.append(f"   原始链接: {post['url']}")
             lines.append("")
-        
         lines.append("此邮件由 Reddit Newsletter Bot 自动生成")
         return "\n".join(lines)
     

@@ -1,52 +1,174 @@
-# Reddit Newsletter Bot
+# Reddit Newsletter Bot 🚀
 
-一个自动抓取 Reddit 热门帖子并发送 Newsletter 的定时服务，使用 Python 开发。
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Reddit API](https://img.shields.io/badge/Reddit-API-orange.svg)](https://www.reddit.com/dev/api/)
 
-## 功能特性
+一个智能的 Reddit 热门帖子聚合器，自动生成精美的 Newsletter 并定时发送。集成 OpenAI GPT 进行内容总结和分析。
 
-- 🔥 **自动抓取热门帖子** - 支持多个 Subreddit，可配置抓取数量和过滤条件
-- 📧 **精美 Newsletter 邮件** - HTML 格式，包含帖子标题、作者、评分、评论数等信息
-- ⏰ **定时自动发送** - 支持每日定时发送，可配置发送时间
-- 💾 **智能去重** - 数据库记录已发送帖子，避免重复发送
-- 📊 **统计功能** - 发送记录、成功率统计等
-- 🛠️ **工具脚本** - 提供测试、统计、清理等管理功能
+## ✨ 主要功能
 
-## 快速开始
+- 🔥 **多版块热门抓取** - 支持自定义 Subreddit 和抓取规则
+- 🤖 **AI 智能总结** - GPT 驱动的帖子总结和受欢迎度分析
+- 📧 **精美邮件模板** - 响应式 HTML 设计，支持纯文本版本
+- ⏰ **定时自动发送** - 可配置的发送时间和频率
+- 💾 **完整历史记录** - 保存所有发送记录和 AI 生成内容
+- 📊 **统计与管理** - 发送成功率、内容统计等
+- 🛠️ **丰富的工具** - 测试、管理、清理等实用工具
 
-### 1. 克隆项目
+## 🚀 快速开始
 
-```bash
-git clone https://github.com/your-username/reddit-newsletter-bot.git
-cd reddit-newsletter-bot
-```
-
-### 2. 创建虚拟环境
+### 1. 安装
 
 ```bash
+git clone https://github.com/jayneechiu/newsea.git
+cd newsea
 python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-
-# Linux/macOS
-source .venv/bin/activate
-```
-
-### 3. 安装依赖
-
-```bash
+.venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-### 4. 配置 Reddit API
+### 2. 配置
+
+复制环境变量模板：
+
+```bash
+cp .env.example .env
+```
+
+编辑 `.env` 文件，配置必要的 API 密钥和设置。
+
+### 3. 运行
+
+```bash
+# 验证配置
+python tools/manage.py validate-config
+
+# 测试所有功能
+python tools/manage.py test-all
+
+# 立即发送 Newsletter
+python tools/manage.py send-now
+
+# 启动定时服务
+python main.py
+```
+
+## ⚙️ 配置说明
+
+### Reddit API 配置
 
 1. 访问 [Reddit App Preferences](https://www.reddit.com/prefs/apps)
-2. 创建新的应用（选择"script"类型）
-3. 获取`client_id`和`client_secret`
+2. 创建新应用（选择 "script" 类型）
+3. 在 `.env` 中配置相关参数
 
-### 5. 配置邮件服务
+### OpenAI API 配置
 
-如果使用 Gmail，需要：
+1. 获取 [OpenAI API Key](https://platform.openai.com/api-keys)
+2. 在 `.env` 中设置 `OPENAI_API_KEY`
+3. 可选择不同的 GPT 模型（推荐 `gpt-4o-mini`）
+
+### 邮件服务配置
+
+支持任何 SMTP 邮件服务：
+
+```env
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USE_TLS=true
+SMTP_USERNAME=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+EMAIL_RECIPIENTS=recipient1@example.com,recipient2@example.com
+```
+
+## 🛠️ 管理工具
+
+```bash
+# 测试命令
+python tools/manage.py test-reddit     # 测试 Reddit API
+python tools/manage.py test-email      # 测试邮件发送
+python tools/manage.py test-all        # 完整系统测试
+
+# 运行命令
+python tools/manage.py send-now        # 立即发送
+python tools/manage.py stats           # 显示统计信息
+python tools/manage.py history         # 查看发送历史
+
+# 维护命令
+python tools/manage.py cleanup --days 30  # 清理旧数据
+python tools/manage.py validate-config    # 验证配置
+```
+
+## 📁 项目结构
+
+```
+├── src/                    # 核心源代码
+│   ├── reddit_scraper.py   # Reddit API 集成
+│   ├── chatgpt_client.py   # OpenAI GPT 集成
+│   ├── newsletter_sender.py # 邮件发送模块
+│   ├── database_manager.py # 数据库管理
+│   └── config_manager.py   # 配置管理
+├── templates/              # 邮件模板
+├── tools/                  # 管理工具
+├── tests/                  # 测试模块
+├── data/                   # 数据文件
+└── main.py                # 主程序入口
+```
+
+## 📊 功能亮点
+
+### AI 智能总结
+
+- 使用 GPT 对每个热门帖子进行总结和分析
+- 生成个性化的编辑寄语
+- 智能识别帖子受欢迎的原因
+
+### 完整历史记录
+
+- 保存所有发送的 Newsletter 内容
+- 记录 AI 生成的总结和寄语
+- 支持历史内容查询和分析
+
+### 灵活配置
+
+- 支持多个 Subreddit 同时抓取
+- 可配置的帖子数量和过滤条件
+- 灵活的发送时间和频率设置
+
+## 🔧 开发
+
+### 环境要求
+
+- Python 3.11+
+- SQLite 3
+- 网络连接（用于 API 调用）
+
+### 测试
+
+```bash
+cd tests/
+python test_reddit_connection.py
+python test_gpt_connection.py
+python test_full_system.py
+```
+
+### 贡献
+
+欢迎提交 Issue 和 Pull Request！请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解更多信息。
+
+## 📝 更新日志
+
+查看 [CHANGELOG.md](CHANGELOG.md) 了解版本更新内容。
+
+## 📄 许可证
+
+本项目基于 MIT 许可证开源 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+## 🙏 致谢
+
+- [PRAW](https://github.com/praw-dev/praw) - Reddit API 客户端
+- [OpenAI](https://openai.com/) - GPT API 服务
+- [Jinja2](https://jinja.palletsprojects.com/) - 模板引擎
 
 1. 启用 2FA（两步验证）
 2. 生成应用专用密码
@@ -238,12 +360,15 @@ reddit-newsletter-bot/
 项目提供了完整的管理工具集，位于 `tools/manage.py`：
 
 ### 配置验证
+
 ```bash
 python tools/manage.py validate-config
 ```
+
 验证 `.env` 配置文件是否正确，显示配置摘要。
 
 ### 连接测试
+
 ```bash
 # 测试 Reddit API 连接
 python tools/manage.py test-reddit
@@ -256,6 +381,7 @@ python tools/manage.py test-all
 ```
 
 ### 手动操作
+
 ```bash
 # 立即发送 Newsletter（不等待定时）
 python tools/manage.py send-now
@@ -270,14 +396,19 @@ python tools/manage.py cleanup --days 90
 ### 开发工具
 
 #### 模板预览服务器
+
 启动实时模板预览服务器：
+
 ```bash
 python tools/preview_server.py
 ```
+
 访问 http://localhost:5000/preview 查看邮件模板效果。
 
 #### OAuth 设置助手
+
 设置 Reddit OAuth 认证：
+
 ```bash
 python tools/oauth_helper.py
 ```
