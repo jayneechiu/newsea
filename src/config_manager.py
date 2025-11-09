@@ -4,8 +4,9 @@ Config Manager - 配置管理模块
 
 import os
 import logging
-from typing import List
+from typing import List, Dict, Any
 from dotenv import load_dotenv
+from urllib.parse import urlparse
 
 logger = logging.getLogger(__name__)
 
@@ -91,21 +92,33 @@ class ConfigManager:
     def get_run_immediately(self) -> bool:
         return os.getenv('RUN_IMMEDIATELY', 'false').lower() == 'true'
     
-    # 数据库配置
-    def get_database_path(self) -> str:
-        default_path = 'data/database/reddit_newsletter.db'
-        db_path = os.getenv('DATABASE_PATH', default_path)
+    # PostgreSQL 数据库配置
+    def get_database_config(self) -> Dict[str, Any]:
+        """获取 PostgreSQL 数据库配置"""
+        # 优先使用 DATABASE_URL (Railway 格式)
+        database_url = os.getenv('DATABASE_URL')
         
-        # 如果是相对路径，转换为基于项目根目录的绝对路径
-        if not os.path.isabs(db_path):
-            # 获取项目根目录（从src目录向上一级）
-            project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-            db_path = os.path.join(project_root, db_path)
-        
-        # 确保目录存在
-        os.makedirs(os.path.dirname(db_path), exist_ok=True)
-        
-        return db_path
+        if database_url:
+            # 解析 PostgreSQL URL
+            parsed = urlparse(database_url)
+            return {
+                'host': parsed.hostname,
+                'port': parsed.port or 5432,
+                'database': parsed.path[1:] if parsed.path else 'railway',  # 移除开头的 '/'
+                'user': parsed.username,
+                'password': parsed.password,
+                'sslmode': 'require'
+            }
+        else:
+            # 使用单独的环境变量
+            return {
+                'host': os.getenv('DB_HOST', 'localhost'),
+                'port': int(os.getenv('DB_PORT', '5432')),
+                'database': os.getenv('DB_NAME', 'reddit_newsletter'),
+                'user': os.getenv('DB_USER', 'postgres'),
+                'password': os.getenv('DB_PASSWORD', ''),
+                'sslmode': os.getenv('DB_SSLMODE', 'require')
+            }
     
     # GPT/OpenAI 配置
     def get_openai_api_key(self) -> str:
@@ -171,6 +184,17 @@ class ConfigManager:
         if not self.get_recipients():
             errors.append("缺少 EMAIL_RECIPIENTS")
         
+        # 检查 PostgreSQL 数据库配置
+        db_config = self.get_database_config()
+        if not db_config.get('host'):
+            errors.append("缺少 PostgreSQL 主机配置 (DB_HOST 或 DATABASE_URL)")
+        if not db_config.get('user'):
+            errors.append("缺少 PostgreSQL 用户配置 (DB_USER 或 DATABASE_URL)")
+        if not db_config.get('password'):
+            errors.append("缺少 PostgreSQL 密码配置 (DB_PASSWORD 或 DATABASE_URL)")
+        if not db_config.get('database'):
+            errors.append("缺少 PostgreSQL 数据库名配置 (DB_NAME 或 DATABASE_URL)")
+        
         if errors:
             logger.error("配置验证失败:")
             for error in errors:
@@ -182,6 +206,8 @@ class ConfigManager:
     
     def get_config_summary(self) -> dict:
         """获取配置摘要（隐藏敏感信息）"""
+        db_config = self.get_database_config()
+        
         return {
             'target_subreddits': self.get_target_subreddits(),
             'posts_limit': self.get_posts_limit(),
@@ -193,7 +219,6 @@ class ConfigManager:
             'smtp_use_ssl': self.get_smtp_use_ssl(),
             'schedule_time': self.get_schedule_time(),
             'recipients_count': len(self.get_recipients()),
-            'database_path': self.get_database_path(),
             'run_immediately': self.get_run_immediately(),
             'enable_gpt_summaries': self.get_enable_gpt_summaries(),
             'enable_editor_summary': self.get_enable_editor_summary(),
@@ -201,5 +226,11 @@ class ConfigManager:
             'enable_web_service': self.get_enable_web_service(),
             'web_host': self.get_web_host(),
             'web_port': self.get_web_port(),
-            'has_openai_key': bool(self.get_openai_api_key())
+            'has_openai_key': bool(self.get_openai_api_key()),
+            'database_type': 'postgresql',
+            'database_host': db_config.get('host', ''),
+            'database_port': db_config.get('port', ''),
+            'database_name': db_config.get('database', ''),
+            'database_user': db_config.get('user', ''),
+            'database_sslmode': db_config.get('sslmode', '')
         }

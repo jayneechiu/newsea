@@ -156,7 +156,7 @@ def clear_history():
     
     try:
         config = ConfigManager()
-        db = DatabaseManager(config.get_database_path())
+        db = DatabaseManager()  # PostgreSQL 版本不需要路径参数
         
         # 确认操作
         response = input("⚠️ 这将删除所有历史记录，确定要继续吗？(输入 'YES' 确认): ")
@@ -185,7 +185,7 @@ def show_stats():
     
     try:
         config = ConfigManager()
-        db = DatabaseManager(config.get_database_path())
+        db = DatabaseManager()  # PostgreSQL 版本不需要路径参数
         
         # 获取统计信息
         history = db.get_newsletter_history(limit=10)

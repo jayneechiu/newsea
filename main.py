@@ -29,7 +29,7 @@ class RedditNewsletterBot:
     
     def __init__(self):
         self.config = ConfigManager()
-        self.db_manager = DatabaseManager(self.config.get_database_path())
+        self.db_manager = DatabaseManager()
         self.reddit_scraper = RedditScraper(self.config)
         self.newsletter_sender = NewsletterSender(self.config)
         

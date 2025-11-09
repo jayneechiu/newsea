@@ -16,7 +16,7 @@ def print_usage():
     print("\n可用选项:")
     print("  reddit      - 测试Reddit API连接")
     print("  email       - 测试邮件发送功能")
-    print("  database    - 测试数据库功能")
+    print("  database    - 测试 PostgreSQL 数据库连接")
     print("  full        - 运行完整系统测试")
     print("  all         - 同 'full'")
     print("  help        - 显示此帮助信息")
@@ -36,8 +36,8 @@ def run_email_test():
     return main()
 
 def run_database_test():
-    """运行数据库测试"""
-    from test_database import main
+    """运行 PostgreSQL 数据库测试"""
+    from test_postgres_connection import main
     return main()
 
 def run_full_test():

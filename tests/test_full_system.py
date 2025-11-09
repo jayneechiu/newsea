@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from datetime import datetime
 from test_reddit_connection import RedditConnectionTest
 from test_email_connection import EmailConnectionTest
-from test_database import DatabaseTest
+from test_postgres_connection import PostgreSQLConnectionTest
 
 class FullSystemTest:
     def __init__(self):
@@ -38,7 +38,7 @@ class FullSystemTest:
         # 3. 数据库功能测试
         print("\n3️⃣ 数据库功能测试")
         print("-" * 40)
-        db_test = DatabaseTest()
+        db_test = PostgreSQLConnectionTest()
         self.test_results['database'] = db_test.run_all_tests()
         
         # 生成测试报告
@@ -96,7 +96,7 @@ class FullSystemTest:
         if not self.test_results.get('database'):
             print("\n🔧 数据库修复建议:")
             print("   - 检查数据库文件权限")
-            print("   - 确认SQLite安装正确")
+            print("   - 确认PostgreSQL安装正确")
             print("   - 验证磁盘空间充足")
         
         print("\n" + "=" * 80)
