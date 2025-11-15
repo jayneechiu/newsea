@@ -62,7 +62,7 @@ class NewsletterSender:
     
     def _generate_newsletter_html(self, posts: List[Dict], editor_words: str) -> str:
         """生成HTML格式的Newsletter内容"""
-        template_path = os.path.join('templates', 'newsletter_template.html')
+        template_path = os.path.join('templates', 'newsletter_template2.html')
         try:
             with open(template_path, 'r', encoding='utf-8') as f:
                 template_content = f.read()
@@ -72,6 +72,7 @@ class NewsletterSender:
         template = Template(template_content)
         return template.render(
             posts=posts,
+            top_post=posts[0] if posts else None,
             date=datetime.now().strftime('%Y-%m-%d'),
             total_posts=len(posts),
             editor_words=editor_words,
