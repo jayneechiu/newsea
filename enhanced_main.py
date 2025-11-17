@@ -12,51 +12,52 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from main import RedditNewsletterBot
 from src.config_manager import ConfigManager
 
+
 def setup_logging():
     """设置日志配置"""
-    os.makedirs('data/logs', exist_ok=True)
-    
+    os.makedirs("data/logs", exist_ok=True)
+
     logging.basicConfig(
         level=logging.INFO,
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        handlers=[
-            logging.FileHandler('data/logs/reddit_newsletter.log', encoding='utf-8'),
-            logging.StreamHandler()
-        ]
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        handlers=[logging.FileHandler("data/logs/reddit_newsletter.log", encoding="utf-8"), logging.StreamHandler()],
     )
+
 
 def run_once():
     """运行一次Newsletter发送"""
     print("🚀 启动Reddit Newsletter Bot (单次运行模式)")
-    
+
     try:
         bot = RedditNewsletterBot()
         bot.run_daily_newsletter()
         print("✅ Newsletter任务完成")
-        
+
     except Exception as e:
         print(f"❌ 运行失败: {e}")
         sys.exit(1)
 
+
 def run_scheduler():
     """运行定时调度器"""
     print("🚀 启动Reddit Newsletter Bot (定时调度模式)")
-    
+
     try:
         bot = RedditNewsletterBot()
-        
+
         config = ConfigManager()
         if config.get_run_immediately():
             print("🔄 检测到立即运行配置，先执行一次...")
             bot.run_daily_newsletter()
-        
+
         bot.run_scheduler()
-        
+
     except KeyboardInterrupt:
         print("\n👋 Bot已停止运行")
     except Exception as e:
         print(f"❌ 运行失败: {e}")
         sys.exit(1)
+
 
 def show_help():
     """显示使用帮助"""
@@ -92,29 +93,28 @@ Reddit Newsletter Bot - 使用指南
     """
     print(help_text)
 
+
 def main():
     parser = argparse.ArgumentParser(
-        description="Reddit Newsletter Bot - Enhanced Version",
-        formatter_class=argparse.RawDescriptionHelpFormatter
+        description="Reddit Newsletter Bot - Enhanced Version", formatter_class=argparse.RawDescriptionHelpFormatter
     )
-    
-    parser.add_argument('--once', action='store_true', 
-                       help='运行一次Newsletter发送任务后退出')
-    parser.add_argument('--help-extended', action='store_true',
-                       help='显示详细使用指南')
-    
+
+    parser.add_argument("--once", action="store_true", help="运行一次Newsletter发送任务后退出")
+    parser.add_argument("--help-extended", action="store_true", help="显示详细使用指南")
+
     args = parser.parse_args()
-    
+
     setup_logging()
-    
+
     if args.help_extended:
         show_help()
         return
-    
+
     if args.once:
         run_once()
     else:
         run_scheduler()
+
 
 if __name__ == "__main__":
     main()

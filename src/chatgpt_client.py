@@ -3,17 +3,18 @@ import requests
 from typing import List
 from .config_manager import ConfigManager
 
+
 class ChatGPTClient:
     def __init__(self, config_manager: ConfigManager = None):
         """
         初始化 ChatGPT 客户端
-        
+
         Args:
             config_manager: 配置管理器实例，如果为None则创建新实例
         """
         self.config = config_manager or ConfigManager()
         self.api_key = self.config.get_chatgpt_api_key()
-        self.api_url = self.config.get_openai_api_base().rstrip('/') + '/chat/completions'
+        self.api_url = self.config.get_openai_api_base().rstrip("/") + "/chat/completions"
         self.model = self.config.get_openai_model()
 
     def summarize_and_analyze(self, post_title: str, post_content: str) -> str:
@@ -32,7 +33,7 @@ class ChatGPTClient:
 请开始："""
         response = self._call_gpt(prompt, max_tokens=80)
         # 清理可能的Markdown符号
-        response = response.replace('**', '').replace('#', '').replace('*', '')
+        response = response.replace("**", "").replace("#", "").replace("*", "")
         return response
 
     def generate_editor_words(self, posts: List[dict]) -> str:
@@ -53,18 +54,13 @@ class ChatGPTClient:
         """调用 GPT API"""
         if not self.api_key:
             return "[ChatGPT分析失败: API密钥未配置]"
-            
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
+
+        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
         data = {
             "model": self.model,
-            "messages": [
-                {"role": "user", "content": prompt}
-            ],
+            "messages": [{"role": "user", "content": prompt}],
             "max_tokens": max_tokens,
-            "temperature": 0.7
+            "temperature": 0.7,
         }
         try:
             resp = requests.post(self.api_url, headers=headers, json=data, timeout=15)
