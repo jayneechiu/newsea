@@ -1,14 +1,36 @@
-# Logs Directory
+# 日志目录
 
-This directory stores log files for the Reddit Newsletter Bot.
+此目录存储 Reddit Newsletter Bot 的日志文件。
 
-## Files
-- `reddit_newsletter.log` - Main application log file (auto-created on first run)
+## 📁 文件说明
 
-## Log Levels
-- INFO - General information about the application flow
-- WARNING - Warning messages for potential issues
-- ERROR - Error messages for failures
-- DEBUG - Detailed debugging information (when enabled)
+- `reddit_newsletter.log` - 主要应用程序日志文件（首次运行时自动创建）
 
-Log files are automatically rotated to prevent excessive disk usage.
+## 📊 日志级别
+
+- **信息** - 应用程序流程的一般信息
+- **警告** - 潜在问题的警告消息
+- **错误** - 失败的错误消息
+- **调试** - 详细的调试信息（启用时）
+
+## 🔄 日志轮转
+
+日志文件会自动轮转以防止占用过多磁盘空间。
+
+## 📝 日志内容
+
+日志文件包含以下信息：
+
+- Reddit API 调用记录
+- 邮件发送状态
+- 数据库操作记录
+- 错误和异常信息
+- 性能统计数据
+
+## 🛠️ 日志配置
+
+日志配置在 `main.py` 和 `enhanced_main.py` 中设置：
+
+- 同时输出到文件和控制台
+- UTF-8 编码支持中文
+- 时间戳格式化

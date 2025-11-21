@@ -72,6 +72,15 @@
       "group": "build",
       "isBackground": false,
       "problemMatcher": []
+    },
+    {
+      "label": "测试邮件模板",
+      "type": "shell",
+      "command": "python",
+      "args": ["tools.py", "test-template"],
+      "group": "test",
+      "isBackground": false,
+      "problemMatcher": []
     }
   ]
 }

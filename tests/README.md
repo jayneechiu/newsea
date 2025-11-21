@@ -6,14 +6,14 @@
 
 ```
 tests/
-├── __init__.py                    # 测试模块初始化
-├── README.md                      # 测试说明文档
-├── run_tests.py                   # 测试运行脚本
-├── test_reddit_connection.py      # Reddit API连接测试
-├── test_email_connection.py       # 邮件发送功能测试
-├── test_database.py              # 数据库功能测试
-├── test_gpt_connection.py         # GPT API连接测试
-└── test_full_system.py           # 完整系统测试
+├── __init__.py                      # 测试模块初始化
+├── README.md                        # 测试说明文档
+├── run_tests.py                     # 测试运行脚本
+├── test_reddit_connection.py        # Reddit API连接测试
+├── test_email_connection.py         # 邮件发送功能测试
+├── test_postgres_connection.py      # PostgreSQL 数据库连接测试
+├── test_gpt_connection.py           # GPT API连接测试
+└── test_full_system.py             # 完整系统测试
 ```
 
 ## 🚀 快速开始
@@ -22,7 +22,7 @@ tests/
 
 ```bash
 cd tests
-python run_tests.py full
+python run_tests.py all
 ```
 
 ### 运行单个测试模块
@@ -34,7 +34,7 @@ python run_tests.py reddit
 # 测试邮件发送功能
 python run_tests.py email
 
-# 测试数据库功能
+# 测试 PostgreSQL 数据库连接
 python run_tests.py database
 ```
 
@@ -47,8 +47,8 @@ python test_reddit_connection.py
 # 邮件连接测试
 python test_email_connection.py
 
-# 数据库测试
-python test_database.py
+# PostgreSQL 数据库测试
+python test_postgres_connection.py
 
 # GPT连接测试
 python test_gpt_connection.py
@@ -72,12 +72,13 @@ python test_full_system.py
 - ✅ TLS 加密连接
 - ✅ 实际邮件发送测试
 
-### 3. 数据库功能测试 (`test_database.py`)
+### 3. PostgreSQL 数据库测试 (`test_postgres_connection.py`)
 
-- ✅ 数据库连接验证
-- ✅ 表结构完整性检查
-- ✅ 数据 CRUD 操作测试
-- ✅ 统计信息查询测试
+- ✅ PostgreSQL 数据库连接验证
+- ✅ 配置验证和连接信息检查
+- ✅ 数据库版本和权限测试
+- ✅ Newsletter 表结构创建测试
+- ✅ 数据插入、查询、更新操作测试
 
 ### 4. GPT API 连接测试 (`test_gpt_connection.py`)
 
@@ -114,13 +115,17 @@ python test_full_system.py
 - 网络防火墙是否阻止SMTP连接
 ```
 
-### 数据库测试失败
+### PostgreSQL 数据库测试失败
+
+- 检查 DATABASE_URL 配置是否正确
+- 确认 PostgreSQL 数据库服务运行正常
+- 验证数据库用户权限和网络连接
 
 ```
 💡 检查项目:
-- 数据库文件写入权限
-- SQLite版本兼容性
-- 磁盘空间是否充足
+- Railway 或 Supabase 数据库服务状态
+- 数据库连接字符串格式
+- 网络连接和防火墙设置
 ```
 
 ## 📊 测试输出说明
@@ -162,12 +167,18 @@ REDDIT_USERNAME=your_username
 REDDIT_PASSWORD=your_password
 REDDIT_USER_AGENT=your_user_agent
 
+# PostgreSQL 数据库
+DATABASE_URL=postgresql://username:password@host:port/database
+
 # 邮件配置
 SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USERNAME=your_email@gmail.com
 SMTP_PASSWORD=your_app_password
 EMAIL_RECIPIENTS=recipient1@example.com,recipient2@example.com
+
+# OpenAI (可选)
+OPENAI_API_KEY=your_openai_api_key
 ```
 
 运行测试前请确保所有必要的配置都已正确设置。
