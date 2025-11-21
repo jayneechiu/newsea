@@ -117,12 +117,38 @@ class DatabaseManager:
             """
             )
 
+            # 添加评论字段（如果不存在）
+            self._migrate_add_comment_fields(cursor)
+
             cursor.close()
             logger.info("PostgreSQL 数据库表初始化成功")
 
         except psycopg2.Error as e:
             logger.error(f"数据库初始化失败: {e}")
             raise
+
+    def _migrate_add_comment_fields(self, cursor):
+        """添加评论相关字段"""
+        try:
+            # 检查字段是否已存在
+            cursor.execute(
+                """
+                SELECT column_name 
+                FROM information_schema.columns 
+                WHERE table_name = 'posts' AND column_name = 'top_comments'
+            """
+            )
+            if not cursor.fetchone():
+                cursor.execute(
+                    """
+                    ALTER TABLE posts 
+                    ADD COLUMN top_comments JSONB,
+                    ADD COLUMN comment_summary TEXT
+                """
+                )
+                logger.info("成功添加评论字段")
+        except psycopg2.Error as e:
+            logger.warning(f"添加评论字段时出错（可能已存在）: {e}")
 
     def filter_new_posts(self, posts: List[Dict]) -> List[Dict]:
         """
@@ -172,12 +198,14 @@ class DatabaseManager:
                     INSERT INTO posts 
                     (id, title, author, url, permalink, subreddit, score, 
                      num_comments, created_utc, selftext, is_video, over_18, 
-                     sent_at, data_json, gpt_summary)
-                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                     sent_at, data_json, gpt_summary, top_comments, comment_summary)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                     ON CONFLICT (id) DO UPDATE SET
                         sent_at = EXCLUDED.sent_at,
                         data_json = EXCLUDED.data_json,
-                        gpt_summary = EXCLUDED.gpt_summary
+                        gpt_summary = EXCLUDED.gpt_summary,
+                        top_comments = EXCLUDED.top_comments,
+                        comment_summary = EXCLUDED.comment_summary
                 """,
                     (
                         post["id"],
@@ -199,6 +227,8 @@ class DatabaseManager:
                         sent_time,
                         json.dumps(post, ensure_ascii=False),
                         post.get("gpt_summary", ""),
+                        json.dumps(post.get("top_comments", []), ensure_ascii=False),
+                        post.get("comment_summary", ""),
                     ),
                 )
 

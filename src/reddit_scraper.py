@@ -39,6 +39,31 @@ class RedditScraper:
             logger.error(f"Reddit API连接失败: {e}")
             raise
 
+    def _get_top_comments(self, post, limit: int = 5) -> List[Dict]:
+        """获取帖子的热门评论"""
+        try:
+            # 获取评论，按最佳排序
+            post.comment_sort = "best"
+            post.comments.replace_more(limit=0)  # 不展开"more comments"
+
+            top_comments = []
+            for comment in post.comments[:limit]:
+                if hasattr(comment, "body") and comment.body != "[deleted]":
+                    comment_data = {
+                        "author": str(comment.author) if comment.author else "[deleted]",
+                        "body": comment.body[:300],  # 限制评论长度
+                        "score": comment.score,
+                        "created_utc": comment.created_utc,
+                    }
+                    top_comments.append(comment_data)
+
+            logger.info(f"获取到 {len(top_comments)} 条评论 (帖子: {post.id})")
+            return top_comments
+
+        except Exception as e:
+            logger.warning(f"获取评论失败 (帖子: {post.id}): {e}")
+            return []
+
     def get_hot_posts(self, limit: int = None) -> List[Dict]:
         """获取热门帖子"""
         try:
@@ -69,15 +94,27 @@ class RedditScraper:
                             "over_18": post.over_18,
                         }
 
+                        # 获取热门评论
+                        post_data["top_comments"] = self._get_top_comments(post)
+
                         if self.config.get_enable_gpt_summaries():
                             try:
                                 post_data["gpt_summary"] = self.gpt_client.summarize_and_analyze(
                                     post.title, post_data["selftext"]
                                 )
+                                # 如果有评论，生成评论摘要
+                                if post_data["top_comments"]:
+                                    post_data["comment_summary"] = self.gpt_client.summarize_comments(
+                                        post_data["top_comments"]
+                                    )
+                                else:
+                                    post_data["comment_summary"] = ""
                             except Exception as e:
                                 post_data["gpt_summary"] = f"[分析失败: {e}]"
+                                post_data["comment_summary"] = ""
                         else:
                             post_data["gpt_summary"] = ""
+                            post_data["comment_summary"] = ""
 
                         all_posts.append(post_data)
 
@@ -117,6 +154,10 @@ class RedditScraper:
                         "is_video": post.is_video,
                         "over_18": post.over_18,
                     }
+
+                    # 获取热门评论
+                    post_data["top_comments"] = self._get_top_comments(post)
+
                     all_posts.append(post_data)
 
             all_posts.sort(key=lambda x: x["score"], reverse=True)
