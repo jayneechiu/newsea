@@ -6,7 +6,7 @@ import logging
 from datetime import datetime
 from typing import List, Dict, Optional
 import json
-from src.config_manager import ConfigManager
+from .config_manager import ConfigManager
 
 logger = logging.getLogger(__name__)
 
@@ -30,13 +30,13 @@ class DatabaseManager:
                 database=db_config["database"],
                 user=db_config["user"],
                 password=db_config["password"],
-                sslmode=db_config.get("sslmode", "require"),
+                sslmode=db_config.get("sslmode", "prefer"),
             )
             self.connection.autocommit = True
-            logger.info("成功连接到 PostgreSQL 数据库")
+            logger.info("Successfully connected to PostgreSQL database")
 
         except psycopg2.Error as e:
-            logger.error(f"连接数据库失败: {e}")
+            logger.error(f"Failed to connect to database: {e}")
             raise
 
     def _initialize_database(self):
@@ -121,10 +121,10 @@ class DatabaseManager:
             self._migrate_add_comment_fields(cursor)
 
             cursor.close()
-            logger.info("PostgreSQL 数据库表初始化成功")
+            logger.info("PostgreSQL database tables initialized successfully")
 
         except psycopg2.Error as e:
-            logger.error(f"数据库初始化失败: {e}")
+            logger.error(f"Database initialization failed: {e}")
             raise
 
     def _migrate_add_comment_fields(self, cursor):
@@ -146,9 +146,9 @@ class DatabaseManager:
                     ADD COLUMN comment_summary TEXT
                 """
                 )
-                logger.info("成功添加评论字段")
+                logger.info("Successfully added comment fields")
         except psycopg2.Error as e:
-            logger.warning(f"添加评论字段时出错（可能已存在）: {e}")
+            logger.warning(f"Error adding comment fields (may already exist): {e}")
 
     def filter_new_posts(self, posts: List[Dict]) -> List[Dict]:
         """
@@ -170,11 +170,11 @@ class DatabaseManager:
                     new_posts.append(post)
 
             cursor.close()
-            logger.info(f"筛选出 {len(new_posts)} 个新帖子（总共 {len(posts)} 个）")
+            logger.info(f"Filtered {len(new_posts)} new posts (total {len(posts)} posts)")
             return new_posts
 
         except psycopg2.Error as e:
-            logger.error(f"过滤新帖子时出错: {e}")
+            logger.error(f"Error filtering new posts: {e}")
             return posts  # 出错时返回所有帖子
 
     def mark_posts_as_sent(self, posts: List[Dict]) -> bool:
@@ -233,11 +233,11 @@ class DatabaseManager:
                 )
 
             cursor.close()
-            logger.info(f"已标记 {len(posts)} 个帖子为已发送")
+            logger.info(f"Marked {len(posts)} posts as sent")
             return True
 
         except psycopg2.Error as e:
-            logger.error(f"标记帖子为已发送时出错: {e}")
+            logger.error(f"Error marking posts as sent: {e}")
             return False
 
     def log_newsletter_send(
@@ -286,7 +286,7 @@ class DatabaseManager:
             return True
 
         except psycopg2.Error as e:
-            logger.error(f"记录Newsletter发送日志时出错: {e}")
+            logger.error(f"Error logging newsletter send: {e}")
             return False
 
     def get_recent_posts(self, days: int = 7) -> List[Dict]:
@@ -332,7 +332,7 @@ class DatabaseManager:
             return posts
 
         except psycopg2.Error as e:
-            logger.error(f"获取最近帖子时出错: {e}")
+            logger.error(f"Error getting recent posts: {e}")
             return []
 
     def get_newsletter_stats(self, days: int = 30) -> Dict:
@@ -400,7 +400,7 @@ class DatabaseManager:
             }
 
         except psycopg2.Error as e:
-            logger.error(f"获取Newsletter统计信息时出错: {e}")
+            logger.error(f"Error getting newsletter stats: {e}")
             return {}
 
     def cleanup_old_data(self, days: int = 90):
@@ -434,16 +434,16 @@ class DatabaseManager:
             deleted_logs = cursor.rowcount
 
             cursor.close()
-            logger.info(f"清理完成：删除了 {deleted_posts} 个帖子记录和 {deleted_logs} 个日志记录")
+            logger.info(f"Cleanup completed: deleted {deleted_posts} post records and {deleted_logs} log records")
 
         except psycopg2.Error as e:
-            logger.error(f"清理旧数据时出错: {e}")
+            logger.error(f"Error cleaning old data: {e}")
 
     def close(self):
         """关闭数据库连接"""
         if self.connection:
             self.connection.close()
-            logger.info("PostgreSQL 数据库连接已关闭")
+            logger.info("PostgreSQL database connection closed")
 
     def get_newsletter_history(self, limit: int = 10) -> List[Dict]:
         """
@@ -490,7 +490,7 @@ class DatabaseManager:
             return history
 
         except psycopg2.Error as e:
-            logger.error(f"获取Newsletter历史时出错: {e}")
+            logger.error(f"Error getting newsletter history: {e}")
             return []
 
     def get_posts_with_summaries(self, limit: int = 20) -> List[Dict]:
@@ -540,7 +540,7 @@ class DatabaseManager:
             return posts
 
         except psycopg2.Error as e:
-            logger.error(f"获取带总结的帖子时出错: {e}")
+            logger.error(f"Error getting posts with summaries: {e}")
             return []
 
     def get_total_posts_count(self) -> int:
@@ -552,7 +552,7 @@ class DatabaseManager:
             cursor.close()
             return result[0] if result else 0
         except psycopg2.Error as e:
-            logger.error(f"获取帖子总数时出错: {e}")
+            logger.error(f"Error getting total posts count: {e}")
             return 0
 
     def clear_all_history(self):
@@ -577,13 +577,13 @@ class DatabaseManager:
 
                 if cursor.fetchone()[0]:
                     cursor.execute(f"DELETE FROM {table}")
-                    logger.info(f"已清空表: {table}")
+                    logger.info(f"Cleared table: {table}")
 
             cursor.close()
-            logger.info("✅ PostgreSQL 数据库历史记录已清空")
+            logger.info("PostgreSQL database history cleared")
             return True
         except psycopg2.Error as e:
-            logger.error(f"清空数据库历史记录时出错: {e}")
+            logger.error(f"Error clearing database history: {e}")
             return False
 
     def get_connection_info(self) -> Dict:
@@ -599,5 +599,5 @@ class DatabaseManager:
                 "connected": self.connection and not self.connection.closed,
             }
         except Exception as e:
-            logger.error(f"获取连接信息失败: {e}")
+            logger.error(f"Failed to get connection info: {e}")
             return {"type": "postgresql", "connected": False}

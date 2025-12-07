@@ -6,8 +6,8 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import logging
-from src.config_manager import ConfigManager
-from src.reddit_scraper import RedditScraper
+from scraper.config_manager import ConfigManager
+from scraper.reddit_scraper import RedditScraper
 
 # 配置日志
 logging.basicConfig(

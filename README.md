@@ -83,20 +83,19 @@ EMAIL_RECIPIENTS=recipient@example.com
 ### 5. 测试和运行
 
 ```bash
-# 验证配置
-python tools.py validate-config
-
 # 测试数据库连接
 python tests/test_postgres_connection.py
 
-# 测试所有功能
-python tools.py test-all
+# 测试 Reddit 连接
+python tests/test_reddit_connection.py
 
-# 立即发送 Newsletter
-python enhanced_main.py --once
+# 测试邮件发送
+python tests/test_email_connection.py
 
-# 启动定时服务
-python enhanced_main.py
+# 运行 Scraper（立即模式）
+cd scraper
+set RUN_MODE=immediate
+python main.py
 ```
 
 ## ⚙️ 配置说明
@@ -140,41 +139,52 @@ SMTP_PASSWORD=your-app-password
 EMAIL_RECIPIENTS=recipient1@example.com,recipient2@example.com
 ```
 
-## 🛠️ 管理工具
+## 🛠️ 开发和测试
 
 ```bash
-# 测试命令
-python tools.py test-reddit     # 测试 Reddit API
-python tools.py test-email      # 测试邮件发送
-python tools.py test-all        # 完整系统测试
+# 运行测试
+python tests/test_postgres_connection.py  # PostgreSQL 测试
+python tests/test_reddit_connection.py    # Reddit API 测试
+python tests/test_email_connection.py     # 邮件发送测试
+python tests/test_full_system.py          # 完整系统测试
 
-# 运行命令
-python tools.py send-now        # 立即发送
-python tools.py stats           # 显示统计信息
+# 运行 API 服务
+cd api
+uvicorn app:app --reload --port 8000
 
-# 维护命令
-python tools.py validate-config    # 验证配置
+# 运行 Scraper
+cd scraper
+python main.py                           # 定时模式
+$env:RUN_MODE="immediate"; python main.py  # 立即模式（PowerShell）
+# 或: set RUN_MODE=immediate & python main.py  # CMD
 ```
 
 ## 📁 项目结构
 
 ```
-├── src/                    # 核心源代码
-│   ├── reddit_scraper.py   # Reddit API 集成
-│   ├── chatgpt_client.py   # OpenAI GPT 集成
+├── api/                    # API 服务
+│   ├── app.py             # FastAPI 应用
+│   ├── Dockerfile         # API 容器配置
+│   └── requirements.txt   # API 依赖
+├── scraper/               # Scraper 服务
+│   ├── main.py            # 定时爬虫入口
+│   ├── config_manager.py  # 配置管理
+│   ├── reddit_scraper.py  # Reddit API 集成
+│   ├── chatgpt_client.py  # OpenAI GPT 集成
 │   ├── newsletter_sender.py # 邮件发送模块
 │   ├── database_manager.py # PostgreSQL 数据库管理
-│   └── config_manager.py   # 配置管理
-├── templates/              # 邮件模板
-├── tests/                  # 测试模块
+│   ├── Dockerfile        # Scraper 容器配置
+│   └── requirements.txt  # Scraper 依赖
+├── templates/             # 邮件模板
+│   ├── newsletter_template.txt   # 纯文本模板
+│   └── newsletter_template2.html # HTML 模板
+├── tests/                 # 测试模块
 │   ├── test_postgres_connection.py # PostgreSQL 连接测试
 │   ├── test_reddit_connection.py   # Reddit API 测试
 │   ├── test_email_connection.py    # 邮件功能测试
 │   └── test_full_system.py         # 完整系统测试
-├── data/                   # 数据文件
-├── main.py                # 主程序入口
-├── enhanced_main.py       # 增强版主程序（推荐）
-└── tools.py               # 管理工具
+├── data/                  # 数据文件
+└── .env.example           # 环境变量配置模板
 ```
 
 ## 📊 功能亮点

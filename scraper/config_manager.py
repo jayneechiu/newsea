@@ -26,9 +26,9 @@ class ConfigManager:
         """加载配置文件"""
         try:
             load_dotenv(self.config_file)
-            logger.info(f"配置文件 {self.config_file} 加载成功")
+            logger.info(f"Config file {self.config_file} loaded successfully")
         except Exception as e:
-            logger.warning(f"加载配置文件失败: {e}，将使用默认配置")
+            logger.warning(f"Failed to load config file: {e}, using default config")
 
     def get_reddit_client_id(self) -> str:
         return os.getenv("REDDIT_CLIENT_ID", "")
@@ -198,12 +198,12 @@ class ConfigManager:
             errors.append("缺少 PostgreSQL 数据库名配置 (DB_NAME 或 DATABASE_URL)")
 
         if errors:
-            logger.error("配置验证失败:")
+            logger.error("Configuration validation failed:")
             for error in errors:
                 logger.error(f"  - {error}")
             return False
 
-        logger.info("配置验证通过")
+        logger.info("Configuration validation passed")
         return True
 
     def get_config_summary(self) -> dict:
