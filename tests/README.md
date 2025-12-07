@@ -100,29 +100,29 @@ python test_full_system.py
 ### Reddit API 测试失败
 
 ```
-💡 检查项目:
-- .env文件中的Reddit API凭据是否正确
+💡 检查项目：
+- .env 文件中的 Reddit API 凭据是否正确
 - 网络连接是否正常
-- Reddit应用权限设置是否正确
+- Reddit 应用权限设置是否正确
 ```
 
 ### 邮件测试失败
 
 ```
-💡 检查项目:
-- Gmail账户是否启用2FA
+💡 检查项目：
+- Gmail 账户是否启用 2FA
 - 应用专用密码是否正确配置
-- 网络防火墙是否阻止SMTP连接
+- 网络防火墙是否阻止 SMTP 连接
 ```
 
 ### PostgreSQL 数据库测试失败
 
-- 检查 DATABASE_URL 配置是否正确
+- 检查 `DATABASE_URL` 配置是否正确
 - 确认 PostgreSQL 数据库服务运行正常
 - 验证数据库用户权限和网络连接
 
 ```
-💡 检查项目:
+💡 检查项目：
 - Railway 或 Supabase 数据库服务状态
 - 数据库连接字符串格式
 - 网络连接和防火墙设置
@@ -130,7 +130,7 @@ python test_full_system.py
 
 ## 📊 测试输出说明
 
-测试输出使用以下符号:
+测试输出使用以下符号：
 
 - ✅ 测试通过
 - ❌ 测试失败
@@ -157,7 +157,7 @@ python test_full_system.py
 
 ## 📝 配置要求
 
-确保 `.env` 文件包含以下配置:
+确保 `.env` 文件包含以下配置：
 
 ```env
 # Reddit API

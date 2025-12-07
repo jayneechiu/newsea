@@ -16,7 +16,7 @@ class RedditScraper:
         self.reddit = self._initialize_reddit_client()
         self.gpt_client = None
         if self.config.get_enable_gpt_summaries():
-            from src.chatgpt_client import ChatGPTClient
+            from .chatgpt_client import ChatGPTClient
 
             self.gpt_client = ChatGPTClient(self.config)
 
@@ -32,11 +32,11 @@ class RedditScraper:
             )
 
             reddit.user.me()
-            logger.info("Reddit API连接成功")
+            logger.info("Reddit API connected successfully")
             return reddit
 
         except Exception as e:
-            logger.error(f"Reddit API连接失败: {e}")
+            logger.error(f"Failed to connect to Reddit API: {e}")
             raise
 
     def _get_top_comments(self, post, limit: int = 5) -> List[Dict]:
@@ -57,11 +57,11 @@ class RedditScraper:
                     }
                     top_comments.append(comment_data)
 
-            logger.info(f"获取到 {len(top_comments)} 条评论 (帖子: {post.id})")
+            logger.info(f"Retrieved {len(top_comments)} comments (post: {post.id})")
             return top_comments
 
         except Exception as e:
-            logger.warning(f"获取评论失败 (帖子: {post.id}): {e}")
+            logger.warning(f"Failed to get comments (post: {post.id}): {e}")
             return []
 
     def get_hot_posts(self, limit: int = None) -> List[Dict]:
@@ -72,7 +72,7 @@ class RedditScraper:
             all_posts = []
 
             for subreddit_name in subreddits:
-                logger.info(f"正在抓取 r/{subreddit_name} 的热门帖子...")
+                logger.info(f"Scraping hot posts from r/{subreddit_name}...")
                 subreddit = self.reddit.subreddit(subreddit_name)
                 posts = subreddit.hot(limit=limit)
 
@@ -167,5 +167,5 @@ class RedditScraper:
             return all_posts[: self.config.get_newsletter_posts_limit()]
 
         except Exception as e:
-            logger.error(f"获取趋势帖子时出错: {e}")
+            logger.error(f"Error getting trending posts: {e}")
             return []

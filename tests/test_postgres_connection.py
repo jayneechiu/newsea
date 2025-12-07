@@ -12,7 +12,7 @@ import psycopg2
 import psycopg2.extras
 import logging
 from datetime import datetime
-from src.config_manager import ConfigManager
+from scraper.config_manager import ConfigManager
 
 
 class PostgreSQLConnectionTest:

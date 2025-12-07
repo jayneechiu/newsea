@@ -31,7 +31,7 @@ class NewsletterSender:
         """
         if editor_words is None:
             if self.config.get_enable_editor_summary():
-                from src.chatgpt_client import ChatGPTClient
+                from .chatgpt_client import ChatGPTClient
 
                 gpt_client = ChatGPTClient(self.config)
                 try:
@@ -60,12 +60,12 @@ class NewsletterSender:
             success = self._send_email(msg)
 
             if success:
-                logger.info(f"Newsletter发送成功，包含 {len(posts)} 个帖子")
+                logger.info(f"Newsletter sent successfully with {len(posts)} posts")
 
             return success, editor_words
 
         except Exception as e:
-            logger.error(f"发送Newsletter时出错: {e}")
+            logger.error(f"Error sending newsletter: {e}")
             return False, editor_words
 
     def _generate_newsletter_html(self, posts: List[Dict], editor_words: str) -> str:
@@ -75,8 +75,8 @@ class NewsletterSender:
             with open(template_path, "r", encoding="utf-8") as f:
                 template_content = f.read()
         except FileNotFoundError:
-            logger.error(f"模板文件未找到: {template_path}")
-            raise FileNotFoundError(f"Newsletter模板文件不存在: {template_path}")
+            logger.error(f"Template file not found: {template_path}")
+            raise FileNotFoundError(f"Newsletter template file does not exist: {template_path}")
         template = Template(template_content)
         return template.render(
             posts=posts,
@@ -95,7 +95,7 @@ class NewsletterSender:
             with open(template_path, "r", encoding="utf-8") as f:
                 template_content = f.read()
         except FileNotFoundError:
-            logger.warning(f"文本模板文件未找到: {template_path}，使用默认格式")
+            logger.warning(f"Text template file not found: {template_path}, using default format")
             return self._generate_default_text(posts, editor_words)
         template = Template(template_content)
         return template.render(
@@ -154,11 +154,11 @@ class NewsletterSender:
             server.send_message(msg, to_addrs=recipients)
             server.quit()
 
-            logger.info(f"邮件发送成功到 {len(recipients)} 个收件人")
+            logger.info(f"Email sent successfully to {len(recipients)} recipients")
             return True
 
-        except Exception as e:
-            logger.error(f"SMTP发送失败: {e}")
+        except smtplib.SMTPException as e:
+            logger.error(f"SMTP send failed: {e}")
             return False
 
     def test_email_connection(self) -> bool:
