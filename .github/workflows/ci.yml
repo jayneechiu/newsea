@@ -32,24 +32,25 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install pylint flake8
+          pip install -r scraper/requirements.txt
+          pip install -r api/requirements.txt
+          pip install pylint flake8 pytest
 
       - name: Lint with flake8
         run: |
-          # 停止构建如果有Python语法错误或未定义的名称
-          flake8 src/ --count --select=E9,F63,F7,F82 --show-source --statistics
-          # 其他检查作为警告
-          flake8 src/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          # Check for Python syntax errors or undefined names
+          flake8 scraper/ api/ --count --select=E9,F63,F7,F82 --show-source --statistics
+          # Other checks as warnings
+          flake8 scraper/ api/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
       - name: Lint with pylint
         run: |
-          pylint src/ --exit-zero --max-line-length=127
+          pylint scraper/ api/ --exit-zero --max-line-length=127
 
       - name: Check code formatting
         run: |
           pip install black
-          black --check src/ || true
+          black --check scraper/ api/ || true
 
       - name: Run tests
         run: |
@@ -73,10 +74,11 @@ jobs:
 
       - name: Security check with bandit
         run: |
-          bandit -r src/ -f json -o bandit-report.json || true
+          bandit -r scraper/ api/ -f json -o bandit-report.json || true
 
       - name: Check for known vulnerabilities
         run: |
-          pip install -r requirements.txt
+          pip install -r scraper/requirements.txt
+          pip install -r api/requirements.txt
           safety check --json || true
         continue-on-error: true
