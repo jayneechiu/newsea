@@ -37,10 +37,10 @@ pip install -r requirements.txt
 
 ### 3. 配置数据库
 
-**选项 1：使用 Railway (推荐)**
+**选项 1：使用 Azure PostgreSQL (推荐)**
 
-1. 注册 [Railway](https://railway.app/) 账户
-2. 创建新的 PostgreSQL 服务
+1. 在 [Azure Portal](https://portal.azure.com/) 创建 PostgreSQL 服务
+2. 配置防火墙规则允许你的 IP
 3. 复制数据库连接 URL
 
 **选项 2：使用本地 PostgreSQL**
@@ -108,10 +108,10 @@ python main.py
 
 ### PostgreSQL 数据库配置
 
-**Railway 数据库（推荐）:**
+**Azure PostgreSQL (推荐):**
 
 ```env
-DATABASE_URL=postgresql://postgres:password@host:port/railway
+DATABASE_URL=postgresql://username:password@your-server.postgres.database.azure.com:5432/postgres
 ```
 
 **本地数据库:**
@@ -198,7 +198,7 @@ $env:RUN_MODE="immediate"; python main.py  # 立即模式（PowerShell）
 ### PostgreSQL 数据库
 
 - 使用 PostgreSQL 进行可靠的数据存储
-- 支持云端数据库（Railway、Supabase 等）
+- 支持云端数据库（Azure PostgreSQL、Supabase 等）
 - 完整的数据持久化和历史记录
 - 自动表结构初始化
 

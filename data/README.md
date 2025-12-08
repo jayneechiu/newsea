@@ -11,7 +11,7 @@ Reddit Newsletter Bot 现在连接到 PostgreSQL 数据库（推荐：Railway）
 在 `.env` 中配置 PostgreSQL 连接：
 
 ```env
-# PostgreSQL 数据库（Railway）
+# PostgreSQL 数据库（Azure / Supabase）
 DATABASE_URL=postgresql://user:pass@host:port/database
 
 # 或使用分离的变量

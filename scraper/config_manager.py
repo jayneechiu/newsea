@@ -97,7 +97,7 @@ class ConfigManager:
     # PostgreSQL 数据库配置
     def get_database_config(self) -> Dict[str, Any]:
         """获取 PostgreSQL 数据库配置"""
-        # 优先使用 DATABASE_URL (Railway 格式)
+        # 优先使用 DATABASE_URL (Azure PostgreSQL / Supabase 格式)
         database_url = os.getenv("DATABASE_URL")
 
         if database_url:
@@ -106,7 +106,7 @@ class ConfigManager:
             return {
                 "host": parsed.hostname,
                 "port": parsed.port or 5432,
-                "database": parsed.path[1:] if parsed.path else "railway",  # 移除开头的 '/'
+                "database": parsed.path[1:] if parsed.path else "postgres",  # 移除开头的 '/'
                 "user": parsed.username,
                 "password": parsed.password,
                 "sslmode": "require",
