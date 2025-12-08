@@ -14,17 +14,16 @@ RUN apt-get update && apt-get install -y \
     postgresql-client \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install Python dependencies
-COPY requirements.txt .
+# Copy scraper package first (needed for API imports)
+COPY scraper /app/scraper
+
+# Copy API requirements and install Python dependencies
+COPY api/requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Copy shared modules
-COPY ../shared /app/shared
-
 # Copy API source code
-COPY src/ /app/src/
-COPY app.py /app/
+COPY api/app.py /app/
 
 # Create necessary directories
 RUN mkdir -p /app/logs
