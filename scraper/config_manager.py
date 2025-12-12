@@ -25,10 +25,11 @@ class ConfigManager:
     def _load_config(self):
         """加载配置文件"""
         try:
-            load_dotenv(self.config_file)
+            # override=False: 不覆盖已存在的环境变量（Docker --env-file 传递的）
+            load_dotenv(self.config_file, override=False)
             logger.info(f"Config file {self.config_file} loaded successfully")
         except Exception as e:
-            logger.warning(f"Failed to load config file: {e}, using default config")
+            logger.warning(f"Failed to load config file: {e}, using environment variables or defaults")
 
     def get_reddit_client_id(self) -> str:
         return os.getenv("REDDIT_CLIENT_ID", "")
