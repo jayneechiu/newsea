@@ -169,6 +169,25 @@ async def send_newsletter(
         logger.error(f"Error sending newsletter: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.post("/api/scraper/run")
+async def trigger_scraper_job(background_tasks: BackgroundTasks):
+    """Manually trigger a scraper job"""
+    try:
+        if not all([reddit_scraper, chatgpt_client, newsletter_sender, db_manager]):
+            raise HTTPException(status_code=503, detail="Services not initialized")
+        
+        # Add scraper job to background
+        background_tasks.add_task(run_scraper_job)
+        
+        return {
+            "status": "started",
+            "message": "Scraper job started in background",
+            "timestamp": datetime.now().isoformat()
+        }
+    except Exception as e:
+        logger.error(f"Error starting scraper job: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 async def process_newsletter(subreddit: str, limit: int, time_filter: str):
     """Background task to process newsletter"""
     try:
@@ -186,6 +205,71 @@ async def process_newsletter(subreddit: str, limit: int, time_filter: str):
         logger.info(f"Newsletter sent successfully for r/{subreddit}")
     except Exception as e:
         logger.error(f"Error processing newsletter: {e}")
+
+def run_scraper_job():
+    """Background task to run complete scraper job"""
+    try:
+        logger.info("=== Starting scraper job ===")
+        
+        # Get hot posts from Reddit
+        posts_limit = config_manager.get_posts_limit()
+        posts = reddit_scraper.get_hot_posts(limit=posts_limit)
+        logger.info(f"Fetched {len(posts)} posts from Reddit")
+        
+        # Filter new posts
+        new_posts = db_manager.filter_new_posts(posts)
+        logger.info(f"Found {len(new_posts)} new posts")
+        
+        if not new_posts:
+            logger.info("No new posts to send")
+            return
+        
+        # Limit posts for newsletter
+        newsletter_limit = config_manager.get_newsletter_posts_limit()
+        selected_posts = new_posts[:newsletter_limit]
+        logger.info(f"Selected {len(selected_posts)} posts for newsletter")
+        
+        # Generate summaries using ChatGPT
+        if config_manager.get_enable_gpt_summaries():
+            for post in selected_posts:
+                try:
+                    summary = chatgpt_client.summarize_and_analyze(post)
+                    post['gpt_summary'] = summary
+                except Exception as e:
+                    logger.warning(f"Failed to generate summary for {post['id']}: {e}")
+                    post['gpt_summary'] = None
+        
+        # Generate editor words
+        if config_manager.get_enable_editor_summary():
+            try:
+                editor_words = chatgpt_client.generate_editor_words(selected_posts)
+            except Exception as e:
+                logger.warning(f"Failed to generate editor words: {e}")
+                editor_words = None
+        else:
+            editor_words = None
+        
+        # Send newsletter
+        success = newsletter_sender.send_newsletter(selected_posts, editor_words)
+        
+        if success:
+            db_manager.mark_posts_as_sent(selected_posts)
+            recipients = config_manager.get_email_recipients()
+            db_manager.log_newsletter_send(
+                posts_count=len(selected_posts),
+                success=True,
+                recipients=recipients,
+                editor_words=editor_words,
+                newsletter_title=config_manager.get_newsletter_title()
+            )
+            logger.info("Newsletter sent successfully")
+        else:
+            logger.error("Failed to send newsletter")
+            
+        logger.info("=== Scraper job completed ===")
+        
+    except Exception as e:
+        logger.error(f"Error in scraper job: {e}", exc_info=True)
 
 @app.get("/api/stats")
 async def get_stats():
