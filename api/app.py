@@ -75,7 +75,7 @@ async def startup_event():
         reddit_scraper = RedditScraper(config_manager)
         chatgpt_client = ChatGPTClient(config_manager)
         newsletter_sender = NewsletterSender(config_manager)
-        db_manager = DatabaseManager(config_manager)
+        db_manager = DatabaseManager()
         
         logger.info("All services initialized successfully")
     except Exception as e:

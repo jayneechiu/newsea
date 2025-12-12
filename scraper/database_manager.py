@@ -150,6 +150,17 @@ class DatabaseManager:
         except psycopg2.Error as e:
             logger.warning(f"Error adding comment fields (may already exist): {e}")
 
+    def test_connection(self) -> bool:
+        """Test database connection"""
+        try:
+            cursor = self.connection.cursor()
+            cursor.execute("SELECT 1")
+            cursor.close()
+            return True
+        except Exception as e:
+            logger.error(f"Database connection test failed: {e}")
+            return False
+
     def filter_new_posts(self, posts: List[Dict]) -> List[Dict]:
         """
         过滤出未发送过的新帖子
