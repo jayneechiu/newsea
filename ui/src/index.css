@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-newsea-beige text-newsea-dark;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-newsea-primary hover:bg-[#2d5783] text-white font-bold py-2 px-6 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply bg-newsea-secondary hover:bg-[#7a8fab] text-white font-semibold py-2 px-6 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200 border border-newsea-border;
+  }
+}
