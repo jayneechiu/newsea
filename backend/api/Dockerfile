@@ -17,7 +17,6 @@ RUN apt-get update && apt-get install -y \
 # Copy backend and templates
 COPY backend /app/backend
 COPY templates /app/templates
-COPY .env /app/.env
 
 # Install Python deps
 COPY backend/api/requirements.txt requirements.txt
