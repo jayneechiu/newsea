@@ -32,25 +32,23 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r scraper/requirements.txt
-          pip install -r api/requirements.txt
-          pip install pylint flake8 pytest
+          pip install -r backend/api/requirements.txt
+          pip install pylint flake8 pytest black bandit safety
 
       - name: Lint with flake8
         run: |
           # Check for Python syntax errors or undefined names
-          flake8 scraper/ api/ --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 backend/ --count --select=E9,F63,F7,F82 --show-source --statistics
           # Other checks as warnings
-          flake8 scraper/ api/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          flake8 backend/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
       - name: Lint with pylint
         run: |
-          pylint scraper/ api/ --exit-zero --max-line-length=127
+          pylint backend/ --exit-zero --max-line-length=127
 
       - name: Check code formatting
         run: |
-          pip install black
-          black --check scraper/ api/ || true
+          black --check backend/ || true
 
       - name: Run tests
         run: |
@@ -74,13 +72,11 @@ jobs:
 
       - name: Security check with bandit
         run: |
-          bandit -r scraper/ api/ -f json -o bandit-report.json || true
+          bandit -r backend/ -f json -o bandit-report.json || true
 
       - name: Check for known vulnerabilities
         run: |
-          pip install -r scraper/requirements.txt
-          pip install -r api/requirements.txt
-          safety check --json || true
+          safety check --full-report || true
         continue-on-error: true
 
   build-and-push:
@@ -98,14 +94,8 @@ jobs:
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
 
-      - name: Build and push API image
+      - name: Build and push Backend image
         run: |
-          docker build -f api/Dockerfile -t acrnewsea.azurecr.io/newsea-api:${{ github.sha }} -t acrnewsea.azurecr.io/newsea-api:latest .
-          docker push acrnewsea.azurecr.io/newsea-api:${{ github.sha }}
-          docker push acrnewsea.azurecr.io/newsea-api:latest
-
-      - name: Build and push Scraper image
-        run: |
-          docker build -f scraper/Dockerfile -t acrnewsea.azurecr.io/newsea-scraper:${{ github.sha }} -t acrnewsea.azurecr.io/newsea-scraper:latest .
-          docker push acrnewsea.azurecr.io/newsea-scraper:${{ github.sha }}
-          docker push acrnewsea.azurecr.io/newsea-scraper:latest
+          docker build -f backend/api/Dockerfile -t acrnewsea.azurecr.io/newsea-backend:${{ github.sha }} -t acrnewsea.azurecr.io/newsea-backend:latest .
+          docker push acrnewsea.azurecr.io/newsea-backend:${{ github.sha }}
+          docker push acrnewsea.azurecr.io/newsea-backend:latest

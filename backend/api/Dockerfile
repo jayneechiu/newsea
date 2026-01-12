@@ -1,31 +1,30 @@
-# Dockerfile for API Service
+# Dockerfile for V2 API Service (flattened under backend/api)
 FROM python:3.11-slim
 
 WORKDIR /app
 
-# Set environment variables
+# Environment
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PORT=8000
 
-# Install system dependencies
+# System deps
 RUN apt-get update && apt-get install -y \
     gcc \
     postgresql-client \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy scraper package first (needed for API imports)
-COPY scraper /app/scraper
+# Copy backend and templates
+COPY backend /app/backend
+COPY templates /app/templates
+COPY .env /app/.env
 
-# Copy API requirements and install Python dependencies
-COPY api/requirements.txt .
+# Install Python deps
+COPY backend/api/requirements.txt requirements.txt
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Copy API source code
-COPY api/app.py /app/
-
-# Create necessary directories
+# Create logs dir
 RUN mkdir -p /app/logs
 
 # Expose port
@@ -33,7 +32,7 @@ EXPOSE 8000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python -c "import requests; requests.get('http://localhost:8000/health')" || exit 1
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')" || exit 1
 
 # Run the application
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "backend.api.main:app", "--host", "0.0.0.0", "--port", "8000"]

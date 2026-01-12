@@ -33,6 +33,8 @@ python -m venv .venv
 .venv\Scripts\activate  # Windows
 # source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
+# 或安装统一后端依赖
+pip install -r backend/api/requirements.txt
 ```
 
 ### 3. 配置数据库
@@ -92,10 +94,11 @@ python tests/test_reddit_connection.py
 # 测试邮件发送
 python tests/test_email_connection.py
 
-# 运行 Scraper（立即模式）
-cd scraper
-set RUN_MODE=immediate
-python main.py
+# 运行 Scraper（连接自检，安全不发送）
+python backend/scraper/run_job.py --test
+
+# 运行 Scraper（实际发送/定时逻辑）
+python backend/scraper/run_job.py
 ```
 
 ## ⚙️ 配置说明
@@ -149,32 +152,28 @@ python tests/test_email_connection.py     # 邮件发送测试
 python tests/test_full_system.py          # 完整系统测试
 
 # 运行 API 服务
-cd api
-uvicorn app:app --reload --port 8000
+uvicorn backend.api.main:app --reload --port 8000
 
 # 运行 Scraper
-cd scraper
-python main.py                           # 定时模式
-$env:RUN_MODE="immediate"; python main.py  # 立即模式（PowerShell）
-# 或: set RUN_MODE=immediate & python main.py  # CMD
+python backend/scraper/run_job.py          # 定时/实际运行
+python backend/scraper/run_job.py --test   # 连接自检（不发送）
 ```
 
 ## 📁 项目结构
 
 ```
-├── api/                    # API 服务
-│   ├── app.py             # FastAPI 应用
-│   ├── Dockerfile         # API 容器配置
-│   └── requirements.txt   # API 依赖
-├── scraper/               # Scraper 服务
-│   ├── main.py            # 定时爬虫入口
-│   ├── config_manager.py  # 配置管理
-│   ├── reddit_scraper.py  # Reddit API 集成
-│   ├── chatgpt_client.py  # OpenAI GPT 集成
-│   ├── newsletter_sender.py # 邮件发送模块
-│   ├── database_manager.py # PostgreSQL 数据库管理
-│   ├── Dockerfile        # Scraper 容器配置
-│   └── requirements.txt  # Scraper 依赖
+├── backend/               # 后端（API + Scraper）
+│   ├── api/
+│   │   ├── main.py          # FastAPI 应用入口
+│   │   ├── Dockerfile       # 统一后端镜像
+│   │   └── requirements.txt # 后端依赖（API+Scraper）
+│   └── scraper/
+│       ├── run_job.py
+│       ├── config_manager.py
+│       ├── reddit_scraper.py
+│       ├── chatgpt_client.py
+│       ├── newsletter_sender.py
+│       └── database_manager.py
 ├── templates/             # 邮件模板
 │   ├── newsletter_template.txt   # 纯文本模板
 │   └── newsletter_template2.html # HTML 模板
@@ -183,7 +182,7 @@ $env:RUN_MODE="immediate"; python main.py  # 立即模式（PowerShell）
 │   ├── test_reddit_connection.py   # Reddit API 测试
 │   ├── test_email_connection.py    # 邮件功能测试
 │   └── test_full_system.py         # 完整系统测试
-├── data/                  # 数据文件
+├── .github/               # CI/CD 配置
 └── .env.example           # 环境变量配置模板
 ```
 
@@ -234,13 +233,14 @@ python tests/test_full_system.py
 
 ### 数据库
 
-项目使用 PostgreSQL 数据库存储：
+项目使用 PostgreSQL 数据库存储（Schema V2）：
 
-- **posts 表** - 帖子信息和发送记录
-- **newsletter_logs 表** - Newsletter 发送日志
-- **settings 表** - 配置信息
+- **subreddits** — 管理 Subreddit 元信息与每日热帖缓存（`daily_hot_post_ids`）
+- **reddit_posts** — 存储帖子内容与 GPT 摘要（含 `score`、`fetch_date`、`gpt_summary`）
+- **newsletter_logs** — Newsletter 发送日志（全局）
+- 可选：**users** 与 **user_newsletter_logs** — 用户与个性化发送日志（后续扩展）
 
-数据库连接通过 `DATABASE_URL` 环境变量配置。
+数据库连接通过 `DATABASE_URL` 环境变量配置。系统启动时自动初始化所需表（见 [docs/database_schema_v2.md](docs/database_schema_v2.md)）。
 
 ### 贡献
 
@@ -284,4 +284,4 @@ python tests/test_full_system.py
 
 ### 日志查看
 
-运行日志保存在 `data/logs/reddit_newsletter.log`，包含详细的运行信息和错误信息。
+运行日志默认输出到控制台（stdout），可在本地终端或部署平台的日志面板查看。若需要持久化到文件，可后续启用文件日志并自定义保存路径。

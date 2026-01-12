@@ -6,12 +6,6 @@ from .config_manager import ConfigManager
 
 class ChatGPTClient:
     def __init__(self, config_manager: ConfigManager = None):
-        """
-        初始化 ChatGPT 客户端
-
-        Args:
-            config_manager: 配置管理器实例，如果为None则创建新实例
-        """
         self.config = config_manager or ConfigManager()
         self.api_key = self.config.get_chatgpt_api_key()
         self.api_url = self.config.get_openai_api_base().rstrip("/") + "/chat/completions"
@@ -32,18 +26,14 @@ class ChatGPTClient:
 
 请开始："""
         response = self._call_gpt(prompt, max_tokens=80)
-        # 清理可能的Markdown符号
         response = response.replace("**", "").replace("#", "").replace("*", "")
         return response
 
     def generate_editor_words(self, posts: List[dict]) -> str:
-        # 提取帖子标题（按热度排序）
         topics = []
-        for i, post in enumerate(posts[:5], 1):  # 取前5个帖子
+        for i, post in enumerate(posts[:5], 1):
             topics.append(f"{i}. {post['title'][:100]}")
-        
         topics_text = "\n".join(topics)
-        
         prompt = f"""你是一个风趣幽默的Reddit Newsletter编辑。今天的热门帖子（按热度排序）：
 
 {topics_text}
@@ -57,28 +47,13 @@ class ChatGPTClient:
 6. 直接输出内容，不要加引号或标题
 
 现在请开始："""
-        
         response = self._call_gpt(prompt, max_tokens=180)
         return response
 
     def summarize_comments(self, comments: List[dict]) -> str:
-        """
-        总结评论区的精华观点
-
-        Args:
-            comments: 评论列表，每个评论包含 author, body, score 等字段
-
-        Returns:
-            评论区精华总结
-        """
         if not comments:
             return "暂无精彩评论"
-
-        # 构建评论文本
-        comments_text = "\n\n".join(
-            [f"用户 {c['author']} ({c['score']}赞):\n{c['body'][:200]}" for c in comments[:5]]
-        )
-
+        comments_text = "\n\n".join([f"用户 {c['author']} ({c['score']}赞):\n{c['body'][:200]}" for c in comments[:5]])
         prompt = f"""请总结以下Reddit帖子评论区的精华观点。
 
 评论内容：
@@ -92,22 +67,14 @@ class ChatGPTClient:
 5. 直接输出观点，不要添加标题或前缀
 
 请开始："""
-
         response = self._call_gpt(prompt, max_tokens=120)
         return response
 
     def _call_gpt(self, prompt: str, max_tokens: int = 300) -> str:
-        """调用 GPT API"""
         if not self.api_key:
             return "[ChatGPT分析失败: API密钥未配置]"
-
         headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
-        data = {
-            "model": self.model,
-            "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": max_tokens,
-            "temperature": 0.7,
-        }
+        data = {"model": self.model, "messages": [{"role": "user", "content": prompt}], "max_tokens": max_tokens, "temperature": 0.7}
         try:
             resp = requests.post(self.api_url, headers=headers, json=data, timeout=15)
             resp.raise_for_status()
