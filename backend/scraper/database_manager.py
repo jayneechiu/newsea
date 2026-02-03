@@ -306,9 +306,11 @@ class DatabaseManager:
             cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
             cursor.execute(
                 """
-                SELECT * FROM reddit_posts 
-                WHERE fetch_date >= CURRENT_DATE - INTERVAL '%s days'
-                ORDER BY created_utc DESC NULLS LAST
+                SELECT rp.*, s.name as subreddit
+                FROM reddit_posts rp
+                LEFT JOIN subreddits s ON rp.subreddit_id = s.id
+                WHERE rp.fetch_date >= CURRENT_DATE - INTERVAL '%s days'
+                ORDER BY rp.created_utc DESC NULLS LAST
                 """,
                 (days,),
             )
@@ -382,29 +384,19 @@ class DatabaseManager:
             cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
             cursor.execute(
                 """
-                SELECT id, title, subreddit_id, score, num_comments,
-                       created_utc, gpt_summary
-                FROM reddit_posts 
-                WHERE gpt_summary IS NOT NULL AND gpt_summary != ''
-                ORDER BY created_utc DESC NULLS LAST
+                SELECT rp.id, rp.title, rp.subreddit_id, rp.score, rp.num_comments,
+                       rp.created_utc, rp.gpt_summary, rp.url, s.name as subreddit
+                FROM reddit_posts rp
+                LEFT JOIN subreddits s ON rp.subreddit_id = s.id
+                WHERE rp.gpt_summary IS NOT NULL AND rp.gpt_summary != ''
+                ORDER BY rp.created_utc DESC NULLS LAST
                 LIMIT %s
                 """,
                 (limit,),
             )
             rows = cursor.fetchall()
             cursor.close()
-            return [
-                {
-                    "id": row["id"],
-                    "title": row["title"],
-                    "subreddit_id": row["subreddit_id"],
-                    "score": row["score"],
-                    "num_comments": row["num_comments"],
-                    "created_utc": row["created_utc"],
-                    "gpt_summary": row["gpt_summary"],
-                }
-                for row in rows
-            ]
+            return [dict(row) for row in rows]
         except psycopg2.Error as e:
             logger.error(f"Error getting posts with summaries: {e}")
             return []

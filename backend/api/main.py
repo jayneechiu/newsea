@@ -3,6 +3,7 @@ Reddit Newsletter API - V2 FastAPI App
 Migrated into app/backend/api for unified backend.
 """
 from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, EmailStr
 from typing import List, Optional
 from datetime import datetime
@@ -29,6 +30,15 @@ app = FastAPI(
     version="2.0.0"
 )
 
+# 配置CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000", "http://localhost:3001"],  # 允许的前端地址
+    allow_credentials=True,
+    allow_methods=["*"],  # 允许所有方法
+    allow_headers=["*"],  # 允许所有头
+)
+
 # Schemas
 class HealthResponse(BaseModel):
     status: str
@@ -45,23 +55,51 @@ class SubscribeRequest(BaseModel):
     subreddits: List[str]
 
 # Global services
-config_manager: ConfigManager | None = None
-reddit_scraper: RedditScraper | None = None
-chatgpt_client: ChatGPTClient | None = None
-newsletter_sender: NewsletterSender | None = None
-db_manager: DatabaseManager | None = None
+config_manager: Optional[ConfigManager] = None
+reddit_scraper: Optional[RedditScraper] = None
+chatgpt_client: Optional[ChatGPTClient] = None
+newsletter_sender: Optional[NewsletterSender] = None
+db_manager: Optional[DatabaseManager] = None
 
 INIT_IN_BACKGROUND = os.getenv("INIT_IN_BACKGROUND", "false").lower() == "true"
 
 async def _initialize_services():
     global config_manager, reddit_scraper, chatgpt_client, newsletter_sender, db_manager
     logger.info("Initializing V2 services...")
-    config_manager = ConfigManager()
-    reddit_scraper = RedditScraper(config_manager)
-    chatgpt_client = ChatGPTClient(config_manager)
-    newsletter_sender = NewsletterSender(config_manager)
-    db_manager = DatabaseManager()
-    logger.info("Services initialized")
+    
+    try:
+        config_manager = ConfigManager()
+        
+        # 优先初始化数据库（不依赖Reddit）
+        try:
+            db_manager = DatabaseManager()
+            logger.info("Database manager initialized successfully")
+        except Exception as e:
+            logger.error(f"Failed to initialize database: {e}")
+        
+        # Reddit服务初始化失败不影响其他服务
+        try:
+            reddit_scraper = RedditScraper(config_manager)
+            logger.info("Reddit scraper initialized successfully")
+        except Exception as e:
+            logger.warning(f"Reddit scraper initialization failed: {e}")
+        
+        try:
+            chatgpt_client = ChatGPTClient(config_manager)
+            logger.info("ChatGPT client initialized successfully")
+        except Exception as e:
+            logger.warning(f"ChatGPT client initialization failed: {e}")
+        
+        try:
+            newsletter_sender = NewsletterSender(config_manager)
+            logger.info("Newsletter sender initialized successfully")
+        except Exception as e:
+            logger.warning(f"Newsletter sender initialization failed: {e}")
+            
+        logger.info("Services initialization completed")
+    except Exception as e:
+        logger.error(f"Critical error during services initialization: {e}")
+        raise
 
 @app.on_event("startup")
 async def startup_event():
@@ -107,6 +145,32 @@ async def get_posts(subreddit: str, limit: int = 10, time_filter: str = "day"):
         return {"subreddit": subreddit, "count": len(posts), "posts": posts, "timestamp": datetime.now().isoformat()}
     except Exception as e:
         logger.error(f"Error fetching posts: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/posts/db/recent")
+async def get_recent_posts_from_db(days: int = 7, limit: int = 50):
+    """Get recent posts from database"""
+    try:
+        if not db_manager:
+            raise HTTPException(status_code=503, detail="Database not initialized")
+        posts = db_manager.get_recent_posts(days=days)
+        # Limit results
+        posts = posts[:limit] if len(posts) > limit else posts
+        return {"count": len(posts), "posts": posts, "timestamp": datetime.now().isoformat()}
+    except Exception as e:
+        logger.error(f"Error fetching posts from DB: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/posts/db/with-summaries")
+async def get_posts_with_summaries(limit: int = 20):
+    """Get posts with GPT summaries from database"""
+    try:
+        if not db_manager:
+            raise HTTPException(status_code=503, detail="Database not initialized")
+        posts = db_manager.get_posts_with_summaries(limit=limit)
+        return {"count": len(posts), "posts": posts, "timestamp": datetime.now().isoformat()}
+    except Exception as e:
+        logger.error(f"Error fetching posts with summaries: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/newsletter/send")

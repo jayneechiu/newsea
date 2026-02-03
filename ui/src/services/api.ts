@@ -29,9 +29,26 @@ export const getPosts = async (
   subreddit: string,
   limit: number = 10,
   timeFilter: string = "day"
-) => {
+): Promise<any> => {
   return apiClient.get(`/posts/${subreddit}`, {
     params: { limit, time_filter: timeFilter },
+  });
+};
+
+// Get recent posts from database
+export const getRecentPostsFromDB = async (
+  days: number = 7,
+  limit: number = 50
+): Promise<any> => {
+  return apiClient.get("/posts/db/recent", {
+    params: { days, limit },
+  });
+};
+
+// Get posts with GPT summaries
+export const getPostsWithSummaries = async (limit: number = 20): Promise<any> => {
+  return apiClient.get("/posts/db/with-summaries", {
+    params: { limit },
   });
 };
 

@@ -7,7 +7,7 @@ import {
   LogIn,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { getPosts } from "@/services/api";
+import { getPosts, getRecentPostsFromDB, getPostsWithSummaries } from "@/services/api";
 
 interface Post {
   id: string;
@@ -18,6 +18,7 @@ interface Post {
   permalink: string;
   subreddit: string;
   thumbnail?: string;
+  gpt_summary?: string;
 }
 
 // 公共热门 subreddits（未登录用户看到的）
@@ -29,68 +30,39 @@ const PUBLIC_SUBS = [
   "artificial",
 ];
 
-// Demo 示例数据（登录用户看到的订阅内容）
-const DEMO_POSTS: Post[] = [
-  {
-    id: "demo1",
-    title: "The Future of Web Development: What to Expect in 2026",
-    author: "webdev_guru",
-    score: 4523,
-    num_comments: 387,
-    permalink: "/r/webdev/comments/demo1",
-    subreddit: "webdev",
-  },
-  {
-    id: "demo2",
-    title: "I built a full-stack app in 24 hours using React and Node.js",
-    author: "coding_ninja",
-    score: 3891,
-    num_comments: 256,
-    permalink: "/r/javascript/comments/demo2",
-    subreddit: "javascript",
-  },
-  {
-    id: "demo3",
-    title: "Python 3.12 Performance Improvements: Benchmarks and Analysis",
-    author: "pythonista_pro",
-    score: 5267,
-    num_comments: 412,
-    permalink: "/r/python/comments/demo3",
-    subreddit: "python",
-  },
-  {
-    id: "demo4",
-    title: "Understanding React Server Components: A Deep Dive",
-    author: "react_expert",
-    score: 2934,
-    num_comments: 189,
-    permalink: "/r/reactjs/comments/demo4",
-    subreddit: "reactjs",
-  },
-  {
-    id: "demo5",
-    title: "Machine Learning in Production: Lessons from 5 Years of Experience",
-    author: "ml_engineer",
-    score: 6128,
-    num_comments: 523,
-    permalink: "/r/MachineLearning/comments/demo5",
-    subreddit: "MachineLearning",
-  },
-];
+
 
 function Home() {
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
-  const [posts, setPosts] = useState<Post[]>(isLoggedIn ? DEMO_POSTS : []);
-  const [loading, setLoading] = useState(!isLoggedIn);
-  const [subscribedSubs] = useState(["python", "javascript", "reactjs"]);
+  const [posts, setPosts] = useState<Post[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const fetchPublicFeed = async () => {
     setLoading(true);
     try {
+      // 优先从数据库获取最近的帖子
+      const dbData = await getRecentPostsFromDB(30, 50);
+      if (dbData && dbData.posts && dbData.posts.length > 0) {
+        const dbPosts = dbData.posts.map((p: any) => ({
+          id: p.id,
+          title: p.title,
+          author: p.author || 'unknown',
+          score: p.score || 0,
+          num_comments: p.num_comments || 0,
+          permalink: p.url || '',
+          subreddit: p.subreddit || 'unknown',
+          gpt_summary: p.gpt_summary,
+        }));
+        setPosts(dbPosts.slice(0, 12));
+        setLoading(false);
+        return;
+      }
+      
+      // 数据库没有数据，从Reddit API实时获取
       const allPosts: Post[] = [];
       for (const sub of PUBLIC_SUBS) {
         const data = await getPosts(sub, 3, "day");
-        if (data.posts) {
+        if (data && data.posts) {
           allPosts.push(
             ...data.posts.map((p: any) => ({ ...p, subreddit: sub }))
           );
@@ -100,6 +72,7 @@ function Home() {
       setPosts(allPosts.slice(0, 12));
     } catch (err) {
       console.error("Failed to fetch public feed:", err);
+      setPosts([]);
     } finally {
       setLoading(false);
     }
@@ -108,26 +81,56 @@ function Home() {
   const fetchSubscribedFeed = async () => {
     setLoading(true);
     try {
-      const allPosts: Post[] = [];
-      for (const sub of subscribedSubs) {
-        const data = await getPosts(sub, 5, "day");
-        if (data.posts) {
-          allPosts.push(
-            ...data.posts.map((p: any) => ({ ...p, subreddit: sub }))
-          );
-        }
+      // 优先从数据库获取有GPT摘要的帖子
+      const summaryData = await getPostsWithSummaries(20);
+      if (summaryData && summaryData.posts && summaryData.posts.length > 0) {
+        const dbPosts = summaryData.posts.map((p: any) => ({
+          id: p.id,
+          title: p.title,
+          author: p.author || 'unknown',
+          score: p.score || 0,
+          num_comments: p.num_comments || 0,
+          permalink: p.url || '',
+          subreddit: p.subreddit || 'unknown',
+          gpt_summary: p.gpt_summary,
+        }));
+        setPosts(dbPosts);
+        setLoading(false);
+        return;
       }
-      allPosts.sort((a, b) => b.score - a.score);
-      setPosts(allPosts);
+      
+      // 如果数据库没有GPT摘要的帖子，尝试获取最近的帖子
+      const recentData = await getRecentPostsFromDB(30, 20);
+      if (recentData && recentData.posts && recentData.posts.length > 0) {
+        const dbPosts = recentData.posts.map((p: any) => ({
+          id: p.id,
+          title: p.title,
+          author: p.author || 'unknown',
+          score: p.score || 0,
+          num_comments: p.num_comments || 0,
+          permalink: p.url || '',
+          subreddit: p.subreddit || 'unknown',
+          gpt_summary: p.gpt_summary,
+        }));
+        setPosts(dbPosts);
+        setLoading(false);
+        return;
+      }
+      
+      // 数据库没有数据，显示空状态
+      setPosts([]);
     } catch (err) {
       console.error("Failed to fetch subscribed feed:", err);
+      setPosts([]);
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    if (!isLoggedIn) {
+    if (isLoggedIn) {
+      fetchSubscribedFeed();
+    } else {
       fetchPublicFeed();
     }
   }, [isLoggedIn]);
@@ -222,14 +225,20 @@ function Home() {
                       {post.title}
                     </h3>
 
+                    {post.gpt_summary && (
+                      <p className="text-sm text-gray-600 mb-3 line-clamp-5">
+                        {post.gpt_summary}
+                      </p>
+                    )}
+
                     <div className="flex items-center justify-between text-sm text-gray-600">
                       <div className="flex items-center space-x-4">
                         <div className="flex items-center space-x-1">
-                          <TrendingUp className="h-4 w-4 text-newsea-accent" />
+                          <TrendingUp className="h-4 w-4 text-orange-500" />
                           <span className="font-semibold">{post.score}</span>
                         </div>
                         <div className="flex items-center space-x-1">
-                          <MessageCircle className="h-4 w-4" />
+                          <MessageCircle className="h-4 w-4 text-gray-500" />
                           <span>{post.num_comments}</span>
                         </div>
                       </div>
@@ -239,7 +248,7 @@ function Home() {
                     </div>
 
                     <a
-                      href={`https://reddit.com${post.permalink}`}
+                      href={post.permalink.startsWith('http') ? post.permalink : `https://reddit.com${post.permalink}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-3 inline-flex items-center space-x-1 text-newsea-primary hover:text-[#2d5783] font-medium transition-colors text-sm"
