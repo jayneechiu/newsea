@@ -5,6 +5,7 @@ import Subscriptions from "./pages/Subscriptions";
 import Home from "./pages/Home";
 import Newsletter from "./pages/Newsletter";
 import NewsletterAdmin from "./pages/NewsletterAdmin";
+import SignalDetail from "./pages/SignalDetail";
 
 // 简单的认证检查
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/newsletter" element={<Newsletter />} />
       <Route path="/newsletter/admin" element={<NewsletterAdmin />} />
+      <Route path="/signals/:cardId" element={<SignalDetail />} />
 
       {/* 首页：未登录显示公共热帖，登录后显示订阅内容 */}
       <Route

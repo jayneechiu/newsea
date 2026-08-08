@@ -33,40 +33,76 @@
   }
 
   .content-card {
-    @apply relative mb-5 inline-block w-full break-inside-avoid overflow-hidden rounded-[2rem] p-5 text-slate-950 shadow-[0_18px_55px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(15,23,42,0.16)] sm:p-6;
+    @apply relative mb-2.5 inline-block w-full break-inside-avoid overflow-hidden rounded-[1.25rem] text-slate-950 shadow-[0_12px_35px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(15,23,42,0.16)] sm:mb-5 sm:rounded-[2rem];
   }
 
-  .content-card-noise {
-    @apply pointer-events-none absolute inset-0 opacity-30;
-    background-image: radial-gradient(rgba(15, 23, 42, 0.16) 0.55px, transparent 0.55px);
-    background-size: 5px 5px;
-    mask-image: linear-gradient(to bottom, black, transparent 70%);
+  .content-card-body {
+    @apply p-3 pt-3.5 sm:p-6;
   }
 
   .card-eyebrow {
-    @apply rounded-full border border-current bg-white/50 px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.14em];
-    border-color: color-mix(in srgb, currentColor 20%, transparent);
+    @apply block text-[8px] font-black uppercase leading-3 tracking-[0.13em] opacity-65 sm:text-[10px];
   }
 
-  .card-icon-button {
-    @apply flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-current bg-white/40 transition hover:scale-105 hover:bg-white/75;
-    border-color: color-mix(in srgb, currentColor 15%, transparent);
+  .card-save-button {
+    @apply absolute right-2 top-2 z-20 flex h-8 w-8 items-center justify-center rounded-full border border-white/50 bg-white/90 text-slate-950 shadow-md backdrop-blur transition hover:scale-105 sm:right-3 sm:top-3 sm:h-10 sm:w-10;
   }
 
   .card-headline {
-    @apply text-[1.7rem] font-black leading-[0.98] tracking-[-0.045em] sm:text-[2rem];
+    @apply mt-2 text-[1.05rem] font-black leading-[1.04] tracking-[-0.04em] sm:mt-4 sm:text-[2rem] sm:leading-[0.98];
   }
 
-  .card-context {
-    @apply mt-4 text-sm font-medium leading-6 opacity-75;
+  .card-preview-meta {
+    @apply mt-3 flex items-start gap-1.5 text-[8px] font-black uppercase leading-3 tracking-[0.08em] opacity-60 sm:mt-5 sm:text-[11px];
   }
 
-  .card-meta {
-    @apply mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-current pt-4 text-[11px] font-bold uppercase tracking-[0.12em] opacity-60;
+  .signal-cover {
+    @apply relative aspect-[4/3] w-full overflow-hidden;
   }
 
-  .card-topic {
-    @apply rounded-full border border-current px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide opacity-60;
+  .signal-cover-detail {
+    @apply aspect-[16/11] rounded-[1.75rem] sm:aspect-[16/8] sm:rounded-[2.5rem];
+  }
+
+  .signal-cover-shade {
+    @apply pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/55 via-transparent to-transparent;
+  }
+
+  .signal-cover-label {
+    @apply absolute bottom-2 left-2 max-w-[75%] rounded-full bg-white/90 px-2 py-1 text-[8px] font-black uppercase tracking-[0.08em] text-slate-950 backdrop-blur sm:bottom-4 sm:left-4 sm:px-3 sm:py-1.5 sm:text-[10px];
+  }
+
+  .signal-cover-fallback {
+    @apply bg-slate-950/10;
+    background-image: radial-gradient(circle at 15% 20%, rgba(255,255,255,.68), transparent 25%), repeating-linear-gradient(120deg, transparent 0 18px, rgba(15,23,42,.08) 18px 19px);
+  }
+
+  .signal-cover-orbit {
+    @apply absolute -right-[15%] -top-[30%] h-[115%] w-[115%] rounded-full border-[18px] border-current opacity-10 sm:border-[30px];
+  }
+
+  .signal-cover-spark {
+    @apply absolute left-4 top-4 h-8 w-8 opacity-55 sm:left-7 sm:top-7 sm:h-12 sm:w-12;
+  }
+
+  .signal-cover-arrow {
+    @apply absolute bottom-3 right-3 h-8 w-8 opacity-30 sm:bottom-5 sm:right-5 sm:h-12 sm:w-12;
+  }
+
+  .detail-eyebrow {
+    @apply rounded-full bg-[#dfff55] px-3 py-2 text-[9px] font-black uppercase tracking-[0.13em] sm:px-4 sm:text-[11px];
+  }
+
+  .detail-action {
+    @apply inline-flex h-10 items-center justify-center gap-2 rounded-full border border-slate-950/15 bg-white px-3 text-xs font-extrabold transition hover:bg-slate-100 sm:h-12 sm:px-5 sm:text-sm;
+  }
+
+  .detail-action span {
+    @apply hidden sm:inline;
+  }
+
+  .detail-action-active {
+    @apply border-slate-950 bg-slate-950 text-white hover:bg-slate-800;
   }
 
   .card-theme-coral {
@@ -94,32 +130,12 @@
     background: linear-gradient(145deg, #111827 0%, #334155 100%);
   }
 
-  .card-theme-ink .card-icon-button,
-  .card-theme-ink .card-eyebrow {
-    @apply bg-white/10;
-  }
-
-  .animate-card-reveal {
-    animation: card-reveal 180ms ease-out both;
-  }
-
   .feed-nav {
     scrollbar-width: none;
   }
 
   .feed-nav::-webkit-scrollbar {
     display: none;
-  }
-}
-
-@keyframes card-reveal {
-  from {
-    opacity: 0;
-    transform: translateY(-8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
 

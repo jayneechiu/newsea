@@ -39,12 +39,6 @@ export default function Home() {
     void loadFeed(activeLane);
   }, [activeLane]);
 
-  const hideCard = (cardId: string) => {
-    const next = [...new Set([...hiddenCards, cardId])];
-    localStorage.setItem("newsea:hidden-cards", JSON.stringify(next));
-    setHiddenCards(next);
-  };
-
   const visibleCards = cards.filter((card) => !hiddenCards.includes(card.id));
 
   return (
@@ -111,21 +105,21 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="mx-auto max-w-[1500px] px-4 pb-20 pt-8 sm:px-6 sm:pt-12">
-        <section className="mb-10 grid gap-6 border-b border-slate-950/15 pb-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-end">
+      <main className="mx-auto max-w-[1500px] px-3 pb-20 pt-6 sm:px-6 sm:pt-12">
+        <section className="mb-6 grid gap-4 border-b border-slate-950/15 pb-6 sm:mb-10 sm:gap-6 sm:pb-10 lg:grid-cols-[1.3fr_0.7fr] lg:items-end">
           <div>
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#dfff55] px-3 py-1.5 text-[11px] font-black uppercase tracking-[0.15em]">
               <Sparkles className="h-3.5 w-3.5" />
               Signal over noise
             </div>
-            <h1 className="max-w-4xl text-4xl font-black leading-[0.95] tracking-[-0.055em] sm:text-6xl lg:text-7xl">
+            <h1 className="max-w-4xl text-[2.35rem] font-black leading-[0.95] tracking-[-0.055em] sm:text-6xl lg:text-7xl">
               What people know,
               <br />
               before it becomes obvious.
             </h1>
           </div>
           <div className="max-w-xl lg:justify-self-end">
-            <p className="text-base font-semibold leading-7 text-slate-600 sm:text-lg">
+            <p className="hidden text-base font-semibold leading-7 text-slate-600 sm:block sm:text-lg">
               The best conversations across Reddit, compressed into useful signals. No bait, no detours, no endless thread hunting.
             </p>
             <div className="mt-4 flex items-center gap-2 text-xs font-black uppercase tracking-[0.12em] text-slate-500">
@@ -136,19 +130,19 @@ export default function Home() {
         </section>
 
         {loading && cards.length === 0 ? (
-          <div className="columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4">
+          <div className="columns-2 gap-2.5 sm:gap-5 lg:columns-3 xl:columns-4">
             {[280, 420, 340, 390, 310, 440, 360, 300].map((height, index) => (
               <div
                 key={`${height}-${index}`}
-                className="mb-5 animate-pulse break-inside-avoid rounded-[2rem] bg-slate-200"
-                style={{ height }}
+                className="mb-2.5 animate-pulse break-inside-avoid rounded-[1.25rem] bg-slate-200 sm:mb-5 sm:rounded-[2rem]"
+                style={{ height: Math.max(210, Math.round(height * 0.68)) }}
               />
             ))}
           </div>
         ) : (
-          <div className="columns-1 gap-5 sm:columns-2 lg:columns-3 xl:columns-4">
+          <div className="columns-2 gap-2.5 sm:gap-5 lg:columns-3 xl:columns-4">
             {visibleCards.map((card) => (
-              <ContentCard key={card.id} card={card} onHide={hideCard} />
+              <ContentCard key={card.id} card={card} />
             ))}
           </div>
         )}

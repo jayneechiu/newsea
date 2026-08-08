@@ -13,6 +13,7 @@
     "sourceCount": 18,
     "communityCount": 6,
     "trendLabel": "Rising this week",
+    "imageUrl": "/images/signals/dallas-bbq.png",
     "emailTeaser": "Texas smoke met gochujang, and Dallas has apparently decided subtlety was never the assignment.",
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/AskDFW", "url": "https://www.reddit.com/r/askdfw/"}]
   },
@@ -30,6 +31,7 @@
     "sourceCount": 24,
     "communityCount": 4,
     "trendLabel": "Cross-community breakout",
+    "imageUrl": "/images/signals/bag-charms.png",
     "emailTeaser": "The cheapest object in the back-to-school haul is doing the most emotional heavy lifting.",
     "sources": [{"label": "r/femalefashionadvice", "url": "https://www.reddit.com/r/femalefashionadvice/"}, {"label": "r/crafts", "url": "https://www.reddit.com/r/crafts/"}]
   },
@@ -47,6 +49,7 @@
     "sourceCount": 31,
     "communityCount": 5,
     "trendLabel": "2.8k voices",
+    "imageUrl": "/images/signals/hotel-minibar.png",
     "emailTeaser": "Apparently a larger salary does not make the hotel minibar feel less like a personal insult.",
     "sources": [{"label": "r/personalfinance", "url": "https://www.reddit.com/r/personalfinance/"}, {"label": "r/HENRYfinance", "url": "https://www.reddit.com/r/HENRYfinance/"}]
   },
@@ -64,6 +67,7 @@
     "sourceCount": 16,
     "communityCount": 3,
     "trendLabel": "Most discussed at work",
+    "imageUrl": "/images/signals/boarding-aisle.png",
     "emailTeaser": "The seatbelt sign is off; everyone’s social awareness may have left the aircraft earlier.",
     "sources": [{"label": "r/flightattendants", "url": "https://www.reddit.com/r/flightattendants/"}]
   },
