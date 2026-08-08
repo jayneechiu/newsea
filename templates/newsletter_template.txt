@@ -1,26 +1,24 @@
-Reddit热门帖子 Newsletter - {{ date }}
-=======================================================
+NEWSEA WEEKLY · {{ date }}
+The best of Reddit, made instantly useful.
+============================================================
 
+THE INTERNET DID THE ARGUING. YOU GET THE INTERESTING PART.
+{{ editor_words }}
+
+{{ total_posts }} TOPICS · APPROXIMATELY ZERO HOMEWORK
+------------------------------------------------------------
 {% for post in posts %}
-{{ loop.index }}. {{ post.title }}
-   来源: r/{{ post.subreddit }} | 作者: u/{{ post.author }}
-   评分: {{ post.score }} | 评论: {{ post.num_comments }}
-   链接: {{ post.permalink }}
-   {% if post.selftext %}
-   摘要: {{ post.selftext[:200] }}{% if post.selftext|length > 200 %}...{% endif %}
-   {% endif %}
-   {% if post.gpt_summary %}
-   分析: {{ post.gpt_summary }}
-   {% endif %}
+r/{{ post.subreddit }}{% if post.trend_label %} · {{ post.trend_label }}{% endif %}
+{{ post.title }}
 
--------------------------------------------------------
+{{ post.newsletter_teaser or post.gpt_summary or post.selftext }}
+
+See what Reddit figured out: {{ post.permalink }}
+
+------------------------------------------------------------
 {% endfor %}
 
-总共 {{ total_posts }} 个热门帖子
+Caught up already? Congratulations. The internet rarely makes that possible.
 
-祝您阅读愉快！
-{{ editor_name }}
-{{ newsletter_title }} 编辑组
-
--------------------------------------------------------
-此邮件由Reddit Newsletter Bot自动生成
+Curated by {{ editor_name }} · {{ newsletter_title }}
+© {{ year }} Newsea · A non-commercial product prototype

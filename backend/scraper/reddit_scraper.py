@@ -138,3 +138,33 @@ class RedditScraper:
         except Exception as e:
             logger.error(f"Error getting trending posts: {e}")
             return []
+
+    def fetch_top_posts(self, subreddit: str, limit: int = 10, time_filter: str = "day") -> List[Dict]:
+        """Fetch top posts for one subreddit for API and newsletter requests."""
+        try:
+            listing = self.reddit.subreddit(subreddit).top(time_filter=time_filter, limit=limit)
+            posts = []
+            for post in listing:
+                post_data = {
+                    "id": post.id,
+                    "title": post.title,
+                    "author": str(post.author) if post.author else "[deleted]",
+                    "url": post.url,
+                    "permalink": f"https://reddit.com{post.permalink}",
+                    "subreddit": subreddit,
+                    "score": post.score,
+                    "num_comments": post.num_comments,
+                    "created_utc": post.created_utc,
+                    "selftext": post.selftext[:1000] if post.selftext else "",
+                    "is_video": post.is_video,
+                    "over_18": post.over_18,
+                }
+                post_data["top_comments"] = self._get_top_comments(post)
+                posts.append(post_data)
+
+            if not self.config.get_include_nsfw():
+                posts = [post for post in posts if not post["over_18"]]
+            return posts
+        except Exception as e:
+            logger.error(f"Error fetching top posts from r/{subreddit}: {e}")
+            return []

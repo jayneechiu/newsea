@@ -15,6 +15,7 @@ from backend.scraper.config_manager import ConfigManager
 from backend.scraper.reddit_scraper import RedditScraper
 from backend.scraper.chatgpt_client import ChatGPTClient
 from backend.scraper.newsletter_sender import NewsletterSender
+from backend.scraper.newsletter_composer import NewsletterComposer
 from backend.scraper.database_manager import DatabaseManager
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', handlers=[logging.StreamHandler(sys.stdout)])
@@ -30,6 +31,7 @@ def run_scraper_job(test_mode=False, force_resend=False):
         reddit = RedditScraper(config)
         chatgpt = ChatGPTClient(config)
         sender = NewsletterSender(config)
+        composer = NewsletterComposer(config, reddit, chatgpt)
         db = DatabaseManager()
         logger.info("All services initialized successfully")
         if test_mode:
@@ -57,36 +59,32 @@ def run_scraper_job(test_mode=False, force_resend=False):
                 return
             selected_posts = new_posts[:newsletter_limit]
         logger.info(f"Selected {len(selected_posts)} posts for newsletter")
-        if config.get_enable_gpt_summaries():
-            logger.info("Generating GPT summaries...")
-            for post in selected_posts:
-                try:
-                    summary = chatgpt.summarize_and_analyze(post)
-                    post['gpt_summary'] = summary
-                    logger.info(f"Generated summary for: {post['title'][:50]}...")
-                except Exception as e:
-                    logger.warning(f"Failed to generate summary for {post['id']}: {e}")
-                    post['gpt_summary'] = None
-        if config.get_enable_editor_summary():
-            logger.info("Generating editor words...")
-            try:
-                editor_words = chatgpt.generate_editor_words(selected_posts)
-            except Exception as e:
-                logger.warning(f"Failed to generate editor words: {e}")
-                editor_words = None
-        else:
-            editor_words = None
+        logger.info("Composing reusable newsletter content package...")
+        package = composer.enrich_posts(
+            selected_posts,
+            subreddit="mixed",
+            time_filter="day",
+            use_ai=config.get_enable_gpt_summaries(),
+        )
+        selected_posts = package["posts"]
+        editor_words = package["editor_words"]
+        draft = db.create_newsletter_draft(package)
         logger.info("Sending newsletter...")
-        success = sender.send_newsletter(selected_posts, editor_words)
+        recipients = db.get_approved_newsletter_recipients()
+        if not recipients:
+            logger.info("No approved recipients; saved draft without sending")
+            return
+        db.update_newsletter_draft_status(draft["id"], "sending")
+        success, _ = sender.send_newsletter(selected_posts, editor_words, recipients=recipients)
+        db.update_newsletter_draft_status(draft["id"], "sent" if success else "failed")
         if success:
             logger.info("[V2] Recording posts into reddit_posts...")
             db.upsert_reddit_posts(selected_posts)
-            recipients = config.get_recipients()
             db.log_newsletter_send(posts_count=len(selected_posts), success=True, recipients=recipients, editor_words=editor_words, newsletter_title=config.get_newsletter_title())
             logger.info("Newsletter sent successfully")
         else:
             logger.error("Failed to send newsletter")
-            db.log_newsletter_send(posts_count=len(selected_posts), success=False, error_message="Failed to send newsletter", recipients=config.get_recipients())
+            db.log_newsletter_send(posts_count=len(selected_posts), success=False, error_message="Failed to send newsletter", recipients=recipients)
         duration = (datetime.now() - start_time).total_seconds()
         logger.info(f"=== Job completed in {duration:.2f}s ===")
     except Exception as e:

@@ -3,8 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
   body {
-    @apply bg-newsea-beige text-newsea-dark;
+    @apply m-0 bg-newsea-beige text-newsea-dark antialiased;
   }
 }
 
@@ -19,5 +30,122 @@
 
   .card {
     @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200 border border-newsea-border;
+  }
+
+  .content-card {
+    @apply relative mb-2.5 inline-block w-full break-inside-avoid overflow-hidden rounded-[1.25rem] text-slate-950 shadow-[0_12px_35px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_24px_70px_rgba(15,23,42,0.16)] sm:mb-5 sm:rounded-[2rem];
+  }
+
+  .content-card-body {
+    @apply p-3 pt-3.5 sm:p-6;
+  }
+
+  .card-eyebrow {
+    @apply block text-[8px] font-black uppercase leading-3 tracking-[0.13em] opacity-65 sm:text-[10px];
+  }
+
+  .card-save-button {
+    @apply absolute right-2 top-2 z-20 flex h-8 w-8 items-center justify-center rounded-full border border-white/50 bg-white/90 text-slate-950 shadow-md backdrop-blur transition hover:scale-105 sm:right-3 sm:top-3 sm:h-10 sm:w-10;
+  }
+
+  .card-headline {
+    @apply mt-2 text-[1.05rem] font-black leading-[1.04] tracking-[-0.04em] sm:mt-4 sm:text-[2rem] sm:leading-[0.98];
+  }
+
+  .card-preview-meta {
+    @apply mt-3 flex items-start gap-1.5 text-[8px] font-black uppercase leading-3 tracking-[0.08em] opacity-60 sm:mt-5 sm:text-[11px];
+  }
+
+  .signal-cover {
+    @apply relative aspect-[4/3] w-full overflow-hidden;
+  }
+
+  .signal-cover-detail {
+    @apply aspect-[16/11] rounded-[1.75rem] sm:aspect-[16/8] sm:rounded-[2.5rem];
+  }
+
+  .signal-cover-shade {
+    @apply pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950/55 via-transparent to-transparent;
+  }
+
+  .signal-cover-label {
+    @apply absolute bottom-2 left-2 max-w-[75%] rounded-full bg-white/90 px-2 py-1 text-[8px] font-black uppercase tracking-[0.08em] text-slate-950 backdrop-blur sm:bottom-4 sm:left-4 sm:px-3 sm:py-1.5 sm:text-[10px];
+  }
+
+  .signal-cover-fallback {
+    @apply bg-slate-950/10;
+    background-image: radial-gradient(circle at 15% 20%, rgba(255,255,255,.68), transparent 25%), repeating-linear-gradient(120deg, transparent 0 18px, rgba(15,23,42,.08) 18px 19px);
+  }
+
+  .signal-cover-orbit {
+    @apply absolute -right-[15%] -top-[30%] h-[115%] w-[115%] rounded-full border-[18px] border-current opacity-10 sm:border-[30px];
+  }
+
+  .signal-cover-spark {
+    @apply absolute left-4 top-4 h-8 w-8 opacity-55 sm:left-7 sm:top-7 sm:h-12 sm:w-12;
+  }
+
+  .signal-cover-arrow {
+    @apply absolute bottom-3 right-3 h-8 w-8 opacity-30 sm:bottom-5 sm:right-5 sm:h-12 sm:w-12;
+  }
+
+  .detail-eyebrow {
+    @apply rounded-full bg-[#dfff55] px-3 py-2 text-[9px] font-black uppercase tracking-[0.13em] sm:px-4 sm:text-[11px];
+  }
+
+  .detail-action {
+    @apply inline-flex h-10 items-center justify-center gap-2 rounded-full border border-slate-950/15 bg-white px-3 text-xs font-extrabold transition hover:bg-slate-100 sm:h-12 sm:px-5 sm:text-sm;
+  }
+
+  .detail-action span {
+    @apply hidden sm:inline;
+  }
+
+  .detail-action-active {
+    @apply border-slate-950 bg-slate-950 text-white hover:bg-slate-800;
+  }
+
+  .card-theme-coral {
+    background: linear-gradient(145deg, #ff8f70 0%, #ffc2a9 100%);
+  }
+
+  .card-theme-ocean {
+    background: linear-gradient(145deg, #63cdda 0%, #b9eff1 100%);
+  }
+
+  .card-theme-lime {
+    background: linear-gradient(145deg, #dfff55 0%, #f2ffc1 100%);
+  }
+
+  .card-theme-gold {
+    background: linear-gradient(145deg, #ffc94a 0%, #ffe6a3 100%);
+  }
+
+  .card-theme-violet {
+    background: linear-gradient(145deg, #bca8ff 0%, #e3dcff 100%);
+  }
+
+  .card-theme-ink {
+    @apply text-white;
+    background: linear-gradient(145deg, #111827 0%, #334155 100%);
+  }
+
+  .feed-nav {
+    scrollbar-width: none;
+  }
+
+  .feed-nav::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

@@ -4,8 +4,9 @@ import psycopg2
 import psycopg2.extras
 import logging
 from datetime import datetime, date
-from typing import List, Dict
+from typing import List, Dict, Optional
 import json
+import uuid
 from .config_manager import ConfigManager
 
 logger = logging.getLogger(__name__)
@@ -87,6 +88,41 @@ class DatabaseManager:
                 )
             """
             )
+            cursor.execute(
+                """
+                CREATE TABLE IF NOT EXISTS newsletter_subscriptions (
+                    id SERIAL PRIMARY KEY,
+                    email VARCHAR(320) UNIQUE NOT NULL,
+                    name VARCHAR(120),
+                    subreddits JSONB NOT NULL DEFAULT '[]'::jsonb,
+                    status VARCHAR(20) NOT NULL DEFAULT 'pending'
+                        CHECK (status IN ('pending', 'approved', 'rejected')),
+                    is_active BOOLEAN NOT NULL DEFAULT FALSE,
+                    requested_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                    reviewed_at TIMESTAMP NULL,
+                    reviewed_by VARCHAR(120),
+                    review_note TEXT,
+                    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+                )
+            """
+            )
+            cursor.execute(
+                """
+                CREATE TABLE IF NOT EXISTS newsletter_drafts (
+                    id VARCHAR(36) PRIMARY KEY,
+                    subreddit VARCHAR(100) NOT NULL,
+                    time_filter VARCHAR(20) NOT NULL,
+                    posts JSONB NOT NULL,
+                    editor_words TEXT,
+                    uses_ai BOOLEAN NOT NULL DEFAULT TRUE,
+                    status VARCHAR(20) NOT NULL DEFAULT 'draft'
+                        CHECK (status IN ('draft', 'sending', 'sent', 'failed')),
+                    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                    sent_at TIMESTAMP NULL
+                )
+            """
+            )
             # Indexes per V2 schema
             cursor.execute(
                 """
@@ -122,6 +158,18 @@ class DatabaseManager:
                 """
                 CREATE INDEX IF NOT EXISTS idx_newsletter_logs_sent_at 
                 ON newsletter_logs(sent_at)
+            """
+            )
+            cursor.execute(
+                """
+                CREATE INDEX IF NOT EXISTS idx_newsletter_subscriptions_status
+                ON newsletter_subscriptions(status, is_active)
+            """
+            )
+            cursor.execute(
+                """
+                CREATE INDEX IF NOT EXISTS idx_newsletter_drafts_created_at
+                ON newsletter_drafts(created_at DESC)
             """
             )
             cursor.close()
@@ -160,6 +208,172 @@ class DatabaseManager:
         except Exception as e:
             logger.error(f"Database connection test failed: {e}")
             return False
+
+    # ===== Newsletter subscription approval workflow =====
+    def request_newsletter_subscription(
+        self, email: str, subreddits: List[str], name: Optional[str] = None
+    ) -> Dict:
+        """Create or refresh an application. Public requests are always pending."""
+        normalized_email = email.strip().lower()
+        cleaned_subreddits = sorted({item.strip().lstrip("r/") for item in subreddits if item.strip()})
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                """
+                INSERT INTO newsletter_subscriptions (
+                    email, name, subreddits, status, is_active, requested_at,
+                    reviewed_at, reviewed_by, review_note, updated_at
+                ) VALUES (%s, %s, %s, 'pending', FALSE, CURRENT_TIMESTAMP,
+                          NULL, NULL, NULL, CURRENT_TIMESTAMP)
+                ON CONFLICT (email) DO UPDATE SET
+                    name = EXCLUDED.name,
+                    subreddits = EXCLUDED.subreddits,
+                    status = 'pending',
+                    is_active = FALSE,
+                    requested_at = CURRENT_TIMESTAMP,
+                    reviewed_at = NULL,
+                    reviewed_by = NULL,
+                    review_note = NULL,
+                    updated_at = CURRENT_TIMESTAMP
+                RETURNING *
+                """,
+                (normalized_email, name.strip() if name else None, json.dumps(cleaned_subreddits)),
+            )
+            return dict(cursor.fetchone())
+        finally:
+            cursor.close()
+
+    def list_newsletter_subscriptions(self, status: Optional[str] = None) -> List[Dict]:
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            if status:
+                cursor.execute(
+                    """
+                    SELECT * FROM newsletter_subscriptions
+                    WHERE status = %s
+                    ORDER BY requested_at DESC
+                    """,
+                    (status,),
+                )
+            else:
+                cursor.execute(
+                    """
+                    SELECT * FROM newsletter_subscriptions
+                    ORDER BY requested_at DESC
+                    """
+                )
+            return [dict(row) for row in cursor.fetchall()]
+        finally:
+            cursor.close()
+
+    def review_newsletter_subscription(
+        self,
+        subscription_id: int,
+        status: str,
+        reviewed_by: str = "owner",
+        note: Optional[str] = None,
+    ) -> Optional[Dict]:
+        if status not in {"approved", "rejected"}:
+            raise ValueError("status must be approved or rejected")
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                """
+                UPDATE newsletter_subscriptions
+                SET status = %s,
+                    is_active = %s,
+                    reviewed_at = CURRENT_TIMESTAMP,
+                    reviewed_by = %s,
+                    review_note = %s,
+                    updated_at = CURRENT_TIMESTAMP
+                WHERE id = %s
+                RETURNING *
+                """,
+                (status, status == "approved", reviewed_by, note, subscription_id),
+            )
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        finally:
+            cursor.close()
+
+    def get_approved_newsletter_recipients(self) -> List[str]:
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute(
+                """
+                SELECT email FROM newsletter_subscriptions
+                WHERE status = 'approved' AND is_active = TRUE
+                ORDER BY email
+                """
+            )
+            return [row[0] for row in cursor.fetchall()]
+        finally:
+            cursor.close()
+
+    # ===== Reusable newsletter content packages =====
+    def create_newsletter_draft(self, package: Dict) -> Dict:
+        draft_id = str(uuid.uuid4())
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                """
+                INSERT INTO newsletter_drafts
+                    (id, subreddit, time_filter, posts, editor_words, uses_ai, status)
+                VALUES (%s, %s, %s, %s, %s, %s, 'draft')
+                RETURNING *
+                """,
+                (
+                    draft_id,
+                    package["subreddit"],
+                    package["time_filter"],
+                    json.dumps(package["posts"]),
+                    package.get("editor_words"),
+                    package.get("uses_ai", True),
+                ),
+            )
+            return dict(cursor.fetchone())
+        finally:
+            cursor.close()
+
+    def get_newsletter_draft(self, draft_id: str) -> Optional[Dict]:
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute("SELECT * FROM newsletter_drafts WHERE id = %s", (draft_id,))
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        finally:
+            cursor.close()
+
+    def get_latest_newsletter_draft(self, sent_only: bool = False) -> Optional[Dict]:
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            if sent_only:
+                cursor.execute(
+                    "SELECT * FROM newsletter_drafts WHERE status = 'sent' ORDER BY sent_at DESC LIMIT 1"
+                )
+            else:
+                cursor.execute("SELECT * FROM newsletter_drafts ORDER BY created_at DESC LIMIT 1")
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        finally:
+            cursor.close()
+
+    def update_newsletter_draft_status(self, draft_id: str, status: str) -> None:
+        if status not in {"draft", "sending", "sent", "failed"}:
+            raise ValueError("Invalid newsletter draft status")
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute(
+                """
+                UPDATE newsletter_drafts
+                SET status = %s,
+                    sent_at = CASE WHEN %s = 'sent' THEN CURRENT_TIMESTAMP ELSE sent_at END
+                WHERE id = %s
+                """,
+                (status, status, draft_id),
+            )
+        finally:
+            cursor.close()
 
     # Legacy V1 helpers removed: filter_new_posts, mark_posts_as_sent
 
