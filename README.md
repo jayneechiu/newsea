@@ -1,260 +1,306 @@
-# Reddit Newsletter Bot 🚀
+# Newsea
 
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Reddit API](https://img.shields.io/badge/Reddit-API-orange.svg)](https://www.reddit.com/dev/api/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue.svg)](https://www.postgresql.org/)
+**The best of Reddit, made instantly useful.**
 
-An intelligent Reddit trending-post aggregator that automatically generates beautiful newsletters and sends them on a schedule. It integrates OpenAI GPT for content summarization and analysis and uses PostgreSQL for data storage.
+Newsea turns high-signal Reddit conversations into a visual, continuously
+scrollable feed. Instead of sending people through clickbait headlines and long
+threads, each card delivers the useful conclusion first, then expands in place
+to reveal the strongest takeaways and original communities.
 
-## ✨ Key Features
+> See what everyone—and everyone unlike you—is talking about.
 
-- 🔥 **Trending Posts from Multiple Subreddits** - Supports custom subreddits and scraping rules
-- 🤖 **AI-Powered Summaries** - GPT-powered post summaries and popularity analysis
-- 📧 **Beautiful Email Templates** - Responsive HTML design with a plain-text version
-- ⏰ **Automated Scheduled Delivery** - Configurable delivery times and frequency
-- 💾 **PostgreSQL Database** - Reliable data storage with cloud deployment support
-- 📊 **Statistics and Management** - Delivery success rates, content statistics, and more
-- 🛠️ **Rich Toolset** - Practical tools for testing, management, cleanup, and more
+Newsea is currently a non-commercial portfolio project and product prototype.
 
-## 🚀 Quick Start
+## Why Newsea
 
-### 1. Requirements
+Recommendation systems are very good at showing people more of what they
+already like. They are less useful for answering:
 
-- Python 3.11+
-- PostgreSQL database
+- What is everyone paying attention to right now?
+- What is changing in my city?
+- What does a community outside my normal feed know that I do not?
+- Which parts of a long discussion are actually worth remembering?
 
-### 2. Installation
+Newsea explores a **human signal feed**: Reddit's existing community knowledge,
+organized into concise visual cards rather than another publication,
+newsletter, or social network waiting for creators.
+
+## Product experience
+
+The prototype has four permanent views:
+
+- **For you** — content shaped by user interests without removing discovery.
+- **Everyone** — the strongest signals across communities.
+- **Dallas** — a local trend and recommendation lens.
+- **Other worlds** — useful views into communities outside the user's routine.
+
+Every content card contains:
+
+1. A complete, useful headline—not a teaser.
+2. Context explaining why the signal matters.
+3. Community and source evidence.
+4. Three expandable takeaways.
+5. Links to the original Reddit communities.
+
+Cards can be saved or hidden locally. The responsive layout uses four columns
+on large screens and a focused single-column feed on mobile.
+
+The original newsletter remains available at `/newsletter` as a slower weekly
+digest built from the same ContentCards. Public builds show a safe preview;
+connected email controls are opt-in for the project owner. Every public signup
+is stored as a pending request; `/newsletter/admin` lets the owner approve or
+reject it before that address can receive a campaign.
+
+## Run the visual prototype
+
+The fastest way to use Newsea does not require PostgreSQL, Reddit, OpenAI, or
+Azure:
 
 ```bash
 git clone https://github.com/jayneechiu/newsea.git
+cd newsea/ui
+npm install
+npm run dev:mock
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+Mock mode reads structured sample cards from
+`ui/src/data/demo-cards.json`. The interface displays a **Preview data** badge
+so sample content is never presented as a live trend.
+
+### Frontend checks
+
+```bash
+cd ui
+npm run typecheck
+npm run build
+npm run preview
+```
+
+The production preview runs at
+[http://localhost:4173](http://localhost:4173) by default.
+
+Render or send the matching email design with local preview cards:
+
+```bash
+python3 scripts/send_test_newsletter.py --render-only
+python3 scripts/send_test_newsletter.py --limit 4
+```
+
+The send command uses the SMTP account and recipients configured in the root
+`.env`.
+
+To preview the same template with current Reddit data without sending email:
+
+```bash
+python3 scripts/render_live_newsletter.py --subreddit todayilearned --limit 4
+```
+
+This creates both HTML and a reusable JSON content package. GPT summaries,
+individual humorous hooks, and editor words are generated once; preview and
+send reuse the same package rather than fetching or rewriting the edition.
+
+## Live API development
+
+The repository also contains the original Reddit ingestion and newsletter
+backend. It provides a foundation for the next live-feed phase:
+
+- Reddit access through PRAW.
+- Post and top-comment collection.
+- OpenAI-powered summaries.
+- PostgreSQL persistence.
+- FastAPI endpoints.
+- Docker-based backend packaging.
+
+Requirements:
+
+- Python 3.11+
+- PostgreSQL
+- Reddit API credentials
+- An OpenAI API key for AI enrichment
+
+Create an environment and install the backend:
+
+```bash
 cd newsea
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-# source .venv/bin/activate  # Linux/Mac
-pip install -r requirements.txt
-# Or install the unified backend dependencies
+python3.11 -m venv .venv
+source .venv/bin/activate
 pip install -r backend/api/requirements.txt
 ```
 
-### 3. Configure the Database
-
-**Option 1: Use Azure Database for PostgreSQL (Recommended)**
-
-1. Create a PostgreSQL service in the [Azure Portal](https://portal.azure.com/)
-2. Configure firewall rules to allow your IP address
-3. Copy the database connection URL
-
-**Option 2: Use a Local PostgreSQL Database**
+Copy and configure the environment file:
 
 ```bash
-# Windows (administrator privileges required)
-.\install_postgresql.bat
-
-# Or install it manually
-choco install postgresql -y
+cp .env.example .env
 ```
 
-### 4. Configure Environment Variables
-
-Copy the configuration template:
+Start the API:
 
 ```bash
-copy .env.example .env  # Windows
-# cp .env.example .env  # Linux/Mac
+INIT_IN_BACKGROUND=true \
+python -m uvicorn backend.api.main:app --reload --port 8000
 ```
 
-Edit the `.env` file and enter your configuration details:
+API documentation is available at
+[http://localhost:8000/docs](http://localhost:8000/docs).
 
-```env
-# Reddit API configuration
-REDDIT_CLIENT_ID=your_reddit_client_id
-REDDIT_CLIENT_SECRET=your_reddit_client_secret
-REDDIT_USERNAME=your_reddit_username
-REDDIT_PASSWORD=your_reddit_password
-
-# PostgreSQL database configuration
-DATABASE_URL=postgresql://username:password@host:port/database
-
-# Email configuration
-SMTP_USERNAME=your_email@gmail.com
-SMTP_PASSWORD=your_app_password
-EMAIL_RECIPIENTS=recipient@example.com
-```
-
-### 5. Test and Run
+Start the frontend in live mode from another terminal:
 
 ```bash
-# Test the database connection
-python tests/test_postgres_connection.py
-
-# Test the Reddit connection
-python tests/test_reddit_connection.py
-
-# Test email delivery
-python tests/test_email_connection.py
-
-# Run the scraper (safe connection check; does not send emails)
-python backend/scraper/run_job.py --test
-
-# Run the scraper (actual delivery/scheduling logic)
-python backend/scraper/run_job.py
+cd ui
+npm run dev
 ```
 
-## ⚙️ Configuration
+The frontend requests `/api/feed`. Until the new feed endpoint is connected to
+the database, an unavailable or empty response automatically falls back to the
+local preview cards instead of showing an empty page.
 
-### Reddit API Configuration
+See [Local development](docs/local-development.md) for environment modes and
+additional commands.
 
-1. Visit [Reddit App Preferences](https://www.reddit.com/prefs/apps)
-2. Create a new application (select the "script" type)
-3. Add the relevant parameters to your `.env` file
+## ContentCard contract
 
-### PostgreSQL Database Configuration
+The frontend is built around a structured `ContentCard`, not a raw Reddit post
+or free-form AI summary:
 
-**Azure Database for PostgreSQL (Recommended):**
-
-```env
-DATABASE_URL=postgresql://username:password@your-server.postgres.database.azure.com:5432/postgres
+```json
+{
+  "id": "dallas-bbq",
+  "lane": ["everyone", "dallas"],
+  "cardType": "local-trend",
+  "theme": "coral",
+  "eyebrow": "Dallas local obsession",
+  "headline": "Korean–Texas BBQ is the order Dallas keeps repeating",
+  "context": "Local food threads keep converging on the same dishes.",
+  "takeaways": [
+    "The first useful takeaway",
+    "The strongest community consensus",
+    "What people already think is overhyped"
+  ],
+  "topics": ["food", "local", "dallas"],
+  "audience": "Dallas food communities",
+  "sourceCount": 18,
+  "communityCount": 6,
+  "trendLabel": "Rising this week",
+  "sources": []
+}
 ```
 
-**Local Database:**
+This contract lets the UI remain stable while content generation evolves from
+curated fixtures to a real ingestion, ranking, and enrichment pipeline.
 
-```env
-DATABASE_URL=postgresql://postgres:password@localhost:5432/reddit_newsletter
+## Architecture
+
+```text
+Current recruiter-safe path
+
+demo-cards.json
+      ↓
+Feed service ──→ React visual feed ──→ save / hide / expand
+      ↑
+automatic fallback
+
+
+Live pipeline in progress
+
+Reddit API
+    ↓
+posts + comments
+    ↓
+metric snapshots and candidate scoring
+    ↓
+structured AI enrichment
+    ↓
+quality and safety checks
+    ↓
+PostgreSQL ContentCards
+    ↓
+FastAPI /api/feed
 ```
 
-### OpenAI API Configuration
+## Current status
 
-1. Get an [OpenAI API key](https://platform.openai.com/api-keys)
-2. Set `OPENAI_API_KEY` in your `.env` file
-3. Choose a GPT model (`gpt-4o-mini` is recommended)
+### Working now
 
-### Email Service Configuration
+- Four-lane visual feed.
+- Responsive masonry-style layout.
+- Structured, type-safe content cards.
+- Inline expansion with source links.
+- Local save and hide interactions.
+- Preserved Newsletter subpage with a recruiter-safe digest preview.
+- Owner-gated newsletter applications and approved-recipient campaign sends.
+- Dependency-free mock mode.
+- Automatic fallback when the live feed is unavailable.
+- Successful TypeScript and production build checks.
 
-Any SMTP email service is supported:
+### Existing backend foundation
 
-```env
-SMTP_SERVER=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USE_TLS=true
-SMTP_USERNAME=your-email@gmail.com
-SMTP_PASSWORD=your-app-password
-EMAIL_RECIPIENTS=recipient1@example.com,recipient2@example.com
+- Reddit post and comment fetching.
+- GPT summary generation.
+- PostgreSQL Schema V2.
+- FastAPI service initialization and health endpoints.
+- Backend Docker image and Azure Container Registry workflow.
+
+### Next milestones
+
+1. Add PostgreSQL Schema V3 tables for comments, metric snapshots,
+   `content_cards`, card sources, and interaction events.
+2. Generate schema-validated card JSON from posts and high-signal comments.
+3. Implement `/api/feed` for Everyone, Dallas, Other worlds, and For you.
+4. Add candidate quality, velocity, novelty, repetition, and safety scoring.
+5. Deploy the frontend and backend behind a public recruiter-friendly URL.
+6. Add smoke tests, monitoring, and a curated production fallback dataset.
+
+## Repository structure
+
+```text
+newsea/
+├── backend/
+│   ├── api/                  # FastAPI service
+│   └── scraper/              # Reddit, OpenAI, PostgreSQL, newsletter legacy
+├── docs/
+│   ├── database_schema_v2.md
+│   └── local-development.md
+├── templates/                # Legacy newsletter templates
+├── tests/                    # Backend integration checks
+├── ui/
+│   ├── src/components/       # Feed UI and ContentCard
+│   ├── src/data/             # Structured preview cards
+│   ├── src/services/         # API and fallback feed services
+│   ├── src/types/            # ContentCard data contract
+│   └── src/pages/            # Application pages
+└── docker-compose.yml
 ```
 
-## 🛠️ Development and Testing
+## Environment and data safety
 
-```bash
-# Run tests
-python tests/test_postgres_connection.py  # PostgreSQL test
-python tests/test_reddit_connection.py    # Reddit API test
-python tests/test_email_connection.py     # Email delivery test
-python tests/test_full_system.py          # Full system test
+- Never place Reddit, OpenAI, database, or SMTP credentials in a `VITE_`
+  variable. Vite exposes those values to the browser bundle.
+- Keep backend credentials in the root `.env`, which is ignored by Git.
+- Preview cards are explicitly labeled and should not be interpreted as live
+  measurements.
+- Live Reddit content should retain attribution and source links, minimize
+  stored user identity, and support removal when source content is deleted.
+- Commercial use of Reddit data requires the appropriate Reddit approval and
+  agreement. Newsea currently operates as a non-commercial portfolio project.
 
-# Run the API service
-uvicorn backend.api.main:app --reload --port 8000
+## Technology
 
-# Run the scraper
-python backend/scraper/run_job.py          # Scheduled/production run
-python backend/scraper/run_job.py --test   # Connection check (does not send emails)
-```
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS
+- **Backend:** Python, FastAPI, PRAW
+- **Data:** PostgreSQL
+- **AI enrichment:** OpenAI API
+- **Packaging:** Docker
+- **Previous cloud setup:** Azure Container Registry and PostgreSQL
 
-## 📁 Project Structure
+## Contributing
 
-```
-├── backend/               # Backend (API + Scraper)
-│   ├── api/
-│   │   ├── main.py          # FastAPI application entry point
-│   │   ├── Dockerfile       # Unified backend image
-│   │   └── requirements.txt # Backend dependencies (API + Scraper)
-│   └── scraper/
-│       ├── run_job.py
-│       ├── config_manager.py
-│       ├── reddit_scraper.py
-│       ├── chatgpt_client.py
-│       ├── newsletter_sender.py
-│       └── database_manager.py
-├── templates/             # Email templates
-│   ├── newsletter_template.txt   # Plain-text template
-│   └── newsletter_template2.html # HTML template
-├── tests/                 # Test modules
-│   ├── test_postgres_connection.py # PostgreSQL connection test
-│   ├── test_reddit_connection.py   # Reddit API test
-│   ├── test_email_connection.py    # Email functionality test
-│   └── test_full_system.py         # Full system test
-├── .github/               # CI/CD configuration
-└── .env.example           # Environment variable configuration template
-```
+Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## 📊 Highlights
+## License
 
-### AI-Powered Summaries
+This repository is available under the [MIT License](LICENSE).
 
-- Uses GPT to summarize and analyze each trending post
-- Generates personalized editorial notes
-- Intelligently identifies why a post is popular
-
-### PostgreSQL Database
-
-- Uses PostgreSQL for reliable data storage
-- Supports cloud databases such as Azure Database for PostgreSQL and Supabase
-- Provides complete data persistence and historical records
-- Automatically initializes the database schema
-
-### Flexible Configuration
-
-- Supports scraping multiple subreddits simultaneously
-- Configurable post limits and filtering criteria
-- Flexible delivery time and frequency settings
-
-## 🔧 Development
-
-### Requirements
-
-- Python 3.11+
-- PostgreSQL database
-- Internet connection (for API calls)
-
-### Testing
-
-```bash
-# Test the database connection
-python tests/test_postgres_connection.py
-
-# Test the Reddit API
-python tests/test_reddit_connection.py
-
-# Test email delivery
-python tests/test_email_connection.py
-
-# Run the full system test
-python tests/test_full_system.py
-```
-
-### Database
-
-The project uses a PostgreSQL database (Schema V2) for storage:
-
-- **subreddits** — Manages subreddit metadata and the daily trending-post cache (`daily_hot_post_ids`)
-- **reddit_posts** — Stores post content and GPT summaries (including `score`, `fetch_date`, and `gpt_summary`)
-- **newsletter_logs** — Stores global newsletter delivery logs
-- Optional: **users** and **user_newsletter_logs** — Store users and personalized delivery logs (for future expansion)
-
-The database connection is configured through the `DATABASE_URL` environment variable. The required tables are initialized automatically when the system starts (see [docs/database_schema_v2.md](docs/database_schema_v2.md)).
-
-### Contributing
-
-Issues and pull requests are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
-
-## 📝 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history and updates.
-
-## 📄 License
-
-This project is open source under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [PRAW](https://github.com/praw-dev/praw) - Reddit API client
-- [OpenAI](https://openai.com/) - GPT API service
+Reddit content belongs to its respective authors and communities. Newsea is not
+affiliated with or endorsed by Reddit.

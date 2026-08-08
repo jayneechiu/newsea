@@ -34,20 +34,20 @@ class ChatGPTClient:
         for i, post in enumerate(posts[:5], 1):
             topics.append(f"{i}. {post['title'][:100]}")
         topics_text = "\n".join(topics)
-        prompt = f"""你是一个风趣幽默的Reddit Newsletter编辑。今天的热门帖子（按热度排序）：
+        prompt = f"""You are the editor of Newsea, a sharp visual digest of useful Reddit conversations.
+Today's selected posts:
 
 {topics_text}
 
-请写一段60-80字的开场白，像一条推文的风格，要求：
-1. 必须提及所有5个帖子，按1-5的顺序串联
-2. 冷幽默风格，用调侃、吐槽或反转的手法串联这些话题
-3. 适度补充新闻背景，解释帖子为什么热门
-4. 语言简洁有力，像在发推文/微博
-5. 不要用序号，要自然地串联所有话题
-6. 直接输出内容，不要加引号或标题
-
-现在请开始："""
-        response = self._call_gpt(prompt, max_tokens=180)
+Write one 35-55 word English opening paragraph.
+Requirements:
+1. Hint at the range of topics without listing or numbering every post.
+2. Use light dry humor and a confident editorial voice.
+3. Create curiosity; do not reveal every conclusion.
+4. Do not invent facts or add background absent from the titles.
+5. No Markdown, emoji, heading, or quotation marks.
+6. Return only the paragraph."""
+        response = self._call_gpt(prompt, max_tokens=120)
         return response
 
     def summarize_comments(self, comments: List[dict]) -> str:
@@ -69,6 +69,30 @@ class ChatGPTClient:
 请开始："""
         response = self._call_gpt(prompt, max_tokens=120)
         return response
+
+    def generate_newsletter_teaser(
+        self, post_title: str, summary: str = "", comment_summary: str = ""
+    ) -> str:
+        """Create a short, accurate hook for the email without giving everything away."""
+        prompt = f"""Write one English teaser sentence for a Newsea email.
+
+Reddit post title: {post_title}
+Summary: {summary}
+Community discussion: {comment_summary}
+
+Requirements:
+1. 16-28 words.
+2. Create curiosity without hiding the basic topic.
+3. Use light dry humor when it fits; never force a joke.
+4. Do not list takeaways or reveal the full conclusion.
+5. Do not invent facts, numbers, quotes, or identities.
+6. No Markdown, emoji, label, or quotation marks.
+7. Return only the sentence.
+"""
+        teaser = self._call_gpt(prompt, max_tokens=60)
+        if teaser.startswith("[") and "失败" in teaser:
+            return summary or post_title
+        return teaser
 
     def _call_gpt(self, prompt: str, max_tokens: int = 300) -> str:
         if not self.api_key:

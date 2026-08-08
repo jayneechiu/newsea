@@ -56,12 +56,77 @@ export const getPostsWithSummaries = async (limit: number = 20): Promise<any> =>
 export const sendNewsletter = async (
   subreddit: string,
   limit: number = 10,
-  timeFilter: string = "day"
+  timeFilter: string = "day",
+  adminKey?: string
 ) => {
   return apiClient.post("/newsletter/send", {
     subreddit,
     limit,
     time_filter: timeFilter,
+  }, {
+    headers: adminKey ? { "X-Newsea-Admin-Key": adminKey } : undefined,
+  });
+};
+
+export type NewsletterPost = {
+  id: string;
+  title: string;
+  subreddit: string;
+  permalink: string;
+  newsletter_teaser?: string;
+  gpt_summary?: string;
+  selftext?: string;
+  trend_label?: string;
+};
+
+export type NewsletterDraft = {
+  id: string;
+  subreddit: string;
+  time_filter: string;
+  posts: NewsletterPost[];
+  editor_words: string;
+  uses_ai: boolean;
+  generation_mode?: "ai" | "mixed" | "fallback";
+  status: "draft" | "sending" | "sent" | "failed";
+  created_at: string;
+  sent_at?: string | null;
+};
+
+export const getLatestNewsletter = async (): Promise<{
+  id: string;
+  subreddit: string;
+  posts: NewsletterPost[];
+  editor_words: string;
+  published_at: string;
+}> => {
+  return apiClient.get("/newsletter/latest") as unknown as Promise<{
+    id: string;
+    subreddit: string;
+    posts: NewsletterPost[];
+    editor_words: string;
+    published_at: string;
+  }>;
+};
+
+export const createNewsletterDraft = async (
+  subreddit: string,
+  adminKey: string,
+  limit: number = 4,
+  timeFilter: string = "week"
+): Promise<{ status: string; draft: NewsletterDraft }> => {
+  return apiClient.post("/admin/newsletter/drafts", {
+    subreddit,
+    limit,
+    time_filter: timeFilter,
+  }, {
+    headers: { "X-Newsea-Admin-Key": adminKey },
+    timeout: 90000,
+  }) as unknown as Promise<{ status: string; draft: NewsletterDraft }>;
+};
+
+export const sendNewsletterDraft = async (draftId: string, adminKey: string) => {
+  return apiClient.post(`/admin/newsletter/drafts/${draftId}/send`, {}, {
+    headers: { "X-Newsea-Admin-Key": adminKey },
   });
 };
 
@@ -71,10 +136,40 @@ export const getStats = async () => {
 };
 
 // Subscribe
-export const subscribe = async (email: string, subreddits: string[]) => {
-  return apiClient.post("/subscribe", {
+export const subscribe = async (email: string, subreddits: string[], name?: string) => {
+  return apiClient.post("/newsletter/subscriptions", {
     email,
     subreddits,
+    name,
+  });
+};
+
+export type NewsletterSubscription = {
+  id: number;
+  email: string;
+  name?: string | null;
+  subreddits: string[];
+  status: "pending" | "approved" | "rejected";
+  requested_at: string;
+};
+
+export const getNewsletterSubscriptions = async (
+  adminKey: string,
+  status: NewsletterSubscription["status"] = "pending"
+): Promise<{ count: number; subscriptions: NewsletterSubscription[] }> => {
+  return apiClient.get("/admin/newsletter/subscriptions", {
+    params: { status },
+    headers: { "X-Newsea-Admin-Key": adminKey },
+  }) as unknown as Promise<{ count: number; subscriptions: NewsletterSubscription[] }>;
+};
+
+export const reviewNewsletterSubscription = async (
+  id: number,
+  action: "approve" | "reject",
+  adminKey: string
+) => {
+  return apiClient.post(`/admin/newsletter/subscriptions/${id}/${action}`, {}, {
+    headers: { "X-Newsea-Admin-Key": adminKey },
   });
 };
 

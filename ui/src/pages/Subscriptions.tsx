@@ -6,7 +6,6 @@ import {
   TrendingUp,
   Sparkles,
   MessageCircle,
-  ExternalLink,
 } from "lucide-react";
 
 interface Subreddit {
