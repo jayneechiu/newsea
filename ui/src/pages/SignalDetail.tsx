@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   ArrowLeft,
   Bookmark,
@@ -36,6 +36,10 @@ export default function SignalDetail() {
   const [liked, setLiked] = useState(() => readStoredIds(LIKED_CARDS_KEY).includes(cardId));
   const [saved, setSaved] = useState(() => readStoredIds(SAVED_CARDS_KEY).includes(cardId));
   const related = useMemo(() => (card ? getRelatedContentCards(card) : []), [card]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [cardId]);
 
   if (!card) {
     return (
@@ -104,7 +108,7 @@ export default function SignalDetail() {
 
           <div className="mx-auto max-w-4xl">
             <div className="-mt-8 relative z-10 rounded-[1.75rem] bg-white p-5 shadow-[0_20px_70px_rgba(15,23,42,0.12)] sm:-mt-16 sm:rounded-[2.5rem] sm:p-10">
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex flex-wrap items-start justify-between gap-4">
                 <span className="detail-eyebrow">{card.eyebrow}</span>
                 <div className="flex gap-2">
                   <button
@@ -130,7 +134,7 @@ export default function SignalDetail() {
                 </div>
               </div>
 
-              <h1 className="mt-6 text-[2.3rem] font-black leading-[0.96] tracking-[-0.055em] sm:text-6xl">
+              <h1 className="mt-6 break-words text-[2rem] font-black leading-[0.96] tracking-[-0.055em] sm:text-6xl">
                 {card.headline}
               </h1>
               <p className="mt-5 max-w-3xl text-lg font-semibold leading-8 text-slate-600 sm:text-xl">

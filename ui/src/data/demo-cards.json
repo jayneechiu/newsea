@@ -85,6 +85,7 @@
     "sourceCount": 42,
     "communityCount": 7,
     "trendLabel": "Saved repeatedly",
+    "coverEmoji": "🍼",
     "sources": [{"label": "r/NewParents", "url": "https://www.reddit.com/r/NewParents/"}, {"label": "r/beyondthebump", "url": "https://www.reddit.com/r/beyondthebump/"}]
   },
   {
@@ -101,6 +102,7 @@
     "sourceCount": 21,
     "communityCount": 4,
     "trendLabel": "A shared culture shock",
+    "coverEmoji": "💬",
     "sources": [{"label": "r/immigration", "url": "https://www.reddit.com/r/immigration/"}, {"label": "r/AskAnAmerican", "url": "https://www.reddit.com/r/AskAnAmerican/"}]
   },
   {
@@ -117,6 +119,7 @@
     "sourceCount": 27,
     "communityCount": 5,
     "trendLabel": "Under $20",
+    "coverEmoji": "🍳",
     "sources": [{"label": "r/BuyItForLife", "url": "https://www.reddit.com/r/BuyItForLife/"}, {"label": "r/Cooking", "url": "https://www.reddit.com/r/Cooking/"}]
   },
   {
@@ -133,6 +136,7 @@
     "sourceCount": 14,
     "communityCount": 3,
     "trendLabel": "Seasonal behavior shift",
+    "coverEmoji": "🌳",
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/askdfw", "url": "https://www.reddit.com/r/askdfw/"}]
   },
   {
@@ -149,6 +153,7 @@
     "sourceCount": 38,
     "communityCount": 6,
     "trendLabel": "4.1k upvotes sampled",
+    "coverEmoji": "🤝",
     "sources": [{"label": "r/AskReddit", "url": "https://www.reddit.com/r/AskReddit/"}]
   },
   {
@@ -165,6 +170,7 @@
     "sourceCount": 22,
     "communityCount": 5,
     "trendLabel": "Consensus forming",
+    "coverEmoji": "🧳",
     "sources": [{"label": "r/onebag", "url": "https://www.reddit.com/r/onebag/"}, {"label": "r/travel", "url": "https://www.reddit.com/r/travel/"}]
   },
   {
@@ -181,6 +187,7 @@
     "sourceCount": 19,
     "communityCount": 4,
     "trendLabel": "Local recommendation pattern",
+    "coverEmoji": "📍",
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}]
   },
   {
@@ -197,6 +204,7 @@
     "sourceCount": 29,
     "communityCount": 6,
     "trendLabel": "Recruiter consensus",
+    "coverEmoji": "💻",
     "sources": [{"label": "r/ExperiencedDevs", "url": "https://www.reddit.com/r/ExperiencedDevs/"}, {"label": "r/cscareerquestions", "url": "https://www.reddit.com/r/cscareerquestions/"}]
   },
   {
@@ -213,6 +221,7 @@
     "sourceCount": 5,
     "communityCount": 2,
     "trendLabel": "Three-part update",
+    "coverEmoji": "🎂",
     "sources": [{"label": "r/BestofRedditorUpdates", "url": "https://www.reddit.com/r/BestofRedditorUpdates/"}]
   },
   {
@@ -229,6 +238,7 @@
     "sourceCount": 17,
     "communityCount": 4,
     "trendLabel": "Practical local pattern",
+    "coverEmoji": "🛒",
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/Frugal", "url": "https://www.reddit.com/r/Frugal/"}]
   },
   {
@@ -245,6 +255,7 @@
     "sourceCount": 33,
     "communityCount": 5,
     "trendLabel": "Most useful answer",
+    "coverEmoji": "✅",
     "sources": [{"label": "r/managers", "url": "https://www.reddit.com/r/managers/"}, {"label": "r/AskHR", "url": "https://www.reddit.com/r/AskHR/"}]
   },
   {
@@ -261,6 +272,7 @@
     "sourceCount": 26,
     "communityCount": 5,
     "trendLabel": "Spreading across hobbies",
+    "coverEmoji": "🪡",
     "sources": [{"label": "r/Visiblemending", "url": "https://www.reddit.com/r/Visiblemending/"}, {"label": "r/sewing", "url": "https://www.reddit.com/r/sewing/"}]
   }
 ]

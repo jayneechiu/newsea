@@ -31,5 +31,6 @@ export interface ContentCard {
   trendLabel: string;
   emailTeaser?: string;
   imageUrl?: string;
+  coverEmoji?: string;
   sources: CardSource[];
 }

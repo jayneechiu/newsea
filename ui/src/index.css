@@ -58,10 +58,16 @@
 
   .signal-cover {
     @apply relative aspect-[4/3] w-full overflow-hidden;
+    container-type: inline-size;
   }
 
   .signal-cover-detail {
     @apply aspect-[16/11] rounded-[1.75rem] sm:aspect-[16/8] sm:rounded-[2.5rem];
+  }
+
+  /* the detail panel overlaps the bottom of the cover, so pin the label to the top */
+  .signal-cover-detail .signal-cover-label {
+    @apply bottom-auto top-3 sm:top-5 sm:left-5;
   }
 
   .signal-cover-shade {
@@ -72,9 +78,22 @@
     @apply absolute bottom-2 left-2 max-w-[75%] rounded-full bg-white/90 px-2 py-1 text-[8px] font-black uppercase tracking-[0.08em] text-slate-950 backdrop-blur sm:bottom-4 sm:left-4 sm:px-3 sm:py-1.5 sm:text-[10px];
   }
 
-  .signal-cover-fallback {
-    @apply bg-slate-950/10;
-    background-image: radial-gradient(circle at 15% 20%, rgba(255,255,255,.68), transparent 25%), repeating-linear-gradient(120deg, transparent 0 18px, rgba(15,23,42,.08) 18px 19px);
+  .signal-cover-fallback::before {
+    content: "";
+    @apply pointer-events-none absolute inset-0;
+    background-image: radial-gradient(circle at 50% 45%, rgba(255,255,255,.55), transparent 55%), repeating-linear-gradient(120deg, transparent 0 18px, rgba(15,23,42,.06) 18px 19px);
+  }
+
+  .signal-cover-emoji {
+    @apply absolute inset-x-0 top-0 flex h-[85%] items-center justify-center leading-none;
+    /* scale with the cover, not the viewport: cards range from ~150px to ~350px wide */
+    font-size: clamp(2.25rem, 26cqw, 6rem);
+    filter: drop-shadow(0 10px 18px rgba(15, 23, 42, 0.22));
+  }
+
+  .signal-cover-detail .signal-cover-emoji {
+    @apply h-[75%];
+    font-size: clamp(4rem, 16cqw, 9rem);
   }
 
   .signal-cover-orbit {
