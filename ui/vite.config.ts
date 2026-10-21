@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  // GitHub Pages serves the static demo from https://jayneechiu.github.io/newsea/
+  base: mode === "demo" ? "/newsea/" : "/",
   plugins: [react()],
   resolve: {
     alias: {
@@ -19,4 +21,4 @@ export default defineConfig({
       },
     },
   },
-});
+}));

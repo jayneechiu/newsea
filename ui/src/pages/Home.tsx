@@ -26,18 +26,19 @@ export default function Home() {
   const [hiddenCards, setHiddenCards] = useState<string[]>(readHiddenCards);
   const [loading, setLoading] = useState(true);
   const [feedSource, setFeedSource] = useState<"api" | "mock" | "fallback">("mock");
+  const [refreshRound, setRefreshRound] = useState(0);
 
-  const loadFeed = async (lane: FeedLane) => {
+  const loadFeed = async (lane: FeedLane, round: number) => {
     setLoading(true);
-    const result = await getContentFeed(lane);
+    const result = await getContentFeed(lane, round);
     setCards(result.cards);
     setFeedSource(result.source);
     setLoading(false);
   };
 
   useEffect(() => {
-    void loadFeed(activeLane);
-  }, [activeLane]);
+    void loadFeed(activeLane, refreshRound);
+  }, [activeLane, refreshRound]);
 
   const visibleCards = cards.filter((card) => !hiddenCards.includes(card.id));
 
@@ -45,7 +46,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#f4f1e9] text-slate-950">
       <header className="sticky top-0 z-50 border-b border-slate-950/10 bg-[#f4f1e9]/90 backdrop-blur-xl">
         <div className="mx-auto flex max-w-[1500px] items-center justify-between px-4 py-3 sm:px-6">
-          <a href="/" className="flex items-center gap-2.5" aria-label="Newsea home">
+          <a href={import.meta.env.BASE_URL} className="flex items-center gap-2.5" aria-label="Newsea home">
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-950 text-white shadow-lg shadow-slate-950/15">
               <Waves className="h-5 w-5" />
             </span>
@@ -70,7 +71,7 @@ export default function Home() {
             </Link>
             <button
               type="button"
-              onClick={() => void loadFeed(activeLane)}
+              onClick={() => setRefreshRound((round) => round + 1)}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-950/15 bg-white transition hover:-rotate-12 hover:bg-slate-950 hover:text-white"
               aria-label="Refresh feed"
             >

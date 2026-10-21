@@ -10,7 +10,9 @@ export default function SignalCover({ card, detail = false }: SignalCoverProps) 
   if (card.imageUrl) {
     return (
       <div className={detail ? "signal-cover signal-cover-detail" : "signal-cover"}>
-        <img src={card.imageUrl} alt="" className="h-full w-full object-cover" />
+        <img
+          src={card.imageUrl.startsWith("/") ? `${import.meta.env.BASE_URL}${card.imageUrl.slice(1)}` : card.imageUrl}
+          alt="" className="h-full w-full object-cover" />
         <div className="signal-cover-shade" />
         <span className="signal-cover-label">{card.trendLabel}</span>
       </div>

@@ -18,7 +18,7 @@ function Login() {
       localStorage.setItem("userEmail", email);
       localStorage.setItem("isLoggedIn", "true");
       setLoading(false);
-      navigate("/feed");
+      navigate("/");
     }, 1000);
   };
 

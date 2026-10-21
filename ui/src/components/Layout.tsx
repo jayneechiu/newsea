@@ -26,7 +26,7 @@ function Layout({ children }: LayoutProps) {
           <div className="flex justify-between items-center h-16">
             <Link to="/" className="flex items-center space-x-2">
               <img
-                src="/newseaLogo.png"
+                src={`${import.meta.env.BASE_URL}newseaLogo.png`}
                 alt="Newsea Logo"
                 className="h-10 w-10 rounded-full"
               />

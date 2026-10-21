@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Layout from "./components/Layout";
 import Login from "./pages/Login";
 import Subscriptions from "./pages/Subscriptions";
@@ -14,6 +14,7 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 };
 
 function App() {
+  useLocation(); // re-render on navigation so login/logout state is re-read
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
 
   return (

@@ -2,6 +2,12 @@
 
 **The best of Reddit, made instantly useful.**
 
+**🌐 Live demo:** <https://jayneechiu.github.io/newsea/>
+
+> **Preview data:** the live demo is a static frontend build (`npm run build:demo` in `ui/`) that
+> uses bundled sample cards from `ui/src/data/demo-cards.json`. Login is simulated, and the demo
+> does not call Reddit, OpenAI, or the backend, so newsletter sign-up and admin actions are inactive.
+
 Newsea turns high-signal Reddit conversations into a visual, continuously
 scrollable feed. Instead of sending people through clickbait headlines and long
 threads, each card delivers the useful conclusion first, then expands in place
