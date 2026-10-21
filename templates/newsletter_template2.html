@@ -1,245 +1,111 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="x-apple-disable-message-reformatting" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Newsea · Daily Post</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Newsea Weekly</title>
+    <style>
+      @media only screen and (max-width: 620px) {
+        .outer-pad { padding: 0 !important; }
+        .shell { border-radius: 0 !important; }
+        .header-pad { padding: 16px 18px !important; }
+        .hero-pad { padding: 34px 20px 30px !important; }
+        .hero-title { font-size: 35px !important; line-height: 36px !important; }
+        .content-pad { padding: 22px 14px !important; }
+        .signal-card { padding: 22px 18px !important; }
+        .signal-title { font-size: 24px !important; line-height: 27px !important; }
+        .footer-pad { padding: 26px 20px !important; }
+        .date-badge { display: block !important; margin-top: 12px !important; text-align: left !important; }
+        .brand-cell, .date-cell { display: block !important; width: 100% !important; text-align: left !important; }
+      }
+    </style>
   </head>
-  <body style="margin: 0; padding: 0; background: #f3efe7; color: #1f2a44">
-    <center style="width: 100%; background: #f3efe7">
-      <table
-        role="presentation"
-        cellpadding="0"
-        cellspacing="0"
-        width="100%"
-        style="max-width: 640px; margin: 0 auto"
-      >
-        <!-- 顶部 -->
+  <body style="margin:0;padding:0;background:#e8e0d2;color:#0f172a;">
+    <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">
+      A few Reddit rabbit holes actually worth falling into this week.
+    </div>
+
+    <center style="width:100%;background:#e8e0d2;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background:#e8e0d2;">
         <tr>
-          <td
-            style="
-              padding: 22px 18px;
-              background: #ffffff;
-              border-bottom: 4px double #e6dfd1;
-            "
-          >
-            <table role="presentation" width="100%">
+          <td class="outer-pad" align="center" style="padding:24px 10px;">
+            <table class="shell" role="presentation" cellpadding="0" cellspacing="0" border="0" width="600" style="width:100%;max-width:600px;background:#fffdf7;border-radius:26px;overflow:hidden;box-shadow:0 22px 64px rgba(30,25,20,0.14);">
               <tr>
-                <td width="56" style="vertical-align: middle">
-                  <!-- Logo图片 -->
-                  <img
-                    src="https://raw.githubusercontent.com/jayneechiu/newsea/dev/assets/newseaLogo.png"
-                    alt="Newsea Logo"
-                    width="56"
-                    height="56"
-                    style="
-                      display: block;
-                      width: 56px;
-                      height: 56px;
-                      border-radius: 50%;
-                      border: none;
-                    "
-                  />
+                <td class="header-pad" style="background:#f4f1e9;padding:18px 26px;border-bottom:1px solid #d7cebf;">
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                      <td class="brand-cell" valign="middle">
+                        <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                          <tr>
+                            <td width="45" valign="middle">
+                              <div style="width:40px;height:40px;line-height:40px;text-align:center;border-radius:50%;background:#0f172a;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:900;">≈</div>
+                            </td>
+                            <td valign="middle" style="padding-left:9px;font-family:Arial,Helvetica,sans-serif;">
+                              <div style="font-size:19px;line-height:19px;font-weight:900;letter-spacing:-0.04em;color:#0f172a;">newsea</div>
+                              <div style="margin-top:4px;font-size:8px;line-height:11px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;color:#64748b;">human signal feed</div>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td class="date-cell" align="right" valign="middle" style="font-family:Arial,Helvetica,sans-serif;">
+                        <span class="date-badge" style="display:inline-block;border-radius:999px;background:#ffc94a;padding:7px 11px;font-size:9px;line-height:11px;font-weight:900;letter-spacing:0.1em;text-transform:uppercase;color:#0f172a;">Weekly · {{ date }}</span>
+                      </td>
+                    </tr>
+                  </table>
                 </td>
-                <td
-                  style="
-                    padding-left: 12px;
-                    font-family: Segoe UI, Arial, Helvetica, sans-serif;
-                  "
-                >
-                  <div
-                    style="
-                      font-weight: 800;
-                      font-size: 22px;
-                      letter-spacing: 0.06em;
-                    "
-                  >
-                    NEWSEA
-                  </div>
-                  <div
-                    style="
-                      font-size: 11px;
-                      color: #6b7280;
-                      letter-spacing: 0.12em;
-                    "
-                  >
-                    DAILY POST · {{ date }}
-                  </div>
+              </tr>
+
+              <tr>
+                <td class="hero-pad" style="background:#0f172a;padding:40px 30px 36px;font-family:Arial,Helvetica,sans-serif;color:#ffffff;">
+                  <div style="display:inline-block;border-radius:999px;background:#dfff55;padding:7px 10px;font-size:9px;line-height:11px;font-weight:900;letter-spacing:0.14em;text-transform:uppercase;color:#0f172a;">A few good rabbit holes</div>
+                  <h1 class="hero-title" style="margin:17px 0 0;font-size:40px;line-height:40px;letter-spacing:-0.055em;font-weight:900;color:#ffffff;">The internet did the arguing.<br />You get the interesting part.</h1>
+                  <p style="margin:18px 0 0;font-size:14px;line-height:22px;font-weight:600;color:#cbd5e1;">{{ editor_words }}</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="background:#dfff55;padding:14px 20px;font-family:Arial,Helvetica,sans-serif;text-align:center;color:#0f172a;font-size:10px;line-height:14px;font-weight:900;letter-spacing:0.12em;text-transform:uppercase;">{{ total_posts }} topics · approximately zero homework</td>
+              </tr>
+
+              <tr>
+                <td class="content-pad" style="background:#fffdf7;padding:28px 22px;">
+                  {% for post in posts %}
+                  <table class="signal-card" role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:{% if loop.last %}0{% else %}16px{% endif %};border-radius:22px;background:{% if loop.index0 % 4 == 0 %}#ffad95{% elif loop.index0 % 4 == 1 %}#9be4e8{% elif loop.index0 % 4 == 2 %}#d0c4ff{% else %}#ffdb7a{% endif %};">
+                    <tr>
+                      <td style="padding:26px 24px;font-family:Arial,Helvetica,sans-serif;color:#0f172a;">
+                        <div style="font-size:9px;line-height:12px;font-weight:900;letter-spacing:0.14em;text-transform:uppercase;color:#334155;">
+                          r/{{ post.subreddit }}{% if post.trend_label %} · {{ post.trend_label }}{% endif %}
+                        </div>
+                        <h2 class="signal-title" style="margin:10px 0 0;font-size:27px;line-height:30px;letter-spacing:-0.04em;font-weight:900;color:#0f172a;">{{ post.title }}</h2>
+                        <p style="margin:13px 0 0;font-size:15px;line-height:23px;font-weight:600;color:#27364a;">
+                          {{ post.newsletter_teaser or post.gpt_summary or post.selftext }}
+                        </p>
+                        <div style="margin-top:19px;">
+                          <a href="{{ post.permalink }}" style="display:inline-block;border-radius:999px;background:#0f172a;padding:11px 15px;font-size:10px;line-height:12px;font-weight:900;letter-spacing:0.06em;text-transform:uppercase;color:#ffffff;text-decoration:none;">See what Reddit figured out →</a>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                  {% endfor %}
+                </td>
+              </tr>
+
+              <tr>
+                <td style="background:#ff8f70;padding:28px 24px;font-family:Arial,Helvetica,sans-serif;text-align:center;color:#0f172a;">
+                  <div style="font-size:9px;line-height:12px;font-weight:900;letter-spacing:0.15em;text-transform:uppercase;">Caught up already?</div>
+                  <div style="margin-top:7px;font-size:21px;line-height:25px;font-weight:900;letter-spacing:-0.03em;">Congratulations. The internet rarely makes that possible.</div>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="footer-pad" align="center" style="background:#f4f1e9;padding:22px 24px;font-family:Arial,Helvetica,sans-serif;color:#64748b;">
+                  <div style="font-size:10px;line-height:17px;font-weight:700;">Curated by {{ editor_name }} · {{ newsletter_title }}</div>
+                  <div style="margin-top:4px;font-size:9px;line-height:15px;">© {{ year }} Newsea · A non-commercial product prototype</div>
+                  <div style="margin-top:4px;font-size:9px;line-height:15px;">Original discussions belong to their respective Reddit authors and communities.</div>
                 </td>
               </tr>
             </table>
-          </td>
-        </tr>
-
-        <!-- 头条 -->
-        <tr>
-          <td style="background: #ffffff">
-            <table role="presentation" width="100%">
-              <tr>
-                <td style="padding: 10px 18px 18px">
-                  <div
-                    style="
-                      font-size: 12px;
-                      color: #e5e7eb;
-                      background: #0f172a;
-                      border-radius: 8px;
-                      padding: 10px 12px;
-                      font-family: Segoe UI, Arial, Helvetica, sans-serif;
-                    "
-                  >
-                    {{ editor_words }}
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-
-        <!-- 分隔条（罗经） -->
-        <tr>
-          <td
-            style="
-              background: #eef3f9;
-              height: 36px;
-              text-align: center;
-              color: #91a4bd;
-              font-family: Segoe UI, Arial, Helvetica, sans-serif;
-              letter-spacing: 0.3em;
-            "
-          >
-            N • E • W • S • E • A
-          </td>
-        </tr>
-
-        <!-- 列表 -->
-        {% for post in posts %}
-        <tr>
-          <td style="background: #ffffff; border-top: 1px solid #eee7da">
-            <table role="presentation" width="100%">
-              <tr>
-                <td
-                  style="
-                    padding: 16px 18px;
-                    font-family: Segoe UI, Arial, Helvetica, sans-serif;
-                  "
-                >
-                  <div
-                    style="font-size: 16px; line-height: 1.35; font-weight: 800"
-                  >
-                    <a
-                      href="{{ post.permalink }}"
-                      style="color: #0f172a; text-decoration: none"
-                      >{{ post.title }}</a
-                    >
-                  </div>
-                  <div style="margin-top: 6px; font-size: 12px; color: #6b7280">
-                    <span
-                      style="
-                        background: #dfe9f3;
-                        color: #3a6ea5;
-                        padding: 2px 8px;
-                        border-radius: 999px;
-                        font-weight: 700;
-                      "
-                      >r/{{ post.subreddit }}</span
-                    >
-                    &nbsp; u/{{ post.author }} &nbsp; • &nbsp; 👍 {{ post.score
-                    }} &nbsp; • &nbsp; 💬 {{ post.num_comments }}
-                  </div>
-                  {% if post.gpt_summary %}
-                  <div
-                    style="
-                      margin-top: 8px;
-                      color: #374151;
-                      font-size: 14px;
-                      line-height: 1.6;
-                    "
-                  >
-                    {{ post.gpt_summary }}
-                  </div>
-                  {% elif post.selftext %}
-                  <div
-                    style="
-                      margin-top: 8px;
-                      color: #374151;
-                      font-size: 14px;
-                      line-height: 1.6;
-                    "
-                  >
-                    {{ post.selftext }}
-                  </div>
-                  {% endif %}
-
-                  <!-- 评论精选 -->
-                  {% if post.comment_summary %}
-                  <div
-                    style="
-                      margin-top: 12px;
-                      padding: 10px 12px;
-                      background: #f9fafb;
-                      border-left: 3px solid #3a6ea5;
-                      border-radius: 4px;
-                    "
-                  >
-                    <div
-                      style="
-                        font-size: 11px;
-                        font-weight: 700;
-                        color: #3a6ea5;
-                        letter-spacing: 0.05em;
-                        margin-bottom: 6px;
-                      "
-                    >
-                      💬 评论精选
-                    </div>
-                    <div
-                      style="font-size: 13px; line-height: 1.6; color: #4b5563"
-                    >
-                      {{ post.comment_summary }}
-                    </div>
-                  </div>
-                  {% endif %} {% if post.url != post.permalink %}
-                  <div style="margin-top: 10px">
-                    <a
-                      href="{{ post.url }}"
-                      style="
-                        display: inline-block;
-                        background: #3a6ea5;
-                        color: #ffffff;
-                        text-decoration: none;
-                        padding: 8px 12px;
-                        border-radius: 8px;
-                        font-size: 13px;
-                        font-weight: 700;
-                      "
-                      >原始链接 →</a
-                    >
-                  </div>
-                  {% endif %}
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        {% endfor %}
-
-        <!-- 页脚 -->
-        <tr>
-          <td
-            style="
-              background: #ffffff;
-              border-top: 4px double #e6dfd1;
-              text-align: center;
-              padding: 16px 18px;
-              font-size: 12px;
-              color: #6b7280;
-              font-family: Segoe UI, Arial, Helvetica, sans-serif;
-            "
-          >
-            共 {{ total_posts }} 条热门 · © {{ year }} Newsea · 由 Newsea Bot
-            自动汇编<br />
-            如果你不想继续接收，请回复「退订」——我们会假装难过 3 秒钟。
           </td>
         </tr>
       </table>

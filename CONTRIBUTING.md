@@ -29,12 +29,14 @@
 
 1. Fork 本仓库
 2. 克隆您的 fork
+
 ```bash
-git clone https://github.com/your-username/reddit-newsletter-bot.git
-cd reddit-newsletter-bot
+git clone https://github.com/jayneechiu/newsea.git
+cd newsea
 ```
 
 3. 创建虚拟环境
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate  # Windows
@@ -42,8 +44,10 @@ python -m venv .venv
 ```
 
 4. 安装依赖
+
 ```bash
-pip install -r requirements.txt
+# 安装统一后端依赖（API + Scraper）
+pip install -r backend/api/requirements.txt
 ```
 
 5. 配置环境变量（复制 `.env.example` 到 `.env` 并填入配置）
@@ -51,18 +55,26 @@ pip install -r requirements.txt
 #### 开发流程
 
 1. 创建新分支
+
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
 2. 进行开发
 3. 运行测试
+
 ```bash
-python tools/manage.py test-all
+# 运行全部测试
 python tests/run_tests.py
+
+# 或运行单项测试
+python tests/test_postgres_connection.py
+python tests/test_reddit_connection.py
+python tests/test_email_connection.py
 ```
 
 4. 提交更改
+
 ```bash
 git add .
 git commit -m "描述您的更改"
@@ -89,20 +101,30 @@ git commit -m "描述您的更改"
 ## 项目结构
 
 ```
-reddit-newsletter-bot/
-├── src/                    # 核心源代码
-├── tests/                  # 测试文件
-├── tools/                  # 管理工具
-├── templates/              # 邮件模板
-├── data/                   # 数据文件
-└── .github/                # GitHub 配置
+newsea/
+├── backend/               # 后端（API + Scraper）
+│   ├── api/
+│   │   ├── main.py          # FastAPI 应用入口
+│   │   ├── Dockerfile       # 统一后端镜像
+│   │   └── requirements.txt # 后端依赖
+│   └── scraper/
+│       ├── run_job.py
+│       ├── config_manager.py
+│       ├── reddit_scraper.py
+│       ├── chatgpt_client.py
+│       ├── newsletter_sender.py
+│       └── database_manager.py
+├── templates/             # 邮件模板
+├── tests/                 # 测试文件
+├── .github/               # GitHub 配置
+└── .env.example           # 环境变量模板
 ```
 
-## 开发工具
+## 常用开发命令
 
-- `tools/manage.py` - 主要管理脚本
-- `tools/preview_server.py` - 邮件模板预览
-- `tests/run_tests.py` - 测试运行器
+- 启动 API 服务：`uvicorn backend.api.main:app --reload --port 8000`
+- 运行 Scraper：`python backend/scraper/run_job.py`（或 `--test` 自检）
+- 运行测试：`python tests/run_tests.py`
 
 ## 问题和建议
 

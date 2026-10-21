@@ -12,7 +12,7 @@ import psycopg2
 import psycopg2.extras
 import logging
 from datetime import datetime
-from src.config_manager import ConfigManager
+from backend.scraper.config_manager import ConfigManager
 
 
 class PostgreSQLConnectionTest:
@@ -72,7 +72,7 @@ class PostgreSQLConnectionTest:
                             print(f"❌ 连接超时 (尝试了 {max_retries} 次)")
                             print("💡 建议:")
                             print("   1. 检查网络连接")
-                            print("   2. 确认 Railway 数据库服务状态")
+                            print("   2. 确认 Azure PostgreSQL 或其他数据库服务状态")
                             print("   3. 验证数据库主机地址和端口")
                             return False
                     else:
@@ -86,7 +86,7 @@ class PostgreSQLConnectionTest:
             print("💡 可能的解决方案:")
             print("   1. 检查 DATABASE_URL 或数据库配置")
             print("   2. 确认数据库用户名和密码")
-            print("   3. 检查 Railway 数据库服务状态")
+            print("   3. 检查 Azure PostgreSQL 或其他数据库服务状态")
             return False
         except Exception as e:
             print(f"❌ 连接时发生未知错误: {e}")
