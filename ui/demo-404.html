@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Newsea</title>
+    <script>
+      // GitHub Pages serves this file for unknown paths. Send the visitor to the matching
+      // demo (main or /dev/) and let main.tsx restore the original deep link.
+      // shortcut: the /newsea/ paths are hardcoded; update them if the Pages URL changes.
+      var path = window.location.pathname;
+      var base = /^\/newsea\/dev(\/|$)/.test(path) ? "/newsea/dev/" : "/newsea/";
+      sessionStorage.setItem("newsea:redirect", path + window.location.search + window.location.hash);
+      window.location.replace(base);
+    </script>
+  </head>
+  <body></body>
+</html>

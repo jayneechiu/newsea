@@ -5,7 +5,8 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // GitHub Pages serves the static demo from https://jayneechiu.github.io/newsea/
-  base: mode === "demo" ? "/newsea/" : "/",
+  // (DEMO_BASE=/newsea/dev/ builds the dev-branch preview).
+  base: mode === "demo" ? process.env.DEMO_BASE || "/newsea/" : "/",
   plugins: [react()],
   resolve: {
     alias: {

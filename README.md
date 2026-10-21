@@ -2,7 +2,7 @@
 
 **The best of Reddit, made instantly useful.**
 
-**🌐 Live demo:** <https://jayneechiu.github.io/newsea/>
+**🌐 Live demo:** <https://jayneechiu.github.io/newsea/> · Dev preview: <https://jayneechiu.github.io/newsea/dev/>
 
 > **Preview data:** the live demo is a static frontend build (`npm run build:demo` in `ui/`) that
 > uses bundled sample cards from `ui/src/data/demo-cards.json`. Login is simulated, and the demo
