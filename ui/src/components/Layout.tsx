@@ -43,7 +43,7 @@ function Layout({ children }: LayoutProps) {
                 }`}
               >
                 <Home className="h-4 w-4" />
-                <span>首页</span>
+                <span>Home</span>
               </Link>
               <Link
                 to="/subscriptions"
@@ -54,7 +54,7 @@ function Layout({ children }: LayoutProps) {
                 }`}
               >
                 <Heart className="h-4 w-4" />
-                <span>我的订阅</span>
+                <span>Subscriptions</span>
               </Link>
 
               {/* User Menu */}
@@ -68,7 +68,7 @@ function Layout({ children }: LayoutProps) {
                   className="flex items-center space-x-1 text-gray-600 hover:text-newsea-primary transition-colors"
                 >
                   <LogOut className="h-4 w-4" />
-                  <span className="text-sm">退出</span>
+                  <span className="text-sm">Log out</span>
                 </button>
               </div>
             </div>

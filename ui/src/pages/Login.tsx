@@ -32,7 +32,7 @@ function Login() {
             Newsea Newsletter
           </h1>
           <p className="text-gray-600 mt-2">
-            {isLogin ? "欢迎回来" : "创建您的账户"}
+            {isLogin ? "Welcome back" : "Create your account"}
           </p>
         </div>
 
@@ -40,7 +40,7 @@ function Login() {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              邮箱地址
+              Email address
             </label>
             <div className="relative">
               <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
@@ -58,7 +58,7 @@ function Login() {
           {isLogin && (
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                密码
+                Password
               </label>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
@@ -80,7 +80,7 @@ function Login() {
             className="w-full btn-primary py-3 text-lg flex items-center justify-center space-x-2 disabled:opacity-50"
           >
             <LogIn className="h-5 w-5" />
-            <span>{loading ? "处理中..." : isLogin ? "登录" : "注册"}</span>
+            <span>{loading ? "Processing..." : isLogin ? "Log in" : "Sign up"}</span>
           </button>
         </form>
 
@@ -90,14 +90,14 @@ function Login() {
             onClick={() => setIsLogin(!isLogin)}
             className="text-newsea-primary hover:text-blue-700 font-medium"
           >
-            {isLogin ? "还没有账户？立即注册" : "已有账户？立即登录"}
+            {isLogin ? "No account yet? Sign up" : "Already have an account? Log in"}
           </button>
         </div>
 
         {/* Demo Hint */}
         <div className="mt-6 p-4 bg-orange-50 rounded-lg">
           <p className="text-sm text-gray-600 text-center">
-            💡 演示模式：输入任意邮箱即可登录
+            💡 Demo mode: any email and password will log you in
           </p>
         </div>
       </div>

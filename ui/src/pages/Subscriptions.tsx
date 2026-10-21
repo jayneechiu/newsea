@@ -54,76 +54,76 @@ const DEMO_POSTS: DemoPost[] = [
 
 // 模拟数据
 const CATEGORIES = [
-  "编程开发",
-  "科技资讯",
-  "人工智能",
-  "数据科学",
-  "前端开发",
-  "后端开发",
-  "游戏开发",
-  "其他",
+  "Programming",
+  "Tech news",
+  "AI",
+  "Data science",
+  "Frontend",
+  "Backend",
+  "Game dev",
+  "Other",
 ];
 
 const POPULAR_SUBREDDITS: Subreddit[] = [
   {
     name: "python",
     subscribers: 1200000,
-    description: "Python 编程语言",
-    category: "编程开发",
+    description: "The Python language",
+    category: "Programming",
   },
   {
     name: "javascript",
     subscribers: 980000,
-    description: "JavaScript 相关",
-    category: "前端开发",
+    description: "All things JavaScript",
+    category: "Frontend",
   },
   {
     name: "reactjs",
     subscribers: 650000,
-    description: "React 框架",
-    category: "前端开发",
+    description: "The React framework",
+    category: "Frontend",
   },
   {
     name: "webdev",
     subscribers: 870000,
-    description: "Web 开发",
-    category: "前端开发",
+    description: "Web development",
+    category: "Frontend",
   },
   {
     name: "machinelearning",
     subscribers: 760000,
-    description: "机器学习",
-    category: "人工智能",
+    description: "Machine learning",
+    category: "AI",
   },
   {
     name: "datascience",
     subscribers: 540000,
-    description: "数据科学",
-    category: "数据科学",
+    description: "Data science",
+    category: "Data science",
   },
   {
     name: "programming",
     subscribers: 1500000,
-    description: "编程讨论",
-    category: "编程开发",
+    description: "Programming discussion",
+    category: "Programming",
   },
   {
     name: "learnprogramming",
     subscribers: 890000,
-    description: "学习编程",
-    category: "编程开发",
+    description: "Learning to code",
+    category: "Programming",
   },
   {
     name: "technology",
     subscribers: 2100000,
-    description: "科技新闻",
-    category: "科技资讯",
+    description: "Technology news",
+    category: "Tech news",
   },
   {
     name: "artificial",
     subscribers: 420000,
-    description: "AI 技术",
-    category: "人工智能",
+    description: "AI technology",
+    category: "AI",
   },
 ];
 
@@ -134,7 +134,7 @@ function Subscriptions() {
     "reactjs",
   ]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("全部");
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const [suggestions, setSuggestions] = useState<Subreddit[]>([]);
 
   useEffect(() => {
@@ -151,7 +151,7 @@ function Subscriptions() {
       );
     }
 
-    if (selectedCategory !== "全部") {
+    if (selectedCategory !== "All") {
       filtered = filtered.filter((sub) => sub.category === selectedCategory);
     }
 
@@ -175,13 +175,13 @@ function Subscriptions() {
   return (
     <div className="min-h-screen bg-newsea-beige py-6">
       <div className="max-w-6xl mx-auto px-4">
-        <h1 className="text-3xl font-bold mb-6">订阅管理</h1>
+        <h1 className="text-3xl font-bold mb-6">Manage subscriptions</h1>
 
         {/* 我的订阅 */}
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4 flex items-center">
             <Sparkles className="h-5 w-5 mr-2 text-newsea-primary" />
-            我的订阅 ({subscribedSubs.length})
+            My subscriptions ({subscribedSubs.length})
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {subscribedSubs.map((sub) => (
@@ -214,7 +214,7 @@ function Subscriptions() {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="搜索 Subreddit..."
+                  placeholder="Search subreddits..."
                   className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-newsea-primary focus:border-transparent"
                 />
               </div>
@@ -222,14 +222,14 @@ function Subscriptions() {
               {/* 分类选择 */}
               <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0">
                 <button
-                  onClick={() => setSelectedCategory("全部")}
+                  onClick={() => setSelectedCategory("All")}
                   className={`px-4 py-2 rounded-lg whitespace-nowrap transition-colors ${
-                    selectedCategory === "全部"
+                    selectedCategory === "All"
                       ? "bg-newsea-primary text-white"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                   }`}
                 >
-                  全部
+                  All
                 </button>
                 {CATEGORIES.map((cat) => (
                   <button
@@ -253,7 +253,7 @@ function Subscriptions() {
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-4 flex items-center">
             <TrendingUp className="h-5 w-5 mr-2 text-newsea-accent" />
-            热门帖子预览
+            Trending posts preview
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             {DEMO_POSTS.map((post) => (
@@ -298,7 +298,7 @@ function Subscriptions() {
         <section>
           <h2 className="text-xl font-semibold mb-4 flex items-center">
             <Search className="h-5 w-5 mr-2 text-newsea-primary" />
-            发现更多
+            Discover more
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             {suggestions.map((sub) => (
@@ -317,7 +317,7 @@ function Subscriptions() {
                     <div className="flex items-center space-x-4 mt-2 text-sm text-gray-500">
                       <span className="flex items-center">
                         <TrendingUp className="h-4 w-4 mr-1" />
-                        {formatNumber(sub.subscribers)} 订阅者
+                        {formatNumber(sub.subscribers)} subscribers
                       </span>
                       <span className="px-2 py-0.5 bg-gray-100 rounded-full text-xs">
                         {sub.category}
@@ -329,7 +329,7 @@ function Subscriptions() {
                     className="ml-4 flex items-center space-x-1 bg-newsea-primary text-white px-4 py-2 rounded-lg hover:bg-[#2d5783] transition-colors shadow-sm hover:shadow-md"
                   >
                     <Plus className="h-4 w-4" />
-                    <span>订阅</span>
+                    <span>Subscribe</span>
                   </button>
                 </div>
               </div>
@@ -338,7 +338,7 @@ function Subscriptions() {
 
           {suggestions.length === 0 && (
             <div className="text-center py-12 text-gray-500">
-              没有找到相关的 Subreddit
+              No matching subreddits found
             </div>
           )}
         </section>

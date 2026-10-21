@@ -4,6 +4,8 @@
 
 **🌐 Live demo:** <https://jayneechiu.github.io/newsea/> · Dev preview: <https://jayneechiu.github.io/newsea/dev/>
 
+[![Newsea demo: a four-lane visual feed of Reddit signal cards](docs/images/demo-desktop.png)](https://jayneechiu.github.io/newsea/)
+
 > **Preview data:** the live demo is a static frontend build (`npm run build:demo` in `ui/`) that
 > uses bundled sample cards from `ui/src/data/demo-cards.json`. Login is simulated, and the demo
 > does not call Reddit, OpenAI, or the backend, so newsletter sign-up and admin actions are inactive.
