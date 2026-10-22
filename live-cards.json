@@ -1,0 +1,521 @@
+{
+  "updatedAt": "2026-10-22T03:56:45+00:00",
+  "cards": [
+    {
+      "id": "reddit-1xbxzqh",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that in 1872, two conmen planted $20,000 worth of gemstones in Wyoming and fooled wealthy investors into believing they’d discovered a massive diamond field.",
+      "context": "In 1872, conmen turned Wyoming's diamond dreams into a gem of a scam, leaving investors dazzled and duped.",
+      "takeaways": [
+        "Salting was a common trick, often using gold dust to mislead investors.",
+        "The ease of scamming in the past raises questions about modern deceptions.",
+        "Creative approaches to fraud can still thrive today."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "10.5K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xbxzqh/til_that_in_1872_two_conmen_planted_20000_worth/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到1872年，两个骗子在怀俄明州种下价值2万美元的宝石，愚弄了富有的投资者，让他们相信发现了一个巨大的钻石矿。",
+          "context": "1872年，骗子们将怀俄明州的钻石梦想变成了一场精彩的骗局，让投资者目眩神迷，掉入陷阱。",
+          "takeaways": [
+            "撒盐是一种常见的把戏，常常用金粉来误导投资者。",
+            "过去诈骗的容易性让人质疑现代欺骗行为。",
+            "创造性的欺诈手法至今仍可蓬勃发展。"
+          ],
+          "trendLabel": "10.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xbqmpx",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/AskReddit",
+      "headline": "what's a 10/10 life experience you must have at least once in your life?",
+      "context": "Ever wondered what experiences should be mandatory for a fulfilling life? Redditors share their top picks, from love to quitting a job.",
+      "takeaways": [
+        "Validation from peers can be a life-changing experience.",
+        "Being in love is a universal highlight.",
+        "A sabbatical offers freedom that many crave."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "7.5K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xbqmpx/whats_a_1010_life_experience_you_must_have_at/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "你一生中必须体验的10/10生活经历是什么？",
+          "context": "你是否想过哪些经历对充实的生活至关重要？Reddit用户分享了他们的最佳选择，从爱情到辞职。",
+          "takeaways": [
+            "来自同行的认可可以改变人生。",
+            "爱情是普遍的高光时刻。",
+            "休假提供许多人渴望的自由。"
+          ],
+          "trendLabel": "7.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xbuips",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ocean",
+      "eyebrow": "r/Dallas",
+      "headline": "Trans Flyer",
+      "context": "A flyer pretending to support trans rights has sparked confusion and allegations of a Republican smear campaign. Who knew politics could be so…creative?",
+      "takeaways": [
+        "Elon Musk's tax dollars are allegedly funding misleading political tactics.",
+        "The GOP seems focused on trans discrimination as a campaign strategy.",
+        "Concerns are rising about how to report potential election fraud."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "951 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xbuips/trans_flyer/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "变性人传单",
+          "context": "一张假装支持变性人权利的传单引发了混乱和对共和党抹黑活动的指控。谁知道政治可以如此……富有创意？",
+          "takeaways": [
+            "埃隆·马斯克的税收资金 allegedly 用于误导性的政治手段。",
+            "共和党似乎将变性歧视作为竞选策略的重点。",
+            "关于如何报告潜在选举欺诈的担忧正在上升。"
+          ],
+          "trendLabel": "951 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xbrmu1",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT Raised Working Surface",
+      "context": "Swapping seasonal wardrobes? A tall person's back pain can be avoided with a clever folding bin hack.",
+      "takeaways": [
+        "Using an ironing board can also ease back strain.",
+        "Tall bed frames make it easier to sort laundry without bending.",
+        "Standing wide can help you reach deeper sinks more comfortably."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "163 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xbrmu1/lpt_raised_working_surface/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "提升工作表面",
+          "context": "更换季节性衣物？高个子搬运衣物的背痛可以通过巧妙的折叠箱技巧来避免。",
+          "takeaways": [
+            "使用熨衣板也可以缓解背部压力。",
+            "高床架使得整理衣物更轻松，减少弯腰。",
+            "站得宽一点可以更舒适地到达更深的水槽。"
+          ],
+          "trendLabel": "163 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xc58gq",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that the first television rerun was an episode of I Love Lucy in 1952; before that, TV episodes were aired just once, and never again.",
+      "context": "Before reruns, lost episodes were a common fate for early TV shows, often discarded like yesterday's news.",
+      "takeaways": [
+        "Many early TV episodes were recorded over and lost forever due to expensive tape costs.",
+        "Desi Arnaz advocated for higher-quality filming to preserve I Love Lucy episodes.",
+        "Lucille Ball played a key role in saving Star Trek by pushing for syndication."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "4.4K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xc58gq/til_that_the_first_television_rerun_was_an/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到，第一部电视重播是在1952年的《我爱露西》；在此之前，电视节目只播一次，从不重播。",
+          "context": "在重播出现之前，早期电视节目的丢失是常见现象，常常像昨天的新闻一样被丢弃。",
+          "takeaways": [
+            "由于录像带昂贵，许多早期电视节目被覆盖录制，永远消失。",
+            "德西·阿纳兹倡导采用更高质量的拍摄方式来保存《我爱露西》的剧集。",
+            "露西尔·鲍尔在推动《星际迷航》进行再播方面发挥了关键作用。"
+          ],
+          "trendLabel": "4.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xbshhm",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/AskReddit",
+      "headline": "Trump recently stated he’d direct the DOJ to settle Camp Lejeune claims if the GOP wins the midterms, adding: “If we don’t win, there’s no money.” Question: To the US Veterans, what are your thoughts on a president tying Camp Lejeune settlement payouts directly to midterm election outcomes?",
+      "context": "In a bold move, Trump suggests tying Camp Lejeune settlement payouts to election outcomes—because veterans deserve their justice, but only if the GOP wins.",
+      "takeaways": [
+        "Legitimate claims shouldn't hinge on election results.",
+        "Many believe Trump's approach feels like bribery.",
+        "Veterans express deep frustration over the handling of settlements."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "6.3K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xbshhm/trump_recently_stated_hed_direct_the_doj_to/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "特朗普最近表示，如果共和党赢得中期选举，他将指示司法部解决坎普·勒琼的索赔，补充道：“如果我们不赢，就没有钱。”",
+          "context": "特朗普大胆提出将坎普·勒琼的赔偿与选举结果挂钩——因为退伍军人理应获得公正，但这要看共和党是否胜利。",
+          "takeaways": [
+            "合法索赔不应依赖于选举结果。",
+            "许多人认为特朗普的做法像贿赂。",
+            "退伍军人对索赔处理表示深切不满。"
+          ],
+          "trendLabel": "6.3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xc2r8n",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "Can we ban running clubs from Katy trail?",
+      "context": "A running club takes over the Katy Trail, leaving a trail of chaos and confusion in their wake. Is it time for a ban?",
+      "takeaways": [
+        "Feedback to organizers could improve trail etiquette for large groups.",
+        "Banning running clubs might not be the most effective solution.",
+        "Katy Trail is already crowded, adding to the frustration."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "265 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xc2r8n/can_we_ban_running_clubs_from_katy_trail/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "我们可以禁止跑步俱乐部在凯蒂小径上活动吗？",
+          "context": "一个跑步俱乐部占领了凯蒂小径，留下混乱和困惑。是时候考虑禁令了吗？",
+          "takeaways": [
+            "向组织者反馈可以改善大型团体的路径礼仪。",
+            "禁止跑步俱乐部可能不是最有效的解决方案。",
+            "凯蒂小径已经很拥挤，增加了人们的沮丧感。"
+          ],
+          "trendLabel": "265 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xc2aaj",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Bypass the shitty hotel TVs",
+      "context": "Tired of hotel TVs that seem stuck in the past? Discover how a tiny device can save your sanity on the road.",
+      "takeaways": [
+        "Some hotel TVs lack HDMI inputs, making streaming tricky.",
+        "Hotel Wi-Fi can ruin your streaming experience with poor connections.",
+        "Motion smoothing on hotel TVs can be unbearable, making devices like tablets preferable."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "0 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xc2aaj/lpt_bypass_the_shitty_hotel_tvs/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：绕过糟糕的酒店电视",
+          "context": "厌倦了似乎停留在过去的酒店电视？发现一个小设备如何在旅途中拯救你的理智。",
+          "takeaways": [
+            "一些酒店电视缺少HDMI输入，导致流媒体播放困难。",
+            "酒店的Wi-Fi可能会因网络差而毁掉你的流媒体体验。",
+            "酒店电视上的运动平滑功能可能令人难以忍受，使用平板电脑更可取。"
+          ],
+          "trendLabel": "0 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xc59nj",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that blue jay feathers contain no blue pigment. Their color comes from microscopic structures that scatter blue light. Crushing the feather destroys those structures, causing the blue appearance to disappear.",
+      "context": "Turns out, blue jays aren't blue because of pigments; they're just showing off their structural color like nature's own optical illusion.",
+      "takeaways": [
+        "Many blue animals achieve their color through structural color rather than pigment.",
+        "The blue sky results from similar light scattering techniques.",
+        "Iridescence is common in various birds and insects."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.7K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xc59nj/til_that_blue_jay_feathers_contain_no_blue/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "让我知道：蓝松鸦的羽毛并不含蓝色颜料。",
+          "context": "原来，蓝松鸦并不是因为颜料而是通过结构色来展现它们的蓝色，就像大自然的光学幻觉。",
+          "takeaways": [
+            "许多蓝色动物通过结构色而非颜料来实现它们的颜色。",
+            "蓝天的形成与类似的光散射技术有关。",
+            "光彩夺目的特性在各种鸟类和昆虫中很常见。"
+          ],
+          "trendLabel": "2.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xbvjcb",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/AskReddit",
+      "headline": "TMZ reported - Trump’s approval hits a record low 31%, as gas prices and the economy weigh on voters ahead of the Nov. 3 midterms. How do you feel about the current state of this administration?",
+      "context": "Despite a record low approval rating, a surprising 31% still support the administration. What gives?",
+      "takeaways": [
+        "Many are baffled by the approval rating not being lower.",
+        "A significant portion of Americans seems to struggle with basic comprehension.",
+        "The question remains: who exactly are the 31% supporting this administration?"
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xbvjcb/tmz_reported_trumps_approval_hits_a_record_low_31/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "TMZ报道 - 特朗普的支持率创下31%的新低，油价和经济问题影响选民，11月3日中期选举在即。你对当前政府的状况怎么看？",
+          "context": "尽管支持率创下新低，仍有31%的人支持该政府。这是为什么呢？",
+          "takeaways": [
+            "很多人对支持率没有更低感到困惑。",
+            "相当一部分美国人似乎在基本理解上存在困难。",
+            "问题是：到底是谁在支持这31%的政府？"
+          ],
+          "trendLabel": "3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xc69vk",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL of the Grāpple, a discontinued brand of apples soaked in concentrated grape flavouring (methyl anthralinate) to artificially make the flesh taste like grapes.",
+      "context": "Ever bitten into an apple that tastes like candy? Meet the Grāpple, a fruit that dared to defy nature's flavor rules.",
+      "takeaways": [
+        "Grāpple tasted like grape candy, creating a unique experience for apple lovers.",
+        "Many assumed Grāpple was a result of genetic engineering rather than flavoring.",
+        "Cotton-candy flavored grapes have emerged as an interesting alternative."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.9K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xc69vk/til_of_the_grāpple_a_discontinued_brand_of_apples/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "TIL关于Grāpple，一种用浓缩葡萄香精浸泡的苹果品牌，旨在让果肉尝起来像葡萄。",
+          "context": "曾经咬过一口尝起来像糖果的苹果吗？来认识一下Grāpple，这种水果挑战了自然的味道规则。",
+          "takeaways": [
+            "Grāpple尝起来像葡萄糖果，为苹果爱好者创造了独特的体验。",
+            "许多人认为Grāpple是基因工程的结果，而非调味。",
+            "棉花糖味的葡萄成为了一种有趣的替代品。"
+          ],
+          "trendLabel": "1.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xbzqmk",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "What's your proudest \"I saw that movie in theaters during its original run\" achievement?",
+      "context": "Reliving the excitement of blockbuster films, some Redditors share their pride in witnessing cinematic history during its original theatrical releases.",
+      "takeaways": [
+        "Experiencing iconic films like Star Wars and The Matrix without prior hype can be unforgettable.",
+        "Many cherish the nostalgia of seeing classics like Back To The Future in theaters.",
+        "The thrill of watching major releases like Independence Day and Jurassic Park remains a fond memory."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.5K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xbzqmk/whats_your_proudest_i_saw_that_movie_in_theaters/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "你最自豪的“我在原始上映期间看过那部电影”成就是什么？",
+          "context": "重温热门电影的兴奋感，一些Reddit用户分享了他们在原始电影上映期间见证电影历史的自豪感。",
+          "takeaways": [
+            "像《星球大战》和《黑客帝国》这样的经典电影在没有预期的情况下观看是难以忘怀的。",
+            "许多人珍惜在影院观看《回到未来》等经典影片的怀旧情感。",
+            "观看《独立日》和《侏罗纪公园》等重大上映作品的刺激感仍然是美好的回忆。"
+          ],
+          "trendLabel": "1.5K 赞"
+        }
+      }
+    }
+  ]
+}
