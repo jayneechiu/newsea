@@ -1,4 +1,4 @@
-export type FeedLane = "for-you" | "everyone" | "dallas" | "other-worlds";
+export type FeedLane = "live" | "for-you" | "everyone" | "dallas" | "other-worlds";
 
 export type CardType =
   | "trend"
@@ -33,4 +33,11 @@ export interface ContentCard {
   imageUrl?: string;
   coverEmoji?: string;
   sources: CardSource[];
+  /** Translated copy, e.g. i18n.zh; missing fields fall back to English. */
+  i18n?: { zh?: Partial<Pick<ContentCard, "eyebrow" | "headline" | "context" | "takeaways" | "trendLabel" | "emailTeaser">> };
+}
+
+export interface LiveSnapshot {
+  updatedAt: string;
+  cards: ContentCard[];
 }

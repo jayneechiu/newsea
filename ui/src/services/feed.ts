@@ -1,7 +1,7 @@
 import apiClient from "./api";
 import demoCardsJson from "@/data/demo-cards.json";
 import demoRefreshCardsJson from "@/data/demo-refresh-cards.json";
-import type { ContentCard, FeedLane } from "@/types/content";
+import type { ContentCard, FeedLane, LiveSnapshot } from "@/types/content";
 
 const demoCards = demoCardsJson as ContentCard[];
 // Extra preview cards revealed by the refresh button so the demo feels live.
@@ -12,7 +12,18 @@ const CARD_CACHE_KEY = "newsea:feed-card-cache";
 
 export interface FeedResult {
   cards: ContentCard[];
-  source: "api" | "mock" | "fallback";
+  source: "api" | "mock" | "fallback" | "live";
+}
+
+let liveSnapshot: Promise<LiveSnapshot | null> | undefined;
+
+/** Static Reddit snapshot refreshed by .github/workflows/live-snapshot.yml; null when not deployed. */
+export function getLiveSnapshot(): Promise<LiveSnapshot | null> {
+  liveSnapshot ??= fetch(`${import.meta.env.BASE_URL}live/live-cards.json`)
+    .then((response) => (response.ok ? (response.json() as Promise<LiveSnapshot>) : null))
+    .then((snapshot) => (snapshot?.cards?.length ? snapshot : null))
+    .catch(() => null);
+  return liveSnapshot;
 }
 
 const cardsForLane = (lane: FeedLane, refreshRound = 0) => {
@@ -57,6 +68,12 @@ export function getRelatedContentCards(card: ContentCard, limit = 4): ContentCar
 }
 
 export async function getContentFeed(lane: FeedLane, refreshRound = 0): Promise<FeedResult> {
+  if (lane === "live") {
+    const cards = (await getLiveSnapshot())?.cards ?? [];
+    cacheCards(cards);
+    return { cards, source: "live" };
+  }
+
   if (import.meta.env.VITE_USE_MOCK_DATA === "true") {
     const cards = cardsForLane(lane, refreshRound);
     cacheCards(cards);

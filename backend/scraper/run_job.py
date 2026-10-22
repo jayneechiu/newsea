@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Standalone scraper job entry point (moved to app/backend/scraper)
-Usage: python app/backend/scraper/run_job.py [--test]
+Usage: python -m backend.scraper.run_job [--test] [--no-send] [--force-resend]
 """
 
 import sys
@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 
-def run_scraper_job(test_mode=False, force_resend=False):
+def run_scraper_job(test_mode=False, force_resend=False, no_send=False):
     start_time = datetime.now()
     logger.info("=== Starting scraper job ===")
     try:
@@ -69,6 +69,9 @@ def run_scraper_job(test_mode=False, force_resend=False):
         selected_posts = package["posts"]
         editor_words = package["editor_words"]
         draft = db.create_newsletter_draft(package)
+        if no_send:
+            logger.info(f"--no-send: saved draft {draft['id']} without emailing anyone")
+            return
         logger.info("Sending newsletter...")
         recipients = db.get_approved_newsletter_recipients()
         if not recipients:
@@ -97,4 +100,5 @@ def run_scraper_job(test_mode=False, force_resend=False):
 if __name__ == "__main__":
     test_mode = "--test" in sys.argv
     force_resend = "--force-resend" in sys.argv
-    run_scraper_job(test_mode=test_mode, force_resend=force_resend)
+    no_send = "--no-send" in sys.argv
+    run_scraper_job(test_mode=test_mode, force_resend=force_resend, no_send=no_send)

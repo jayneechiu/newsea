@@ -14,6 +14,7 @@
     "communityCount": 3,
     "trendLabel": "Fresh this hour",
     "coverEmoji": "🚗",
+    "i18n": {"zh": {"eyebrow": "达拉斯通勤话题", "headline": "达拉斯通勤者把出发时间精确到分钟，而不是小时", "context": "通勤话题现在交换每条高速公路的准确出发时间，而不是一般建议。", "takeaways": ["提前十分钟出发，75号和635号高速常能节省二十分钟。", "早上的收费公路占优势，但晚上就不行了。", "混合时间表让周二到周四真正成了高峰期。"], "trendLabel": "刚刚更新"}},
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/askdfw", "url": "https://www.reddit.com/r/askdfw/"}]
   },
   {
@@ -31,6 +32,7 @@
     "communityCount": 3,
     "trendLabel": "Most discussed at work",
     "coverEmoji": "☕",
+    "i18n": {"zh": {"eyebrow": "柜台背后", "headline": "咖啡师表示，最简单的常客总是以同样的方式点同样的饮品", "context": "咖啡工作者更关心的是订单是否可预测，而不是复杂程度。", "takeaways": ["先说杯子大小几乎能加快每个订单的速度。", "修改较多的手机订单比长饮品更容易拖慢排队速度。", "一致的订单往往在你到达收银台前就已经开始了。"], "trendLabel": "工作中讨论最多"}},
     "sources": [{"label": "r/barista", "url": "https://www.reddit.com/r/barista/"}]
   },
   {
@@ -48,6 +50,7 @@
     "communityCount": 4,
     "trendLabel": "Saved repeatedly",
     "coverEmoji": "🐷",
+    "i18n": {"zh": {"eyebrow": "养成的理财习惯", "headline": "人们保持的预算习惯是为烦人的开支单独设立资金", "context": "与其严格分类预算，不如每月留出钱用于汽车维修、礼物和续费。", "takeaways": ["为每个基金命名，像是已经花掉了一样。", "年度订阅到期时有预先资金，心理感觉轻松。", "小额自动转账胜过一次性大额决策。"], "trendLabel": "反复存钱"}},
     "sources": [{"label": "r/personalfinance", "url": "https://www.reddit.com/r/personalfinance/"}, {"label": "r/ynab", "url": "https://www.reddit.com/r/ynab/"}]
   },
   {
@@ -65,6 +68,7 @@
     "communityCount": 3,
     "trendLabel": "Shared across shifts",
     "coverEmoji": "🌙",
+    "i18n": {"zh": {"eyebrow": "在另一个工作中", "headline": "夜班护士像排班一样规划餐食", "context": "一致的建议是按计划用餐，而不是在夜间零食不断。", "takeaways": ["班前吃一顿正餐，可以避免凌晨3点的自动售货机晚餐。", "高蛋白的零食比糖类更能保持清醒。", "遮光窗帘和固定的睡眠时间比咖啡因的摄入时机更重要。"], "trendLabel": "跨班共享"}},
     "sources": [{"label": "r/nursing", "url": "https://www.reddit.com/r/nursing/"}]
   },
   {
@@ -82,6 +86,7 @@
     "communityCount": 3,
     "trendLabel": "Seasonal favorite",
     "coverEmoji": "🎡",
+    "i18n": {"zh": {"eyebrow": "达拉斯季节热潮", "headline": "州博会老手推荐四人分享一道炸物", "context": "当地人说，评判新博会美食的最佳方法是分小份尝试更多菜品。", "takeaways": ["工作日的下午能避开大部分长队。", "和一群人一起可以让大家尝试更多菜品。", "经典玉米热狗在重复投票中仍然胜过大多数新奇菜品。"], "trendLabel": "季节最爱"}},
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}]
   },
   {
@@ -99,6 +104,7 @@
     "communityCount": 2,
     "trendLabel": "Quiet expertise",
     "coverEmoji": "🌦️",
+    "i18n": {"zh": {"eyebrow": "另一个工作的内幕", "headline": "农民查看三个天气来源，因为没有单一的预报值得完全信任", "context": "农业讨论将天气预报视为比较练习，而不是单一的应用。", "takeaways": ["每小时降雨时间比每日百分比更重要。", "地方合作社的报告常常优于全国应用的霜冻预警。", "一个简单的雨量计仍然是人们检查预报是否准确的方式。"], "trendLabel": "沉默的专业知识"}},
     "sources": [{"label": "r/farming", "url": "https://www.reddit.com/r/farming/"}, {"label": "r/agriculture", "url": "https://www.reddit.com/r/agriculture/"}]
   },
   {
@@ -116,6 +122,7 @@
     "communityCount": 4,
     "trendLabel": "Rising this week",
     "coverEmoji": "🎮",
+    "i18n": {"zh": {"eyebrow": "游戏社区", "headline": "成年人更喜欢可以在二十分钟后放下的游戏", "context": "推荐帖更倾向于短时段和无失败进度，而不是漫长的战役。", "takeaways": ["自动保存和短循环比画面更重要。", "舒适的农场和解谜游戏占据了推荐榜。", "人们希望完成一局而不感到落后。"], "trendLabel": "本周上升中"}},
     "sources": [{"label": "r/CozyGamers", "url": "https://www.reddit.com/r/CozyGamers/"}, {"label": "r/gaming", "url": "https://www.reddit.com/r/gaming/"}]
   },
   {
@@ -133,6 +140,7 @@
     "communityCount": 3,
     "trendLabel": "Most useful answer",
     "coverEmoji": "📝",
+    "i18n": {"zh": {"eyebrow": "简化的生产力", "headline": "人们坚持使用的待办系统是两个清单：今天做，和不是今天做", "context": "在尝试复杂应用后，很多人选择了一个可以在几秒钟内回顾的简单分类。", "takeaways": ["今天的列表保持足够短，便于完成。", "其他事项静静等待，不会产生负罪感。", "每周五分钟的回顾在两个列表间移动项目。"], "trendLabel": "最有用的答案"}},
     "sources": [{"label": "r/productivity", "url": "https://www.reddit.com/r/productivity/"}]
   },
   {
@@ -150,6 +158,7 @@
     "communityCount": 3,
     "trendLabel": "A shared classroom shift",
     "coverEmoji": "🍎",
+    "i18n": {"zh": {"eyebrow": "教师解答", "headline": "教师表示，学生在几乎所有事情之前都要问“这个有评分吗？”", "context": "教育工作者描述学生在评估每项任务时考虑其是否计入成绩。", "takeaways": ["低风险练习在被视为准备时效果更佳。", "可见的进度追踪比单纯的分数更能激励人。", "当个人努力被认可时，小组工作感觉风险更小。"], "trendLabel": "课堂共享转变"}},
     "sources": [{"label": "r/Teachers", "url": "https://www.reddit.com/r/Teachers/"}]
   },
   {
@@ -167,6 +176,7 @@
     "communityCount": 3,
     "trendLabel": "Local recommendation pattern",
     "coverEmoji": "🏃",
+    "i18n": {"zh": {"eyebrow": "达拉斯周末计划", "headline": "达拉斯跑者们在日出时分跑步圈", "context": "当地健身讨论区推荐在早上8点之前选择阴凉小径，而不是健身房的跑步机。", "takeaways": ["凯蒂小径和白岩湖是推荐的热门选择。", "早起意味着更容易停车和更凉爽的空气。", "团体跑步是新来者认识这个城市的好方式。"], "trendLabel": "地方推荐趋势"}},
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/running", "url": "https://www.reddit.com/r/running/"}]
   },
   {
@@ -184,6 +194,7 @@
     "communityCount": 4,
     "trendLabel": "Under an hour",
     "coverEmoji": "🥕",
+    "i18n": {"zh": {"eyebrow": "厨房捷径", "headline": "餐前准备者用一小时的烤盘替代了周日的烹饪马拉松", "context": "人们不断报告说，简单的一次性批量烹饪胜过他们周三就放弃的雄心勃勃的准备计划。", "takeaways": ["一种蛋白质，两种蔬菜和一种酱料覆盖大部分一周。", "每天混合酱料让剩菜不再单调。", "半张烤盘是最推荐的实惠升级。"], "trendLabel": "一小时内完成"}},
     "sources": [{"label": "r/MealPrepSunday", "url": "https://www.reddit.com/r/MealPrepSunday/"}, {"label": "r/Cooking", "url": "https://www.reddit.com/r/Cooking/"}]
   },
   {
@@ -201,6 +212,7 @@
     "communityCount": 2,
     "trendLabel": "Hidden community favorite",
     "coverEmoji": "🚚",
+    "i18n": {"zh": {"eyebrow": "公路生活", "headline": "长途司机交换足够的有声书系列，陪伴他们横跨全国的旅程", "context": "卡车论坛展示了司机们如何根据路程时长选择故事。", "takeaways": ["多部曲奇幻系列是最受欢迎的类型。", "图书馆应用每年为司机节省数百美元。", "在过夜路线中，旁白质量比情节更重要。"], "trendLabel": "隐秘的社区最爱"}},
     "sources": [{"label": "r/Truckers", "url": "https://www.reddit.com/r/Truckers/"}, {"label": "r/audiobooks", "url": "https://www.reddit.com/r/audiobooks/"}]
   }
 ]

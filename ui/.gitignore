@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Live Reddit snapshot: built by .github/workflows/live-snapshot.yml, stored on the live-data branch
+public/live/

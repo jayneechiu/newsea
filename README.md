@@ -6,9 +6,11 @@
 
 [![Newsea demo: a four-lane visual feed of Reddit signal cards](docs/images/demo-desktop.png)](https://jayneechiu.github.io/newsea/)
 
-> **Preview data:** the live demo is a static frontend build (`npm run build:demo` in `ui/`) that
-> uses bundled sample cards from `ui/src/data/demo-cards.json`. Login is simulated, and the demo
-> does not call Reddit, OpenAI, or the backend, so newsletter sign-up and admin actions are inactive.
+> **Preview data:** the live demo is a static frontend build (`npm run build:demo` in `ui/`). Most
+> lanes use bundled sample cards from `ui/src/data/demo-cards.json`; the **Live from Reddit** lane
+> shows a real snapshot refreshed every two days (see [Live data on a static site](#live-data-on-a-static-site)).
+> Login is simulated and there is no hosted backend, so newsletter sign-up and admin actions are
+> inactive. Use the **中文 / EN** toggle to switch languages.
 
 Newsea turns high-signal Reddit conversations into a visual, continuously
 scrollable feed. Instead of sending people through clickbait headlines and long
@@ -160,12 +162,55 @@ cd ui
 npm run dev
 ```
 
-The frontend requests `/api/feed`. Until the new feed endpoint is connected to
-the database, an unavailable or empty response automatically falls back to the
+Pull fresh Reddit posts into the database without emailing anyone:
+
+```bash
+python -m backend.scraper.run_job --no-send
+```
+
+The frontend requests `/api/feed`, which builds cards from the most recent
+saved drafts. An unavailable or empty response automatically falls back to the
 local preview cards instead of showing an empty page.
 
 See [Local development](docs/local-development.md) for environment modes and
 additional commands.
+
+## Live data on a static site
+
+The public demo has no server or database, yet its **Live from Reddit** lane shows
+real threads. It uses the "git scraping" / [Flat Data](https://githubnext.com/projects/flat-data/)
+pattern: a scheduled job fetches data, stores it as a flat JSON file, and the static
+site reads that file.
+
+```text
+GitHub Actions cron (every 2 days, .github/workflows/live-snapshot.yml)
+    ↓
+Reddit API (read-only app auth) → hot threads + top comments
+    ↓
+one OpenAI call per thread → English + Chinese teaser and takeaways
+    ↓
+live-cards.json → force-pushed to the single-commit `live-data` branch
+    ↓
+pages.yml copies it to /live/live-cards.json → Live lane in the UI
+```
+
+- **Why every two days:** the demo needs to feel current, not real time. A slow
+  cadence keeps OpenAI tokens (~12 short calls per run, under $0.10/month on
+  `gpt-4o-mini`) and Reddit API usage tiny.
+- **Bilingual in one call:** the same request returns English and Chinese copy,
+  so the language toggle needs no translation service.
+- **Safe failure:** if Reddit or OpenAI fails, cards fall back to raw post text and
+  comments; if no cards are built, the previous snapshot stays live. Without a
+  snapshot the Live lane is simply hidden.
+- **Secrets:** `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET` and an optional
+  `OPENAI_API_KEY` (use a dedicated, budget-capped key) live in the
+  `content-refresh` environment, restricted to the default branch.
+
+Build a snapshot locally (written to the gitignored `ui/public/live/`):
+
+```bash
+python -m backend.scraper.build_live_snapshot --out ui/public/live/live-cards.json
+```
 
 ## ContentCard contract
 
@@ -196,7 +241,9 @@ or free-form AI summary:
 ```
 
 This contract lets the UI remain stable while content generation evolves from
-curated fixtures to a real ingestion, ranking, and enrichment pipeline.
+curated fixtures to a real ingestion, ranking, and enrichment pipeline. An optional
+`i18n.zh` object holds translated `headline`, `context`, `takeaways` and similar
+copy; missing fields fall back to English.
 
 ## Architecture
 
@@ -231,7 +278,8 @@ FastAPI /api/feed
 
 ### Working now
 
-- Four-lane visual feed.
+- Four-lane visual feed, plus a **Live from Reddit** lane refreshed every two days.
+- English / Chinese language toggle.
 - Responsive masonry-style layout.
 - Structured, type-safe content cards.
 - Inline expansion with source links.
@@ -255,7 +303,8 @@ FastAPI /api/feed
 1. Add PostgreSQL Schema V3 tables for comments, metric snapshots,
    `content_cards`, card sources, and interaction events.
 2. Generate schema-validated card JSON from posts and high-signal comments.
-3. Implement `/api/feed` for Everyone, Dallas, Other worlds, and For you.
+3. Implement `/api/feed` for Everyone, Dallas, Other worlds, and For you
+   (first version reads recent drafts; move to `content_cards` with Schema V3).
 4. Add candidate quality, velocity, novelty, repetition, and safety scoring.
 5. Deploy the frontend and backend behind a public recruiter-friendly URL.
 6. Add smoke tests, monitoring, and a curated production fallback dataset.

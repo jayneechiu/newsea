@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Newsletter from "./pages/Newsletter";
 import NewsletterAdmin from "./pages/NewsletterAdmin";
 import SignalDetail from "./pages/SignalDetail";
+import { useI18n } from "./i18n";
 
 // 简单的认证检查
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
@@ -15,13 +16,14 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 
 function App() {
   useLocation(); // re-render on navigation so login/logout state is re-read
+  const { t } = useI18n();
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
 
   return (
     <>
       {import.meta.env.VITE_USE_MOCK_DATA === "true" && (
         <div className="bg-newsea-primary px-4 py-1.5 text-center text-xs font-semibold text-white sm:text-sm">
-          Demo mode
+          {t("demoMode")}
         </div>
       )}
       <Routes>

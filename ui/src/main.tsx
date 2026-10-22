@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
+import { LanguageProvider } from "./i18n";
 import "./index.css";
 
 // Restore the deep link that the GitHub Pages 404 page (demo-404.html) redirected from.
@@ -14,7 +15,9 @@ if (pagesRedirect) {
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-      <App />
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

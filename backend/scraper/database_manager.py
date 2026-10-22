@@ -358,6 +358,17 @@ class DatabaseManager:
         finally:
             cursor.close()
 
+    def get_recent_newsletter_drafts(self, limit: int = 5) -> List[Dict]:
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                "SELECT id, posts, created_at FROM newsletter_drafts ORDER BY created_at DESC LIMIT %s",
+                (limit,),
+            )
+            return [dict(row) for row in cursor.fetchall()]
+        finally:
+            cursor.close()
+
     def update_newsletter_draft_status(self, draft_id: str, status: str) -> None:
         if status not in {"draft", "sending", "sent", "failed"}:
             raise ValueError("Invalid newsletter draft status")

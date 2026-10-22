@@ -11,8 +11,10 @@ import {
 } from "lucide-react";
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import ContentCard from "@/components/ContentCard";
+import LanguageToggle from "@/components/LanguageToggle";
 import SignalCover from "@/components/SignalCover";
-import { getContentCardById, getRelatedContentCards } from "@/services/feed";
+import { localizeCard, useI18n } from "@/i18n";
+import { getContentCardById, getLiveSnapshot, getRelatedContentCards } from "@/services/feed";
 import {
   HIDDEN_CARDS_KEY,
   LIKED_CARDS_KEY,
@@ -31,25 +33,45 @@ export default function SignalDetail() {
   const { cardId = "" } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
+  const { lang, t } = useI18n();
   const routeCard = (location.state as SignalLocationState | null)?.card;
-  const card = routeCard?.id === cardId ? routeCard : getContentCardById(cardId);
+  const knownCard = routeCard?.id === cardId ? routeCard : getContentCardById(cardId);
+  // Deep links to live cards in a fresh session are not cached yet; look them up in the snapshot.
+  const [liveLookup, setLiveLookup] = useState<{ id: string; card?: ContentCardModel }>();
+  const rawCard = knownCard ?? (liveLookup?.id === cardId ? liveLookup.card : undefined);
+  const card = rawCard ? localizeCard(rawCard, lang) : undefined;
   const [liked, setLiked] = useState(() => readStoredIds(LIKED_CARDS_KEY).includes(cardId));
   const [saved, setSaved] = useState(() => readStoredIds(SAVED_CARDS_KEY).includes(cardId));
-  const related = useMemo(() => (card ? getRelatedContentCards(card) : []), [card]);
+  const related = useMemo(() => (rawCard ? getRelatedContentCards(rawCard) : []), [rawCard]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [cardId]);
+
+  useEffect(() => {
+    if (knownCard) return;
+    let active = true;
+    void getLiveSnapshot().then((snapshot) => {
+      if (active) setLiveLookup({ id: cardId, card: snapshot?.cards.find((item) => item.id === cardId) });
+    });
+    return () => {
+      active = false;
+    };
+  }, [cardId, knownCard]);
+
+  if (!card && liveLookup?.id !== cardId) {
+    return <main className="min-h-screen bg-[#f4f1e9]" aria-busy="true" />;
+  }
 
   if (!card) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-[#f4f1e9] px-6 text-center">
         <div>
           <div className="text-5xl">🌊</div>
-          <h1 className="mt-5 text-3xl font-black tracking-tight">This signal drifted away.</h1>
-          <p className="mt-2 text-slate-500">It may have expired from this session.</p>
+          <h1 className="mt-5 text-3xl font-black tracking-tight">{t("driftedTitle")}</h1>
+          <p className="mt-2 text-slate-500">{t("driftedBody")}</p>
           <Link to="/" className="mt-6 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white">
-            Back to the feed
+            {t("backToFeed")}
           </Link>
         </div>
       </main>
@@ -84,21 +106,24 @@ export default function SignalDetail() {
             <span className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-950/15 bg-white">
               <ArrowLeft className="h-4 w-4" />
             </span>
-            <span className="hidden sm:inline">Back to signals</span>
+            <span className="hidden sm:inline">{t("backToSignals")}</span>
           </Link>
           <Link to="/" className="flex items-center gap-2 font-black tracking-[-0.04em]">
             <Waves className="h-5 w-5" />
             newsea
           </Link>
-          <button
-            type="button"
-            onClick={hideSignal}
-            className="inline-flex h-9 items-center gap-2 rounded-full border border-slate-950/15 bg-white px-3 text-xs font-bold text-slate-600 transition hover:text-slate-950"
-            aria-label="Show fewer signals like this"
-          >
-            <EyeOff className="h-4 w-4" />
-            <span className="hidden sm:inline">Less like this</span>
-          </button>
+          <div className="flex items-center gap-2">
+            <LanguageToggle />
+            <button
+              type="button"
+              onClick={hideSignal}
+              className="inline-flex h-9 items-center gap-2 rounded-full border border-slate-950/15 bg-white px-3 text-xs font-bold text-slate-600 transition hover:text-slate-950"
+              aria-label={t("lessLikeThis")}
+            >
+              <EyeOff className="h-4 w-4" />
+              <span className="hidden sm:inline">{t("lessLikeThis")}</span>
+            </button>
+          </div>
         </div>
       </header>
 
@@ -116,20 +141,20 @@ export default function SignalDetail() {
                     onClick={toggleLike}
                     className={`detail-action ${liked ? "detail-action-active" : ""}`}
                     aria-pressed={liked}
-                    aria-label={liked ? "Unlike signal" : "Like signal"}
+                    aria-label={liked ? t("unlikeSignal") : t("likeSignal")}
                   >
                     <Heart className="h-5 w-5" fill={liked ? "currentColor" : "none"} />
-                    <span>{liked ? "Liked" : "Like"}</span>
+                    <span>{liked ? t("liked") : t("like")}</span>
                   </button>
                   <button
                     type="button"
                     onClick={toggleSaved}
                     className={`detail-action ${saved ? "detail-action-active" : ""}`}
                     aria-pressed={saved}
-                    aria-label={saved ? "Remove signal from saved" : "Save signal"}
+                    aria-label={saved ? t("removeSaved") : t("saveSignal")}
                   >
                     <Bookmark className="h-5 w-5" fill={saved ? "currentColor" : "none"} />
-                    <span>{saved ? "Saved" : "Save"}</span>
+                    <span>{saved ? t("saved") : t("save")}</span>
                   </button>
                 </div>
               </div>
@@ -143,11 +168,11 @@ export default function SignalDetail() {
 
               <div className="mt-7 flex flex-wrap gap-3 border-y border-slate-950/10 py-5 text-xs font-black uppercase tracking-[0.1em] text-slate-500">
                 <span className="inline-flex items-center gap-2"><Sparkles className="h-4 w-4" />{card.trendLabel}</span>
-                <span className="inline-flex items-center gap-2"><Layers3 className="h-4 w-4" />{card.communityCount} communities · {card.sourceCount} sources</span>
+                <span className="inline-flex items-center gap-2">                <Layers3 className="h-4 w-4" />{t("communitiesSources", { communities: card.communityCount, sources: card.sourceCount })}</span>
               </div>
 
               <section className="mt-9">
-                <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Why it matters</p>
+                                <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">{t("whyItMatters")}</p>
                 <ol className="mt-5 space-y-4">
                   {card.takeaways.map((takeaway, index) => (
                     <li key={takeaway} className="flex gap-4 rounded-2xl bg-[#f4f1e9] p-4 text-base font-bold leading-6 sm:p-5">
@@ -160,7 +185,7 @@ export default function SignalDetail() {
 
               <section className="mt-10 grid gap-8 border-t border-slate-950/10 pt-8 sm:grid-cols-2">
                 <div>
-                  <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Communities sampled</p>
+                  <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">{t("communitiesSampled")}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     {card.sources.map((source) => (
                       <a key={source.url} href={source.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-slate-950 px-4 py-2.5 text-sm font-bold text-white">
@@ -170,7 +195,7 @@ export default function SignalDetail() {
                   </div>
                 </div>
                 <div>
-                  <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Filed under</p>
+                  <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">{t("filedUnder")}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     {card.topics.map((topic) => <span key={topic} className="rounded-full border border-slate-950/15 px-3 py-2 text-sm font-bold">#{topic}</span>)}
                   </div>
@@ -184,8 +209,8 @@ export default function SignalDetail() {
           <section className="mt-16">
             <div className="mb-6 flex items-end justify-between">
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500">Keep exploring</p>
-                <h2 className="mt-2 text-3xl font-black tracking-[-0.04em]">Signals with the same current</h2>
+                <p className="text-xs font-black uppercase tracking-[0.18em]                 text-slate-500">{t("keepExploring")}</p>
+                                <h2 className="mt-2 text-3xl font-black tracking-[-0.04em]">{t("sameCurrent")}</h2>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">

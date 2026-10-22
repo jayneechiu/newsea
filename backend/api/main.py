@@ -2,7 +2,7 @@
 Reddit Newsletter API - V2 FastAPI App
 Migrated into app/backend/api for unified backend.
 """
-from fastapi import FastAPI, HTTPException, BackgroundTasks, Header
+from fastapi import FastAPI, HTTPException, BackgroundTasks, Header, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, EmailStr, Field
 from typing import List, Optional
@@ -19,7 +19,9 @@ from backend.scraper.chatgpt_client import ChatGPTClient
 from backend.scraper.newsletter_sender import NewsletterSender
 from backend.scraper.newsletter_composer import NewsletterComposer
 from backend.scraper.database_manager import DatabaseManager
+from backend.api.feed_cards import LANES, build_feed
 
+FEED_DRAFT_WINDOW = 5
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -219,6 +221,20 @@ async def send_newsletter(
     except Exception as e:
         logger.error(f"Error sending newsletter: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/feed")
+async def get_feed(lane: str = "everyone", limit: int = Query(40, ge=1, le=100)):
+    """Content cards built from the most recent enriched Reddit drafts."""
+    if lane not in LANES:
+        raise HTTPException(status_code=400, detail=f"Unknown lane: {lane}")
+    if not db_manager:
+        raise HTTPException(status_code=503, detail="Database not initialized")
+    try:
+        drafts = db_manager.get_recent_newsletter_drafts(limit=FEED_DRAFT_WINDOW)
+    except Exception as e:
+        logger.error(f"Error building feed: {e}")
+        raise HTTPException(status_code=500, detail="Failed to load feed")
+    return {"cards": build_feed(drafts, lane, limit), "timestamp": datetime.now().isoformat()}
 
 @app.get("/api/newsletter/latest")
 async def get_latest_newsletter():

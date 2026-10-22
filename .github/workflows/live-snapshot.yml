@@ -1,0 +1,64 @@
+name: Refresh live Reddit snapshot
+
+# Every two days: fetch hot Reddit threads, write bilingual cards with one OpenAI call each,
+# store live-cards.json on the orphan `live-data` branch, then redeploy Pages.
+# Every two days (not hourly) keeps OpenAI tokens and Reddit API calls tiny; see README "Live data".
+on:
+  schedule:
+    - cron: "17 13 */2 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # force-push the single-commit live-data branch
+  actions: write # trigger pages.yml
+
+concurrency:
+  group: live-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    if: github.repository == 'jayneechiu/newsea'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # Secrets live in this protected environment; limit its deployment branches to the default branch.
+    environment: content-refresh
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install scraper dependencies
+        run: pip install praw requests python-dotenv
+
+      - name: Build snapshot
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: "web:newsea-live-snapshot:v1 (by /u/newsea-demo)"
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+          TARGET_SUBREDDITS: AskReddit,todayilearned,LifeProTips,Dallas
+          POSTS_LIMIT: "4"
+        run: python -m backend.scraper.build_live_snapshot --out live-data/live-cards.json --limit 12
+
+      - name: Publish to live-data branch
+        working-directory: live-data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git init -q -b live-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add live-cards.json
+          git commit -q -m "Live snapshot $(date -u +%F)"
+          # Single-commit branch, force-pushed: no history growth in main/dev.
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" live-data
+
+      - name: Redeploy Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh workflow run pages.yml --ref "${{ github.event.repository.default_branch }}"

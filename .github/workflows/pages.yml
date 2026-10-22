@@ -31,6 +31,14 @@ jobs:
           ref: dev
           path: dev
 
+      - name: Fetch live Reddit snapshot (optional)
+        run: |
+          if git -C dev fetch -q --depth 1 origin live-data; then
+            git -C dev show FETCH_HEAD:live-cards.json > live-cards.json
+          else
+            echo "No live-data branch yet; the Live lane stays hidden."
+          fi
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -71,6 +79,11 @@ jobs:
           fi
           # Pages only honours the top-level 404.html; it routes deep links to main or /dev/.
           cp dev/ui/dist/404.html site/404.html
+          if [ -f live-cards.json ]; then
+            mkdir -p site/live site/dev/live
+            cp live-cards.json site/live/
+            cp live-cards.json site/dev/live/
+          fi
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -15,6 +15,7 @@
     "trendLabel": "Rising this week",
     "imageUrl": "/images/signals/dallas-bbq.png",
     "emailTeaser": "Texas smoke met gochujang, and Dallas has apparently decided subtlety was never the assignment.",
+    "i18n": {"zh": {"eyebrow": "达拉斯的本地热潮", "headline": "韩式德州烧烤，成了达拉斯人反复点的那一单", "context": "本地美食讨论不断聚焦在同样的烟熏甜味交叉菜肴上。", "takeaways": ["短肋肉和辣椒酱胸肉引领推荐。", "快闪餐厅比精致的餐厅更受欢迎。", "当地人已经觉得超大份量的融合拼盘被过誉了。"], "trendLabel": "本周上升趋势", "emailTeaser": "德州烟熏遇上辣椒酱，达拉斯显然决定不走细腻路线。"}},
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/AskDFW", "url": "https://www.reddit.com/r/askdfw/"}]
   },
   {
@@ -33,6 +34,7 @@
     "trendLabel": "Cross-community breakout",
     "imageUrl": "/images/signals/bag-charms.png",
     "emailTeaser": "The cheapest object in the back-to-school haul is doing the most emotional heavy lifting.",
+    "i18n": {"zh": {"eyebrow": "青少年风格社区", "headline": "开学必备配饰，15美元以下的包饰", "context": "一个手工社区习惯在不到一周内渗透到服装和开学购物讨论中。", "takeaways": ["手工和不对称胜过奢侈品牌。", "人们在交换包饰，而不是购买全新的包包。", "个性化的吸引力保持在实惠的范围内。"], "trendLabel": "跨社区突破", "emailTeaser": "开学购物中最便宜的物品却承载着最多情感。"}},
     "sources": [{"label": "r/femalefashionadvice", "url": "https://www.reddit.com/r/femalefashionadvice/"}, {"label": "r/crafts", "url": "https://www.reddit.com/r/crafts/"}]
   },
   {
@@ -51,6 +53,7 @@
     "trendLabel": "2.8k voices",
     "imageUrl": "/images/signals/hotel-minibar.png",
     "emailTeaser": "Apparently a larger salary does not make the hotel minibar feel less like a personal insult.",
+    "i18n": {"zh": {"eyebrow": "高收入者的回答", "headline": "年入20万美元的人依然拒绝为这三样东西买单", "context": "收入改变了他们的便利消费观，但没有改变他们对糟糕交易的看法。", "takeaways": ["酒店迷你吧的价格依然令人反感。", "大多数人仍然避免为短途送餐支付额外费用。", "奢侈品的基本款不敌耐用、可替换的版本。"], "trendLabel": "2800个声音", "emailTeaser": "显然，更高的薪水并没有让酒店迷你吧感觉少了一丝个人侮辱。"}},
     "sources": [{"label": "r/personalfinance", "url": "https://www.reddit.com/r/personalfinance/"}, {"label": "r/HENRYfinance", "url": "https://www.reddit.com/r/HENRYfinance/"}]
   },
   {
@@ -69,6 +72,7 @@
     "trendLabel": "Most discussed at work",
     "imageUrl": "/images/signals/boarding-aisle.png",
     "emailTeaser": "The seatbelt sign is off; everyone’s social awareness may have left the aircraft earlier.",
+    "i18n": {"zh": {"eyebrow": "在另一份工作中", "headline": "空乘人员一致认为：登机礼仪越来越奇怪", "context": "抱怨的重点不再是行李，而是乘客忽视机舱的流动。", "takeaways": ["在过道停下来整理行李造成了最大的连锁反应。", "在大家安顿之前换座位会更容易。", "简单的问候让机组人员在后面更愿意提供帮助。"], "trendLabel": "工作中讨论最多", "emailTeaser": "安全带指示灯已关；大家的社交意识可能早已离开飞机。"}},
     "sources": [{"label": "r/flightattendants", "url": "https://www.reddit.com/r/flightattendants/"}]
   },
   {
@@ -86,6 +90,7 @@
     "communityCount": 7,
     "trendLabel": "Saved repeatedly",
     "coverEmoji": "🍼",
+    "i18n": {"zh": {"eyebrow": "互联网最佳答案", "headline": "新手父母希望有人能解释一下下午6点的重置", "context": "最有用的建议不是别的睡眠技巧，而是提前准备好家里在最艰难的时刻。", "takeaways": ["在晚上旋涡前重置瓶子、食物和洗衣", "与伴侣交换一个保护的小时，而不是分担每个任务", "降低除了睡眠和安全以外的一切标准"], "trendLabel": "多次保存"}},
     "sources": [{"label": "r/NewParents", "url": "https://www.reddit.com/r/NewParents/"}, {"label": "r/beyondthebump", "url": "https://www.reddit.com/r/beyondthebump/"}]
   },
   {
@@ -103,6 +108,7 @@
     "communityCount": 4,
     "trendLabel": "A shared culture shock",
     "coverEmoji": "💬",
+    "i18n": {"zh": {"eyebrow": "华人移民社区", "headline": "新来者最难理解的美国办公室习惯是友好的模糊性", "context": "人们发现，热情的语言并不总意味着已经做出决定。", "takeaways": ["“我们应该这样做”可能是鼓励，而不是任务。", "书面的跟进是软性对话转变为实际计划的方式。", "直接的反对往往伪装成一个问题。"], "trendLabel": "共同的文化冲击"}},
     "sources": [{"label": "r/immigration", "url": "https://www.reddit.com/r/immigration/"}, {"label": "r/AskAnAmerican", "url": "https://www.reddit.com/r/AskAnAmerican/"}]
   },
   {
@@ -120,6 +126,7 @@
     "communityCount": 5,
     "trendLabel": "Under $20",
     "coverEmoji": "🍳",
+    "i18n": {"zh": {"eyebrow": "值得购买", "headline": "人们只换一次的无聊厨房工具，结果用了几十年", "context": "一把简单的不锈钢台面刮刀总是在“什么真的耐用”帖子中出现。", "takeaways": ["没有铰链、马达或涂层，几乎没有什么能坏。", "人们用它来处理面团、蔬菜和清洁台面。", "最佳设计是带刻度的坚硬刀片。"], "trendLabel": "不到20美元"}},
     "sources": [{"label": "r/BuyItForLife", "url": "https://www.reddit.com/r/BuyItForLife/"}, {"label": "r/Cooking", "url": "https://www.reddit.com/r/Cooking/"}]
   },
   {
@@ -137,6 +144,7 @@
     "communityCount": 3,
     "trendLabel": "Seasonal behavior shift",
     "coverEmoji": "🌳",
+    "i18n": {"zh": {"eyebrow": "达拉斯生存指南", "headline": "当地人开始按阴凉而不是距离来安排夏日出行", "context": "推荐越来越多地将停车位、遮蔽走道和室内等候放在原始距离之上。", "takeaways": ["五分钟的阴凉步行胜过两分钟的暴露步行。", "室内取货区正在成为真正的忠诚特征。", "当地人像分享餐厅名称一样小心地分享停车场入口。"], "trendLabel": "季节性行为转变"}},
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/askdfw", "url": "https://www.reddit.com/r/askdfw/"}]
   },
   {
@@ -154,6 +162,7 @@
     "communityCount": 6,
     "trendLabel": "4.1k upvotes sampled",
     "coverEmoji": "🤝",
+    "i18n": {"zh": {"eyebrow": "AskReddit 精华", "headline": "成年人注意到的友谊绿旗：轻松的计划", "context": "最受欢迎的回答描述了那些让普通时光变得简单而非精彩的朋友。", "takeaways": ["他们会提出具体的约会，而不是说“随便找个时间”。", "他们能在安静的聚会中自得其乐，不需要娱乐。", "一个取消的计划不会成为对友谊的公投。"], "trendLabel": "4.1k 赞同"}},
     "sources": [{"label": "r/AskReddit", "url": "https://www.reddit.com/r/AskReddit/"}]
   },
   {
@@ -171,6 +180,7 @@
     "communityCount": 5,
     "trendLabel": "Consensus forming",
     "coverEmoji": "🧳",
+    "i18n": {"zh": {"eyebrow": "常旅客知道", "headline": "两晚的行程让随身行李优化失去意义", "context": "资深旅行者越来越倾向于减少决策，而不是追求最小的行李。", "takeaways": ["一个可重复的打包清单胜过聪明的折叠系统。", "个人物品只有在满载时保持舒适才有效。", "洗衣计划在第四天后比打包立方体更重要。"], "trendLabel": "共识形成"}},
     "sources": [{"label": "r/onebag", "url": "https://www.reddit.com/r/onebag/"}, {"label": "r/travel", "url": "https://www.reddit.com/r/travel/"}]
   },
   {
@@ -188,6 +198,7 @@
     "communityCount": 4,
     "trendLabel": "Local recommendation pattern",
     "coverEmoji": "📍",
+    "i18n": {"zh": {"eyebrow": "达拉斯约会之夜", "headline": "成功的达拉斯约会变成了三个小站，而不是一个预约", "context": "当地人正在组合可步行的小吃、活动和甜点。", "takeaways": ["比肖普艺术区和下格林维尔是热门路线建议。", "灵活的最后一站减轻了正式晚餐的压力。", "人们更看重方便停车，而不是照片好看的首个场地。"], "trendLabel": "本地推荐趋势"}},
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}]
   },
   {
@@ -205,6 +216,7 @@
     "communityCount": 6,
     "trendLabel": "Recruiter consensus",
     "coverEmoji": "💻",
+    "i18n": {"zh": {"eyebrow": "招聘经理答疑", "headline": "最强的初级作品集信号是一个有乏味限制的项目", "context": "招聘者表示，认证、失败状态和清晰的README比另一个炫酷的克隆更能暴露问题。", "takeaways": ["解释一个困难的权衡，而不是列出每种技术。", "公开的URL很重要，因为评审者很少会设置项目。", "展示API失败时的情况，而不仅仅是成功路径。"], "trendLabel": "招聘者共识"}},
     "sources": [{"label": "r/ExperiencedDevs", "url": "https://www.reddit.com/r/ExperiencedDevs/"}, {"label": "r/cscareerquestions", "url": "https://www.reddit.com/r/cscareerquestions/"}]
   },
   {
@@ -222,6 +234,7 @@
     "communityCount": 2,
     "trendLabel": "Three-part update",
     "coverEmoji": "🎂",
+    "i18n": {"zh": {"eyebrow": "Reddit上的故事", "headline": "邻里争执以调查、意外的通行权和一块道歉蛋糕结束", "context": "一起围栏争论演变成了一个罕见的更新，文件改善了双方的关系。", "takeaways": ["产权分界线与两位邻居的假设不同。", "双方都没有被迫进入昂贵的法律斗争。", "出乎意料的文明结局引发了比争执更多的讨论。"], "trendLabel": "三部分更新"}},
     "sources": [{"label": "r/BestofRedditorUpdates", "url": "https://www.reddit.com/r/BestofRedditorUpdates/"}]
   },
   {
@@ -239,6 +252,7 @@
     "communityCount": 4,
     "trendLabel": "Practical local pattern",
     "coverEmoji": "🛒",
+    "i18n": {"zh": {"eyebrow": "本地购物智慧", "headline": "达拉斯购物者通过两家商店分摊一次购物，省钱不靠优惠券", "context": "常见策略是先在一家店买日用品，再在另一家店买新鲜食品或特色商品。", "takeaways": ["人们更倾向于优化固定类别，而不是追逐每周特价。", "额外一站只有在正常通勤路线时才有优势。", "家庭日用品的省钱效果优于偶尔的批量购买。"], "trendLabel": "实用本地趋势"}},
     "sources": [{"label": "r/Dallas", "url": "https://www.reddit.com/r/Dallas/"}, {"label": "r/Frugal", "url": "https://www.reddit.com/r/Frugal/"}]
   },
   {
@@ -256,6 +270,7 @@
     "communityCount": 5,
     "trendLabel": "Most useful answer",
     "coverEmoji": "✅",
+    "i18n": {"zh": {"eyebrow": "首次担任管理者", "headline": "员工首先注意到的管理习惯是完成小承诺", "context": "人们会记得一个经理是否带着答案回来，即使答案是否定的。", "takeaways": ["在一对一中记录小承诺。", "在决策待定时，短暂更新胜过沉默。", "可靠性比持续可用性更能建立信任。"], "trendLabel": "最有用的回答"}},
     "sources": [{"label": "r/managers", "url": "https://www.reddit.com/r/managers/"}, {"label": "r/AskHR", "url": "https://www.reddit.com/r/AskHR/"}]
   },
   {
@@ -273,6 +288,7 @@
     "communityCount": 5,
     "trendLabel": "Spreading across hobbies",
     "coverEmoji": "🪡",
+    "i18n": {"zh": {"eyebrow": "跨界爱好", "headline": "可见修补将衣物修复变成社交爱好", "context": "那些从未学过缝纫的人，开始用故意明显的补丁，而不是隐形修补。", "takeaways": ["不完美消除了传统裁缝的恐惧感。", "修复圈让这项活动更像是书友会。", "有感情的衣物是入口，而非可持续性信息。"], "trendLabel": "跨界爱好持续蔓延"}},
     "sources": [{"label": "r/Visiblemending", "url": "https://www.reddit.com/r/Visiblemending/"}, {"label": "r/sewing", "url": "https://www.reddit.com/r/sewing/"}]
   }
 ]

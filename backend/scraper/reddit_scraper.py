@@ -19,14 +19,19 @@ class RedditScraper:
 
     def _initialize_reddit_client(self):
         try:
-            reddit = praw.Reddit(
-                client_id=self.config.get_reddit_client_id(),
-                client_secret=self.config.get_reddit_client_secret(),
-                user_agent=self.config.get_reddit_user_agent(),
-                username=self.config.get_reddit_username(),
-                password=self.config.get_reddit_password(),
-            )
-            reddit.user.me()
+            credentials = {
+                "client_id": self.config.get_reddit_client_id(),
+                "client_secret": self.config.get_reddit_client_secret(),
+                "user_agent": self.config.get_reddit_user_agent(),
+            }
+            username = self.config.get_reddit_username()
+            if username:
+                reddit = praw.Reddit(**credentials, username=username, password=self.config.get_reddit_password())
+                reddit.user.me()
+            else:
+                # Read-only app auth: no account password needed (used by the CI snapshot).
+                reddit = praw.Reddit(**credentials)
+                reddit.read_only = True
             logger.info("Reddit API connected successfully")
             return reddit
         except Exception as e:

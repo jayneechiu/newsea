@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Bookmark, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import SignalCover from "@/components/SignalCover";
+import { localizeCard, useI18n } from "@/i18n";
 import {
   recordInteraction,
   readStoredIds,
@@ -23,7 +24,9 @@ const themeClasses: Record<ContentCardModel["theme"], string> = {
   ink: "card-theme-ink",
 };
 
-export default function ContentCard({ card }: ContentCardProps) {
+export default function ContentCard({ card: rawCard }: ContentCardProps) {
+  const { lang, t } = useI18n();
+  const card = localizeCard(rawCard, lang);
   const [saved, setSaved] = useState(() => readStoredIds(SAVED_CARDS_KEY).includes(card.id));
 
   const toggleSaved = () => {
@@ -37,9 +40,9 @@ export default function ContentCard({ card }: ContentCardProps) {
     <article className={`content-card ${themeClasses[card.theme]}`}>
       <Link
         to={`/signals/${card.id}`}
-        state={{ card }}
+        state={{ card: rawCard }}
         className="block focus:outline-none focus-visible:ring-4 focus-visible:ring-slate-950/30"
-        aria-label={`Open signal: ${card.headline}`}
+        aria-label={t("openSignal", { headline: card.headline })}
       >
         <SignalCover card={card} />
         <div className="content-card-body">
@@ -56,8 +59,8 @@ export default function ContentCard({ card }: ContentCardProps) {
         type="button"
         onClick={toggleSaved}
         className="card-save-button"
-        aria-label={saved ? "Remove from saved" : "Save signal"}
-        title={saved ? "Saved" : "Save"}
+        aria-label={saved ? t("removeSaved") : t("saveSignal")}
+        title={saved ? t("saved") : t("save")}
       >
         <Bookmark className="h-4 w-4" fill={saved ? "currentColor" : "none"} />
       </button>
