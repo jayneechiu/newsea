@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <title>Newsea</title>
     <script>
-      // GitHub Pages serves this file for unknown paths. Send the visitor to the matching
-      // demo (main or /dev/) and let main.tsx restore the original deep link.
+      // GitHub Pages serves this file for unknown paths. Send the visitor to the demo and let
+      // main.tsx restore the original deep link; retired /newsea/dev/ links map to /newsea/.
       // shortcut: the /newsea/ paths are hardcoded; update them if the Pages URL changes.
-      var path = window.location.pathname;
-      var base = /^\/newsea\/dev(\/|$)/.test(path) ? "/newsea/dev/" : "/newsea/";
+      var path = window.location.pathname.replace(/^\/newsea\/dev(?=\/|$)/, "/newsea");
       sessionStorage.setItem("newsea:redirect", path + window.location.search + window.location.hash);
-      window.location.replace(base);
+      window.location.replace("/newsea/");
     </script>
   </head>
   <body></body>

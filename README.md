@@ -2,7 +2,7 @@
 
 **The best of Reddit, made instantly useful.**
 
-**🌐 Live demo:** <https://jayneechiu.github.io/newsea/> · Dev preview: <https://jayneechiu.github.io/newsea/dev/>
+**🌐 Live demo:** <https://jayneechiu.github.io/newsea/> (deployed from `dev` on every push)
 
 [![Newsea demo: a four-lane visual feed of Reddit signal cards](docs/images/demo-desktop.png)](https://jayneechiu.github.io/newsea/)
 
