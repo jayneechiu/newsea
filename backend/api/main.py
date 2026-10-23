@@ -20,6 +20,7 @@ from backend.scraper.newsletter_sender import NewsletterSender
 from backend.scraper.newsletter_composer import NewsletterComposer
 from backend.scraper.database_manager import DatabaseManager
 from backend.api.feed_cards import LANES, build_feed
+from backend.api.auth import router as auth_router
 
 FEED_DRAFT_WINDOW = 5
 logging.basicConfig(
@@ -42,6 +43,7 @@ app.add_middleware(
     allow_methods=["*"],  # 允许所有方法
     allow_headers=["*"],  # 允许所有头
 )
+app.include_router(auth_router)
 
 # Schemas
 class HealthResponse(BaseModel):

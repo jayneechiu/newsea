@@ -5,10 +5,19 @@ const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
   timeout: 10000,
+  // Send the httpOnly session cookie when the API is on another origin.
+  withCredentials: true,
   headers: {
     "Content-Type": "application/json",
   },
 });
+
+/** Account features need the real backend; the static demo (mock mode) stays localStorage-only. */
+export const hasAccountBackend = import.meta.env.VITE_USE_MOCK_DATA !== "true";
+
+export function syncsToAccount(): boolean {
+  return hasAccountBackend && localStorage.getItem("isLoggedIn") === "true";
+}
 
 // Response interceptor
 apiClient.interceptors.response.use(

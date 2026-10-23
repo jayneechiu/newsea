@@ -1,5 +1,6 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Home, Heart, LogOut, User } from "lucide-react";
+import { logout } from "@/services/account";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,9 +13,8 @@ function Layout({ children }: LayoutProps) {
 
   const isActive = (path: string) => location.pathname === path;
 
-  const handleLogout = () => {
-    localStorage.removeItem("isLoggedIn");
-    localStorage.removeItem("userEmail");
+  const handleLogout = async () => {
+    await logout();
     navigate("/login");
   };
 

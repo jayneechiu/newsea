@@ -9,6 +9,7 @@
     "build": "tsc && vite build",
     "build:demo": "tsc && vite build --mode demo && node -e \"require('fs').copyFileSync('demo-404.html','dist/404.html')\"",
     "typecheck": "tsc --noEmit",
+    "test": "node --test \"src/**/*.test.ts\"",
     "preview": "vite preview",
     "preview:demo": "vite preview --mode demo",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"

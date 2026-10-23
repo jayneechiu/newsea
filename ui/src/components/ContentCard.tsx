@@ -3,6 +3,7 @@ import { Bookmark, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import SignalCover from "@/components/SignalCover";
 import { localizeCard, useI18n } from "@/i18n";
+import { isDemoCard } from "@/services/feed";
 import {
   recordInteraction,
   readStoredIds,
@@ -46,7 +47,14 @@ export default function ContentCard({ card: rawCard }: ContentCardProps) {
       >
         <SignalCover card={card} />
         <div className="content-card-body">
-          <span className="card-eyebrow">{card.eyebrow}</span>
+          <span className="card-eyebrow">
+            {isDemoCard(rawCard) && (
+              <span className="mr-1.5 rounded-full bg-amber-200 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-wider text-amber-950">
+                {t("demoTag")}
+              </span>
+            )}
+            {card.eyebrow}
+          </span>
           <h2 className="card-headline">{card.headline}</h2>
           <div className="card-preview-meta">
             <Sparkles className="h-3 w-3 shrink-0" />

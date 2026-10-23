@@ -5,6 +5,7 @@ import { getContentFeed } from "@/services/feed";
 import { getLatestNewsletter, subscribe, type NewsletterPost } from "@/services/api";
 import type { ContentCard } from "@/types/content";
 import LanguageToggle from "@/components/LanguageToggle";
+import AccountButton from "@/components/AccountButton";
 import { localizeCard, useI18n } from "@/i18n";
 
 type SubscribeState = "idle" | "submitting" | "pending" | "error";
@@ -76,6 +77,7 @@ export default function Newsletter() {
 
           <div className="flex items-center gap-2">
             <LanguageToggle />
+            <AccountButton />
             <Link
               to="/"
               className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-extrabold shadow-sm transition hover:bg-slate-950 hover:text-white"

@@ -8,6 +8,7 @@ from typing import List, Dict, Optional
 import json
 import uuid
 from .config_manager import ConfigManager
+from .database_schema_v2 import ACCOUNT_DDL, USERS_DDL
 
 logger = logging.getLogger(__name__)
 
@@ -123,6 +124,8 @@ class DatabaseManager:
                 )
             """
             )
+            cursor.execute(USERS_DDL)
+            cursor.execute(ACCOUNT_DDL)
             # Indexes per V2 schema
             cursor.execute(
                 """
@@ -208,6 +211,112 @@ class DatabaseManager:
         except Exception as e:
             logger.error(f"Database connection test failed: {e}")
             return False
+
+    # ===== Accounts, sessions and personalization =====
+    def create_user(self, email: str, password_hash: str) -> Optional[Dict]:
+        """Returns None when the email is already registered."""
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                """
+                INSERT INTO users (email, password_hash) VALUES (%s, %s)
+                ON CONFLICT (email) DO NOTHING
+                RETURNING id, email
+                """,
+                (email, password_hash),
+            )
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        finally:
+            cursor.close()
+
+    def get_user_by_email(self, email: str) -> Optional[Dict]:
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                "SELECT id, email, password_hash FROM users WHERE email = %s AND is_active", (email,)
+            )
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        finally:
+            cursor.close()
+
+    def create_session(self, token_hash: str, user_id: int, expires_at: datetime) -> None:
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute(
+                "INSERT INTO user_sessions (token_hash, user_id, expires_at) VALUES (%s, %s, %s)",
+                (token_hash, user_id, expires_at),
+            )
+        finally:
+            cursor.close()
+
+    def get_user_by_session(self, token_hash: str) -> Optional[Dict]:
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                """
+                SELECT u.id, u.email FROM user_sessions s
+                JOIN users u ON u.id = s.user_id
+                WHERE s.token_hash = %s AND s.expires_at > CURRENT_TIMESTAMP AND u.is_active
+                """,
+                (token_hash,),
+            )
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        finally:
+            cursor.close()
+
+    def delete_session(self, token_hash: str) -> None:
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute("DELETE FROM user_sessions WHERE token_hash = %s", (token_hash,))
+        finally:
+            cursor.close()
+
+    def get_interest_tags(self, user_id: int) -> List[str]:
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute("SELECT interest_tags FROM users WHERE id = %s", (user_id,))
+            row = cursor.fetchone()
+            return list(row[0] or []) if row else []
+        finally:
+            cursor.close()
+
+    def set_interest_tags(self, user_id: int, tags: List[str]) -> None:
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute(
+                "UPDATE users SET interest_tags = %s, updated_at = CURRENT_TIMESTAMP WHERE id = %s",
+                (json.dumps(tags), user_id),
+            )
+        finally:
+            cursor.close()
+
+    def add_interactions(self, user_id: int, events: List[Dict]) -> None:
+        if not events:
+            return
+        cursor = self.connection.cursor()
+        try:
+            psycopg2.extras.execute_values(
+                cursor,
+                "INSERT INTO user_interactions (user_id, card_id, type) VALUES %s",
+                [(user_id, event["card_id"], event["type"]) for event in events],
+            )
+        finally:
+            cursor.close()
+
+    def get_interaction_events(self, user_id: int) -> List[Dict]:
+        """Oldest first, so callers can fold them into the current state."""
+        cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        try:
+            cursor.execute(
+                "SELECT card_id, type FROM user_interactions WHERE user_id = %s ORDER BY id",
+                (user_id,),
+            )
+            return [dict(row) for row in cursor.fetchall()]
+        finally:
+            cursor.close()
 
     # ===== Newsletter subscription approval workflow =====
     def request_newsletter_subscription(

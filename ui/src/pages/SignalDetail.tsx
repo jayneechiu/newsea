@@ -12,6 +12,7 @@ import {
 import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import ContentCard from "@/components/ContentCard";
 import LanguageToggle from "@/components/LanguageToggle";
+import AccountButton from "@/components/AccountButton";
 import SignalCover from "@/components/SignalCover";
 import { localizeCard, useI18n } from "@/i18n";
 import { getContentCardById, getLiveSnapshot, getRelatedContentCards } from "@/services/feed";
@@ -114,6 +115,7 @@ export default function SignalDetail() {
           </Link>
           <div className="flex items-center gap-2">
             <LanguageToggle />
+            <AccountButton />
             <button
               type="button"
               onClick={hideSignal}

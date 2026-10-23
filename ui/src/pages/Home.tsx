@@ -1,19 +1,19 @@
 import { useEffect, useState } from "react";
-import { Compass, Mail, RefreshCw, Sparkles, Waves } from "lucide-react";
+import { Compass, Mail, Plus, RefreshCw, Settings2, Sparkles, Waves } from "lucide-react";
 import { Link } from "react-router-dom";
+import AccountButton from "@/components/AccountButton";
 import ContentCard from "@/components/ContentCard";
 import LanguageToggle from "@/components/LanguageToggle";
+import TagPicker, { tagLabels } from "@/components/TagPicker";
+import WelcomePrompt from "@/components/WelcomePrompt";
 import { useI18n, type MessageKey } from "@/i18n";
-import { getContentFeed, getLiveSnapshot } from "@/services/feed";
-import type { ContentCard as ContentCardModel, FeedLane } from "@/types/content";
+import { readInterestTags } from "@/services/account";
+import { getHomeFeed, getLiveSnapshot, type FeedTab } from "@/services/feed";
+import { unhideAllCards } from "@/services/interactions";
+import { loginPath } from "@/services/redirect";
+import type { ContentCard as ContentCardModel } from "@/types/content";
 
-const lanes: Array<{ id: FeedLane; label: MessageKey; shortLabel: MessageKey }> = [
-  { id: "live", label: "laneLive", shortLabel: "laneLiveShort" },
-  { id: "for-you", label: "laneForYou", shortLabel: "laneForYou" },
-  { id: "everyone", label: "laneEveryone", shortLabel: "laneEveryone" },
-  { id: "dallas", label: "laneDallas", shortLabel: "laneDallas" },
-  { id: "other-worlds", label: "laneOtherWorlds", shortLabel: "laneOtherWorldsShort" },
-];
+const tabLabel = (tab: FeedTab): MessageKey => (tab === "hot" ? "tabHot" : tagLabels[tab]);
 
 function readHiddenCards(): string[] {
   try {
@@ -25,34 +25,41 @@ function readHiddenCards(): string[] {
 
 export default function Home() {
   const { lang, t } = useI18n();
-  const [activeLane, setActiveLane] = useState<FeedLane>("everyone");
+  const [activeTab, setActiveTab] = useState<FeedTab>("hot");
   const [cards, setCards] = useState<ContentCardModel[]>([]);
   const [hiddenCards, setHiddenCards] = useState<string[]>(readHiddenCards);
   const [loading, setLoading] = useState(true);
-  const [feedSource, setFeedSource] = useState<"api" | "mock" | "fallback" | "live">("mock");
+  const [feedSource, setFeedSource] = useState<"api" | "mock" | "fallback">("mock");
   const [refreshRound, setRefreshRound] = useState(0);
   const [liveUpdatedAt, setLiveUpdatedAt] = useState<string | null>(null);
+  const [tagsVersion, setTagsVersion] = useState(0);
+  const [editingTabs, setEditingTabs] = useState(false);
+  const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+  // Guests get the shared Trending feed only; signed-in tabs are their interest list, in their order.
+  const tabs: FeedTab[] = ["hot", ...(isLoggedIn ? readInterestTags() ?? [] : [])];
+  const currentTab = tabs.includes(activeTab) ? activeTab : "hot";
 
   useEffect(() => {
     void getLiveSnapshot().then((snapshot) => setLiveUpdatedAt(snapshot?.updatedAt ?? null));
   }, []);
 
-  const visibleLanes = lanes.filter((lane) => lane.id !== "live" || liveUpdatedAt);
   const liveDate = liveUpdatedAt
     ? new Date(liveUpdatedAt).toLocaleDateString(lang === "zh" ? "zh-CN" : "en-US", { month: "short", day: "numeric" })
     : "";
 
-  const loadFeed = async (lane: FeedLane, round: number) => {
-    setLoading(true);
-    const result = await getContentFeed(lane, round);
-    setCards(result.cards);
-    setFeedSource(result.source);
-    setLoading(false);
-  };
-
   useEffect(() => {
-    void loadFeed(activeLane, refreshRound);
-  }, [activeLane, refreshRound]);
+    let current = true;
+    setLoading(true);
+    void getHomeFeed(currentTab, refreshRound, isLoggedIn).then((result) => {
+      if (!current) return;
+      setCards(result.cards);
+      setFeedSource(result.source);
+      setLoading(false);
+    });
+    return () => {
+      current = false;
+    };
+  }, [currentTab, refreshRound, tagsVersion, isLoggedIn]);
 
   const visibleCards = cards.filter((card) => !hiddenCards.includes(card.id));
 
@@ -73,10 +80,11 @@ export default function Home() {
           <div className="flex items-center gap-2">
             {(feedSource === "mock" || feedSource === "fallback") && (
               <span className="hidden rounded-full bg-amber-200 px-3 py-1.5 text-[10px] font-black uppercase tracking-wider text-amber-950 sm:inline-flex">
-                {t("previewData")}
+                {t("demoData")}
               </span>
             )}
             <LanguageToggle />
+            <AccountButton />
             <Link
               to="/newsletter"
               className="hidden items-center gap-2 rounded-full border border-slate-950/15 bg-white px-4 py-2.5 text-xs font-extrabold transition hover:bg-slate-950 hover:text-white sm:inline-flex"
@@ -96,22 +104,41 @@ export default function Home() {
         </div>
 
         <nav className="feed-nav mx-auto flex max-w-[1500px] gap-2 overflow-x-auto px-4 pb-3 sm:px-6" aria-label={t("feedViews")}>
-          {visibleLanes.map((lane) => (
+          {tabs.map((tab) => (
             <button
               type="button"
-              key={lane.id}
-              onClick={() => setActiveLane(lane.id)}
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              aria-pressed={currentTab === tab}
               className={`inline-flex shrink-0 items-center gap-2 rounded-full px-5 py-2.5 text-sm font-extrabold transition ${
-                activeLane === lane.id
+                currentTab === tab
                   ? "bg-slate-950 text-white shadow-lg shadow-slate-950/15"
                   : "bg-white text-slate-600 hover:text-slate-950"
               }`}
             >
-              {lane.id === "live" && <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" aria-hidden="true" />}
-              <span className="sm:hidden">{t(lane.shortLabel)}</span>
-              <span className="hidden sm:inline">{t(lane.label)}</span>
+              {tab === "hot" && liveUpdatedAt && <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" aria-hidden="true" />}
+              {t(tabLabel(tab))}
             </button>
           ))}
+          {isLoggedIn ? (
+            <button
+              type="button"
+              onClick={() => setEditingTabs((open) => !open)}
+              aria-expanded={editingTabs}
+              className="inline-flex shrink-0 items-center gap-2 rounded-full border border-dashed border-slate-950/25 px-5 py-2.5 text-sm font-extrabold text-slate-600 transition hover:text-slate-950"
+            >
+              <Settings2 className="h-4 w-4" />
+              {t("editTabs")}
+            </button>
+          ) : (
+            <Link
+              to={loginPath("/", "signup")}
+              className="inline-flex shrink-0 items-center gap-2 rounded-full border border-dashed border-slate-950/25 px-5 py-2.5 text-sm font-extrabold text-slate-600 transition hover:text-slate-950"
+            >
+              <Plus className="h-4 w-4" />
+              {t("customizeTabs")}
+            </Link>
+          )}
           <Link
             to="/newsletter"
             className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-extrabold text-slate-600 sm:hidden"
@@ -141,9 +168,9 @@ export default function Home() {
             </p>
             <div className="mt-4 flex items-center gap-2 text-xs font-black uppercase tracking-[0.12em] text-slate-500">
               <Compass className="h-4 w-4" />
-              {t(lanes.find((lane) => lane.id === activeLane)?.label ?? "laneEveryone")} · {t("signalsCount", { count: visibleCards.length })}
+              {t(tabLabel(currentTab))} · {t("signalsCount", { count: visibleCards.length })}
             </div>
-            {activeLane === "live" && liveDate && (
+            {currentTab === "hot" && liveDate && (
               <div className="mt-2 inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-black uppercase tracking-[0.1em] text-emerald-900">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" aria-hidden="true" />
                 {t("liveUpdated", { date: liveDate })}
@@ -151,6 +178,15 @@ export default function Home() {
             )}
           </div>
         </section>
+
+        {isLoggedIn && editingTabs && (
+          <TagPicker
+            onDone={() => {
+              setEditingTabs(false);
+              setTagsVersion((version) => version + 1);
+            }}
+          />
+        )}
 
         {loading && cards.length === 0 ? (
           <div className="columns-2 gap-2.5 sm:gap-5 lg:columns-3 xl:columns-4">
@@ -177,7 +213,7 @@ export default function Home() {
             <button
               type="button"
               onClick={() => {
-                localStorage.removeItem("newsea:hidden-cards");
+                unhideAllCards();
                 setHiddenCards([]);
               }}
               className="mt-6 rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white"
@@ -187,6 +223,8 @@ export default function Home() {
           </div>
         )}
       </main>
+
+      <WelcomePrompt />
     </div>
   );
 }
