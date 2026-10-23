@@ -12,10 +12,10 @@ strongest takeaways and the communities behind them.
 
 > See what everyone—and everyone unlike you—is talking about.
 
-> **About the demo:** it is a static build with no hosted backend. The **Live from
-> Reddit** lane is a real snapshot refreshed every two days
-> ([how it works](#live-data-on-a-static-site)); the other lanes use curated sample
-> cards. Login is simulated, so newsletter sign-up and admin actions are inactive.
+> **About the demo:** it is a static build with no hosted backend. The **Trending**
+> tab mixes a real Reddit snapshot refreshed every two days
+> ([how it works](#live-data-on-a-static-site)) with curated sample cards marked
+> **Demo**. Login is simulated, so newsletter sign-up and admin actions are inactive.
 
 Newsea is a non-commercial portfolio project and product prototype.
 
@@ -34,21 +34,29 @@ into concise visual cards.
 
 ## Features
 
-- **Lanes:** Live from Reddit, For you, Everyone, Dallas (local lens), and Other
-  worlds (communities outside your routine).
+- **Tabs:** everyone gets **Trending** (live Reddit + other cards). Signed-in
+  readers rank Trending by their interests, likes, saves, and hides, and add
+  their own interest/place tabs (e.g. Dallas) that they can add, remove, and
+  drag to reorder.
 - **Cards:** a complete headline, why it matters, three expandable takeaways, and
   links to the original threads. Cards can be saved or hidden locally.
 - **English / 中文 toggle** for the UI and card content.
+- **Accounts (live API mode):** email + password sign-up and login with an
+  httpOnly session cookie; interests, likes, saves, and hides sync to the
+  account. See [Local development](docs/local-development.md#accounts-sign-up--log-in).
 - **Responsive masonry layout:** four columns on desktop, one on mobile.
 - **Newsletter (`/newsletter`):** a slower weekly digest built from the same cards.
   Sign-ups are stored as pending requests, and the owner approves them at
   `/newsletter/admin` before any email is sent.
 - **Graceful fallback:** if the live feed is unavailable or empty, the UI shows
-  labeled preview cards instead of an empty page.
+  labeled demo cards instead of an empty page.
+- **Chinese typography:** in 中文 mode titles get CJK fonts (PingFang SC,
+  Microsoft YaHei, Noto Sans SC…), roomier line height, and no negative
+  letter spacing.
 
 ## Live data on a static site
 
-The public demo has no server or database, yet the Live lane shows real threads.
+The public demo has no server or database, yet Trending shows real threads.
 It follows the "git scraping" / [Flat Data](https://githubnext.com/projects/flat-data/)
 pattern: a scheduled job writes a flat JSON file that the static site reads.
 
@@ -71,7 +79,7 @@ pages.yml builds dev, adds the snapshot → https://jayneechiu.github.io/newsea/
   so no translation service is needed.
 - **Safe failure:** if OpenAI fails, cards fall back to raw post text and
   comments; if no cards are built, the previous snapshot stays. Without a
-  snapshot the Live lane is hidden.
+  snapshot Trending shows only the other cards.
 - **Secrets:** `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET` and an optional
   `OPENAI_API_KEY` (dedicated, budget-capped) live in the `content-refresh`
   environment, restricted to `dev`.
@@ -87,19 +95,20 @@ npm install
 npm run dev:mock        # http://localhost:3000
 ```
 
-Mock mode reads `ui/src/data/demo-cards.json` and shows a **Preview data** badge
+Mock mode reads `ui/src/data/demo-cards.json` and shows a **Demo data** badge
 so sample content is never presented as a live trend.
 
 Checks and the Pages build:
 
 ```bash
 npm run typecheck
+npm test                # node --test unit tests (ranking, tags, redirects)
 npm run lint
 npm run build:demo      # same build as the live demo
 npm run preview:demo    # http://localhost:4173/newsea/
 ```
 
-To see the Live lane locally, build a snapshot from the repo root (needs Reddit
+To see live Reddit cards locally, build a snapshot from the repo root (needs Reddit
 credentials in `.env`; written to the gitignored `ui/public/live/`):
 
 ```bash
@@ -177,11 +186,12 @@ back to English.
 1. PostgreSQL Schema V3: comments, metric snapshots, `content_cards`, card
    sources, and interaction events.
 2. Schema-validated card generation from posts and high-signal comments.
-3. Move `/api/feed` from recent drafts to `content_cards`, with real For you,
-   Dallas, and Other worlds lanes.
-4. Candidate scoring for quality, velocity, novelty, repetition, and safety.
-5. Host the backend so the full live feed is public.
-6. Smoke tests and monitoring.
+3. Move `/api/feed` from recent drafts to `content_cards`, so every tag tab
+   (including place tags like Dallas) has real cards.
+4. Let readers search for their own city and add it as a place tab.
+5. Candidate scoring for quality, velocity, novelty, repetition, and safety.
+6. Host the backend so the full live feed is public.
+7. Smoke tests and monitoring.
 
 ## Repository structure
 

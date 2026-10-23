@@ -34,6 +34,31 @@ The Vite development server proxies `/api` to `http://localhost:8000`. If the
 feed endpoint is unavailable or returns no cards, the frontend automatically
 uses the local demo cards and marks them as preview data.
 
+## Accounts (sign up / log in)
+
+In live API mode, `/login` creates real accounts. The mock and demo builds keep
+the simulated login.
+
+- **Sign up:** email + password (at least 8 characters). Success signs you in.
+- **Entry points:** every page header has a "Log in / Sign up" button. On the
+  home page, guests see a one-time welcome dialog after 3 seconds. In it they
+  can pick interests, then create an account or log in (closing it keeps them
+  browsing as a guest). To show it again, delete `newsea:welcome-seen` from localStorage.
+  Pages that need login redirect to `/login?next=…`, which returns the user to
+  the same page after login.
+- **Log in / log out:** the API sets an httpOnly `newsea_session` cookie (30
+  days); logging out deletes the session server-side.
+- **Endpoints:** `POST /api/auth/register`, `POST /api/auth/login`,
+  `POST /api/auth/logout`, `GET /api/me`.
+- Tables (`users.password_hash`, `user_sessions`, `user_interactions`) are
+  created automatically when the API connects to PostgreSQL.
+- Set `SESSION_COOKIE_SECURE=true` in the backend environment when serving
+  over HTTPS.
+
+If the API logs a PostgreSQL connection timeout, the database firewall is
+probably blocking your current public IP. On Azure, add it under the server's
+**Networking → Firewall rules**.
+
 ## Checks before publishing
 
 ```bash

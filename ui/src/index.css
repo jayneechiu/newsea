@@ -158,6 +158,26 @@
   }
 }
 
+/* Chinese: Inter has no CJK glyphs, and the tight Latin display leading/tracking makes hanzi lines collide. */
+:root:lang(zh) {
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei",
+    "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC", ui-sans-serif, system-ui, sans-serif;
+}
+
+:lang(zh) :is(h2, h3, .card-headline) {
+  letter-spacing: 0.01em;
+  line-height: 1.32;
+}
+
+:lang(zh) h1 {
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+:lang(zh) p {
+  line-height: 1.75;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

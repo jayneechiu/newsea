@@ -10,6 +10,45 @@ from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
+# Shared with DatabaseManager._initialize_database so the runtime and the upgrade script agree.
+USERS_DDL = """
+    CREATE TABLE IF NOT EXISTS users (
+        id SERIAL PRIMARY KEY,
+        email VARCHAR(255) UNIQUE NOT NULL,
+        username VARCHAR(100),
+        is_active BOOLEAN DEFAULT TRUE,
+        language VARCHAR(10) DEFAULT 'zh-CN',
+        subscribed_subreddits JSONB DEFAULT '[]'::jsonb,
+        frequency VARCHAR(20) DEFAULT 'daily',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
+    CREATE INDEX IF NOT EXISTS idx_users_is_active ON users(is_active);
+"""
+
+# Account login and personalization. NULL password_hash leaves room for OAuth-only users later.
+ACCOUNT_DDL = """
+    ALTER TABLE users ADD COLUMN IF NOT EXISTS password_hash TEXT;
+    ALTER TABLE users ADD COLUMN IF NOT EXISTS interest_tags JSONB NOT NULL DEFAULT '[]'::jsonb;
+    CREATE TABLE IF NOT EXISTS user_sessions (
+        token_hash CHAR(64) PRIMARY KEY,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        expires_at TIMESTAMP NOT NULL,
+        created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE INDEX IF NOT EXISTS idx_user_sessions_user_id ON user_sessions(user_id);
+    CREATE TABLE IF NOT EXISTS user_interactions (
+        id BIGSERIAL PRIMARY KEY,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        card_id VARCHAR(200) NOT NULL,
+        type VARCHAR(20) NOT NULL
+            CHECK (type IN ('like', 'unlike', 'save', 'unsave', 'hide', 'unhide')),
+        created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
+    CREATE INDEX IF NOT EXISTS idx_user_interactions_user_card ON user_interactions(user_id, card_id);
+"""
+
 
 class DatabaseSchemaV2:
     @staticmethod
@@ -59,23 +98,8 @@ class DatabaseSchemaV2:
                 """
             )
             logger.info("创建 users 表...")
-            cursor.execute(
-                """
-                CREATE TABLE IF NOT EXISTS users (
-                    id SERIAL PRIMARY KEY,
-                    email VARCHAR(255) UNIQUE NOT NULL,
-                    username VARCHAR(100),
-                    is_active BOOLEAN DEFAULT TRUE,
-                    language VARCHAR(10) DEFAULT 'zh-CN',
-                    subscribed_subreddits JSONB DEFAULT '[]'::jsonb,
-                    frequency VARCHAR(20) DEFAULT 'daily',
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-                );
-                CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
-                CREATE INDEX IF NOT EXISTS idx_users_is_active ON users(is_active);
-                """
-            )
+            cursor.execute(USERS_DDL)
+            cursor.execute(ACCOUNT_DDL)
             logger.info("创建 user_newsletter_logs 表...")
             cursor.execute(
                 """
@@ -175,7 +199,9 @@ class DatabaseSchemaV2:
         try:
             cursor = connection.cursor()
             logger.warning("⚠️ 开始回滚数据库到 V1，将删除所有V2表...")
-            tables_to_drop = ["user_newsletter_logs", "reddit_posts", "subreddits", "users"]
+            tables_to_drop = [
+                "user_interactions", "user_sessions", "user_newsletter_logs", "reddit_posts", "subreddits", "users"
+            ]
             for table in tables_to_drop:
                 cursor.execute(f"DROP TABLE IF EXISTS {table} CASCADE")
                 logger.info(f"✓ 删除表 {table}")

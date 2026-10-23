@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Layout from "./components/Layout";
 import Login from "./pages/Login";
@@ -7,17 +8,23 @@ import Newsletter from "./pages/Newsletter";
 import NewsletterAdmin from "./pages/NewsletterAdmin";
 import SignalDetail from "./pages/SignalDetail";
 import { useI18n } from "./i18n";
+import { refreshSession } from "./services/account";
+import { loginPath } from "./services/redirect";
 
 // 简单的认证检查
 const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
+  const { pathname, search } = useLocation();
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
-  return isLoggedIn ? <>{children}</> : <Navigate to="/login" replace />;
+  return isLoggedIn ? <>{children}</> : <Navigate to={loginPath(pathname + search)} replace />;
 };
 
 function App() {
   useLocation(); // re-render on navigation so login/logout state is re-read
   const { t } = useI18n();
-  const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+  const [, setSessionChecks] = useState(0);
+  useEffect(() => {
+    void refreshSession().then((changed) => changed && setSessionChecks((count) => count + 1));
+  }, []);
 
   return (
     <>
@@ -34,18 +41,7 @@ function App() {
         <Route path="/signals/:cardId" element={<SignalDetail />} />
 
         {/* 首页：未登录显示公共热帖，登录后显示订阅内容 */}
-        <Route
-          path="/"
-          element={
-            isLoggedIn ? (
-              <Layout>
-                <Home />
-              </Layout>
-            ) : (
-              <Home />
-            )
-          }
-        />
+        <Route path="/" element={<Home />} />
 
         {/* 需要登录的路由 */}
         <Route
