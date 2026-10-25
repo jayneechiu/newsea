@@ -49,13 +49,21 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           git init -q -b live-data
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          # Branch rules forbid force-push, so commit on top of the existing branch.
+          if git fetch -q --depth=1 "$REMOTE" live-data; then
+            git reset -q --soft FETCH_HEAD
+          fi
           git add live-cards.json
-          git commit -q -m "Live snapshot $(date -u +%F)"
-          # Single-commit branch, force-pushed: no history growth in main/dev.
-          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" live-data
+          if git diff --cached --quiet; then
+            echo "No changes to publish"
+          else
+            git commit -q -m "Live snapshot $(date -u +%F)"
+            git push -q "$REMOTE" live-data
+          fi
 
       - name: Redeploy Pages
         env:
