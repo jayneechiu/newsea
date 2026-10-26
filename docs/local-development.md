@@ -5,9 +5,11 @@ PostgreSQL, Reddit, or OpenAI.
 
 ## Fastest path: mock feed
 
+Use Node.js 22.18+; CI and Pages use Node 22.
+
 ```bash
 cd ui
-npm install
+npm ci
 npm run dev:mock
 ```
 

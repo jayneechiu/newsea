@@ -67,7 +67,7 @@ Reddit API (read-only app auth) → hot threads + top comments
     ↓
 one OpenAI call per thread → English + Chinese context and takeaways
     ↓
-live-cards.json → force-pushed to the single-commit `live-data` branch
+live-cards.json → committed to the separate `live-data` branch (no force-push)
     ↓
 pages.yml builds dev, adds the snapshot → https://jayneechiu.github.io/newsea/
 ```
@@ -88,10 +88,15 @@ pages.yml builds dev, adds the snapshot → https://jayneechiu.github.io/newsea/
 
 The visual prototype needs no PostgreSQL, Reddit, or OpenAI:
 
+Use Node.js 22.18+ (Node 22 in CI); the unit tests use Node's built-in TypeScript
+support. Tailwind stays on v3 to match the existing styles and PostCSS config.
+The npm overrides replace blocked transitive `minimatch` versions and Tailwind's
+selector parser with patched, API-compatible versions for the existing tooling.
+
 ```bash
 git clone https://github.com/jayneechiu/newsea.git
 cd newsea/ui
-npm install
+npm ci
 npm run dev:mock        # http://localhost:3000
 ```
 

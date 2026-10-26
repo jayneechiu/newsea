@@ -1,7 +1,7 @@
 name: Refresh live Reddit snapshot
 
 # Every two days: fetch hot Reddit threads, write bilingual cards with one OpenAI call each,
-# store live-cards.json on the orphan `live-data` branch, then redeploy Pages.
+# store live-cards.json on the separate `live-data` branch, then redeploy Pages.
 # Every two days (not hourly) keeps OpenAI tokens and Reddit API calls tiny; see README "Live data".
 on:
   schedule:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # force-push the single-commit live-data branch
+  contents: write # commit snapshots to the live-data branch
   actions: write # trigger pages.yml
 
 concurrency:
@@ -49,20 +49,23 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
-          git init -q -b live-data
+          git init -q -b live-data "$RUNNER_TEMP/live-data"
+          cd "$RUNNER_TEMP/live-data"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          remote_head="$(git ls-remote --heads origin refs/heads/live-data)"
+          if [ -n "$remote_head" ]; then
+            git fetch -q --depth 1 origin live-data
+            git checkout -q --detach FETCH_HEAD
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          # Branch rules forbid force-push, so commit on top of the existing branch.
-          if git fetch -q --depth=1 "$REMOTE" live-data; then
-            git reset -q --soft FETCH_HEAD
-          fi
+          cp "$GITHUB_WORKSPACE/live-data/live-cards.json" live-cards.json
           git add live-cards.json
           if git diff --cached --quiet; then
-            echo "No changes to publish"
+            echo "Snapshot unchanged; keeping the current commit."
           else
             git commit -q -m "Live snapshot $(date -u +%F)"
-            git push -q "$REMOTE" live-data
+            git push -q origin HEAD:refs/heads/live-data
           fi
 
       - name: Redeploy Pages
