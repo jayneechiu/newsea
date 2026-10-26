@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-22T03:56:45+00:00",
+  "updatedAt": "2026-10-26T03:38:51+00:00",
   "cards": [
     {
-      "id": "reddit-1xbxzqh",
+      "id": "reddit-1xf505q",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ocean",
+      "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that in 1872, two conmen planted $20,000 worth of gemstones in Wyoming and fooled wealthy investors into believing they’d discovered a massive diamond field.",
-      "context": "In 1872, conmen turned Wyoming's diamond dreams into a gem of a scam, leaving investors dazzled and duped.",
+      "headline": "TIL that the average American armed forces inductee in WWII was 26 years old, 5' 8\" tall, 144 pounds, and had 9 years of formal schooling",
+      "context": "Imagine being 26, 5'8\", and only 144 pounds—welcome to the average WWII soldier's profile, where health issues were a real enlistment hurdle.",
       "takeaways": [
-        "Salting was a common trick, often using gold dust to mislead investors.",
-        "The ease of scamming in the past raises questions about modern deceptions.",
-        "Creative approaches to fraud can still thrive today."
+        "School lunches emerged post-war to combat malnutrition among recruits.",
+        "Malnutrition and dental issues were the top reasons for military rejections during WWII.",
+        "Soldiers were often smaller, as evidenced by the cramped quarters of a Sherman tank."
       ],
       "topics": [
         "todayilearned"
@@ -24,372 +24,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "10.5K upvotes",
+      "trendLabel": "13.8K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xbxzqh/til_that_in_1872_two_conmen_planted_20000_worth/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xf505q/til_that_the_average_american_armed_forces/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到1872年，两个骗子在怀俄明州种下价值2万美元的宝石，愚弄了富有的投资者，让他们相信发现了一个巨大的钻石矿。",
-          "context": "1872年，骗子们将怀俄明州的钻石梦想变成了一场精彩的骗局，让投资者目眩神迷，掉入陷阱。",
+          "headline": "今天我知道，二战期间美国军队的新兵平均年龄为26岁，身高5英尺8英寸，体重144磅，接受过9年正规教育",
+          "context": "想象一下，26岁，5英尺8寸，只有144磅——欢迎来到二战士兵的平均档案，健康问题确实是入伍的一大障碍。",
           "takeaways": [
-            "撒盐是一种常见的把戏，常常用金粉来误导投资者。",
-            "过去诈骗的容易性让人质疑现代欺骗行为。",
-            "创造性的欺诈手法至今仍可蓬勃发展。"
+            "战后学校午餐的出现是为了应对新兵中的营养不良问题。",
+            "营养不良和牙齿问题是二战期间拒绝入伍的主要原因。",
+            "士兵们通常身材较小，谢尔曼坦克的狭小空间便是明证。"
           ],
-          "trendLabel": "10.5K 赞"
+          "trendLabel": "13.8K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xbqmpx",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/AskReddit",
-      "headline": "what's a 10/10 life experience you must have at least once in your life?",
-      "context": "Ever wondered what experiences should be mandatory for a fulfilling life? Redditors share their top picks, from love to quitting a job.",
-      "takeaways": [
-        "Validation from peers can be a life-changing experience.",
-        "Being in love is a universal highlight.",
-        "A sabbatical offers freedom that many crave."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "7.5K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xbqmpx/whats_a_1010_life_experience_you_must_have_at/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "你一生中必须体验的10/10生活经历是什么？",
-          "context": "你是否想过哪些经历对充实的生活至关重要？Reddit用户分享了他们的最佳选择，从爱情到辞职。",
-          "takeaways": [
-            "来自同行的认可可以改变人生。",
-            "爱情是普遍的高光时刻。",
-            "休假提供许多人渴望的自由。"
-          ],
-          "trendLabel": "7.5K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xbuips",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ocean",
-      "eyebrow": "r/Dallas",
-      "headline": "Trans Flyer",
-      "context": "A flyer pretending to support trans rights has sparked confusion and allegations of a Republican smear campaign. Who knew politics could be so…creative?",
-      "takeaways": [
-        "Elon Musk's tax dollars are allegedly funding misleading political tactics.",
-        "The GOP seems focused on trans discrimination as a campaign strategy.",
-        "Concerns are rising about how to report potential election fraud."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "951 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xbuips/trans_flyer/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "变性人传单",
-          "context": "一张假装支持变性人权利的传单引发了混乱和对共和党抹黑活动的指控。谁知道政治可以如此……富有创意？",
-          "takeaways": [
-            "埃隆·马斯克的税收资金 allegedly 用于误导性的政治手段。",
-            "共和党似乎将变性歧视作为竞选策略的重点。",
-            "关于如何报告潜在选举欺诈的担忧正在上升。"
-          ],
-          "trendLabel": "951 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xbrmu1",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT Raised Working Surface",
-      "context": "Swapping seasonal wardrobes? A tall person's back pain can be avoided with a clever folding bin hack.",
-      "takeaways": [
-        "Using an ironing board can also ease back strain.",
-        "Tall bed frames make it easier to sort laundry without bending.",
-        "Standing wide can help you reach deeper sinks more comfortably."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "163 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xbrmu1/lpt_raised_working_surface/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "提升工作表面",
-          "context": "更换季节性衣物？高个子搬运衣物的背痛可以通过巧妙的折叠箱技巧来避免。",
-          "takeaways": [
-            "使用熨衣板也可以缓解背部压力。",
-            "高床架使得整理衣物更轻松，减少弯腰。",
-            "站得宽一点可以更舒适地到达更深的水槽。"
-          ],
-          "trendLabel": "163 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xc58gq",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that the first television rerun was an episode of I Love Lucy in 1952; before that, TV episodes were aired just once, and never again.",
-      "context": "Before reruns, lost episodes were a common fate for early TV shows, often discarded like yesterday's news.",
-      "takeaways": [
-        "Many early TV episodes were recorded over and lost forever due to expensive tape costs.",
-        "Desi Arnaz advocated for higher-quality filming to preserve I Love Lucy episodes.",
-        "Lucille Ball played a key role in saving Star Trek by pushing for syndication."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "4.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xc58gq/til_that_the_first_television_rerun_was_an/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到，第一部电视重播是在1952年的《我爱露西》；在此之前，电视节目只播一次，从不重播。",
-          "context": "在重播出现之前，早期电视节目的丢失是常见现象，常常像昨天的新闻一样被丢弃。",
-          "takeaways": [
-            "由于录像带昂贵，许多早期电视节目被覆盖录制，永远消失。",
-            "德西·阿纳兹倡导采用更高质量的拍摄方式来保存《我爱露西》的剧集。",
-            "露西尔·鲍尔在推动《星际迷航》进行再播方面发挥了关键作用。"
-          ],
-          "trendLabel": "4.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xbshhm",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/AskReddit",
-      "headline": "Trump recently stated he’d direct the DOJ to settle Camp Lejeune claims if the GOP wins the midterms, adding: “If we don’t win, there’s no money.” Question: To the US Veterans, what are your thoughts on a president tying Camp Lejeune settlement payouts directly to midterm election outcomes?",
-      "context": "In a bold move, Trump suggests tying Camp Lejeune settlement payouts to election outcomes—because veterans deserve their justice, but only if the GOP wins.",
-      "takeaways": [
-        "Legitimate claims shouldn't hinge on election results.",
-        "Many believe Trump's approach feels like bribery.",
-        "Veterans express deep frustration over the handling of settlements."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "6.3K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xbshhm/trump_recently_stated_hed_direct_the_doj_to/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "特朗普最近表示，如果共和党赢得中期选举，他将指示司法部解决坎普·勒琼的索赔，补充道：“如果我们不赢，就没有钱。”",
-          "context": "特朗普大胆提出将坎普·勒琼的赔偿与选举结果挂钩——因为退伍军人理应获得公正，但这要看共和党是否胜利。",
-          "takeaways": [
-            "合法索赔不应依赖于选举结果。",
-            "许多人认为特朗普的做法像贿赂。",
-            "退伍军人对索赔处理表示深切不满。"
-          ],
-          "trendLabel": "6.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xc2r8n",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "lime",
-      "eyebrow": "r/Dallas",
-      "headline": "Can we ban running clubs from Katy trail?",
-      "context": "A running club takes over the Katy Trail, leaving a trail of chaos and confusion in their wake. Is it time for a ban?",
-      "takeaways": [
-        "Feedback to organizers could improve trail etiquette for large groups.",
-        "Banning running clubs might not be the most effective solution.",
-        "Katy Trail is already crowded, adding to the frustration."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "265 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xc2r8n/can_we_ban_running_clubs_from_katy_trail/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "我们可以禁止跑步俱乐部在凯蒂小径上活动吗？",
-          "context": "一个跑步俱乐部占领了凯蒂小径，留下混乱和困惑。是时候考虑禁令了吗？",
-          "takeaways": [
-            "向组织者反馈可以改善大型团体的路径礼仪。",
-            "禁止跑步俱乐部可能不是最有效的解决方案。",
-            "凯蒂小径已经很拥挤，增加了人们的沮丧感。"
-          ],
-          "trendLabel": "265 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xc2aaj",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Bypass the shitty hotel TVs",
-      "context": "Tired of hotel TVs that seem stuck in the past? Discover how a tiny device can save your sanity on the road.",
-      "takeaways": [
-        "Some hotel TVs lack HDMI inputs, making streaming tricky.",
-        "Hotel Wi-Fi can ruin your streaming experience with poor connections.",
-        "Motion smoothing on hotel TVs can be unbearable, making devices like tablets preferable."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "0 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xc2aaj/lpt_bypass_the_shitty_hotel_tvs/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT：绕过糟糕的酒店电视",
-          "context": "厌倦了似乎停留在过去的酒店电视？发现一个小设备如何在旅途中拯救你的理智。",
-          "takeaways": [
-            "一些酒店电视缺少HDMI输入，导致流媒体播放困难。",
-            "酒店的Wi-Fi可能会因网络差而毁掉你的流媒体体验。",
-            "酒店电视上的运动平滑功能可能令人难以忍受，使用平板电脑更可取。"
-          ],
-          "trendLabel": "0 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xc59nj",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that blue jay feathers contain no blue pigment. Their color comes from microscopic structures that scatter blue light. Crushing the feather destroys those structures, causing the blue appearance to disappear.",
-      "context": "Turns out, blue jays aren't blue because of pigments; they're just showing off their structural color like nature's own optical illusion.",
-      "takeaways": [
-        "Many blue animals achieve their color through structural color rather than pigment.",
-        "The blue sky results from similar light scattering techniques.",
-        "Iridescence is common in various birds and insects."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.7K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xc59nj/til_that_blue_jay_feathers_contain_no_blue/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "让我知道：蓝松鸦的羽毛并不含蓝色颜料。",
-          "context": "原来，蓝松鸦并不是因为颜料而是通过结构色来展现它们的蓝色，就像大自然的光学幻觉。",
-          "takeaways": [
-            "许多蓝色动物通过结构色而非颜料来实现它们的颜色。",
-            "蓝天的形成与类似的光散射技术有关。",
-            "光彩夺目的特性在各种鸟类和昆虫中很常见。"
-          ],
-          "trendLabel": "2.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xbvjcb",
+      "id": "reddit-1xf9iy4",
       "lane": [
         "for-you",
         "everyone",
@@ -398,12 +54,12 @@
       "cardType": "community-insight",
       "theme": "violet",
       "eyebrow": "r/AskReddit",
-      "headline": "TMZ reported - Trump’s approval hits a record low 31%, as gas prices and the economy weigh on voters ahead of the Nov. 3 midterms. How do you feel about the current state of this administration?",
-      "context": "Despite a record low approval rating, a surprising 31% still support the administration. What gives?",
+      "headline": "What drink tastes awful but lots of people still drink it?",
+      "context": "From colonoscopy prep to mysterious Turkish concoctions, some drinks are just hard to swallow yet still have their fans.",
       "takeaways": [
-        "Many are baffled by the approval rating not being lower.",
-        "A significant portion of Americans seems to struggle with basic comprehension.",
-        "The question remains: who exactly are the 31% supporting this administration?"
+        "Colonoscopy prep drink is notoriously unappetizing yet necessary.",
+        "Malort is infamous for its bad taste but still has a following.",
+        "Warm bottled water can taste like plastic, but many still refuse to waste it."
       ],
       "topics": [
         "askreddit"
@@ -411,42 +67,85 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3K upvotes",
+      "trendLabel": "3.6K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xbvjcb/tmz_reported_trumps_approval_hits_a_record_low_31/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xf9iy4/what_drink_tastes_awful_but_lots_of_people_still/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "TMZ报道 - 特朗普的支持率创下31%的新低，油价和经济问题影响选民，11月3日中期选举在即。你对当前政府的状况怎么看？",
-          "context": "尽管支持率创下新低，仍有31%的人支持该政府。这是为什么呢？",
+          "headline": "什么饮料味道糟糕但仍然有很多人喝？",
+          "context": "从肠镜准备饮料到神秘的土耳其混合饮品，有些饮料虽然难以下咽，却依然有其粉丝。",
           "takeaways": [
-            "很多人对支持率没有更低感到困惑。",
-            "相当一部分美国人似乎在基本理解上存在困难。",
-            "问题是：到底是谁在支持这31%的政府？"
+            "肠镜准备饮料以其可怕的味道而闻名，但却是必要的。",
+            "Malort因其糟糕的味道而臭名昭著，但仍然有追随者。",
+            "温热的瓶装水可能尝起来像塑料，但许多人仍拒绝浪费。"
           ],
-          "trendLabel": "3K 赞"
+          "trendLabel": "3.6K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xc69vk",
+      "id": "reddit-1xf6bm8",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "coral",
+      "eyebrow": "r/Dallas",
+      "headline": "Saw a Talarico sign get stolen yesterday?",
+      "context": "Witnessing a Talarico sign theft raises questions about voter influence and the peculiar tactics some will use to sway opinions.",
+      "takeaways": [
+        "Sign theft reflects a misguided belief in controlling voter choices.",
+        "Some people fear losing their power, leading to desperate actions.",
+        "The First Amendment complicates the debate around political expression."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "610 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xf6bm8/saw_a_talarico_sign_get_stolen_yesterday/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "昨天看到有人偷了Talarico的标志？",
+          "context": "目睹Talarico标志被盗引发了关于选民影响和一些人用奇怪手段影响舆论的问题。",
+          "takeaways": [
+            "盗取标志反映了对控制选民选择的错误信念。",
+            "一些人害怕失去权力，导致绝望的行为。",
+            "第一修正案使政治表达的辩论变得复杂。"
+          ],
+          "trendLabel": "610 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xfj1y2",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "violet",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL of the Grāpple, a discontinued brand of apples soaked in concentrated grape flavouring (methyl anthralinate) to artificially make the flesh taste like grapes.",
-      "context": "Ever bitten into an apple that tastes like candy? Meet the Grāpple, a fruit that dared to defy nature's flavor rules.",
+      "headline": "TIL the population of the NYC metropolitan area makes up 7.9% of the total US population. The city alone is 2.5% of the country's population.",
+      "context": "New York's population seems huge, but it's still less than half of New York State's total. How does that work?",
       "takeaways": [
-        "Grāpple tasted like grape candy, creating a unique experience for apple lovers.",
-        "Many assumed Grāpple was a result of genetic engineering rather than flavoring.",
-        "Cotton-candy flavored grapes have emerged as an interesting alternative."
+        "Bangkok's population is 7-12% of Thailand, surprising many.",
+        "Toronto area comprises about 15% of Canada's population.",
+        "New York City is only 2.5% of the entire U.S. population."
       ],
       "topics": [
         "todayilearned"
@@ -454,28 +153,157 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.9K upvotes",
+      "trendLabel": "7K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xc69vk/til_of_the_grāpple_a_discontinued_brand_of_apples/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xfj1y2/til_the_population_of_the_nyc_metropolitan_area/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "TIL关于Grāpple，一种用浓缩葡萄香精浸泡的苹果品牌，旨在让果肉尝起来像葡萄。",
-          "context": "曾经咬过一口尝起来像糖果的苹果吗？来认识一下Grāpple，这种水果挑战了自然的味道规则。",
+          "headline": "今天我了解到纽约市大都会区人口占美国总人口的7.9%，而纽约市本身占2.5%。",
+          "context": "纽约的人口似乎很庞大，但它在纽约州总人口中仍不到一半。这是怎么回事？",
           "takeaways": [
-            "Grāpple尝起来像葡萄糖果，为苹果爱好者创造了独特的体验。",
-            "许多人认为Grāpple是基因工程的结果，而非调味。",
-            "棉花糖味的葡萄成为了一种有趣的替代品。"
+            "曼谷的人口占泰国的7-12%，让人感到意外。",
+            "多伦多地区约占加拿大人口的15%。",
+            "纽约市仅占美国总人口的2.5%。"
           ],
-          "trendLabel": "1.9K 赞"
+          "trendLabel": "7K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xbzqmk",
+      "id": "reddit-1xf5olq",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "What is a skill in high demand right now, but low supply?",
+      "context": "Turns out, the skies and plumbing are both in need of a serious talent upgrade—who knew toilets could be so demanding?",
+      "takeaways": [
+        "Air traffic controllers and airline pilots are in long-term shortage in North America.",
+        "There is a persistent lack of medical professionals across various fields.",
+        "Dental hygienists can earn $40-60+ an hour with a relatively short training program."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3.5K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xf5olq/what_is_a_skill_in_high_demand_right_now_but_low/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "目前需求高但供应低的技能是什么？",
+          "context": "原来，天空和管道都急需人才升级——谁知道马桶会如此苛刻？",
+          "takeaways": [
+            "北美的空中交通管制员和航空公司飞行员长期短缺。",
+            "各个领域的医疗专业人员始终不足。",
+            "牙科卫生员经过相对较短的培训项目，能够赚取每小时40-60美元以上。"
+          ],
+          "trendLabel": "3.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xf85wd",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "Anybody ever driven out here for star gazing?",
+      "context": "Looking for a starry escape? This spot might just be your ticket to a cosmic adventure—or at least a great view of the Milky Way.",
+      "takeaways": [
+        "3 Rivers Ranch offers a dark sky ideal for stargazing.",
+        "Light pollution can hinder visibility of finer details in the Milky Way.",
+        "Consider sharing in r/FortWorth for local astronomy insights."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "437 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xf85wd/anybody_ever_driven_out_here_for_star_gazing/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "有人开车来到这里看星星吗？",
+          "context": "想要寻找星空的逃离之地？这个地方可能是您通往宇宙冒险的门票，或者至少是一个欣赏银河的好地方。",
+          "takeaways": [
+            "3 Rivers Ranch 提供理想的黑暗天空适合观星。",
+            "光污染可能会影响对银河细节的可见性。",
+            "考虑在 r/FortWorth 分享以获取当地天文学见解。"
+          ],
+          "trendLabel": "437 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xfhz0t",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL there is an actual \"Granny Smith\" behind the origin of the Granny Smith apple in Australia in 1868. And the creation of the new hybrid was an accident from discarded apple scraps.",
+      "context": "Turns out the Granny Smith apple has a real granny story, involving scraps and a dash of serendipity from 1868 Australia.",
+      "takeaways": [
+        "There's an annual festival in honor of Granny Smith in her original suburb.",
+        "Scraps can lead to new apple varieties through unexpected hybridization.",
+        "One commenter claims to be a descendant of Granny Smith."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3.2K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xfhz0t/til_there_is_an_actual_granny_smith_behind_the/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "有一位真实的“格兰尼·史密斯”在1868年澳大利亚的格兰尼·史密斯苹果的起源背后",
+          "context": "原来格兰尼·史密斯苹果背后有真实的故事，涉及1868年澳大利亚的废料和一丝偶然的机缘。",
+          "takeaways": [
+            "每年在她的故乡举行以格兰尼·史密斯命名的节日。",
+            "废料通过意外杂交可能会导致新的苹果品种。",
+            "有评论者声称自己是格兰尼·史密斯的后裔。"
+          ],
+          "trendLabel": "3.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xfbfgr",
       "lane": [
         "for-you",
         "everyone",
@@ -484,12 +312,12 @@
       "cardType": "community-insight",
       "theme": "coral",
       "eyebrow": "r/AskReddit",
-      "headline": "What's your proudest \"I saw that movie in theaters during its original run\" achievement?",
-      "context": "Reliving the excitement of blockbuster films, some Redditors share their pride in witnessing cinematic history during its original theatrical releases.",
+      "headline": "Restaurant chefs of Reddit: What is a common menu item that is almost always a total rip-off or prepared in the laziest way possible?",
+      "context": "Ever wonder which menu items are just clever marketing? Chefs spill the beans on culinary shortcuts and overpriced staples.",
       "takeaways": [
-        "Experiencing iconic films like Star Wars and The Matrix without prior hype can be unforgettable.",
-        "Many cherish the nostalgia of seeing classics like Back To The Future in theaters.",
-        "The thrill of watching major releases like Independence Day and Jurassic Park remains a fond memory."
+        "Side Caesar salads often cost more than their worth, featuring minimal ingredients.",
+        "Truffle fries are typically cheap potatoes dressed up with synthetic flavoring.",
+        "Desserts without a pastry chef are usually just thawed frozen items."
       ],
       "topics": [
         "askreddit"
@@ -497,23 +325,109 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.5K upvotes",
+      "trendLabel": "2.7K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xbzqmk/whats_your_proudest_i_saw_that_movie_in_theaters/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xfbfgr/restaurant_chefs_of_reddit_what_is_a_common_menu/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "你最自豪的“我在原始上映期间看过那部电影”成就是什么？",
-          "context": "重温热门电影的兴奋感，一些Reddit用户分享了他们在原始电影上映期间见证电影历史的自豪感。",
+          "headline": "餐厅厨师：哪些常见菜单项几乎总是让人感到被宰或是以最懒惰的方式准备的？",
+          "context": "你是否想过哪些菜单项只是巧妙的营销？厨师们揭示了烹饪捷径和高价主食。",
           "takeaways": [
-            "像《星球大战》和《黑客帝国》这样的经典电影在没有预期的情况下观看是难以忘怀的。",
-            "许多人珍惜在影院观看《回到未来》等经典影片的怀旧情感。",
-            "观看《独立日》和《侏罗纪公园》等重大上映作品的刺激感仍然是美好的回忆。"
+            "凯撒沙拉的配料往往很少，但价格却超出实际价值。",
+            "松露薯条通常是便宜的土豆，配上合成调味料。",
+            "没有糕点师的甜点通常只是解冻的冷冻食品。"
           ],
-          "trendLabel": "1.5K 赞"
+          "trendLabel": "2.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xfklg3",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL in 2012 a woman in Hainan Province, China, accidentally killed a man during a parking dispute by squeezing his testicles",
+      "context": "A parking dispute in China escalated to an unusual and fatal end, highlighting the unexpected dangers of heated arguments.",
+      "takeaways": [
+        "A middle-aged woman squeezed a man's testicles during a fight, leading to his collapse.",
+        "Similar incidents have reportedly occurred elsewhere, raising eyebrows.",
+        "One commenter warns against clicking the linked article, deeming it a spam site."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.4K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xfklg3/til_in_2012_a_woman_in_hainan_province_china/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：2012年中国海南省一名女性因停车争执意外造成男子死亡，原因是她捏了他的睾丸",
+          "context": "中国的一场停车争执意外演变成致命事件，突显了激烈争论的意外危险。",
+          "takeaways": [
+            "一名中年女性在争斗中捏住男子的睾丸，导致他倒地。",
+            "类似事件在其他地方也有发生，引发关注。",
+            "一位评论者警告不要点击相关链接，认为那是个垃圾网站。"
+          ],
+          "trendLabel": "1.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xfbz64",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "People with mental disorders, what is something neurotypical people take for granted but in reality is really hard for you?",
+      "context": "Ever wonder why some people struggle to enjoy hobbies? Turns out, it’s not just about having fun; it’s a whole workout for the brain.",
+      "takeaways": [
+        "Starting enjoyable activities can feel like a monumental effort for some.",
+        "Memory lapses can hinder relationships, making social interactions tough.",
+        "Forming healthy connections can be exhausting instead of energizing."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.1K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xfbz64/people_with_mental_disorders_what_is_something/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "精神障碍者：神经典型者所视为理所当然的事情是什么？",
+          "context": "你是否想过为什么有些人难以享受爱好？原来，这不仅仅是为了娱乐；这对大脑来说是一次全面的锻炼。",
+          "takeaways": [
+            "开始喜欢的活动对一些人来说可能感觉像一项艰巨的任务。",
+            "记忆缺失可能会妨碍人际关系，使社交互动变得困难。",
+            "建立健康的联系可能让人感到疲惫，而不是充满活力。"
+          ],
+          "trendLabel": "1.1K 赞"
         }
       }
     }
