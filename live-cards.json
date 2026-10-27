@@ -1,237 +1,151 @@
 {
-  "updatedAt": "2026-10-26T03:38:51+00:00",
+  "updatedAt": "2026-10-27T18:42:42+00:00",
   "cards": [
     {
-      "id": "reddit-1xf505q",
+      "id": "reddit-1xgmye2",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that the average American armed forces inductee in WWII was 26 years old, 5' 8\" tall, 144 pounds, and had 9 years of formal schooling",
-      "context": "Imagine being 26, 5'8\", and only 144 pounds—welcome to the average WWII soldier's profile, where health issues were a real enlistment hurdle.",
-      "takeaways": [
-        "School lunches emerged post-war to combat malnutrition among recruits.",
-        "Malnutrition and dental issues were the top reasons for military rejections during WWII.",
-        "Soldiers were often smaller, as evidenced by the cramped quarters of a Sherman tank."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "13.8K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xf505q/til_that_the_average_american_armed_forces/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我知道，二战期间美国军队的新兵平均年龄为26岁，身高5英尺8英寸，体重144磅，接受过9年正规教育",
-          "context": "想象一下，26岁，5英尺8寸，只有144磅——欢迎来到二战士兵的平均档案，健康问题确实是入伍的一大障碍。",
-          "takeaways": [
-            "战后学校午餐的出现是为了应对新兵中的营养不良问题。",
-            "营养不良和牙齿问题是二战期间拒绝入伍的主要原因。",
-            "士兵们通常身材较小，谢尔曼坦克的狭小空间便是明证。"
-          ],
-          "trendLabel": "13.8K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xf9iy4",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/AskReddit",
-      "headline": "What drink tastes awful but lots of people still drink it?",
-      "context": "From colonoscopy prep to mysterious Turkish concoctions, some drinks are just hard to swallow yet still have their fans.",
-      "takeaways": [
-        "Colonoscopy prep drink is notoriously unappetizing yet necessary.",
-        "Malort is infamous for its bad taste but still has a following.",
-        "Warm bottled water can taste like plastic, but many still refuse to waste it."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "3.6K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xf9iy4/what_drink_tastes_awful_but_lots_of_people_still/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "什么饮料味道糟糕但仍然有很多人喝？",
-          "context": "从肠镜准备饮料到神秘的土耳其混合饮品，有些饮料虽然难以下咽，却依然有其粉丝。",
-          "takeaways": [
-            "肠镜准备饮料以其可怕的味道而闻名，但却是必要的。",
-            "Malort因其糟糕的味道而臭名昭著，但仍然有追随者。",
-            "温热的瓶装水可能尝起来像塑料，但许多人仍拒绝浪费。"
-          ],
-          "trendLabel": "3.6K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xf6bm8",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "coral",
-      "eyebrow": "r/Dallas",
-      "headline": "Saw a Talarico sign get stolen yesterday?",
-      "context": "Witnessing a Talarico sign theft raises questions about voter influence and the peculiar tactics some will use to sway opinions.",
-      "takeaways": [
-        "Sign theft reflects a misguided belief in controlling voter choices.",
-        "Some people fear losing their power, leading to desperate actions.",
-        "The First Amendment complicates the debate around political expression."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "610 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xf6bm8/saw_a_talarico_sign_get_stolen_yesterday/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "昨天看到有人偷了Talarico的标志？",
-          "context": "目睹Talarico标志被盗引发了关于选民影响和一些人用奇怪手段影响舆论的问题。",
-          "takeaways": [
-            "盗取标志反映了对控制选民选择的错误信念。",
-            "一些人害怕失去权力，导致绝望的行为。",
-            "第一修正案使政治表达的辩论变得复杂。"
-          ],
-          "trendLabel": "610 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xfj1y2",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL the population of the NYC metropolitan area makes up 7.9% of the total US population. The city alone is 2.5% of the country's population.",
-      "context": "New York's population seems huge, but it's still less than half of New York State's total. How does that work?",
-      "takeaways": [
-        "Bangkok's population is 7-12% of Thailand, surprising many.",
-        "Toronto area comprises about 15% of Canada's population.",
-        "New York City is only 2.5% of the entire U.S. population."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "7K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xfj1y2/til_the_population_of_the_nyc_metropolitan_area/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到纽约市大都会区人口占美国总人口的7.9%，而纽约市本身占2.5%。",
-          "context": "纽约的人口似乎很庞大，但它在纽约州总人口中仍不到一半。这是怎么回事？",
-          "takeaways": [
-            "曼谷的人口占泰国的7-12%，让人感到意外。",
-            "多伦多地区约占加拿大人口的15%。",
-            "纽约市仅占美国总人口的2.5%。"
-          ],
-          "trendLabel": "7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xf5olq",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "What is a skill in high demand right now, but low supply?",
-      "context": "Turns out, the skies and plumbing are both in need of a serious talent upgrade—who knew toilets could be so demanding?",
-      "takeaways": [
-        "Air traffic controllers and airline pilots are in long-term shortage in North America.",
-        "There is a persistent lack of medical professionals across various fields.",
-        "Dental hygienists can earn $40-60+ an hour with a relatively short training program."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "3.5K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xf5olq/what_is_a_skill_in_high_demand_right_now_but_low/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "目前需求高但供应低的技能是什么？",
-          "context": "原来，天空和管道都急需人才升级——谁知道马桶会如此苛刻？",
-          "takeaways": [
-            "北美的空中交通管制员和航空公司飞行员长期短缺。",
-            "各个领域的医疗专业人员始终不足。",
-            "牙科卫生员经过相对较短的培训项目，能够赚取每小时40-60美元以上。"
-          ],
-          "trendLabel": "3.5K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xf85wd",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
       "theme": "lime",
-      "eyebrow": "r/Dallas",
-      "headline": "Anybody ever driven out here for star gazing?",
-      "context": "Looking for a starry escape? This spot might just be your ticket to a cosmic adventure—or at least a great view of the Milky Way.",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL Highway hypnosis, also known as white line fever, is an altered mental state in which an automobile driver can drive safely and correctly over long distances without consciously remembering having done so.",
+      "context": "Ever zoned out while driving? Welcome to the world of highway hypnosis, where your brain might be multitasking without you even knowing it.",
       "takeaways": [
-        "3 Rivers Ranch offers a dark sky ideal for stargazing.",
-        "Light pollution can hinder visibility of finer details in the Milky Way.",
-        "Consider sharing in r/FortWorth for local astronomy insights."
+        "Highway hypnosis can occur during repetitive tasks requiring minimal concentration.",
+        "Your brain processes road information while your mind wanders.",
+        "This mental disengagement can also happen in gaming, enhancing performance."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "16.5K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xgmye2/til_highway_hypnosis_also_known_as_white_line/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：高速公路催眠，也称为白线发热，是一种改变的心理状态。",
+          "context": "你在开车时是否曾神游？欢迎来到高速公路催眠的世界，你的大脑可能在不知情的情况下进行多任务处理。",
+          "takeaways": [
+            "高速公路催眠可能在需要少量集中注意力的重复性任务中发生。",
+            "你的大脑在游离时仍处理着路上的信息。",
+            "这种心理脱离也会发生在游戏中，从而提升表现。"
+          ],
+          "trendLabel": "16.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xggpqu",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "What's a 'rich people' thing you tried once and immediately understood why they do it?",
+      "context": "Ever tried something rich people do and thought, 'Now I understand why they spend their money like that?' You're not alone.",
+      "takeaways": [
+        "Hiring help can drastically change your quality of life.",
+        "First class flights make you realize how rough economy really is.",
+        "Once you experience luxury, going back feels much harder."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "5.7K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xggpqu/whats_a_rich_people_thing_you_tried_once_and/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "你尝试过哪些“富人”做的事情，立刻明白他们为什么这样做？",
+          "context": "你是否尝试过富人做的事情，心想：‘我现在明白他们为什么这么花钱了？’你并不孤单。",
+          "takeaways": [
+            "雇佣帮助可以极大改善你的生活质量。",
+            "头等舱让你意识到经济舱的艰难。",
+            "一旦体验过奢华，回归就变得更加困难。"
+          ],
+          "trendLabel": "5.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xgdki3",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: You can get rid of Google's automatic AI summaries by switching your account region to Cuba",
+      "context": "Tired of Google's AI summaries? A quick switch to Cuba might just be the fix you need.",
+      "takeaways": [
+        "Firefox plugins can completely strip out unwanted summaries.",
+        "Adding a curse word to Pinterest searches can eliminate ads.",
+        "Consider switching to Duck Duck Go for a summary-free experience."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.3K upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xgdki3/lpt_you_can_get_rid_of_googles_automatic_ai/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：通过将账户地区切换到古巴，您可以摆脱谷歌的自动AI摘要",
+          "context": "厌倦了谷歌的AI摘要？快速切换到古巴或许能帮你解决这个问题。",
+          "takeaways": [
+            "Firefox插件可以完全去掉不需要的摘要。",
+            "在Pinterest搜索中添加脏话可以消除广告。",
+            "考虑使用Duck Duck Go来获得无摘要体验。"
+          ],
+          "trendLabel": "1.3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xgsusf",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ink",
+      "eyebrow": "r/Dallas",
+      "headline": "'Absolutely ridiculous': Dallas still hasn’t received Republican midterm convention reimbursement",
+      "context": "Dallas is still waiting on midterm convention reimbursement, but some say it's par for the course with Trump.",
+      "takeaways": [
+        "Many expected Dallas wouldn't see the reimbursement.",
+        "Trump's history of unpaid bills raises eyebrows.",
+        "Blame seems to shift with a hint of irony."
       ],
       "topics": [
         "dallas"
@@ -239,28 +153,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "437 upvotes",
+      "trendLabel": "549 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xf85wd/anybody_ever_driven_out_here_for_star_gazing/"
+          "url": "https://reddit.com/r/Dallas/comments/1xgsusf/absolutely_ridiculous_dallas_still_hasnt_received/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有人开车来到这里看星星吗？",
-          "context": "想要寻找星空的逃离之地？这个地方可能是您通往宇宙冒险的门票，或者至少是一个欣赏银河的好地方。",
+          "headline": "绝对荒谬：达拉斯仍未收到共和党中期大会的报销",
+          "context": "达拉斯仍在等待中期大会的报销，但有人表示这与特朗普的历史相符。",
           "takeaways": [
-            "3 Rivers Ranch 提供理想的黑暗天空适合观星。",
-            "光污染可能会影响对银河细节的可见性。",
-            "考虑在 r/FortWorth 分享以获取当地天文学见解。"
+            "很多人预计达拉斯不会见到报销。",
+            "特朗普未付款的历史引发关注。",
+            "指责似乎带着一丝讽刺。"
           ],
-          "trendLabel": "437 赞"
+          "trendLabel": "549 赞"
         }
       }
     },
     {
-      "id": "reddit-1xfhz0t",
+      "id": "reddit-1xgj6ez",
       "lane": [
         "for-you",
         "everyone",
@@ -269,12 +183,12 @@
       "cardType": "community-insight",
       "theme": "violet",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL there is an actual \"Granny Smith\" behind the origin of the Granny Smith apple in Australia in 1868. And the creation of the new hybrid was an accident from discarded apple scraps.",
-      "context": "Turns out the Granny Smith apple has a real granny story, involving scraps and a dash of serendipity from 1868 Australia.",
+      "headline": "TIL of Alfred Gwynne Vanderbilt, a Gilded Age millionaire who died when the RMS Lusitania sank in 1915, after giving his own life vest to a young mother and her baby. He  couldn't swim and he knew that there were no other lifeboats available at the time. He was 37. The woman & her child survived.",
+      "context": "Meet Alfred Gwynne Vanderbilt, the millionaire who chose altruism over survival on the fateful Lusitania voyage—talk about a high-stakes game of life vests.",
       "takeaways": [
-        "There's an annual festival in honor of Granny Smith in her original suburb.",
-        "Scraps can lead to new apple varieties through unexpected hybridization.",
-        "One commenter claims to be a descendant of Granny Smith."
+        "Vanderbilt's bravery echoes the sacrifice of Isidore Strauss on the Titanic, reflecting a tragic trend among wealthy individuals.",
+        "Witnesses noted Vanderbilt's focus on saving children, highlighting his character in dire circumstances.",
+        "Modern billionaires might not exhibit the same selflessness as Vanderbilt during such a crisis."
       ],
       "topics": [
         "todayilearned"
@@ -282,28 +196,200 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.2K upvotes",
+      "trendLabel": "9.5K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xfhz0t/til_there_is_an_actual_granny_smith_behind_the/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xgj6ez/til_of_alfred_gwynne_vanderbilt_a_gilded_age/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有一位真实的“格兰尼·史密斯”在1868年澳大利亚的格兰尼·史密斯苹果的起源背后",
-          "context": "原来格兰尼·史密斯苹果背后有真实的故事，涉及1868年澳大利亚的废料和一丝偶然的机缘。",
+          "headline": "今日我了解到阿尔弗雷德·古恩·范德比尔特，这位在1915年鲁西塔尼亚号沉没时牺牲的富豪，他把救生衣给了一位年轻母亲和她的婴儿。",
+          "context": "认识阿尔弗雷德·古恩·范德比尔特，这位在鲁西塔尼亚号沉没时选择无私而非生存的百万富翁——谈到救生衣的高风险游戏。",
           "takeaways": [
-            "每年在她的故乡举行以格兰尼·史密斯命名的节日。",
-            "废料通过意外杂交可能会导致新的苹果品种。",
-            "有评论者声称自己是格兰尼·史密斯的后裔。"
+            "范德比尔特的勇气与泰坦尼克号上的伊西多尔·斯特劳斯的牺牲相呼应，反映了富人中的悲惨趋势。",
+            "目击者指出范德比尔特专注于拯救儿童，突显了他在危急情况下的品格。",
+            "现代亿万富翁在危机中可能不会表现出与范德比尔特相同的无私精神。"
           ],
-          "trendLabel": "3.2K 赞"
+          "trendLabel": "9.5K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xfbfgr",
+      "id": "reddit-1xglgkc",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/AskReddit",
+      "headline": "What's the most unbelievable excuse someone gave for being late, but later turned out to be true?",
+      "context": "Sometimes, life throws unexpected hurdles at us, like missing stairs or an emu blockade. Who knew being late could be so entertaining?",
+      "takeaways": [
+        "Excuses can range from the bizarre to the absurdly true.",
+        "Unbelievable circumstances often lead to the most memorable stories.",
+        "Humor can help lighten the mood in unexpected situations."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "4K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xglgkc/whats_the_most_unbelievable_excuse_someone_gave/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "有人迟到的理由中，最不可思议的是什么，但后来却是真的？",
+          "context": "有时候，生活会给我们带来意想不到的障碍，比如缺失的楼梯或鸸鹋的封锁。迟到竟然可以如此有趣。",
+          "takeaways": [
+            "理由可以从离奇到令人难以置信的真实。",
+            "不可思议的情况往往会带来最难忘的故事。",
+            "幽默可以帮助减轻意外情况带来的紧张气氛。"
+          ],
+          "trendLabel": "4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xh0drd",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT for teens class",
+      "context": "Teaching middle schoolers practical life skills? Don't forget to include knot tying and how to jump a car!",
+      "takeaways": [
+        "Include basic cooking skills and sewing for everyday emergencies.",
+        "Teach budgeting and negotiation to empower financial literacy.",
+        "Add fire safety lessons and how to change a tire for real-life readiness."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "14 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xh0drd/lpt_for_teens_class/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "青少年生活技能课程的建议",
+          "context": "教中学生实用生活技能？别忘了包括打结和如何搭电池！",
+          "takeaways": [
+            "包括基本的烹饪技能和缝纫应对日常紧急情况。",
+            "教授预算和谈判以提升金融素养。",
+            "增加消防安全课程和换轮胎技能以应对实际生活。"
+          ],
+          "trendLabel": "14 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xh042r",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ink",
+      "eyebrow": "r/Dallas",
+      "headline": "The Morning News backed Talarico and said Abbott 'has lost our recommendation.' Here's his record next to Hinojosa's plan",
+      "context": "The Morning News has shifted its stance on Abbott, but voters might just be confused by the split recommendations.",
+      "takeaways": [
+        "Texas has been under Republican leadership since the 80s, raising concerns about effectiveness.",
+        "Voter turnout could sway election results, so participation is crucial.",
+        "Some readers hope the newspaper maintains its subscriber base despite controversial endorsements."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "180 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xh042r/the_morning_news_backed_talarico_and_said_abbott/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "《早间新闻》支持塔拉里科，并表示阿博特“失去了我们的推荐”。这是他的记录与希诺霍萨计划的对比",
+          "context": "《早间新闻》对阿博特的态度发生了变化，选民可能会对这种分裂的推荐感到困惑。",
+          "takeaways": [
+            "德克萨斯州自80年代以来一直由共和党领导，引发了对其有效性的担忧。",
+            "选民投票率可能影响选举结果，因此参与至关重要。",
+            "一些读者希望报纸在争议性推荐中能保持订阅基础。"
+          ],
+          "trendLabel": "180 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xgr66s",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that in Japanese folklore, Kuchisake-onna is a ghost woman whose mouth is slit from ear to ear. She asks people, “Am I pretty?” Say no, and she kills you. Say yes, and she reveals her mouth and asks again. Say yes a second time, and she may cut your mouth to match hers.",
+      "context": "In Japanese folklore, a ghostly woman with a sinister smile may just be asking for compliments—or a clever excuse to escape.",
+      "takeaways": [
+        "Saying you're late for a meeting is a solid escape plan.",
+        "Confusing her with unexpected answers might give you a chance to flee.",
+        "A compliment about her voice could lead to a surprising outcome."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "6.1K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xgr66s/til_that_in_japanese_folklore_kuchisakeonna_is_a/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天学到：根据日本民间传说，口裂女是一个嘴巴从耳朵到耳朵裂开的幽灵女人。",
+          "context": "在日本民间传说中，一个面带阴险微笑的幽灵女人可能只是在寻求赞美，或者是想要一个巧妙的借口来逃跑。",
+          "takeaways": [
+            "说你要迟到了是一个不错的逃脱计划。",
+            "用意想不到的回答让她困惑，可能会给你逃跑的机会。",
+            "夸赞她的声音可能会带来意想不到的结果。"
+          ],
+          "trendLabel": "6.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xgqdyg",
       "lane": [
         "for-you",
         "everyone",
@@ -312,12 +398,12 @@
       "cardType": "community-insight",
       "theme": "coral",
       "eyebrow": "r/AskReddit",
-      "headline": "Restaurant chefs of Reddit: What is a common menu item that is almost always a total rip-off or prepared in the laziest way possible?",
-      "context": "Ever wonder which menu items are just clever marketing? Chefs spill the beans on culinary shortcuts and overpriced staples.",
+      "headline": "You wake up and it’s October 27, 2006. What do you do?",
+      "context": "Imagine waking up in 2006—do you relive the past, or do you try to change your future?",
       "takeaways": [
-        "Side Caesar salads often cost more than their worth, featuring minimal ingredients.",
-        "Truffle fries are typically cheap potatoes dressed up with synthetic flavoring.",
-        "Desserts without a pastry chef are usually just thawed frozen items."
+        "Some would seize the opportunity to invest wisely before the market crashes.",
+        "Others would prefer to avoid the hardships they know are coming.",
+        "A few might take a more chaotic approach to their unexpected situation."
       ],
       "topics": [
         "askreddit"
@@ -325,28 +411,71 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "2.7K upvotes",
+      "trendLabel": "878 upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xfbfgr/restaurant_chefs_of_reddit_what_is_a_common_menu/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xgqdyg/you_wake_up_and_its_october_27_2006_what_do_you_do/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "餐厅厨师：哪些常见菜单项几乎总是让人感到被宰或是以最懒惰的方式准备的？",
-          "context": "你是否想过哪些菜单项只是巧妙的营销？厨师们揭示了烹饪捷径和高价主食。",
+          "headline": "你醒来时是2006年10月27日。你会怎么办？",
+          "context": "想象一下醒来在2006年，你是选择重温过去，还是试图改变未来？",
           "takeaways": [
-            "凯撒沙拉的配料往往很少，但价格却超出实际价值。",
-            "松露薯条通常是便宜的土豆，配上合成调味料。",
-            "没有糕点师的甜点通常只是解冻的冷冻食品。"
+            "有些人会抓住机会，在市场崩溃前明智投资。",
+            "其他人则宁愿避免他们知道即将到来的艰难时刻。",
+            "少数人可能会对这种突如其来的情况采取更混乱的方式。"
           ],
-          "trendLabel": "2.7K 赞"
+          "trendLabel": "878 赞"
         }
       }
     },
     {
-      "id": "reddit-1xfklg3",
+      "id": "reddit-1xh0bnp",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: When asking for your name to be removed from mailing lists there is a second thing you need to ask for.",
+      "context": "Discovering a hidden mailing list may leave you wondering just how many layers of your personal information companies really keep track of.",
+      "takeaways": [
+        "One request isn't enough; ask to be removed from all lists.",
+        "This tip has been shared before and may not be new advice.",
+        "Clickbait titles can lead to disappointment in the content."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "0 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xh0bnp/lpt_when_asking_for_your_name_to_be_removed_from/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：在要求将您的名字从邮件列表中删除时，还有第二件事需要询问。",
+          "context": "发现隐藏的邮件列表可能让您怀疑公司到底记录了多少层您的个人信息。",
+          "takeaways": [
+            "仅仅一个请求是不够的；请求从所有列表中删除。",
+            "这个建议之前已经分享过，可能不是新建议。",
+            "吸引点击的标题可能会让人对内容感到失望。"
+          ],
+          "trendLabel": "0 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xgwfto",
       "lane": [
         "for-you",
         "everyone",
@@ -355,12 +484,12 @@
       "cardType": "community-insight",
       "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL in 2012 a woman in Hainan Province, China, accidentally killed a man during a parking dispute by squeezing his testicles",
-      "context": "A parking dispute in China escalated to an unusual and fatal end, highlighting the unexpected dangers of heated arguments.",
+      "headline": "TIL that Teflon was accidentally discovered in 1938 when chemist Roy Plunkett found that a cylinder of tetrafluoroethylene gas had stopped releasing gas despite still weighing the same. When he opened it, he found the inside coated with a slippery white solid: polytetrafluoroethylene (PTFE).",
+      "context": "Sometimes the most slippery discoveries come from unexpected places, like a gas cylinder that just decided to stop working.",
       "takeaways": [
-        "A middle-aged woman squeezed a man's testicles during a fight, leading to his collapse.",
-        "Similar incidents have reportedly occurred elsewhere, raising eyebrows.",
-        "One commenter warns against clicking the linked article, deeming it a spam site."
+        "Accidental inventions can lead to major breakthroughs, like Teflon and laminated glass.",
+        "Teflon's history includes legal troubles for DuPont over environmental concerns.",
+        "PFAS chemicals are found in organisms worldwide, raising health and environmental issues."
       ],
       "topics": [
         "todayilearned"
@@ -368,66 +497,23 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.4K upvotes",
+      "trendLabel": "2.9K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xfklg3/til_in_2012_a_woman_in_hainan_province_china/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xgwfto/til_that_teflon_was_accidentally_discovered_in/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到：2012年中国海南省一名女性因停车争执意外造成男子死亡，原因是她捏了他的睾丸",
-          "context": "中国的一场停车争执意外演变成致命事件，突显了激烈争论的意外危险。",
+          "headline": "今天了解到，特氟龙是在1938年意外发现的",
+          "context": "有时，最意想不到的发现来自意外的地方，就像一个气体气缸突然决定停止工作。",
           "takeaways": [
-            "一名中年女性在争斗中捏住男子的睾丸，导致他倒地。",
-            "类似事件在其他地方也有发生，引发关注。",
-            "一位评论者警告不要点击相关链接，认为那是个垃圾网站。"
+            "意外的发明可以导致重大突破，比如特氟龙和层压玻璃。",
+            "特氟龙的历史包括杜邦在环境问题上的法律纠纷。",
+            "PFAS化学物质在全球生物体中被发现，带来了健康和环境问题。"
           ],
-          "trendLabel": "1.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xfbz64",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/AskReddit",
-      "headline": "People with mental disorders, what is something neurotypical people take for granted but in reality is really hard for you?",
-      "context": "Ever wonder why some people struggle to enjoy hobbies? Turns out, it’s not just about having fun; it’s a whole workout for the brain.",
-      "takeaways": [
-        "Starting enjoyable activities can feel like a monumental effort for some.",
-        "Memory lapses can hinder relationships, making social interactions tough.",
-        "Forming healthy connections can be exhausting instead of energizing."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.1K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xfbz64/people_with_mental_disorders_what_is_something/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "精神障碍者：神经典型者所视为理所当然的事情是什么？",
-          "context": "你是否想过为什么有些人难以享受爱好？原来，这不仅仅是为了娱乐；这对大脑来说是一次全面的锻炼。",
-          "takeaways": [
-            "开始喜欢的活动对一些人来说可能感觉像一项艰巨的任务。",
-            "记忆缺失可能会妨碍人际关系，使社交互动变得困难。",
-            "建立健康的联系可能让人感到疲惫，而不是充满活力。"
-          ],
-          "trendLabel": "1.1K 赞"
+          "trendLabel": "2.9K 赞"
         }
       }
     }
