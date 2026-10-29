@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-27T18:42:42+00:00",
+  "updatedAt": "2026-10-29T18:58:52+00:00",
   "cards": [
     {
-      "id": "reddit-1xgmye2",
+      "id": "reddit-1xij4de",
       "lane": [
         "for-you",
         "everyone",
@@ -11,12 +11,12 @@
       "cardType": "community-insight",
       "theme": "lime",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL Highway hypnosis, also known as white line fever, is an altered mental state in which an automobile driver can drive safely and correctly over long distances without consciously remembering having done so.",
-      "context": "Ever zoned out while driving? Welcome to the world of highway hypnosis, where your brain might be multitasking without you even knowing it.",
+      "headline": "TIL Salivating before vomiting is a way for your body to protect your teeth from thr incoming stomach acid",
+      "context": "Did you know that your body has a built-in warning system for vomiting? It’s almost like a pre-game show for your stomach.",
       "takeaways": [
-        "Highway hypnosis can occur during repetitive tasks requiring minimal concentration.",
-        "Your brain processes road information while your mind wanders.",
-        "This mental disengagement can also happen in gaming, enhancing performance."
+        "Salivating before vomiting can give you a crucial early warning to find a toilet.",
+        "This response may have evolved from our ancestors' frequent vomiting, serving as a protective mechanism.",
+        "Some people experience cold sweats as a precursor to the salivation and vomiting."
       ],
       "topics": [
         "todayilearned"
@@ -24,214 +24,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "16.5K upvotes",
+      "trendLabel": "17.3K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xgmye2/til_highway_hypnosis_also_known_as_white_line/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xij4de/til_salivating_before_vomiting_is_a_way_for_your/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到：高速公路催眠，也称为白线发热，是一种改变的心理状态。",
-          "context": "你在开车时是否曾神游？欢迎来到高速公路催眠的世界，你的大脑可能在不知情的情况下进行多任务处理。",
+          "headline": "今天学到：呕吐前流口水是身体保护牙齿免受胃酸侵害的方式",
+          "context": "你知道吗？你的身体有一套内置的呕吐警告系统，几乎就像是胃的预热节目。",
           "takeaways": [
-            "高速公路催眠可能在需要少量集中注意力的重复性任务中发生。",
-            "你的大脑在游离时仍处理着路上的信息。",
-            "这种心理脱离也会发生在游戏中，从而提升表现。"
+            "呕吐前流口水可以给你一个重要的提前警告，让你找到厕所。",
+            "这种反应可能是由于我们祖先频繁呕吐而进化而来，作为一种保护机制。",
+            "有些人在流口水和呕吐前会感到寒冷的出汗。"
           ],
-          "trendLabel": "16.5K 赞"
+          "trendLabel": "17.3K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xggpqu",
+      "id": "reddit-1xi811q",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "What's a 'rich people' thing you tried once and immediately understood why they do it?",
-      "context": "Ever tried something rich people do and thought, 'Now I understand why they spend their money like that?' You're not alone.",
-      "takeaways": [
-        "Hiring help can drastically change your quality of life.",
-        "First class flights make you realize how rough economy really is.",
-        "Once you experience luxury, going back feels much harder."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "5.7K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xggpqu/whats_a_rich_people_thing_you_tried_once_and/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "你尝试过哪些“富人”做的事情，立刻明白他们为什么这样做？",
-          "context": "你是否尝试过富人做的事情，心想：‘我现在明白他们为什么这么花钱了？’你并不孤单。",
-          "takeaways": [
-            "雇佣帮助可以极大改善你的生活质量。",
-            "头等舱让你意识到经济舱的艰难。",
-            "一旦体验过奢华，回归就变得更加困难。"
-          ],
-          "trendLabel": "5.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xgdki3",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: You can get rid of Google's automatic AI summaries by switching your account region to Cuba",
-      "context": "Tired of Google's AI summaries? A quick switch to Cuba might just be the fix you need.",
-      "takeaways": [
-        "Firefox plugins can completely strip out unwanted summaries.",
-        "Adding a curse word to Pinterest searches can eliminate ads.",
-        "Consider switching to Duck Duck Go for a summary-free experience."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.3K upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xgdki3/lpt_you_can_get_rid_of_googles_automatic_ai/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT：通过将账户地区切换到古巴，您可以摆脱谷歌的自动AI摘要",
-          "context": "厌倦了谷歌的AI摘要？快速切换到古巴或许能帮你解决这个问题。",
-          "takeaways": [
-            "Firefox插件可以完全去掉不需要的摘要。",
-            "在Pinterest搜索中添加脏话可以消除广告。",
-            "考虑使用Duck Duck Go来获得无摘要体验。"
-          ],
-          "trendLabel": "1.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xgsusf",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
       "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "'Absolutely ridiculous': Dallas still hasn’t received Republican midterm convention reimbursement",
-      "context": "Dallas is still waiting on midterm convention reimbursement, but some say it's par for the course with Trump.",
-      "takeaways": [
-        "Many expected Dallas wouldn't see the reimbursement.",
-        "Trump's history of unpaid bills raises eyebrows.",
-        "Blame seems to shift with a hint of irony."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "549 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xgsusf/absolutely_ridiculous_dallas_still_hasnt_received/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "绝对荒谬：达拉斯仍未收到共和党中期大会的报销",
-          "context": "达拉斯仍在等待中期大会的报销，但有人表示这与特朗普的历史相符。",
-          "takeaways": [
-            "很多人预计达拉斯不会见到报销。",
-            "特朗普未付款的历史引发关注。",
-            "指责似乎带着一丝讽刺。"
-          ],
-          "trendLabel": "549 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xgj6ez",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL of Alfred Gwynne Vanderbilt, a Gilded Age millionaire who died when the RMS Lusitania sank in 1915, after giving his own life vest to a young mother and her baby. He  couldn't swim and he knew that there were no other lifeboats available at the time. He was 37. The woman & her child survived.",
-      "context": "Meet Alfred Gwynne Vanderbilt, the millionaire who chose altruism over survival on the fateful Lusitania voyage—talk about a high-stakes game of life vests.",
-      "takeaways": [
-        "Vanderbilt's bravery echoes the sacrifice of Isidore Strauss on the Titanic, reflecting a tragic trend among wealthy individuals.",
-        "Witnesses noted Vanderbilt's focus on saving children, highlighting his character in dire circumstances.",
-        "Modern billionaires might not exhibit the same selflessness as Vanderbilt during such a crisis."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "9.5K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xgj6ez/til_of_alfred_gwynne_vanderbilt_a_gilded_age/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今日我了解到阿尔弗雷德·古恩·范德比尔特，这位在1915年鲁西塔尼亚号沉没时牺牲的富豪，他把救生衣给了一位年轻母亲和她的婴儿。",
-          "context": "认识阿尔弗雷德·古恩·范德比尔特，这位在鲁西塔尼亚号沉没时选择无私而非生存的百万富翁——谈到救生衣的高风险游戏。",
-          "takeaways": [
-            "范德比尔特的勇气与泰坦尼克号上的伊西多尔·斯特劳斯的牺牲相呼应，反映了富人中的悲惨趋势。",
-            "目击者指出范德比尔特专注于拯救儿童，突显了他在危急情况下的品格。",
-            "现代亿万富翁在危机中可能不会表现出与范德比尔特相同的无私精神。"
-          ],
-          "trendLabel": "9.5K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xglgkc",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
       "eyebrow": "r/AskReddit",
-      "headline": "What's the most unbelievable excuse someone gave for being late, but later turned out to be true?",
-      "context": "Sometimes, life throws unexpected hurdles at us, like missing stairs or an emu blockade. Who knew being late could be so entertaining?",
+      "headline": "What’s an expensive ($1k-$10k) luxury items that changed your life for the better?",
+      "context": "From robot vacuums to espresso machines, it seems luxury items can do more than just collect dust—some might even improve your life.",
       "takeaways": [
-        "Excuses can range from the bizarre to the absurdly true.",
-        "Unbelievable circumstances often lead to the most memorable stories.",
-        "Humor can help lighten the mood in unexpected situations."
+        "A high-quality coffee machine can transform your mornings and enhance your daily routine.",
+        "Investing in hobbies with premium tools can lead to more enjoyable and fulfilling experiences.",
+        "Extended travel can offer deep connections to new places, enriching life in unexpected ways."
       ],
       "topics": [
         "askreddit"
@@ -239,28 +67,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "4K upvotes",
+      "trendLabel": "4.6K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xglgkc/whats_the_most_unbelievable_excuse_someone_gave/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xi811q/whats_an_expensive_1k10k_luxury_items_that/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有人迟到的理由中，最不可思议的是什么，但后来却是真的？",
-          "context": "有时候，生活会给我们带来意想不到的障碍，比如缺失的楼梯或鸸鹋的封锁。迟到竟然可以如此有趣。",
+          "headline": "有哪些价值 $1,000-$10,000 的奢侈品改变了你的生活？",
+          "context": "从机器人吸尘器到浓缩咖啡机，奢侈品似乎不仅仅是灰尘收集器，还有可能改善你的生活。",
           "takeaways": [
-            "理由可以从离奇到令人难以置信的真实。",
-            "不可思议的情况往往会带来最难忘的故事。",
-            "幽默可以帮助减轻意外情况带来的紧张气氛。"
+            "高品质的咖啡机可以改变你的早晨，提升日常生活。",
+            "投资于高档工具的爱好可以带来更愉快和充实的体验。",
+            "长时间的旅行可以让你与新地方建立深厚的联系，意外丰富生活。"
           ],
-          "trendLabel": "4K 赞"
+          "trendLabel": "4.6K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xh0drd",
+      "id": "reddit-1xicwai",
       "lane": [
         "for-you",
         "everyone",
@@ -269,12 +97,12 @@
       "cardType": "community-insight",
       "theme": "gold",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT for teens class",
-      "context": "Teaching middle schoolers practical life skills? Don't forget to include knot tying and how to jump a car!",
+      "headline": "LPT: If you're introverted, always look at social events in terms of the number of hours you'll be there; it makes the burden of showing up significantly lighter.",
+      "context": "Feeling overwhelmed by social events? Try viewing them as short commitments to lighten the load on your introverted heart.",
       "takeaways": [
-        "Include basic cooking skills and sewing for everyday emergencies.",
-        "Teach budgeting and negotiation to empower financial literacy.",
-        "Add fire safety lessons and how to change a tire for real-life readiness."
+        "You can leave after a specific milestone during the event.",
+        "Showing up, even briefly, demonstrates you care.",
+        "Breaking down hours can make socializing feel less daunting."
       ],
       "topics": [
         "lifeprotips"
@@ -282,128 +110,128 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "14 upvotes",
+      "trendLabel": "944 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xh0drd/lpt_for_teens_class/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xicwai/lpt_if_youre_introverted_always_look_at_social/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "青少年生活技能课程的建议",
-          "context": "教中学生实用生活技能？别忘了包括打结和如何搭电池！",
+          "headline": "生活小窍门：如果你是内向的人，总是以参加社交活动的小时数来看待，这会让出席的负担轻得多。",
+          "context": "感到社交活动压力大？试着把它们看作短暂的承诺，减轻你内向心灵的负担。",
           "takeaways": [
-            "包括基本的烹饪技能和缝纫应对日常紧急情况。",
-            "教授预算和谈判以提升金融素养。",
-            "增加消防安全课程和换轮胎技能以应对实际生活。"
+            "你可以在活动中的特定时刻后离开。",
+            "即使是短暂的出席，也能表明你在乎。",
+            "将时间分解可以让社交变得不那么令人畏惧。"
           ],
-          "trendLabel": "14 赞"
+          "trendLabel": "944 赞"
         }
       }
     },
     {
-      "id": "reddit-1xh042r",
+      "id": "reddit-1xin3qg",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "The Morning News backed Talarico and said Abbott 'has lost our recommendation.' Here's his record next to Hinojosa's plan",
-      "context": "The Morning News has shifted its stance on Abbott, but voters might just be confused by the split recommendations.",
-      "takeaways": [
-        "Texas has been under Republican leadership since the 80s, raising concerns about effectiveness.",
-        "Voter turnout could sway election results, so participation is crucial.",
-        "Some readers hope the newspaper maintains its subscriber base despite controversial endorsements."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "180 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xh042r/the_morning_news_backed_talarico_and_said_abbott/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "《早间新闻》支持塔拉里科，并表示阿博特“失去了我们的推荐”。这是他的记录与希诺霍萨计划的对比",
-          "context": "《早间新闻》对阿博特的态度发生了变化，选民可能会对这种分裂的推荐感到困惑。",
-          "takeaways": [
-            "德克萨斯州自80年代以来一直由共和党领导，引发了对其有效性的担忧。",
-            "选民投票率可能影响选举结果，因此参与至关重要。",
-            "一些读者希望报纸在争议性推荐中能保持订阅基础。"
-          ],
-          "trendLabel": "180 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xgr66s",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that in Japanese folklore, Kuchisake-onna is a ghost woman whose mouth is slit from ear to ear. She asks people, “Am I pretty?” Say no, and she kills you. Say yes, and she reveals her mouth and asks again. Say yes a second time, and she may cut your mouth to match hers.",
-      "context": "In Japanese folklore, a ghostly woman with a sinister smile may just be asking for compliments—or a clever excuse to escape.",
-      "takeaways": [
-        "Saying you're late for a meeting is a solid escape plan.",
-        "Confusing her with unexpected answers might give you a chance to flee.",
-        "A compliment about her voice could lead to a surprising outcome."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "6.1K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xgr66s/til_that_in_japanese_folklore_kuchisakeonna_is_a/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天学到：根据日本民间传说，口裂女是一个嘴巴从耳朵到耳朵裂开的幽灵女人。",
-          "context": "在日本民间传说中，一个面带阴险微笑的幽灵女人可能只是在寻求赞美，或者是想要一个巧妙的借口来逃跑。",
-          "takeaways": [
-            "说你要迟到了是一个不错的逃脱计划。",
-            "用意想不到的回答让她困惑，可能会给你逃跑的机会。",
-            "夸赞她的声音可能会带来意想不到的结果。"
-          ],
-          "trendLabel": "6.1K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xgqdyg",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
       "theme": "coral",
-      "eyebrow": "r/AskReddit",
-      "headline": "You wake up and it’s October 27, 2006. What do you do?",
-      "context": "Imagine waking up in 2006—do you relive the past, or do you try to change your future?",
+      "eyebrow": "r/Dallas",
+      "headline": "The order of these tip options at Dolly Llama Waffle Master in Uptown…",
+      "context": "Dolly Llama Waffle Master's tip screen raises eyebrows, with percentages that seem more suited for tax brackets than waffles.",
       "takeaways": [
-        "Some would seize the opportunity to invest wisely before the market crashes.",
-        "Others would prefer to avoid the hardships they know are coming.",
-        "A few might take a more chaotic approach to their unexpected situation."
+        "Expecting the highest tip percentage for the cheapest option is puzzling.",
+        "Many feel tipping culture has spiraled out of control in the U.S.",
+        "Custom tips are now a go-to for many frustrated diners."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "354 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xin3qg/the_order_of_these_tip_options_at_dolly_llama/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "Uptown的Dolly Llama Waffle Master的提示选项顺序…",
+          "context": "Dolly Llama Waffle Master的提示界面引发了质疑，百分比似乎更适合税率而非华夫饼。",
+          "takeaways": [
+            "对最低选项期望最高的提示百分比令人困惑。",
+            "许多人觉得美国的打赏文化已经失控。",
+            "定制小费现在成为许多失望食客的首选。"
+          ],
+          "trendLabel": "354 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xil3lw",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that an ancient Egyptian tomb painting from around 1900 BC shows a man pouring water on sand in front of a sledge carrying a huge statue, and in 2014 physicists found that wetting the sand halves the force needed to pull it",
+      "context": "Ancient Egyptians had practical solutions for transporting heavy statues, yet some still prefer to believe in extraterrestrial assistance.",
+      "takeaways": [
+        "Some believe aliens built monuments, despite evidence of human ingenuity.",
+        "Wetting sand significantly reduces the effort needed to move heavy objects.",
+        "Transporting large stones over long distances is a remarkable feat of engineering."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "10.9K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xil3lw/til_that_an_ancient_egyptian_tomb_painting_from/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "我了解到，公元前1900年的一幅古埃及墓葬壁画描绘了一名男子在一辆运输巨大雕像的雪橇前浇水的场景，而2014年物理学家发现湿润沙子可以将拉动所需的力量减少一半",
+          "context": "古埃及人在运输重型雕像时有实际解决方案，但有些人仍然喜欢相信外星人的帮助。",
+          "takeaways": [
+            "一些人相信外星人建造了纪念碑，尽管有证据表明人类的聪明才智。",
+            "湿润沙子显著减少了移动重物所需的努力。",
+            "长途运输大型石块是工程的一项了不起的成就。"
+          ],
+          "trendLabel": "10.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xiapuf",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "People who went from attractive to unattractive as they got older, what physical change caused the biggest downgrade?",
+      "context": "Aging gracefully? Some Redditors reveal the surprising physical changes that turned their youthful charm into a more 'mature' look.",
+      "takeaways": [
+        "Skin problems can persist well into adulthood, contradicting the myth that acne is just a teenage issue.",
+        "Neglecting dental care can lead to painful and costly consequences as we age.",
+        "Body shape shifts during perimenopause can clash with our self-image, leaving us feeling out of sync."
       ],
       "topics": [
         "askreddit"
@@ -411,28 +239,71 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "878 upvotes",
+      "trendLabel": "3.7K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xgqdyg/you_wake_up_and_its_october_27_2006_what_do_you_do/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xiapuf/people_who_went_from_attractive_to_unattractive/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "你醒来时是2006年10月27日。你会怎么办？",
-          "context": "想象一下醒来在2006年，你是选择重温过去，还是试图改变未来？",
+          "headline": "随着年龄增长，曾经吸引人的人变得不再吸引，是什么身体变化造成了最大的 downgrade？",
+          "context": "优雅老去？一些 Reddit 用户揭示了令人惊讶的身体变化，将他们的青春魅力转变为更“成熟”的外表。",
           "takeaways": [
-            "有些人会抓住机会，在市场崩溃前明智投资。",
-            "其他人则宁愿避免他们知道即将到来的艰难时刻。",
-            "少数人可能会对这种突如其来的情况采取更混乱的方式。"
+            "皮肤问题可能在成年后依然存在，打破了青春痘只是青少年问题的神话。",
+            "忽视牙齿护理可能导致随着年龄增长出现痛苦和高昂的费用。",
+            "围绝经期的身体形状变化可能与我们的自我形象产生冲突，让我们感到不协调。"
           ],
-          "trendLabel": "878 赞"
+          "trendLabel": "3.7K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xh0bnp",
+      "id": "reddit-1xiqpit",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ink",
+      "eyebrow": "r/Dallas",
+      "headline": "These clowns can’t even spell criminals.",
+      "context": "A mailer arrives with a spelling error, raising questions about candidate qualifications and campaign strategies in Texas.",
+      "takeaways": [
+        "Critics suggest AI is doing the candidates' thinking for them.",
+        "Some voters express frustration over the focus on opponents rather than candidate proposals.",
+        "The spelling error reflects broader concerns about education and competence."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "183 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xiqpit/these_clowns_cant_even_spell_criminals/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "这些小丑连'罪犯'都不会拼写。",
+          "context": "一封带有拼写错误的邮件引发了对德克萨斯州候选人资格和竞选策略的质疑。",
+          "takeaways": [
+            "批评者认为候选人的思维由人工智能代替。",
+            "一些选民对候选人关注对手而非自身提案表示失望。",
+            "拼写错误反映了人们对教育和能力的广泛关注。"
+          ],
+          "trendLabel": "183 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xino6g",
       "lane": [
         "for-you",
         "everyone",
@@ -440,42 +311,126 @@
       ],
       "cardType": "community-insight",
       "theme": "violet",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: When asking for your name to be removed from mailing lists there is a second thing you need to ask for.",
-      "context": "Discovering a hidden mailing list may leave you wondering just how many layers of your personal information companies really keep track of.",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that ancient Egypt had its own \"Egyptologist\"—Prince Khaemweset (c. 1281–1225 BCE), who spent his life identifying and restoring monuments that were already over 1,000 years old in his lifetime.",
+      "context": "Even in ancient Egypt, monument restoration was a thing, proving that history has always been a little too fascinating for its own good.",
       "takeaways": [
-        "One request isn't enough; ask to be removed from all lists.",
-        "This tip has been shared before and may not be new advice.",
-        "Clickbait titles can lead to disappointment in the content."
+        "Ancient Egypt had its own archaeologist in Prince Khaemweset.",
+        "Cleopatra lived closer to us than to the construction of the Great Pyramids.",
+        "The Aztecs also found ancient pyramids and wondered about their builders."
       ],
       "topics": [
-        "lifeprotips"
+        "todayilearned"
       ],
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "0 upvotes",
+      "trendLabel": "6.2K upvotes",
       "sources": [
         {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xh0bnp/lpt_when_asking_for_your_name_to_be_removed_from/"
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xino6g/til_that_ancient_egypt_had_its_own/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "LPT：在要求将您的名字从邮件列表中删除时，还有第二件事需要询问。",
-          "context": "发现隐藏的邮件列表可能让您怀疑公司到底记录了多少层您的个人信息。",
+          "headline": "今天了解到古埃及有自己的“埃及学家”——凯赫姆维塞特王子（约公元前1281–前1225年），他一生致力于识别和修复已经存在超过1000年的古迹。",
+          "context": "即使在古埃及，修复古迹也已经是一件事，证明历史一直对人类太过迷人。",
           "takeaways": [
-            "仅仅一个请求是不够的；请求从所有列表中删除。",
-            "这个建议之前已经分享过，可能不是新建议。",
-            "吸引点击的标题可能会让人对内容感到失望。"
+            "古埃及有自己的考古学家，凯赫姆维塞特王子。",
+            "克利奥帕特拉离我们更近，而不是大金字塔的建造。",
+            "阿兹特克人也发现了古老的金字塔，并对其建造者感到好奇。"
           ],
-          "trendLabel": "0 赞"
+          "trendLabel": "6.2K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xgwfto",
+      "id": "reddit-1xij36l",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "To anyone whose family said you’d die from the COVID vaccine: It’s been 5 years and you're still here. What are they saying now?",
+      "context": "Five years later, some family members are still finding creative ways to blame the vaccine for everything from tracking to sexuality.",
+      "takeaways": [
+        "Some still believe the vaccine contains a tracking microchip despite their constant social media use.",
+        "Unexpected deaths are often attributed to vaccination in some circles.",
+        "Vaccine side effects now include unexpected shifts in political beliefs."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.7K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xij36l/to_anyone_whose_family_said_youd_die_from_the/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "对任何曾说你会因新冠疫苗而死的家人：五年过去了，你还在这里，他们现在怎么说？",
+          "context": "五年后，一些家人仍然在寻找创意理由来把疫苗归咎于从追踪到性取向的各种问题。",
+          "takeaways": [
+            "一些人仍然相信疫苗中含有追踪微芯片，尽管他们经常使用社交媒体。",
+            "在某些圈子里，意外死亡常常被归因于接种疫苗。",
+            "疫苗的副作用现在包括意想不到的政治信仰转变。"
+          ],
+          "trendLabel": "2.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xi46j4",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ink",
+      "eyebrow": "r/Dallas",
+      "headline": "DFW Events - 10/28/2026 to 11/1/2026 Halloween Edition",
+      "context": "Get ready for a spooktacular week of Halloween-themed concerts in DFW—just don’t forget your costume and maybe a little courage.",
+      "takeaways": [
+        "Lucinda Williams is kicking off her two-night show after Halloween.",
+        "Fans are buzzing about the Brand New concert on 10/30."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "15 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xi46j4/dfw_events_10282026_to_1112026_halloween_edition/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "达拉斯沃斯堡活动 - 2026年10月28日至11月1日万圣节特别版",
+          "context": "准备好参加达拉斯沃斯堡一周的万圣节主题音乐会——别忘了你的服装和一点勇气。",
+          "takeaways": [
+            "露辛达·威廉姆斯将在万圣节后开启她的两晚演出。",
+            "粉丝们对10月30日的Brand New音乐会充满期待。"
+          ],
+          "trendLabel": "15 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xihb3j",
       "lane": [
         "for-you",
         "everyone",
@@ -484,12 +439,12 @@
       "cardType": "community-insight",
       "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that Teflon was accidentally discovered in 1938 when chemist Roy Plunkett found that a cylinder of tetrafluoroethylene gas had stopped releasing gas despite still weighing the same. When he opened it, he found the inside coated with a slippery white solid: polytetrafluoroethylene (PTFE).",
-      "context": "Sometimes the most slippery discoveries come from unexpected places, like a gas cylinder that just decided to stop working.",
+      "headline": "TIL that the reoccuring Mario antagonists the Koopalings are all named after famous musicians. The only exceptions are Morton (a talk show host) and Larry, who the localizer said \"just looked like a Larry\".",
+      "context": "Did you know the Koopalings have musical names? Except for Larry, who apparently just looked like a Larry.",
       "takeaways": [
-        "Accidental inventions can lead to major breakthroughs, like Teflon and laminated glass.",
-        "Teflon's history includes legal troubles for DuPont over environmental concerns.",
-        "PFAS chemicals are found in organisms worldwide, raising health and environmental issues."
+        "The Koopalings were originally Bowser's children before being retconned to generals in his army.",
+        "Morton is named after Morton Downey Jr., while another enemy nods to Trent Reznor.",
+        "In Japan, the Koopalings aren't even siblings anymore."
       ],
       "topics": [
         "todayilearned"
@@ -497,23 +452,66 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "2.9K upvotes",
+      "trendLabel": "2.8K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xgwfto/til_that_teflon_was_accidentally_discovered_in/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xihb3j/til_that_the_reoccuring_mario_antagonists_the/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天了解到，特氟龙是在1938年意外发现的",
-          "context": "有时，最意想不到的发现来自意外的地方，就像一个气体气缸突然决定停止工作。",
+          "headline": "我知道：反复出现的马里奥反派库巴王子们都以著名音乐家的名字命名。",
+          "context": "你知道库巴王子们的名字与音乐有关吗？除了拉里，他显然只是长得像个拉里。",
           "takeaways": [
-            "意外的发明可以导致重大突破，比如特氟龙和层压玻璃。",
-            "特氟龙的历史包括杜邦在环境问题上的法律纠纷。",
-            "PFAS化学物质在全球生物体中被发现，带来了健康和环境问题。"
+            "库巴王子们最初是库巴的孩子，后来被改写为他的军队将领。",
+            "莫顿是以莫顿·道尼·小子的名字命名的，而另一个敌人则致敬特伦特·雷兹诺。",
+            "在日本，库巴王子们甚至不再是兄弟。"
           ],
-          "trendLabel": "2.9K 赞"
+          "trendLabel": "2.8K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xifu90",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/AskReddit",
+      "headline": "Who is the most arrogant professional athlete of all time?",
+      "context": "Redditors debate the most arrogant athletes, with opinions ranging from boxers to thoroughbreds, and even a swimmer who didn’t quite live up to the hype.",
+      "takeaways": [
+        "Floyd Mayweather and Conor McGregor top the list of perceived arrogance in sports.",
+        "Secretariat showcased his talent but some argue it was more about showboating.",
+        "James Magnussen and Manny Machado also raised eyebrows with their attitudes."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.8K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xifu90/who_is_the_most_arrogant_professional_athlete_of/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "历史上最傲慢的职业运动员是谁？",
+          "context": "Reddit用户讨论最傲慢的运动员，从拳击手到赛马，甚至还有一位未能兑现期望的游泳选手。",
+          "takeaways": [
+            "梅威瑟和麦格雷戈被认为是运动界傲慢的代表。",
+            "赛马秘事展现了天赋，但有人认为更多是炫耀。",
+            "詹姆斯·马格努森和曼尼·马查多的态度也引发了争议。"
+          ],
+          "trendLabel": "1.8K 赞"
         }
       }
     }
