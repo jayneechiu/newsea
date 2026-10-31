@@ -1,51 +1,8 @@
 {
-  "updatedAt": "2026-10-29T18:58:52+00:00",
+  "updatedAt": "2026-10-31T17:44:02+00:00",
   "cards": [
     {
-      "id": "reddit-1xij4de",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL Salivating before vomiting is a way for your body to protect your teeth from thr incoming stomach acid",
-      "context": "Did you know that your body has a built-in warning system for vomiting? It’s almost like a pre-game show for your stomach.",
-      "takeaways": [
-        "Salivating before vomiting can give you a crucial early warning to find a toilet.",
-        "This response may have evolved from our ancestors' frequent vomiting, serving as a protective mechanism.",
-        "Some people experience cold sweats as a precursor to the salivation and vomiting."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "17.3K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xij4de/til_salivating_before_vomiting_is_a_way_for_your/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天学到：呕吐前流口水是身体保护牙齿免受胃酸侵害的方式",
-          "context": "你知道吗？你的身体有一套内置的呕吐警告系统，几乎就像是胃的预热节目。",
-          "takeaways": [
-            "呕吐前流口水可以给你一个重要的提前警告，让你找到厕所。",
-            "这种反应可能是由于我们祖先频繁呕吐而进化而来，作为一种保护机制。",
-            "有些人在流口水和呕吐前会感到寒冷的出汗。"
-          ],
-          "trendLabel": "17.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xi811q",
+      "id": "reddit-1xke9p6",
       "lane": [
         "for-you",
         "everyone",
@@ -53,13 +10,56 @@
       ],
       "cardType": "community-insight",
       "theme": "ink",
-      "eyebrow": "r/AskReddit",
-      "headline": "What’s an expensive ($1k-$10k) luxury items that changed your life for the better?",
-      "context": "From robot vacuums to espresso machines, it seems luxury items can do more than just collect dust—some might even improve your life.",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that Patrick Stewart and his wife were married in a Mexican restaurant by Ian McKellen.",
+      "context": "Patrick Stewart's wedding officiated by Ian McKellen in a Mexican restaurant? Just another day in the life of these iconic actors.",
       "takeaways": [
-        "A high-quality coffee machine can transform your mornings and enhance your daily routine.",
-        "Investing in hobbies with premium tools can lead to more enjoyable and fulfilling experiences.",
-        "Extended travel can offer deep connections to new places, enriching life in unexpected ways."
+        "Stewart's marriage to Sunny Ozell sparked confusion about his sexuality among some fans.",
+        "The marriage was originally planned for Nevada but ended up in a restaurant.",
+        "Ozell introduced Stewart to new experiences, including a memorable lobster incident."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "10.3K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xke9p6/til_that_patrick_stewart_and_his_wife_were/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到帕特里克·斯图尔特和他的妻子在一家墨西哥餐厅由伊恩·麦克莱恩主持婚礼。",
+          "context": "帕特里克·斯图尔特在墨西哥餐厅的婚礼由伊恩·麦克莱恩主持？这只是这些传奇演员生活中的另一件事。",
+          "takeaways": [
+            "斯图尔特与桑尼·奥泽尔的婚姻让一些粉丝对他的性取向产生了困惑。",
+            "婚礼原本计划在内华达州进行，但最后在餐厅举行。",
+            "奥泽尔让斯图尔特体验新事物，包括一次难忘的龙虾事件。"
+          ],
+          "trendLabel": "10.3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xkbciw",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/AskReddit",
+      "headline": "What's the highest dopamine-to-effort ratio you've ever discovered in life?",
+      "context": "Ever wondered what gives a boost with minimal effort? Redditors share their surprising, if not slightly absurd, high-dopamine moments.",
+      "takeaways": [
+        "Playing with puppies offers joy with zero effort.",
+        "Small tasks can provide unexpected satisfaction when completed.",
+        "Relief from a long-held urge can trigger a dopamine rush."
       ],
       "topics": [
         "askreddit"
@@ -67,42 +67,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "4.6K upvotes",
+      "trendLabel": "1.4K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xi811q/whats_an_expensive_1k10k_luxury_items_that/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xkbciw/whats_the_highest_dopaminetoeffort_ratio_youve/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有哪些价值 $1,000-$10,000 的奢侈品改变了你的生活？",
-          "context": "从机器人吸尘器到浓缩咖啡机，奢侈品似乎不仅仅是灰尘收集器，还有可能改善你的生活。",
+          "headline": "你发现过生活中最高的多巴胺与努力比率是什么？",
+          "context": "你有没有想过什么事情能带来最少的努力却获得最大的快乐？Reddit 用户分享了他们意想不到的多巴胺时刻。",
           "takeaways": [
-            "高品质的咖啡机可以改变你的早晨，提升日常生活。",
-            "投资于高档工具的爱好可以带来更愉快和充实的体验。",
-            "长时间的旅行可以让你与新地方建立深厚的联系，意外丰富生活。"
+            "和小狗玩耍可以在没有任何努力的情况下带来快乐。",
+            "完成小任务会带来意想不到的满足感。",
+            "解除长时间的迫切需求可触发多巴胺激增。"
           ],
-          "trendLabel": "4.6K 赞"
+          "trendLabel": "1.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xicwai",
+      "id": "reddit-1xjv5gf",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "gold",
+      "theme": "coral",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT: If you're introverted, always look at social events in terms of the number of hours you'll be there; it makes the burden of showing up significantly lighter.",
-      "context": "Feeling overwhelmed by social events? Try viewing them as short commitments to lighten the load on your introverted heart.",
+      "headline": "LPT: When a company says they’ll get back to you ask when you should follow up if they don’t",
+      "context": "When a company says they'll follow up, don't just wait—ask when to check in. It saves you from endless guessing.",
       "takeaways": [
-        "You can leave after a specific milestone during the event.",
-        "Showing up, even briefly, demonstrates you care.",
-        "Breaking down hours can make socializing feel less daunting."
+        "Follow up on medical issues proactively; don’t wait for someone else to care.",
+        "Keeping a contact log can streamline your communication process.",
+        "Asking for deadlines shows you’re serious and keeps you in the loop."
       ],
       "topics": [
         "lifeprotips"
@@ -110,42 +110,41 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "944 upvotes",
+      "trendLabel": "993 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xicwai/lpt_if_youre_introverted_always_look_at_social/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xjv5gf/lpt_when_a_company_says_theyll_get_back_to_you/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活小窍门：如果你是内向的人，总是以参加社交活动的小时数来看待，这会让出席的负担轻得多。",
-          "context": "感到社交活动压力大？试着把它们看作短暂的承诺，减轻你内向心灵的负担。",
+          "headline": "LPT：当公司说他们会回复你时，问一下如果他们没有回复你应该何时跟进",
+          "context": "当公司说他们会跟进时，不要只是等待——问一下何时再联系。这能让你避免无尽的猜测。",
           "takeaways": [
-            "你可以在活动中的特定时刻后离开。",
-            "即使是短暂的出席，也能表明你在乎。",
-            "将时间分解可以让社交变得不那么令人畏惧。"
+            "积极跟进医疗问题；不要等待其他人来关心。",
+            "保持联系日志可以简化你的沟通过程。",
+            "询问截止日期表明你很认真，并能让你保持在信息之中。"
           ],
-          "trendLabel": "944 赞"
+          "trendLabel": "993 赞"
         }
       }
     },
     {
-      "id": "reddit-1xin3qg",
+      "id": "reddit-1xk2kh4",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "coral",
+      "theme": "lime",
       "eyebrow": "r/Dallas",
-      "headline": "The order of these tip options at Dolly Llama Waffle Master in Uptown…",
-      "context": "Dolly Llama Waffle Master's tip screen raises eyebrows, with percentages that seem more suited for tax brackets than waffles.",
+      "headline": "Panda Fest is coming. Save your time/money",
+      "context": "Panda Fest might seem fun, but it’s really just an expensive way to feel disappointed and hungry.",
       "takeaways": [
-        "Expecting the highest tip percentage for the cheapest option is puzzling.",
-        "Many feel tipping culture has spiraled out of control in the U.S.",
-        "Custom tips are now a go-to for many frustrated diners."
+        "Attendees warn that Panda Fest is a cash grab with overpriced food.",
+        "Past visitors advise supporting local businesses instead of this festival."
       ],
       "topics": [
         "dallas"
@@ -153,42 +152,41 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "354 upvotes",
+      "trendLabel": "700 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xin3qg/the_order_of_these_tip_options_at_dolly_llama/"
+          "url": "https://reddit.com/r/Dallas/comments/1xk2kh4/panda_fest_is_coming_save_your_timemoney/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "Uptown的Dolly Llama Waffle Master的提示选项顺序…",
-          "context": "Dolly Llama Waffle Master的提示界面引发了质疑，百分比似乎更适合税率而非华夫饼。",
+          "headline": "熊猫节即将来临，节省你的时间和金钱",
+          "context": "熊猫节看起来很有趣，但实际上只是一个让人失望和饥饿的昂贵方式。",
           "takeaways": [
-            "对最低选项期望最高的提示百分比令人困惑。",
-            "许多人觉得美国的打赏文化已经失控。",
-            "定制小费现在成为许多失望食客的首选。"
+            "参与者警告熊猫节是一个以高价食品为主的现金抓取活动。",
+            "过去的游客建议支持当地企业，而不是参加这个节日。"
           ],
-          "trendLabel": "354 赞"
+          "trendLabel": "700 赞"
         }
       }
     },
     {
-      "id": "reddit-1xil3lw",
+      "id": "reddit-1xkcscz",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "coral",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that an ancient Egyptian tomb painting from around 1900 BC shows a man pouring water on sand in front of a sledge carrying a huge statue, and in 2014 physicists found that wetting the sand halves the force needed to pull it",
-      "context": "Ancient Egyptians had practical solutions for transporting heavy statues, yet some still prefer to believe in extraterrestrial assistance.",
+      "headline": "TIL in 1985 the U.S. House of Representatives voted, 216 for and 193 against, to exclude Playboy magazine from a Library of Congress program that reproduces about three dozen magazines in Braille, deleting $103,000 for the Playboy translation from the fiscal 1986 budget.",
+      "context": "In 1985, Congress made a bold move to keep Playboy's articles out of the Library of Congress—because who needs highbrow literature in Braille?",
       "takeaways": [
-        "Some believe aliens built monuments, despite evidence of human ingenuity.",
-        "Wetting sand significantly reduces the effort needed to move heavy objects.",
-        "Transporting large stones over long distances is a remarkable feat of engineering."
+        "Playboy featured notable writers like Kurt Vonnegut and Ray Bradbury alongside its iconic imagery.",
+        "Senator Bill Proxmire was known for his humorous critiques of government spending, earning the Golden Fleece Award.",
+        "Jose Feliciano faced an unexpected customs issue with his Playboy magazine while traveling."
       ],
       "topics": [
         "todayilearned"
@@ -196,114 +194,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "10.9K upvotes",
+      "trendLabel": "1.3K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xil3lw/til_that_an_ancient_egyptian_tomb_painting_from/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xkcscz/til_in_1985_the_us_house_of_representatives_voted/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "我了解到，公元前1900年的一幅古埃及墓葬壁画描绘了一名男子在一辆运输巨大雕像的雪橇前浇水的场景，而2014年物理学家发现湿润沙子可以将拉动所需的力量减少一半",
-          "context": "古埃及人在运输重型雕像时有实际解决方案，但有些人仍然喜欢相信外星人的帮助。",
+          "headline": "今天我了解到：1985年，美国众议院投票决定将《花花公子》杂志排除在国会图书馆的盲文项目之外",
+          "context": "1985年，国会大胆决定将《花花公子》的文章排除在国会图书馆之外——毕竟谁还需要盲文高雅文学？",
           "takeaways": [
-            "一些人相信外星人建造了纪念碑，尽管有证据表明人类的聪明才智。",
-            "湿润沙子显著减少了移动重物所需的努力。",
-            "长途运输大型石块是工程的一项了不起的成就。"
+            "《花花公子》不仅有标志性的图片，还刊登了库尔特·冯内古特和雷·布拉德伯里的作品。",
+            "普罗克迈尔参议员因幽默地批评政府支出而闻名，获得了金羊毛奖。",
+            "何塞·费利西亚诺在旅行时与海关发生意外，导致他的《花花公子》杂志被扣。"
           ],
-          "trendLabel": "10.9K 赞"
+          "trendLabel": "1.3K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xiapuf",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "People who went from attractive to unattractive as they got older, what physical change caused the biggest downgrade?",
-      "context": "Aging gracefully? Some Redditors reveal the surprising physical changes that turned their youthful charm into a more 'mature' look.",
-      "takeaways": [
-        "Skin problems can persist well into adulthood, contradicting the myth that acne is just a teenage issue.",
-        "Neglecting dental care can lead to painful and costly consequences as we age.",
-        "Body shape shifts during perimenopause can clash with our self-image, leaving us feeling out of sync."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "3.7K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xiapuf/people_who_went_from_attractive_to_unattractive/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "随着年龄增长，曾经吸引人的人变得不再吸引，是什么身体变化造成了最大的 downgrade？",
-          "context": "优雅老去？一些 Reddit 用户揭示了令人惊讶的身体变化，将他们的青春魅力转变为更“成熟”的外表。",
-          "takeaways": [
-            "皮肤问题可能在成年后依然存在，打破了青春痘只是青少年问题的神话。",
-            "忽视牙齿护理可能导致随着年龄增长出现痛苦和高昂的费用。",
-            "围绝经期的身体形状变化可能与我们的自我形象产生冲突，让我们感到不协调。"
-          ],
-          "trendLabel": "3.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xiqpit",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "These clowns can’t even spell criminals.",
-      "context": "A mailer arrives with a spelling error, raising questions about candidate qualifications and campaign strategies in Texas.",
-      "takeaways": [
-        "Critics suggest AI is doing the candidates' thinking for them.",
-        "Some voters express frustration over the focus on opponents rather than candidate proposals.",
-        "The spelling error reflects broader concerns about education and competence."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "183 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xiqpit/these_clowns_cant_even_spell_criminals/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "这些小丑连'罪犯'都不会拼写。",
-          "context": "一封带有拼写错误的邮件引发了对德克萨斯州候选人资格和竞选策略的质疑。",
-          "takeaways": [
-            "批评者认为候选人的思维由人工智能代替。",
-            "一些选民对候选人关注对手而非自身提案表示失望。",
-            "拼写错误反映了人们对教育和能力的广泛关注。"
-          ],
-          "trendLabel": "183 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xino6g",
+      "id": "reddit-1xkcb0m",
       "lane": [
         "for-you",
         "everyone",
@@ -311,56 +223,13 @@
       ],
       "cardType": "community-insight",
       "theme": "violet",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that ancient Egypt had its own \"Egyptologist\"—Prince Khaemweset (c. 1281–1225 BCE), who spent his life identifying and restoring monuments that were already over 1,000 years old in his lifetime.",
-      "context": "Even in ancient Egypt, monument restoration was a thing, proving that history has always been a little too fascinating for its own good.",
-      "takeaways": [
-        "Ancient Egypt had its own archaeologist in Prince Khaemweset.",
-        "Cleopatra lived closer to us than to the construction of the Great Pyramids.",
-        "The Aztecs also found ancient pyramids and wondered about their builders."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "6.2K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xino6g/til_that_ancient_egypt_had_its_own/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天了解到古埃及有自己的“埃及学家”——凯赫姆维塞特王子（约公元前1281–前1225年），他一生致力于识别和修复已经存在超过1000年的古迹。",
-          "context": "即使在古埃及，修复古迹也已经是一件事，证明历史一直对人类太过迷人。",
-          "takeaways": [
-            "古埃及有自己的考古学家，凯赫姆维塞特王子。",
-            "克利奥帕特拉离我们更近，而不是大金字塔的建造。",
-            "阿兹特克人也发现了古老的金字塔，并对其建造者感到好奇。"
-          ],
-          "trendLabel": "6.2K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xij36l",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "To anyone whose family said you’d die from the COVID vaccine: It’s been 5 years and you're still here. What are they saying now?",
-      "context": "Five years later, some family members are still finding creative ways to blame the vaccine for everything from tracking to sexuality.",
+      "headline": "Should churches be taxed in the United States? Why or why not?",
+      "context": "Should churches be tax-exempt, or are they just tax shelters for politics in disguise? Let's examine this holy conundrum.",
       "takeaways": [
-        "Some still believe the vaccine contains a tracking microchip despite their constant social media use.",
-        "Unexpected deaths are often attributed to vaccination in some circles.",
-        "Vaccine side effects now include unexpected shifts in political beliefs."
+        "Mega churches often exploit tax exemptions as loopholes.",
+        "Tax exemptions should be reconsidered for churches engaging in political endorsements.",
+        "Non-profit status may be justified, but standards need to be higher."
       ],
       "topics": [
         "askreddit"
@@ -368,41 +237,85 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "2.7K upvotes",
+      "trendLabel": "657 upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xij36l/to_anyone_whose_family_said_youd_die_from_the/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xkcb0m/should_churches_be_taxed_in_the_united_states_why/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "对任何曾说你会因新冠疫苗而死的家人：五年过去了，你还在这里，他们现在怎么说？",
-          "context": "五年后，一些家人仍然在寻找创意理由来把疫苗归咎于从追踪到性取向的各种问题。",
+          "headline": "美国的教堂应该被征税吗？为什么或为什么不？",
+          "context": "教堂应该享有免税待遇，还是仅仅是政治伪装下的避税所？让我们来探讨这个神圣的难题。",
           "takeaways": [
-            "一些人仍然相信疫苗中含有追踪微芯片，尽管他们经常使用社交媒体。",
-            "在某些圈子里，意外死亡常常被归因于接种疫苗。",
-            "疫苗的副作用现在包括意想不到的政治信仰转变。"
+            "大型教堂常常利用免税作为漏洞。",
+            "对参与政治宣传的教堂，应重新考虑免税政策。",
+            "非营利组织的地位可能合理，但标准需要提高。"
           ],
-          "trendLabel": "2.7K 赞"
+          "trendLabel": "657 赞"
         }
       }
     },
     {
-      "id": "reddit-1xi46j4",
+      "id": "reddit-1xk2y3t",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT- if you want to read more but find yourself doomscrolling in bed: move your phone charger",
+      "context": "If your phone is too close, you might end up scrolling instead of reading—try this simple charger trick.",
+      "takeaways": [
+        "Moving your charger adds a physical barrier to scrolling.",
+        "A longer charger can help keep your phone far away.",
+        "Creating small hassles can lead to better habits."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "143 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xk2y3t/lpt_if_you_want_to_read_more_but_find_yourself/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小技巧：如果你想多读书但在床上不停刷手机，试着移动手机充电器",
+          "context": "如果手机离你太近，你可能会不停刷屏而不是阅读——试试这个简单的充电器技巧。",
+          "takeaways": [
+            "移动充电器可以增加刷屏的物理障碍。",
+            "更长的充电线可以帮助你把手机放得远一些。",
+            "制造小麻烦可以促成更好的习惯。"
+          ],
+          "trendLabel": "143 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xkfyyb",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "ink",
+      "theme": "gold",
       "eyebrow": "r/Dallas",
-      "headline": "DFW Events - 10/28/2026 to 11/1/2026 Halloween Edition",
-      "context": "Get ready for a spooktacular week of Halloween-themed concerts in DFW—just don’t forget your costume and maybe a little courage.",
+      "headline": "I carved the Dallas skyline into a pumpkin for Halloween 🎃",
+      "context": "Who knew pumpkins could double as art displays? The Dallas skyline just got a spooky twist this Halloween.",
       "takeaways": [
-        "Lucinda Williams is kicking off her two-night show after Halloween.",
-        "Fans are buzzing about the Brand New concert on 10/30."
+        "The pumpkin carving showcases impressive talent and detail.",
+        "Many people admire the skill involved in such intricate designs.",
+        "It's common for hobbyists to compare their work to others."
       ],
       "topics": [
         "dallas"
@@ -410,27 +323,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "15 upvotes",
+      "trendLabel": "44 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xi46j4/dfw_events_10282026_to_1112026_halloween_edition/"
+          "url": "https://reddit.com/r/Dallas/comments/1xkfyyb/i_carved_the_dallas_skyline_into_a_pumpkin_for/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "达拉斯沃斯堡活动 - 2026年10月28日至11月1日万圣节特别版",
-          "context": "准备好参加达拉斯沃斯堡一周的万圣节主题音乐会——别忘了你的服装和一点勇气。",
+          "headline": "我为万圣节在南方城市的南方天际线上雕刻了一个南方的南方天际线🎃",
+          "context": "谁知道南瓜还可以变成艺术展览？达拉斯的天际线在这个万圣节得到了一个恐怖的扭曲。",
           "takeaways": [
-            "露辛达·威廉姆斯将在万圣节后开启她的两晚演出。",
-            "粉丝们对10月30日的Brand New音乐会充满期待。"
+            "这个南瓜雕刻展示了令人印象深刻的才华和细节。",
+            "许多人钦佩这种复杂设计所需的技巧。",
+            "爱好者常常会将自己的作品与他人进行比较。"
           ],
-          "trendLabel": "15 赞"
+          "trendLabel": "44 赞"
         }
       }
     },
     {
-      "id": "reddit-1xihb3j",
+      "id": "reddit-1xke5t8",
       "lane": [
         "for-you",
         "everyone",
@@ -439,12 +353,12 @@
       "cardType": "community-insight",
       "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that the reoccuring Mario antagonists the Koopalings are all named after famous musicians. The only exceptions are Morton (a talk show host) and Larry, who the localizer said \"just looked like a Larry\".",
-      "context": "Did you know the Koopalings have musical names? Except for Larry, who apparently just looked like a Larry.",
+      "headline": "TIL the song \"Sabotage\" by the Beastie Boys was originally called \"Chris Rock\" (after a sound engineer named Chris thought the song rocked) and was a humorous jab their producer who repeatedly urged the group to get some work done.",
+      "context": "Did you know 'Sabotage' was once called 'Chris Rock'? Talk about a title that would have left audiences puzzled.",
       "takeaways": [
-        "The Koopalings were originally Bowser's children before being retconned to generals in his army.",
-        "Morton is named after Morton Downey Jr., while another enemy nods to Trent Reznor.",
-        "In Japan, the Koopalings aren't even siblings anymore."
+        "The music video is a highlight for many fans.",
+        "'Listen A’ll y’all this is Chris Rock' lacks the same impact.",
+        "Originally intended as an instrumental, it evolved into a classic."
       ],
       "topics": [
         "todayilearned"
@@ -452,66 +366,109 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "2.8K upvotes",
+      "trendLabel": "572 upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xihb3j/til_that_the_reoccuring_mario_antagonists_the/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xke5t8/til_the_song_sabotage_by_the_beastie_boys_was/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "我知道：反复出现的马里奥反派库巴王子们都以著名音乐家的名字命名。",
-          "context": "你知道库巴王子们的名字与音乐有关吗？除了拉里，他显然只是长得像个拉里。",
+          "headline": "今天我学到：Beastie Boys的《Sabotage》最初叫做《Chris Rock》",
+          "context": "你知道《Sabotage》曾被称为《Chris Rock》吗？这标题让人困惑。",
           "takeaways": [
-            "库巴王子们最初是库巴的孩子，后来被改写为他的军队将领。",
-            "莫顿是以莫顿·道尼·小子的名字命名的，而另一个敌人则致敬特伦特·雷兹诺。",
-            "在日本，库巴王子们甚至不再是兄弟。"
+            "许多粉丝认为音乐视频是亮点。",
+            "'Listen A’ll y’all this is Chris Rock'缺乏同样的冲击力。",
+            "最初打算作为器乐曲，最后演变成经典。"
           ],
-          "trendLabel": "2.8K 赞"
+          "trendLabel": "572 赞"
         }
       }
     },
     {
-      "id": "reddit-1xifu90",
+      "id": "reddit-1xkg1rk",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/AskReddit",
-      "headline": "Who is the most arrogant professional athlete of all time?",
-      "context": "Redditors debate the most arrogant athletes, with opinions ranging from boxers to thoroughbreds, and even a swimmer who didn’t quite live up to the hype.",
+      "theme": "ocean",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: When you solve a recurring problem, leave the instructions where you’ll need them next time.",
+      "context": "Ever thought you'd remember that printer fix? Spoiler: you won't. Save yourself the hassle next time with a handy note.",
       "takeaways": [
-        "Floyd Mayweather and Conor McGregor top the list of perceived arrogance in sports.",
-        "Secretariat showcased his talent but some argue it was more about showboating.",
-        "James Magnussen and Manny Machado also raised eyebrows with their attitudes."
+        "You'll likely forget the fix, so write it down.",
+        "A simple note can save time and frustration later.",
+        "Future you will appreciate the reminder!"
       ],
       "topics": [
-        "askreddit"
+        "lifeprotips"
       ],
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.8K upvotes",
+      "trendLabel": "22 upvotes",
       "sources": [
         {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xifu90/who_is_the_most_arrogant_professional_athlete_of/"
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xkg1rk/lpt_when_you_solve_a_recurring_problem_leave_the/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "历史上最傲慢的职业运动员是谁？",
-          "context": "Reddit用户讨论最傲慢的运动员，从拳击手到赛马，甚至还有一位未能兑现期望的游泳选手。",
+          "headline": "生活小贴士：解决重复出现的问题后，将说明留在下次需要的地方。",
+          "context": "你是否想过自己会记得打印机的修复方法？剧透：你不会。下次用一个方便的笔记节省麻烦。",
           "takeaways": [
-            "梅威瑟和麦格雷戈被认为是运动界傲慢的代表。",
-            "赛马秘事展现了天赋，但有人认为更多是炫耀。",
-            "詹姆斯·马格努森和曼尼·马查多的态度也引发了争议。"
+            "你可能会忘记解决方案，所以写下来。",
+            "一个简单的笔记可以节省时间和烦恼。",
+            "未来的你会感谢这个提醒！"
           ],
-          "trendLabel": "1.8K 赞"
+          "trendLabel": "22 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xkfgoi",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that at the Battle of Lincoln in May 1217, the famous knight William Marshal saved England from a French invasion by personally leading a cavalry charge at the age of 70. The old warrior died not in battle, but peacefully in his bed surrounded by his loving friends and family.",
+      "context": "At 70, William Marshal led a cavalry charge to save England, proving age is just a number—unless it’s your back.",
+      "takeaways": [
+        "William Marshal was a pivotal figure during the First Barons' War, facing significant odds at an advanced age.",
+        "His life story could easily inspire a blockbuster film.",
+        "Enduring years of battle, he faced a painful decline in his later years."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "484 upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xkfgoi/til_that_at_the_battle_of_lincoln_in_may_1217_the/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到了：在1217年的林肯战役中，著名骑士威廉·马歇尔在70岁时亲自领导骑兵冲锋，拯救了英格兰。",
+          "context": "在70岁时，威廉·马歇尔领导骑兵冲锋拯救英格兰，证明年龄只是个数字——除非是你的背痛。",
+          "takeaways": [
+            "威廉·马歇尔在第一场贵族战争中扮演了关键角色，面对重重困难，年纪已高。",
+            "他的生平故事完全可以激发一部大片的灵感。",
+            "经历多年战斗，他在晚年面临着痛苦的衰退。"
+          ],
+          "trendLabel": "484 赞"
         }
       }
     }
