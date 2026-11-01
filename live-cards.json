@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-10-31T17:44:02+00:00",
+  "updatedAt": "2026-11-01T18:26:36+00:00",
   "cards": [
     {
-      "id": "reddit-1xke9p6",
+      "id": "reddit-1xl689y",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "ocean",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that Patrick Stewart and his wife were married in a Mexican restaurant by Ian McKellen.",
-      "context": "Patrick Stewart's wedding officiated by Ian McKellen in a Mexican restaurant? Just another day in the life of these iconic actors.",
+      "headline": "TIL that in WW2, the average age of the combat soldier was 26. In Vietnam, he was 19",
+      "context": "Turns out, WWII soldiers were older than their Vietnam counterparts, but myths and pop songs can muddle the facts.",
       "takeaways": [
-        "Stewart's marriage to Sunny Ozell sparked confusion about his sexuality among some fans.",
-        "The marriage was originally planned for Nevada but ended up in a restaurant.",
-        "Ozell introduced Stewart to new experiences, including a memorable lobster incident."
+        "Over 10 million men were conscripted for WWII, compared to 1.85 million for Vietnam.",
+        "The average age of soldiers in WWII is often misunderstood due to a popular song.",
+        "The real average age for WWII soldiers was in the 20s, not 26."
       ],
       "topics": [
         "todayilearned"
@@ -24,42 +24,214 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "10.3K upvotes",
+      "trendLabel": "4.6K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xke9p6/til_that_patrick_stewart_and_his_wife_were/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xl689y/til_that_in_ww2_the_average_age_of_the_combat/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到帕特里克·斯图尔特和他的妻子在一家墨西哥餐厅由伊恩·麦克莱恩主持婚礼。",
-          "context": "帕特里克·斯图尔特在墨西哥餐厅的婚礼由伊恩·麦克莱恩主持？这只是这些传奇演员生活中的另一件事。",
+          "headline": "今天我学到: 在二战中，战斗士兵的平均年龄为26岁，而在越战中为19岁",
+          "context": "事实证明，二战士兵的年龄比越战士兵大，但神话和流行歌曲可能会混淆事实。",
           "takeaways": [
-            "斯图尔特与桑尼·奥泽尔的婚姻让一些粉丝对他的性取向产生了困惑。",
-            "婚礼原本计划在内华达州进行，但最后在餐厅举行。",
-            "奥泽尔让斯图尔特体验新事物，包括一次难忘的龙虾事件。"
+            "二战征召的男性超过1000万，而越战则为185万。",
+            "二战士兵的平均年龄常被误解，源于一首流行歌曲。",
+            "二战士兵的真实平均年龄在20多岁，而不是26岁。"
           ],
-          "trendLabel": "10.3K 赞"
+          "trendLabel": "4.6K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xkbciw",
+      "id": "reddit-1xkumi1",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
+      "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "What's the highest dopamine-to-effort ratio you've ever discovered in life?",
-      "context": "Ever wondered what gives a boost with minimal effort? Redditors share their surprising, if not slightly absurd, high-dopamine moments.",
+      "headline": "What’s the nichest thing that you’re probably top 1% in the world at?",
+      "context": "From farming virtual crops to mastering arcade classics, Redditors share their niche skills that likely put them in the world’s top 1%.",
       "takeaways": [
-        "Playing with puppies offers joy with zero effort.",
-        "Small tasks can provide unexpected satisfaction when completed.",
-        "Relief from a long-held urge can trigger a dopamine rush."
+        "Mastery in niche gaming can yield unexpected accolades.",
+        "Tree planting can be a surprisingly competitive endeavor.",
+        "Unique career paths can lead to rare skills in anatomy."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "4.2K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xkumi1/whats_the_nichest_thing_that_youre_probably_top_1/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "你可能是全球前1%的小众领域高手吗？",
+          "context": "从耕种虚拟农作物到精通街机经典，Reddit用户分享他们的小众技能，可能使他们跻身全球前1%。",
+          "takeaways": [
+            "在小众游戏中的精通可能带来意想不到的荣誉。",
+            "植树可以成为一个惊人的竞争性事业。",
+            "独特的职业道路可以导致在解剖学方面的罕见技能。"
+          ],
+          "trendLabel": "4.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xkr94m",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Adobe wanted $99.99 to let me cancel. I asked chat support and got it waived plus a prorated refund.",
+      "context": "Who knew canceling an Adobe subscription could be a negotiation? Turns out, a little chat support magic goes a long way.",
+      "takeaways": [
+        "Negotiating with customer support can save you money and hassle.",
+        "Upgrading plans might help bypass cancellation fees.",
+        "Using virtual cards can prevent unwanted charges."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3.9K upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xkr94m/lpt_adobe_wanted_9999_to_let_me_cancel_i_asked/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：Adobe要我支付99.99美元才能取消。我请求聊天支持，免除了费用并获得了按比例退款。",
+          "context": "谁知道取消Adobe订阅会变成谈判？原来，一点客服支持的魔力可以带来很大帮助。",
+          "takeaways": [
+            "与客服谈判可以为你节省金钱和麻烦。",
+            "升级计划可能有助于避免费用。",
+            "使用虚拟卡可以防止不必要的收费。"
+          ],
+          "trendLabel": "3.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xl2c73",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "4 killed, 5 wounded in trio of shootings in Deep Ellum",
+      "context": "Deep Ellum's nightlife continues to spark debate, with some claiming it's more Gotham than getaway after dark.",
+      "takeaways": [
+        "Late nights in Deep Ellum often lead to violence and chaos.",
+        "Many locals feel security measures need significant improvement.",
+        "A holiday weekend without shootings is seen as unusual."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "331 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xl2c73/4_killed_5_wounded_in_trio_of_shootings_in_deep/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "深艾伦发生三起枪击事件，造成4人死亡，5人受伤",
+          "context": "深艾伦的夜生活继续引发争议，有人认为这里的夜晚更像是哥谭而非度假胜地。",
+          "takeaways": [
+            "深艾伦的深夜常常导致暴力和混乱。",
+            "许多当地人认为安全措施需要显著改善。",
+            "没有枪击事件的假期周末被认为是不寻常的。"
+          ],
+          "trendLabel": "331 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xkyp55",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL of boxer Kim Duk-koo, who died after a 1982 bout with Ray Mancini. Due to grief and guilt, both Kim’s mother and the referee took their own lives in the months that followed.",
+      "context": "The tragic aftermath of a boxing match reveals how the sport can deeply affect lives beyond the ring.",
+      "takeaways": [
+        "The fight led to changes in boxing regulations, reducing rounds from 15 to 12.",
+        "Mancini has carried the weight of Kim's death, reflecting on it every day.",
+        "Kim's mother and the referee were both devastated, taking their own lives afterward."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "4.4K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xkyp55/til_of_boxer_kim_dukkoo_who_died_after_a_1982/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到拳击手金德久，他在1982年的比赛中死于雷·曼西尼的对决。由于悲伤和内疚，金的母亲和裁判在几个月后自杀。",
+          "context": "拳击比赛的悲惨后果揭示了这项运动如何深刻影响超越拳台的生活。",
+          "takeaways": [
+            "这场比赛促使拳击规则发生变化，将回合数从15减少到12。",
+            "曼西尼每天都在思念金德久，承受着他的去世带来的重负。",
+            "金的母亲和裁判都因悲痛而自杀。"
+          ],
+          "trendLabel": "4.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xkxdgr",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "What's a rich people hobby which is actually not that expensive?",
+      "context": "Discover how some expensive hobbies can actually be enjoyed on a budget—if you know where to look and when to play.",
+      "takeaways": [
+        "Tennis is accessible with just a racket and some balls.",
+        "Yacht racing can be affordable for those who find the right opportunities.",
+        "Wealth often translates to having more free time for hobbies."
       ],
       "topics": [
         "askreddit"
@@ -71,194 +243,24 @@
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xkbciw/whats_the_highest_dopaminetoeffort_ratio_youve/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xkxdgr/whats_a_rich_people_hobby_which_is_actually_not/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "你发现过生活中最高的多巴胺与努力比率是什么？",
-          "context": "你有没有想过什么事情能带来最少的努力却获得最大的快乐？Reddit 用户分享了他们意想不到的多巴胺时刻。",
+          "headline": "有什么富人的爱好其实并不那么昂贵？",
+          "context": "探索一些看似奢侈的爱好如何能够在预算内享受——关键在于寻找合适的时机和场所。",
           "takeaways": [
-            "和小狗玩耍可以在没有任何努力的情况下带来快乐。",
-            "完成小任务会带来意想不到的满足感。",
-            "解除长时间的迫切需求可触发多巴胺激增。"
+            "打网球只需一副球拍和一些网球，十分实惠。",
+            "对于找到合适机会的人来说，帆船比赛也能变得经济。",
+            "财富往往意味着有更多的闲暇时间来追求爱好。"
           ],
           "trendLabel": "1.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xjv5gf",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: When a company says they’ll get back to you ask when you should follow up if they don’t",
-      "context": "When a company says they'll follow up, don't just wait—ask when to check in. It saves you from endless guessing.",
-      "takeaways": [
-        "Follow up on medical issues proactively; don’t wait for someone else to care.",
-        "Keeping a contact log can streamline your communication process.",
-        "Asking for deadlines shows you’re serious and keeps you in the loop."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "993 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xjv5gf/lpt_when_a_company_says_theyll_get_back_to_you/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT：当公司说他们会回复你时，问一下如果他们没有回复你应该何时跟进",
-          "context": "当公司说他们会跟进时，不要只是等待——问一下何时再联系。这能让你避免无尽的猜测。",
-          "takeaways": [
-            "积极跟进医疗问题；不要等待其他人来关心。",
-            "保持联系日志可以简化你的沟通过程。",
-            "询问截止日期表明你很认真，并能让你保持在信息之中。"
-          ],
-          "trendLabel": "993 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xk2kh4",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "lime",
-      "eyebrow": "r/Dallas",
-      "headline": "Panda Fest is coming. Save your time/money",
-      "context": "Panda Fest might seem fun, but it’s really just an expensive way to feel disappointed and hungry.",
-      "takeaways": [
-        "Attendees warn that Panda Fest is a cash grab with overpriced food.",
-        "Past visitors advise supporting local businesses instead of this festival."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "700 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xk2kh4/panda_fest_is_coming_save_your_timemoney/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "熊猫节即将来临，节省你的时间和金钱",
-          "context": "熊猫节看起来很有趣，但实际上只是一个让人失望和饥饿的昂贵方式。",
-          "takeaways": [
-            "参与者警告熊猫节是一个以高价食品为主的现金抓取活动。",
-            "过去的游客建议支持当地企业，而不是参加这个节日。"
-          ],
-          "trendLabel": "700 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xkcscz",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL in 1985 the U.S. House of Representatives voted, 216 for and 193 against, to exclude Playboy magazine from a Library of Congress program that reproduces about three dozen magazines in Braille, deleting $103,000 for the Playboy translation from the fiscal 1986 budget.",
-      "context": "In 1985, Congress made a bold move to keep Playboy's articles out of the Library of Congress—because who needs highbrow literature in Braille?",
-      "takeaways": [
-        "Playboy featured notable writers like Kurt Vonnegut and Ray Bradbury alongside its iconic imagery.",
-        "Senator Bill Proxmire was known for his humorous critiques of government spending, earning the Golden Fleece Award.",
-        "Jose Feliciano faced an unexpected customs issue with his Playboy magazine while traveling."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.3K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xkcscz/til_in_1985_the_us_house_of_representatives_voted/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到：1985年，美国众议院投票决定将《花花公子》杂志排除在国会图书馆的盲文项目之外",
-          "context": "1985年，国会大胆决定将《花花公子》的文章排除在国会图书馆之外——毕竟谁还需要盲文高雅文学？",
-          "takeaways": [
-            "《花花公子》不仅有标志性的图片，还刊登了库尔特·冯内古特和雷·布拉德伯里的作品。",
-            "普罗克迈尔参议员因幽默地批评政府支出而闻名，获得了金羊毛奖。",
-            "何塞·费利西亚诺在旅行时与海关发生意外，导致他的《花花公子》杂志被扣。"
-          ],
-          "trendLabel": "1.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xkcb0m",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/AskReddit",
-      "headline": "Should churches be taxed in the United States? Why or why not?",
-      "context": "Should churches be tax-exempt, or are they just tax shelters for politics in disguise? Let's examine this holy conundrum.",
-      "takeaways": [
-        "Mega churches often exploit tax exemptions as loopholes.",
-        "Tax exemptions should be reconsidered for churches engaging in political endorsements.",
-        "Non-profit status may be justified, but standards need to be higher."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "657 upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xkcb0m/should_churches_be_taxed_in_the_united_states_why/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "美国的教堂应该被征税吗？为什么或为什么不？",
-          "context": "教堂应该享有免税待遇，还是仅仅是政治伪装下的避税所？让我们来探讨这个神圣的难题。",
-          "takeaways": [
-            "大型教堂常常利用免税作为漏洞。",
-            "对参与政治宣传的教堂，应重新考虑免税政策。",
-            "非营利组织的地位可能合理，但标准需要提高。"
-          ],
-          "trendLabel": "657 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xk2y3t",
+      "id": "reddit-1xkv86e",
       "lane": [
         "for-you",
         "everyone",
@@ -267,12 +269,12 @@
       "cardType": "community-insight",
       "theme": "violet",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT- if you want to read more but find yourself doomscrolling in bed: move your phone charger",
-      "context": "If your phone is too close, you might end up scrolling instead of reading—try this simple charger trick.",
+      "headline": "LPT: If working out feels overwhelming due to the time commitment, shorten the amount of time spent working out",
+      "context": "Feeling overwhelmed by workout commitments? Maybe it's time to embrace the 30-minute revolution and save yourself from gym dread.",
       "takeaways": [
-        "Moving your charger adds a physical barrier to scrolling.",
-        "A longer charger can help keep your phone far away.",
-        "Creating small hassles can lead to better habits."
+        "Even short workouts can boost energy and mood.",
+        "Incorporating exercise into daily routines can be effective.",
+        "Consistency is key, even if workouts are brief."
       ],
       "topics": [
         "lifeprotips"
@@ -280,42 +282,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "143 upvotes",
+      "trendLabel": "469 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xk2y3t/lpt_if_you_want_to_read_more_but_find_yourself/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xkv86e/lpt_if_working_out_feels_overwhelming_due_to_the/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活小技巧：如果你想多读书但在床上不停刷手机，试着移动手机充电器",
-          "context": "如果手机离你太近，你可能会不停刷屏而不是阅读——试试这个简单的充电器技巧。",
+          "headline": "生活小贴士：如果锻炼因为时间承诺感到压倒性，缩短锻炼时间",
+          "context": "感到锻炼的承诺让你不知所措？也许是时候接受30分钟的革命，拯救自己免于健身房的恐惧。",
           "takeaways": [
-            "移动充电器可以增加刷屏的物理障碍。",
-            "更长的充电线可以帮助你把手机放得远一些。",
-            "制造小麻烦可以促成更好的习惯。"
+            "即使是短时间的锻炼也能提升精力和心情。",
+            "将锻炼融入日常生活是有效的。",
+            "即使锻炼时间很短，一致性也是关键。"
           ],
-          "trendLabel": "143 赞"
+          "trendLabel": "469 赞"
         }
       }
     },
     {
-      "id": "reddit-1xkfyyb",
+      "id": "reddit-1xl2835",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "gold",
+      "theme": "ink",
       "eyebrow": "r/Dallas",
-      "headline": "I carved the Dallas skyline into a pumpkin for Halloween 🎃",
-      "context": "Who knew pumpkins could double as art displays? The Dallas skyline just got a spooky twist this Halloween.",
+      "headline": "Downtown Dallas giving Eldritch-horror vibes this morning",
+      "context": "Foggy mornings in downtown Dallas can make you feel like you've stepped into an H.P. Lovecraft novel—minus the tentacles, hopefully.",
       "takeaways": [
-        "The pumpkin carving showcases impressive talent and detail.",
-        "Many people admire the skill involved in such intricate designs.",
-        "It's common for hobbyists to compare their work to others."
+        "Visibility is so low that skyscrapers vanish from sight.",
+        "Foggy conditions inspire some to leave early, but traffic remains a challenge.",
+        "One commenter references Lovecraft, adding a humorous twist to the foggy atmosphere."
       ],
       "topics": [
         "dallas"
@@ -323,42 +325,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "44 upvotes",
+      "trendLabel": "229 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xkfyyb/i_carved_the_dallas_skyline_into_a_pumpkin_for/"
+          "url": "https://reddit.com/r/Dallas/comments/1xl2835/downtown_dallas_giving_eldritchhorror_vibes_this/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "我为万圣节在南方城市的南方天际线上雕刻了一个南方的南方天际线🎃",
-          "context": "谁知道南瓜还可以变成艺术展览？达拉斯的天际线在这个万圣节得到了一个恐怖的扭曲。",
+          "headline": "达拉斯市中心今晨散发着克苏鲁神话的气息",
+          "context": "达拉斯市中心的雾霭早晨让人感觉像是走进了H.P.洛夫克拉夫特的小说——希望没有触手。",
           "takeaways": [
-            "这个南瓜雕刻展示了令人印象深刻的才华和细节。",
-            "许多人钦佩这种复杂设计所需的技巧。",
-            "爱好者常常会将自己的作品与他人进行比较。"
+            "能见度低到连摩天大楼都消失不见。",
+            "雾天让一些人提前出发，但交通依然很拥堵。",
+            "一位评论者提到克苏鲁，为雾霭的氛围增添了幽默感。"
           ],
-          "trendLabel": "44 赞"
+          "trendLabel": "229 赞"
         }
       }
     },
     {
-      "id": "reddit-1xke5t8",
+      "id": "reddit-1xl10pc",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "gold",
+      "theme": "ink",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL the song \"Sabotage\" by the Beastie Boys was originally called \"Chris Rock\" (after a sound engineer named Chris thought the song rocked) and was a humorous jab their producer who repeatedly urged the group to get some work done.",
-      "context": "Did you know 'Sabotage' was once called 'Chris Rock'? Talk about a title that would have left audiences puzzled.",
+      "headline": "TIL about Manichaeism, an ancient dualistic religion that rivalled Christianity which spanned from Iberia to China, and died out around the 14th century, it combined elements of Zoroastrianism, Christianity, Buddhism and Gnosticism.",
+      "context": "Manichaeism: the ancient religion that was a real contender against Christianity, but ultimately lost to the heavenly prize of obscurity.",
       "takeaways": [
-        "The music video is a highlight for many fans.",
-        "'Listen A’ll y’all this is Chris Rock' lacks the same impact.",
-        "Originally intended as an instrumental, it evolved into a classic."
+        "Saint Augustine was a follower before converting to Christianity.",
+        "Last remnants of Manichaeism can be found in isolated villages in southern China.",
+        "The term 'maniqueo' in Spain is used to critique overly simplistic arguments."
       ],
       "topics": [
         "todayilearned"
@@ -366,28 +368,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "572 upvotes",
+      "trendLabel": "3.9K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xke5t8/til_the_song_sabotage_by_the_beastie_boys_was/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xl10pc/til_about_manichaeism_an_ancient_dualistic/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到：Beastie Boys的《Sabotage》最初叫做《Chris Rock》",
-          "context": "你知道《Sabotage》曾被称为《Chris Rock》吗？这标题让人困惑。",
+          "headline": "今天我了解到摩尼教，这是一种古老的二元宗教，曾与基督教竞争，遍布从伊比利亚到中国，约在14世纪灭亡，结合了琐罗亚斯德教、基督教、佛教和诺斯替主义的元素。",
+          "context": "摩尼教：一种与基督教真正竞争的古老宗教，但最终输给了朦胧无闻的奖品。",
           "takeaways": [
-            "许多粉丝认为音乐视频是亮点。",
-            "'Listen A’ll y’all this is Chris Rock'缺乏同样的冲击力。",
-            "最初打算作为器乐曲，最后演变成经典。"
+            "圣奥古斯丁曾是追随者，后来皈依基督教。",
+            "摩尼教最后的残余在中国南部的一些孤立村庄中。",
+            "西班牙的“maniqueo”一词用来批评过于简化的论点。"
           ],
-          "trendLabel": "572 赞"
+          "trendLabel": "3.9K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xkg1rk",
+      "id": "reddit-1xl434b",
       "lane": [
         "for-you",
         "everyone",
@@ -395,42 +397,42 @@
       ],
       "cardType": "community-insight",
       "theme": "ocean",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: When you solve a recurring problem, leave the instructions where you’ll need them next time.",
-      "context": "Ever thought you'd remember that printer fix? Spoiler: you won't. Save yourself the hassle next time with a handy note.",
+      "eyebrow": "r/AskReddit",
+      "headline": "You wake up and the realize the date is January 1, 2020, what do you do?",
+      "context": "Imagine waking up to January 1, 2020—what would you do with your newfound knowledge of the future?",
       "takeaways": [
-        "You'll likely forget the fix, so write it down.",
-        "A simple note can save time and frustration later.",
-        "Future you will appreciate the reminder!"
+        "Investing in tech stocks like Zoom and Nvidia could yield significant returns.",
+        "Prioritizing health by seeking early medical intervention can change lives.",
+        "Cherishing loved ones is timeless; a hug can mean everything."
       ],
       "topics": [
-        "lifeprotips"
+        "askreddit"
       ],
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "22 upvotes",
+      "trendLabel": "787 upvotes",
       "sources": [
         {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xkg1rk/lpt_when_you_solve_a_recurring_problem_leave_the/"
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xl434b/you_wake_up_and_the_realize_the_date_is_january_1/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活小贴士：解决重复出现的问题后，将说明留在下次需要的地方。",
-          "context": "你是否想过自己会记得打印机的修复方法？剧透：你不会。下次用一个方便的笔记节省麻烦。",
+          "headline": "如果你醒来发现日期是2020年1月1日，你会怎么做？",
+          "context": "想象一下，醒来是2020年1月1日——你会如何利用你对未来的了解？",
           "takeaways": [
-            "你可能会忘记解决方案，所以写下来。",
-            "一个简单的笔记可以节省时间和烦恼。",
-            "未来的你会感谢这个提醒！"
+            "投资Zoom和Nvidia等科技股可能带来可观回报。",
+            "优先关注健康，寻求早期医疗干预可以改变生活。",
+            "珍惜亲人是永恒的；一个拥抱可能意味着一切。"
           ],
-          "trendLabel": "22 赞"
+          "trendLabel": "787 赞"
         }
       }
     },
     {
-      "id": "reddit-1xkfgoi",
+      "id": "reddit-1xl8oog",
       "lane": [
         "for-you",
         "everyone",
@@ -439,12 +441,12 @@
       "cardType": "community-insight",
       "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that at the Battle of Lincoln in May 1217, the famous knight William Marshal saved England from a French invasion by personally leading a cavalry charge at the age of 70. The old warrior died not in battle, but peacefully in his bed surrounded by his loving friends and family.",
-      "context": "At 70, William Marshal led a cavalry charge to save England, proving age is just a number—unless it’s your back.",
+      "headline": "TIL that between 1970 and 2020, wildlife populations dropped 73%",
+      "context": "If you think your backyard is quieter than it used to be, you're not imagining things—wildlife populations have taken a nosedive.",
       "takeaways": [
-        "William Marshal was a pivotal figure during the First Barons' War, facing significant odds at an advanced age.",
-        "His life story could easily inspire a blockbuster film.",
-        "Enduring years of battle, he faced a painful decline in his later years."
+        "Wildlife populations have dropped by 73% over the past 50 years.",
+        "Many people notice fewer birds and insects in their daily lives.",
+        "Planting native species is crucial for supporting wildlife."
       ],
       "topics": [
         "todayilearned"
@@ -452,23 +454,66 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "484 upvotes",
+      "trendLabel": "3.3K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xkfgoi/til_that_at_the_battle_of_lincoln_in_may_1217_the/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xl8oog/til_that_between_1970_and_2020_wildlife/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到了：在1217年的林肯战役中，著名骑士威廉·马歇尔在70岁时亲自领导骑兵冲锋，拯救了英格兰。",
-          "context": "在70岁时，威廉·马歇尔领导骑兵冲锋拯救英格兰，证明年龄只是个数字——除非是你的背痛。",
+          "headline": "今日学到：1970年至2020年间，野生动物种群下降了73%",
+          "context": "如果你觉得后院比以前安静，那你不是在想象——野生动物种群已经大幅下降。",
           "takeaways": [
-            "威廉·马歇尔在第一场贵族战争中扮演了关键角色，面对重重困难，年纪已高。",
-            "他的生平故事完全可以激发一部大片的灵感。",
-            "经历多年战斗，他在晚年面临着痛苦的衰退。"
+            "过去50年，野生动物种群减少了73%。",
+            "许多人注意到日常生活中鸟类和昆虫变少了。",
+            "种植本地植物对支持野生动物至关重要。"
           ],
-          "trendLabel": "484 赞"
+          "trendLabel": "3.3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xl7e2t",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/AskReddit",
+      "headline": "What’s an overlooked sign someone is carrying some heavy trauma?",
+      "context": "Sometimes the calmest faces hide the stormiest pasts; trauma can be as quiet as a well-organized planner.",
+      "takeaways": [
+        "Unusual calmness during chaos may mask deeper struggles.",
+        "Over-explaining and courtesy can indicate an effort to manage trauma.",
+        "The 'mom friend' often prioritizes others at their own expense."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "329 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xl7e2t/whats_an_overlooked_sign_someone_is_carrying_some/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "有哪些被忽视的迹象表明某人正在承受重大的创伤？",
+          "context": "有时，最平静的面孔隐藏着最汹涌的过去；创伤可能像一个井然有序的计划本一样安静。",
+          "takeaways": [
+            "在混乱中异常冷静可能掩盖了更深层的挣扎。",
+            "过度解释和礼貌可能表明一种管理创伤的努力。",
+            "‘妈妈朋友’常常优先考虑他人，而忽视自己的需求。"
+          ],
+          "trendLabel": "329 赞"
         }
       }
     }
