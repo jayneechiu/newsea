@@ -1,65 +1,22 @@
 {
-  "updatedAt": "2026-11-01T18:26:36+00:00",
+  "updatedAt": "2026-11-03T20:07:43+00:00",
   "cards": [
     {
-      "id": "reddit-1xl689y",
+      "id": "reddit-1xmoppr",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that in WW2, the average age of the combat soldier was 26. In Vietnam, he was 19",
-      "context": "Turns out, WWII soldiers were older than their Vietnam counterparts, but myths and pop songs can muddle the facts.",
-      "takeaways": [
-        "Over 10 million men were conscripted for WWII, compared to 1.85 million for Vietnam.",
-        "The average age of soldiers in WWII is often misunderstood due to a popular song.",
-        "The real average age for WWII soldiers was in the 20s, not 26."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "4.6K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xl689y/til_that_in_ww2_the_average_age_of_the_combat/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我学到: 在二战中，战斗士兵的平均年龄为26岁，而在越战中为19岁",
-          "context": "事实证明，二战士兵的年龄比越战士兵大，但神话和流行歌曲可能会混淆事实。",
-          "takeaways": [
-            "二战征召的男性超过1000万，而越战则为185万。",
-            "二战士兵的平均年龄常被误解，源于一首流行歌曲。",
-            "二战士兵的真实平均年龄在20多岁，而不是26岁。"
-          ],
-          "trendLabel": "4.6K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xkumi1",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
+      "theme": "lime",
       "eyebrow": "r/AskReddit",
-      "headline": "What’s the nichest thing that you’re probably top 1% in the world at?",
-      "context": "From farming virtual crops to mastering arcade classics, Redditors share their niche skills that likely put them in the world’s top 1%.",
+      "headline": "People who work alongside very high achieving people, what traits/characteristics do they have that the average person doesn’t?",
+      "context": "Ever wondered what sets high achievers apart from the rest? Spoiler: it's not just their impressive resumes.",
       "takeaways": [
-        "Mastery in niche gaming can yield unexpected accolades.",
-        "Tree planting can be a surprisingly competitive endeavor.",
-        "Unique career paths can lead to rare skills in anatomy."
+        "High achievers often leverage mistakes as learning opportunities rather than hiding from them.",
+        "Effective communication and the ability to motivate without intimidation are key traits of successful leaders.",
+        "Some high achievers are surprisingly fueled by spite and grudges."
       ],
       "topics": [
         "askreddit"
@@ -67,42 +24,85 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "4.2K upvotes",
+      "trendLabel": "5.1K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xkumi1/whats_the_nichest_thing_that_youre_probably_top_1/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xmoppr/people_who_work_alongside_very_high_achieving/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "你可能是全球前1%的小众领域高手吗？",
-          "context": "从耕种虚拟农作物到精通街机经典，Reddit用户分享他们的小众技能，可能使他们跻身全球前1%。",
+          "headline": "在高成就者身边工作的人，他们拥有什么特质是普通人所没有的？",
+          "context": "你有没有想过高成就者与其他人有什么不同？剧透：不仅仅是他们的光鲜简历。",
           "takeaways": [
-            "在小众游戏中的精通可能带来意想不到的荣誉。",
-            "植树可以成为一个惊人的竞争性事业。",
-            "独特的职业道路可以导致在解剖学方面的罕见技能。"
+            "高成就者通常将错误视为学习机会，而不是逃避。",
+            "有效的沟通以及在不威胁下激励他人的能力是成功领导者的关键特质。",
+            "一些高成就者意外地受到怨恨和积怨的驱动。"
           ],
-          "trendLabel": "4.2K 赞"
+          "trendLabel": "5.1K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xkr94m",
+      "id": "reddit-1xn1kwc",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Adobe wanted $99.99 to let me cancel. I asked chat support and got it waived plus a prorated refund.",
-      "context": "Who knew canceling an Adobe subscription could be a negotiation? Turns out, a little chat support magic goes a long way.",
+      "theme": "lime",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL Lucy Guo, one of the youngest female billionaires, got her start botting Neopets and engaging in Real World Trading selling her botted Neopets accounts",
+      "context": "Lucy Guo's journey from Neopets botting to billion-dollar ventures highlights the unpredictable paths of tech success, for better or worse.",
       "takeaways": [
-        "Negotiating with customer support can save you money and hassle.",
-        "Upgrading plans might help bypass cancellation fees.",
-        "Using virtual cards can prevent unwanted charges."
+        "Guo had a tech career with companies like Facebook and Snapchat before her controversial rise.",
+        "Many in IT started with gaming bots, making programming accessible.",
+        "Her trajectory raises eyebrows, with troubling allegations surfacing."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3.1K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xn1kwc/til_lucy_guo_one_of_the_youngest_female/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今日学到：年轻女亿万富翁Lucy Guo的崛起始于Neopets的机器人交易",
+          "context": "Lucy Guo从Neopets的机器人交易到亿万财富的旅程，展现了科技成功道路的不可预测性，令人深思。",
+          "takeaways": [
+            "Guo曾在Facebook和Snapchat等公司有过技术职业生涯，随后引发争议。",
+            "许多IT从业者从游戏机器人开始，使编程变得易于接触。",
+            "她的职业轨迹引发关注，伴随令人不安的指控。"
+          ],
+          "trendLabel": "3.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xmvei8",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Even if you are 100% financing a house with no down payment, you still need to budget about $10-15k to buy the house",
+      "context": "Think you can buy a house with zero down payment? Don't forget those hidden costs that can add up quickly.",
+      "takeaways": [
+        "Budgeting for unexpected moving costs can save you headaches.",
+        "Some countries have stricter lending rules post-2008, limiting 100% financing.",
+        "Mortgages without a down payment might not be as common everywhere."
       ],
       "topics": [
         "lifeprotips"
@@ -110,28 +110,200 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.9K upvotes",
+      "trendLabel": "790 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xkr94m/lpt_adobe_wanted_9999_to_let_me_cancel_i_asked/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xmvei8/lpt_even_if_you_are_100_financing_a_house_with_no/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "LPT：Adobe要我支付99.99美元才能取消。我请求聊天支持，免除了费用并获得了按比例退款。",
-          "context": "谁知道取消Adobe订阅会变成谈判？原来，一点客服支持的魔力可以带来很大帮助。",
+          "headline": "生活小窍门：即使您完全融资买房，也仍需预算大约1万到1.5万美元",
+          "context": "以零首付买房听起来不错，但别忘了那些可能迅速累积的隐藏费用。",
           "takeaways": [
-            "与客服谈判可以为你节省金钱和麻烦。",
-            "升级计划可能有助于避免费用。",
-            "使用虚拟卡可以防止不必要的收费。"
+            "预算意外搬家费用可以避免麻烦。",
+            "一些国家在2008年后限制了全额融资的贷款。",
+            "没有首付的抵押贷款在不同地方可能并不常见。"
           ],
-          "trendLabel": "3.9K 赞"
+          "trendLabel": "790 赞"
         }
       }
     },
     {
-      "id": "reddit-1xl2c73",
+      "id": "reddit-1xmt1zb",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ink",
+      "eyebrow": "r/Dallas",
+      "headline": "Trump’s Justice Department announced it is sending about 1,000 “election monitors” to polling places in all 50 states.Dallas is on the list.",
+      "context": "Election monitors are hitting polling places, but remember, only poll workers can chat with voters—so stay vigilant and keep your phone handy.",
+      "takeaways": [
+        "Only official poll workers can interact with voters at polling places.",
+        "Don't let monitors intimidate you; they're not law enforcement.",
+        "Voting early can help avoid long lines and potential issues."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "638 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xmt1zb/trumps_justice_department_announced_it_is_sending/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "特朗普的司法部宣布将在所有50州的投票点派遣约1,000名“选举监督员”。达拉斯在名单上。",
+          "context": "选举监督员正在各投票点活跃，但请记住，只有正式的投票工作人员可以与选民交谈——所以保持警惕，随时准备拨打电话。",
+          "takeaways": [
+            "只有正式的投票工作人员可以在投票点与选民互动。",
+            "不要让监督员吓到你；他们不是执法人员。",
+            "提前投票可以帮助避免长时间排队和潜在问题。"
+          ],
+          "trendLabel": "638 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xmo72c",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/AskReddit",
+      "headline": "What happens if Texas goes blue?",
+      "context": "If Texas goes blue, expect a mix of wild predictions and the potential for more competitive elections, but maybe no one will actually eat Ted Cruz.",
+      "takeaways": [
+        "Radical predictions accompany political shifts, highlighting the fear and humor in extreme scenarios.",
+        "Competitive elections could redefine Texas politics, moving beyond a one-party state.",
+        "The narrative around Texas going blue often oversimplifies complex electoral dynamics."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.9K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xmo72c/what_happens_if_texas_goes_blue/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "如果德克萨斯州变为蓝州，会发生什么？",
+          "context": "如果德克萨斯州变为蓝州，预计会有各种疯狂的预测，以及更具竞争性的选举，但也许没人会真的吃掉特德·克鲁兹。",
+          "takeaways": [
+            "激烈的预测伴随着政治转变，突显出对极端情景的恐惧与幽默。",
+            "竞争性选举可能重新定义德克萨斯州的政治，超越一党制。",
+            "关于德克萨斯州变蓝的叙述常常简化复杂的选举动态。"
+          ],
+          "trendLabel": "1.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xmyg9b",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL- A Tree Planted by Johnny Appleseed Still Fruits Today, And Cuttings Are Sold Online So You Can Have One In Your Own Backyard",
+      "context": "Turns out Johnny Appleseed was real, and he planted trees that still bear fruit today—just don’t expect him to approve of cloning.",
+      "takeaways": [
+        "Johnny Appleseed opposed cloning and grafting despite his legacy.",
+        "He was a real person with eccentric traits, not just folklore.",
+        "Old growth trees, like redwoods, can also be propagated from ancient cuttings."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.9K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xmyg9b/til_a_tree_planted_by_johnny_appleseed_still/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "我今天了解到：约翰·阿普尔西德种植的一棵树至今仍结果，切割品可以在线购买，您也可以在后院种一棵。",
+          "context": "原来约翰·阿普尔西德是真实存在的，他种植的树木至今仍结果，只是不要指望他会批准克隆。",
+          "takeaways": [
+            "约翰·阿普尔西德反对克隆和嫁接，尽管他留下了这样的遗产。",
+            "他是一个真实而古怪的人，而不仅仅是民间传说。",
+            "古老的树木，如红杉，也可以通过古老的切割进行繁殖。"
+          ],
+          "trendLabel": "1.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xmvpn2",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Combine the microwave and air fryer for the best heated/reheated food",
+      "context": "Why wait ages for crispy leftovers? Combine your microwave and air fryer for a speedy culinary upgrade.",
+      "takeaways": [
+        "Some users prefer using a toaster oven as an alternative to the air fryer.",
+        "Microwaving first helps tackle sogginess from frozen foods before crisping them up.",
+        "Cooking techniques vary between meals, depending on who's eating."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "288 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xmvpn2/lpt_combine_the_microwave_and_air_fryer_for_the/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：将微波炉和空气炸锅结合起来，轻松加热和重新加热食物",
+          "context": "为什么还要花费很长时间来享用脆皮剩菜？将微波炉和空气炸锅结合起来，快速提升美食体验。",
+          "takeaways": [
+            "一些用户更喜欢用烤面包机替代空气炸锅。",
+            "先微波加热有助于解决冷冻食品的潮湿问题，再进行酥脆处理。",
+            "根据用餐对象，烹饪技巧会有所不同。"
+          ],
+          "trendLabel": "288 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xmztuu",
       "lane": [
         "for-you",
         "everyone",
@@ -140,12 +312,11 @@
       "cardType": "local-trend",
       "theme": "lime",
       "eyebrow": "r/Dallas",
-      "headline": "4 killed, 5 wounded in trio of shootings in Deep Ellum",
-      "context": "Deep Ellum's nightlife continues to spark debate, with some claiming it's more Gotham than getaway after dark.",
+      "headline": "It's scary how little people are taking voting right now, I literally have Nazi's in uniform in my backyard, and yet some people still won't go",
+      "context": "In a neighborhood turning into a stage for extremists, voting seems like an afterthought for some residents.",
       "takeaways": [
-        "Late nights in Deep Ellum often lead to violence and chaos.",
-        "Many locals feel security measures need significant improvement.",
-        "A holiday weekend without shootings is seen as unusual."
+        "Many people have already voted, breaking records in early voting.",
+        "Some commenters express disbelief at the situation and question the presence of extremists."
       ],
       "topics": [
         "dallas"
@@ -153,85 +324,41 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "331 upvotes",
+      "trendLabel": "166 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xl2c73/4_killed_5_wounded_in_trio_of_shootings_in_deep/"
+          "url": "https://reddit.com/r/Dallas/comments/1xmztuu/its_scary_how_little_people_are_taking_voting/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "深艾伦发生三起枪击事件，造成4人死亡，5人受伤",
-          "context": "深艾伦的夜生活继续引发争议，有人认为这里的夜晚更像是哥谭而非度假胜地。",
+          "headline": "现在投票的人太少，后院竟然有穿制服的纳粹",
+          "context": "在一个逐渐成为极端分子舞台的社区，投票似乎对一些居民来说只是个过眼云烟。",
           "takeaways": [
-            "深艾伦的深夜常常导致暴力和混乱。",
-            "许多当地人认为安全措施需要显著改善。",
-            "没有枪击事件的假期周末被认为是不寻常的。"
+            "许多人已经投票，提前投票打破了纪录。",
+            "一些评论者对这种情况表示不信，质疑极端分子的存在。"
           ],
-          "trendLabel": "331 赞"
+          "trendLabel": "166 赞"
         }
       }
     },
     {
-      "id": "reddit-1xkyp55",
+      "id": "reddit-1xmwqjz",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL of boxer Kim Duk-koo, who died after a 1982 bout with Ray Mancini. Due to grief and guilt, both Kim’s mother and the referee took their own lives in the months that followed.",
-      "context": "The tragic aftermath of a boxing match reveals how the sport can deeply affect lives beyond the ring.",
-      "takeaways": [
-        "The fight led to changes in boxing regulations, reducing rounds from 15 to 12.",
-        "Mancini has carried the weight of Kim's death, reflecting on it every day.",
-        "Kim's mother and the referee were both devastated, taking their own lives afterward."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "4.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xkyp55/til_of_boxer_kim_dukkoo_who_died_after_a_1982/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到拳击手金德久，他在1982年的比赛中死于雷·曼西尼的对决。由于悲伤和内疚，金的母亲和裁判在几个月后自杀。",
-          "context": "拳击比赛的悲惨后果揭示了这项运动如何深刻影响超越拳台的生活。",
-          "takeaways": [
-            "这场比赛促使拳击规则发生变化，将回合数从15减少到12。",
-            "曼西尼每天都在思念金德久，承受着他的去世带来的重负。",
-            "金的母亲和裁判都因悲痛而自杀。"
-          ],
-          "trendLabel": "4.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xkxdgr",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
+      "theme": "ocean",
       "eyebrow": "r/AskReddit",
-      "headline": "What's a rich people hobby which is actually not that expensive?",
-      "context": "Discover how some expensive hobbies can actually be enjoyed on a budget—if you know where to look and when to play.",
+      "headline": "What do you think Donald Trump's reaction will be if the Democrats win both the House and Senate tonight?",
+      "context": "As election night unfolds, predictions about Trump's possible reactions range from wild claims to nostalgic complaints about the presidency.",
       "takeaways": [
-        "Tennis is accessible with just a racket and some balls.",
-        "Yacht racing can be affordable for those who find the right opportunities.",
-        "Wealth often translates to having more free time for hobbies."
+        "Expect accusations of election theft and demands for recounts.",
+        "Trump may express frustration with the political landscape and engage in inflammatory rhetoric.",
+        "Comments suggest a mix of humor and cynicism about his potential responses."
       ],
       "topics": [
         "askreddit"
@@ -243,110 +370,24 @@
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xkxdgr/whats_a_rich_people_hobby_which_is_actually_not/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xmwqjz/what_do_you_think_donald_trumps_reaction_will_be/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有什么富人的爱好其实并不那么昂贵？",
-          "context": "探索一些看似奢侈的爱好如何能够在预算内享受——关键在于寻找合适的时机和场所。",
+          "headline": "如果今晚民主党赢得众议院和参议院，特朗普会有什么反应？",
+          "context": "随着选举之夜的展开，关于特朗普可能反应的预测从疯狂的指控到对总统职位的怀旧抱怨不一而足。",
           "takeaways": [
-            "打网球只需一副球拍和一些网球，十分实惠。",
-            "对于找到合适机会的人来说，帆船比赛也能变得经济。",
-            "财富往往意味着有更多的闲暇时间来追求爱好。"
+            "预计会有选举盗窃的指控和对重新计票的要求。",
+            "特朗普可能会对政治局势表达沮丧，并发表煽动性言论。",
+            "评论反映出对他潜在反应的幽默和愤世嫉俗。"
           ],
           "trendLabel": "1.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xkv86e",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: If working out feels overwhelming due to the time commitment, shorten the amount of time spent working out",
-      "context": "Feeling overwhelmed by workout commitments? Maybe it's time to embrace the 30-minute revolution and save yourself from gym dread.",
-      "takeaways": [
-        "Even short workouts can boost energy and mood.",
-        "Incorporating exercise into daily routines can be effective.",
-        "Consistency is key, even if workouts are brief."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "469 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xkv86e/lpt_if_working_out_feels_overwhelming_due_to_the/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小贴士：如果锻炼因为时间承诺感到压倒性，缩短锻炼时间",
-          "context": "感到锻炼的承诺让你不知所措？也许是时候接受30分钟的革命，拯救自己免于健身房的恐惧。",
-          "takeaways": [
-            "即使是短时间的锻炼也能提升精力和心情。",
-            "将锻炼融入日常生活是有效的。",
-            "即使锻炼时间很短，一致性也是关键。"
-          ],
-          "trendLabel": "469 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xl2835",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "Downtown Dallas giving Eldritch-horror vibes this morning",
-      "context": "Foggy mornings in downtown Dallas can make you feel like you've stepped into an H.P. Lovecraft novel—minus the tentacles, hopefully.",
-      "takeaways": [
-        "Visibility is so low that skyscrapers vanish from sight.",
-        "Foggy conditions inspire some to leave early, but traffic remains a challenge.",
-        "One commenter references Lovecraft, adding a humorous twist to the foggy atmosphere."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "229 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xl2835/downtown_dallas_giving_eldritchhorror_vibes_this/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "达拉斯市中心今晨散发着克苏鲁神话的气息",
-          "context": "达拉斯市中心的雾霭早晨让人感觉像是走进了H.P.洛夫克拉夫特的小说——希望没有触手。",
-          "takeaways": [
-            "能见度低到连摩天大楼都消失不见。",
-            "雾天让一些人提前出发，但交通依然很拥堵。",
-            "一位评论者提到克苏鲁，为雾霭的氛围增添了幽默感。"
-          ],
-          "trendLabel": "229 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xl10pc",
+      "id": "reddit-1xmz6pn",
       "lane": [
         "for-you",
         "everyone",
@@ -355,12 +396,12 @@
       "cardType": "community-insight",
       "theme": "ink",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL about Manichaeism, an ancient dualistic religion that rivalled Christianity which spanned from Iberia to China, and died out around the 14th century, it combined elements of Zoroastrianism, Christianity, Buddhism and Gnosticism.",
-      "context": "Manichaeism: the ancient religion that was a real contender against Christianity, but ultimately lost to the heavenly prize of obscurity.",
+      "headline": "TIL about Ray Combs. The host of Family Feud for six seasons, who killed himself after a series of tragedies including a car accident which caused chronic pain and partial paralysis. His comedy club businesses simultaneously failed and led to home foreclosure. This led to his wife leaving him.",
+      "context": "Ray Combs hosted Family Feud with humor and charm, but his life took a tragic turn that few could foresee.",
       "takeaways": [
-        "Saint Augustine was a follower before converting to Christianity.",
-        "Last remnants of Manichaeism can be found in isolated villages in southern China.",
-        "The term 'maniqueo' in Spain is used to critique overly simplistic arguments."
+        "Combs is fondly remembered as the Family Feud host for many fans.",
+        "His talent shone brightly, making a lasting impression on the show.",
+        "The circumstances of his departure from Family Feud were seen as disrespectful."
       ],
       "topics": [
         "todayilearned"
@@ -368,71 +409,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.9K upvotes",
+      "trendLabel": "1.4K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xl10pc/til_about_manichaeism_an_ancient_dualistic/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xmz6pn/til_about_ray_combs_the_host_of_family_feud_for/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到摩尼教，这是一种古老的二元宗教，曾与基督教竞争，遍布从伊比利亚到中国，约在14世纪灭亡，结合了琐罗亚斯德教、基督教、佛教和诺斯替主义的元素。",
-          "context": "摩尼教：一种与基督教真正竞争的古老宗教，但最终输给了朦胧无闻的奖品。",
+          "headline": "今天我了解到雷·科姆斯（Ray Combs）",
+          "context": "雷·科姆斯以幽默和魅力主持《家庭对抗赛》，但他的生活经历了少有人能预见的悲剧转折。",
           "takeaways": [
-            "圣奥古斯丁曾是追随者，后来皈依基督教。",
-            "摩尼教最后的残余在中国南部的一些孤立村庄中。",
-            "西班牙的“maniqueo”一词用来批评过于简化的论点。"
+            "科姆斯被许多粉丝深深怀念，成为《家庭对抗赛》的主持人。",
+            "他的才华闪耀，使他在节目中留下了深刻的印象。",
+            "他离开《家庭对抗赛》的情况被视为不尊重。"
           ],
-          "trendLabel": "3.9K 赞"
+          "trendLabel": "1.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xl434b",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/AskReddit",
-      "headline": "You wake up and the realize the date is January 1, 2020, what do you do?",
-      "context": "Imagine waking up to January 1, 2020—what would you do with your newfound knowledge of the future?",
-      "takeaways": [
-        "Investing in tech stocks like Zoom and Nvidia could yield significant returns.",
-        "Prioritizing health by seeking early medical intervention can change lives.",
-        "Cherishing loved ones is timeless; a hug can mean everything."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "787 upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xl434b/you_wake_up_and_the_realize_the_date_is_january_1/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "如果你醒来发现日期是2020年1月1日，你会怎么做？",
-          "context": "想象一下，醒来是2020年1月1日——你会如何利用你对未来的了解？",
-          "takeaways": [
-            "投资Zoom和Nvidia等科技股可能带来可观回报。",
-            "优先关注健康，寻求早期医疗干预可以改变生活。",
-            "珍惜亲人是永恒的；一个拥抱可能意味着一切。"
-          ],
-          "trendLabel": "787 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xl8oog",
+      "id": "reddit-1xn0vga",
       "lane": [
         "for-you",
         "everyone",
@@ -440,80 +438,78 @@
       ],
       "cardType": "community-insight",
       "theme": "gold",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that between 1970 and 2020, wildlife populations dropped 73%",
-      "context": "If you think your backyard is quieter than it used to be, you're not imagining things—wildlife populations have taken a nosedive.",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Before buying furniture, measure the route into your home—not just the space where it will sit.",
+      "context": "Measuring your doorway may spare you a life of furniture-induced regret. A sofa can be the perfect fit—just not for your home.",
       "takeaways": [
-        "Wildlife populations have dropped by 73% over the past 50 years.",
-        "Many people notice fewer birds and insects in their daily lives.",
-        "Planting native species is crucial for supporting wildlife."
+        "Consider the entire delivery route, not just the final destination.",
+        "Many forget to check if items fit through hallways and doors.",
+        "Flat-pack furniture dimensions may include packaging, so measure carefully."
       ],
       "topics": [
-        "todayilearned"
+        "lifeprotips"
       ],
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.3K upvotes",
+      "trendLabel": "112 upvotes",
       "sources": [
         {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xl8oog/til_that_between_1970_and_2020_wildlife/"
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xn0vga/lpt_before_buying_furniture_measure_the_route/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今日学到：1970年至2020年间，野生动物种群下降了73%",
-          "context": "如果你觉得后院比以前安静，那你不是在想象——野生动物种群已经大幅下降。",
+          "headline": "LPT：在购买家具之前，请测量进入您家中的路线——不仅仅是它将放置的空间。",
+          "context": "测量你的门口可以避免家具带来的遗憾。一张沙发可能是完美的选择——只不过不适合你的家。",
           "takeaways": [
-            "过去50年，野生动物种群减少了73%。",
-            "许多人注意到日常生活中鸟类和昆虫变少了。",
-            "种植本地植物对支持野生动物至关重要。"
+            "考虑整个送货路线，而不仅仅是最终目的地。",
+            "许多人忘记检查物品是否能通过走廊和门。",
+            "平板包装家具的尺寸可能包括包装，因此请仔细测量。"
           ],
-          "trendLabel": "3.3K 赞"
+          "trendLabel": "112 赞"
         }
       }
     },
     {
-      "id": "reddit-1xl7e2t",
+      "id": "reddit-1xmkcho",
       "lane": [
         "for-you",
         "everyone",
-        "other-worlds"
+        "dallas"
       ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/AskReddit",
-      "headline": "What’s an overlooked sign someone is carrying some heavy trauma?",
-      "context": "Sometimes the calmest faces hide the stormiest pasts; trauma can be as quiet as a well-organized planner.",
+      "cardType": "local-trend",
+      "theme": "violet",
+      "eyebrow": "r/Dallas",
+      "headline": "DFW Events - 11/3/2026 to 11/8/2026",
+      "context": "DFW has a packed week of events, so clear your calendar and prepare for some fun (and maybe a little chaos).",
       "takeaways": [
-        "Unusual calmness during chaos may mask deeper struggles.",
-        "Over-explaining and courtesy can indicate an effort to manage trauma.",
-        "The 'mom friend' often prioritizes others at their own expense."
+        "A free concert featuring Wheatus, Eve6, and Toad the Wet Sprocket is happening on 11/07.",
+        "The Greek Food Festival in Dallas is also this weekend."
       ],
       "topics": [
-        "askreddit"
+        "dallas"
       ],
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "329 upvotes",
+      "trendLabel": "66 upvotes",
       "sources": [
         {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xl7e2t/whats_an_overlooked_sign_someone_is_carrying_some/"
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xmkcho/dfw_events_1132026_to_1182026/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有哪些被忽视的迹象表明某人正在承受重大的创伤？",
-          "context": "有时，最平静的面孔隐藏着最汹涌的过去；创伤可能像一个井然有序的计划本一样安静。",
+          "headline": "达拉斯-沃斯堡地区活动 - 2026年11月3日至11月8日",
+          "context": "达拉斯-沃斯堡地区本周活动丰富，清空日程，准备好享受乐趣（也许还有点混乱）。",
           "takeaways": [
-            "在混乱中异常冷静可能掩盖了更深层的挣扎。",
-            "过度解释和礼貌可能表明一种管理创伤的努力。",
-            "‘妈妈朋友’常常优先考虑他人，而忽视自己的需求。"
+            "11月7日将举行Wheatus、Eve6和Toad the Wet Sprocket的免费音乐会。",
+            "这个周末还将在达拉斯举办希腊美食节。"
           ],
-          "trendLabel": "329 赞"
+          "trendLabel": "66 赞"
         }
       }
     }
