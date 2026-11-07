@@ -1,51 +1,8 @@
 {
-  "updatedAt": "2026-11-05T20:40:13+00:00",
+  "updatedAt": "2026-11-07T18:03:07+00:00",
   "cards": [
     {
-      "id": "reddit-1xopjn1",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL: The S&P 500 has fallen more than 20% in a single trading day, but only once in modern market history. Oct. 19, 1987 Black Monday -20.47%",
-      "context": "Did you know the S&P 500 only experienced one drop of over 20% in a single day, back in 1987? Talk about a market meltdown.",
-      "takeaways": [
-        "Circuit breakers were introduced to prevent market crashes after the 1987 event.",
-        "The market rebounded quickly after the initial panic of Black Monday.",
-        "Today's S&P 500 value means a 20% drop would be significantly larger than in 1987."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "7K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xopjn1/til_the_sp_500_has_fallen_more_than_20_in_a/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我学到了：标准普尔500指数在现代市场历史中仅在单个交易日内下跌超过20%，而且仅发生过一次。1987年10月19日黑色星期一 -20.47%",
-          "context": "你知道吗，标准普尔500指数在单日内下跌超过20%的情况，在1987年仅发生过一次？这真是个市场的大崩溃。",
-          "takeaways": [
-            "1987年事件后，引入了熔断机制以防止市场崩溃。",
-            "黑色星期一后，市场迅速反弹。",
-            "如今标准普尔500指数的价值意味着20%的下跌将远超1987年的情况。"
-          ],
-          "trendLabel": "7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xoibh1",
+      "id": "reddit-1xpz512",
       "lane": [
         "for-you",
         "everyone",
@@ -53,142 +10,13 @@
       ],
       "cardType": "community-insight",
       "theme": "ink",
-      "eyebrow": "r/AskReddit",
-      "headline": "What’s your opinion on Trump not posting on Truth Social for 13 hours at this point?",
-      "context": "Silence from Trump is raising eyebrows—did he finally run out of things to say or is something more sinister at play?",
-      "takeaways": [
-        "Trump's silence is unusual and causing speculation among his supporters.",
-        "Some believe a shift in strategy is behind the lack of typical reaction.",
-        "Concerns grow that something unexpected is brewing beneath the surface."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "4.2K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xoibh1/whats_your_opinion_on_trump_not_posting_on_truth/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "你对特朗普在这一点上不在Truth Social上发帖13小时有什么看法？",
-          "context": "特朗普的沉默引发了人们的关注——他是否终于说完了话，还是有什么更阴险的事情在酝酿？",
-          "takeaways": [
-            "特朗普的沉默很不寻常，引发了支持者的猜测。",
-            "一些人认为缺乏典型反应背后可能是战略的转变。",
-            "人们开始担心表面下可能正在酝酿着意想不到的事情。"
-          ],
-          "trendLabel": "4.2K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xok1my",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "I feel the need to share this",
-      "context": "When job competition heats up, the comments can take a wild turn—especially when politics and identity come into play.",
-      "takeaways": [
-        "Job loss sparks humor and political commentary.",
-        "Identity plays a crucial role in perceptions of employment.",
-        "The conversation reflects broader societal tensions."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.3K upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xok1my/i_feel_the_need_to_share_this/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "我觉得有必要分享这个",
-          "context": "当工作竞争加剧时，评论可能会变得疯狂——尤其是在政治和身份问题上。",
-          "takeaways": [
-            "工作丢失引发幽默和政治评论。",
-            "身份在就业观念中扮演着关键角色。",
-            "对话反映了更广泛的社会紧张关系。"
-          ],
-          "trendLabel": "2.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xo9mz8",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: delete ads personalisation on Android",
-      "context": "Looking to escape the clutches of targeted ads on your Android? This tip might just be your ticket to ad-free bliss.",
-      "takeaways": [
-        "Deleting your advertising ID doesn't stop data collection, just ad targeting.",
-        "Some users suggest blocking ads systemwide for better results.",
-        "Firefox and uBlock Origin are alternative solutions for ad blocking."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "708 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xo9mz8/lpt_delete_ads_personalisation_on_android/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT: 删除安卓上的广告个性化",
-          "context": "想逃离安卓上定向广告的束缚吗？这个技巧或许能让你获得无广告的快乐。",
-          "takeaways": [
-            "删除广告ID并不能阻止数据收集，只是阻止广告定向。",
-            "一些用户建议全面屏蔽广告以获得更好的效果。",
-            "Firefox和uBlock Origin是屏蔽广告的替代方案。"
-          ],
-          "trendLabel": "708 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xonm3v",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL after being cancelled by ABC, the 1960s television series Batman was going to picked up by NBC for a fourth season, but before it could do so, it was discovered that hundreds of thousands of dollars' worth of Batman sets had been destroyed. Rather than rebuild the sets, NBC dropped the project.",
-      "context": "Imagine a world where Batman was almost revived, but a set disaster put the caped crusader back into obscurity.",
+      "headline": "TIL The Largest Employer in the Texas Panhandle is the Primary Nuclear Weapons Manufacturing Facility in the U.S.",
+      "context": "In the Texas Panhandle, the biggest employer is a nuclear weapons facility—because what else would you expect in Bomb City?",
       "takeaways": [
-        "Some believe it was sabotage when sets were destroyed.",
-        "Set designers reportedly left without a scene when the show was cancelled.",
-        "A fan in Ontario owns a legit statue from the show."
+        "Amarillo is nicknamed Bomb City for its nuclear connection.",
+        "Pantex employs around 4,600 people, reflecting the area's overall low population.",
+        "The facility is heavily guarded, making it a unique workplace."
       ],
       "topics": [
         "todayilearned"
@@ -200,38 +28,38 @@
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xonm3v/til_after_being_cancelled_by_abc_the_1960s/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xpz512/til_the_largest_employer_in_the_texas_panhandle/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到，1960年代的电视剧《蝙蝠侠》在被ABC取消后，NBC曾考虑接手第四季，但因损毁的布景而作罢。",
-          "context": "想象一下，如果蝙蝠侠几乎复活，但布景事故让这位披风英雄重回默默无闻的世界。",
+          "headline": "TIL 德克萨斯州潘汉德尔地区最大的雇主是美国主要的核武器制造设施。",
+          "context": "在德克萨斯州潘汉德尔地区，最大的雇主是一个核武器设施——难道在炸弹城还能期待别的什么？",
           "takeaways": [
-            "一些人认为布景被毁是恶意破坏。",
-            "据说当节目被取消时，布景设计师们平静地离开了。",
-            "安大略省有个粉丝拥有一尊来自该节目的合法雕像。"
+            "阿马里洛因其核连接而被称为炸弹城。",
+            "潘泰克斯雇佣约4600人，反映了该地区整体低人口。",
+            "该设施受到严格保护，使其成为一个独特的工作场所。"
           ],
           "trendLabel": "6.8K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xogvtt",
+      "id": "reddit-1xq27vm",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "What car is so overpriced that you genuinely don't understand why anyone buys it?",
-      "context": "Ever wonder why some cars fetch prices that boggle the mind? Reddit users have some strong opinions on the matter.",
+      "headline": "If there were a public boycott list for companies and law firms that “kissed Trump’s ring,” who would you put on it and why?",
+      "context": "A list of companies and law firms that may have overstayed their welcome with some consumers, thanks to their Trump ties.",
       "takeaways": [
-        "High-priced SUVs, like large Jeeps, leave many scratching their heads.",
-        "Maserati models are notorious for steep depreciation.",
-        "The Cybertruck's price tag has some questioning reality."
+        "Goya products have been off the shopping list for many since 2016.",
+        "Costco is praised for its resistance to the Trump administration.",
+        "WWE's close ties to the administration put them on the boycott radar."
       ],
       "topics": [
         "askreddit"
@@ -239,85 +67,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.3K upvotes",
+      "trendLabel": "3.1K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xogvtt/what_car_is_so_overpriced_that_you_genuinely_dont/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xq27vm/if_there_were_a_public_boycott_list_for_companies/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "什么车的价格如此高，让你真不理解为什么有人会买？",
-          "context": "你有没有想过为什么一些车的价格让人难以置信？Reddit用户对此有一些强烈的看法。",
+          "headline": "如果有一个公开抵制名单，列出那些“亲特朗普”的公司和律师事务所，你会把谁列上去，为什么？",
+          "context": "一些消费者对与特朗普有关系的公司和律师事务所表示抵制，可能已经超出了他们的欢迎范围。",
           "takeaways": [
-            "高价SUV，如大型吉普车，让许多人感到困惑。",
-            "玛莎拉蒂车型以快速贬值而闻名。",
-            "赛博卡车的价格标签让人质疑现实。"
+            "自2016年以来，许多人就不再购买Goya产品。",
+            "Costco因抵制特朗普政府而受到赞扬。",
+            "WWE与政府的密切关系使他们成为抵制的对象。"
           ],
-          "trendLabel": "1.3K 赞"
+          "trendLabel": "3.1K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xoocwh",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "gold",
-      "eyebrow": "r/Dallas",
-      "headline": "Thank you",
-      "context": "A UK family discovers the warm hospitality of Texas, proving that Halloween spirit transcends borders—especially with a stop at Buc-ee's.",
-      "takeaways": [
-        "Texas is known for its friendly locals and welcoming atmosphere.",
-        "The Dallas Arboretum is a must-visit on your next trip.",
-        "Many UK transplants reside in North Texas, enhancing its multicultural charm."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "251 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xoocwh/thank_you/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "谢谢",
-          "context": "一个来自英国的家庭发现了德克萨斯州的热情款待，证明了万圣节的精神超越国界，尤其是在Buc-ee's的停留之后。",
-          "takeaways": [
-            "德克萨斯州以友好的当地人和热情的氛围而闻名。",
-            "下次旅行时，达拉斯植物园是必去之地。",
-            "许多英国移民在北德克萨斯州居住，增强了当地的多元魅力。"
-          ],
-          "trendLabel": "251 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xorlcm",
+      "id": "reddit-1xpxt7a",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "lime",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Make your Valentine’s Day reservation in November and add an annual reminder on your calendar.",
-      "context": "Why wait until the last minute? Secure your Valentine’s Day plans early and avoid the stress of scrambling for a reservation.",
+      "headline": "LPT: Flying Delta - File for Bags on Time for free points!!",
+      "context": "Want free Delta miles? Just wait a bit longer for your bag and file a quick claim—easy points for the patient traveler.",
       "takeaways": [
-        "Consider celebrating Valentine's Day on a different date for a more enjoyable experience.",
-        "Home-cooked meals can be just as special as dining out.",
-        "Some people are skeptical about making reservations so early."
+        "Start your timer when the plane reaches the gate for accurate timing.",
+        "Other airlines like Alaska offer similar perks.",
+        "Check your bag early to increase your chances of delays."
       ],
       "topics": [
         "lifeprotips"
@@ -325,42 +110,85 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "0 upvotes",
+      "trendLabel": "920 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xorlcm/lpt_make_your_valentines_day_reservation_in/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xpxt7a/lpt_flying_delta_file_for_bags_on_time_for_free/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活小技巧：在11月就为情人节预定座位，并在日历上添加每年的提醒。",
-          "context": "为什么要等到最后一刻？提前确定情人节计划，避免为预订而感到压力。",
+          "headline": "生活小窍门：搭乘达美航空时及时申请行李延误以获取免费积分！",
+          "context": "想要免费的达美航空里程吗？只需稍等行李到达并填写一个快速申请——耐心的旅客轻松赚取积分。",
           "takeaways": [
-            "考虑在不同的日期庆祝情人节，以获得更愉快的体验。",
-            "在家做的饭菜也可以和外出就餐一样特别。",
-            "有些人对提前这么早预约表示怀疑。"
+            "当飞机到达登机口时开始计时以获取准确的延迟时间。",
+            "其他航空公司如阿拉斯加也提供类似的福利。",
+            "提前检查行李可以增加延误的机会。"
           ],
-          "trendLabel": "0 赞"
+          "trendLabel": "920 赞"
         }
       }
     },
     {
-      "id": "reddit-1xokdth",
+      "id": "reddit-1xq3eun",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "coral",
+      "eyebrow": "r/Dallas",
+      "headline": "apparently, this is the flag of Dallas County",
+      "context": "Who knew a county flag could be a conversation starter? Apparently, Dallas County's flag has been waving since '75 and looks quite lovely.",
+      "takeaways": [
+        "The BLEXAS flag is gaining some interesting attention.",
+        "Trivia enthusiasts are uncovering fascinating flag facts.",
+        "Many prefer the current design over the original."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "555 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xq3eun/apparently_this_is_the_flag_of_dallas_county/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "显然，这就是达拉斯县的旗帜",
+          "context": "谁知道一个县的旗帜能成为谈话的引子？显然，达拉斯县的旗帜自75年以来一直在飘扬，看起来相当美丽。",
+          "takeaways": [
+            "BLEXAS 旗帜正在引起有趣的关注。",
+            "Trivia 爱好者正在发现迷人的旗帜事实。",
+            "许多人更喜欢当前的设计而不是原来的。"
+          ],
+          "trendLabel": "555 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xqagmq",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "violet",
+      "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL the name \"Chilean sea bass\" was invented by a fish wholesaler named Lee Lantz in 1977. He was looking for a name to make it attractive to the American market.  He considered \"Pacific sea bass\" and \"South American sea bass\" before settling on \"Chilean sea bass\".",
-      "context": "Turns out, a fish wholesaler's marketing genius is the reason we dine on 'Chilean sea bass' instead of 'toothfish.'",
+      "headline": "TIL that \"Arabic numerals\" (0–9) actually originated in India, were refined in Baghdad, and were brought to Europe by Fibonacci because of his dad’s job in North Africa.",
+      "context": "Arabic numerals may have a misleading name, but their journey from India to Europe via Fibonacci is a fascinating tale of mathematical migration.",
       "takeaways": [
-        "Jurassic Park featured Chilean sea bass, highlighting its cultural impact.",
-        "Toothfish might not sound appetizing, but clever naming made it a hit.",
-        "Marketing shapes our perceptions of food more than we realize."
+        "Zero was innovated by the Indian mathematician Aryabhatta.",
+        "Fibonacci is known for his famous sequence, which has roots in Indian mathematics.",
+        "Humor abounds around the debate on teaching Arabic numerals in schools."
       ],
       "topics": [
         "todayilearned"
@@ -368,42 +196,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "5.5K upvotes",
+      "trendLabel": "2.4K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xokdth/til_the_name_chilean_sea_bass_was_invented_by_a/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xqagmq/til_that_arabic_numerals_09_actually_originated/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到：'智利海鲈'这个名字是1977年由鱼批发商李·兰茨发明的。",
-          "context": "原来，一位鱼批发商的营销天才是我们吃'智利海鲈'而不是'牙齿鱼'的原因。",
+          "headline": "今日学到：阿拉伯数字（0-9）实际上起源于印度，经过巴格达的改进，由费波那契因其父在北非的工作带到欧洲。",
+          "context": "阿拉伯数字的名字可能具有误导性，但它们从印度到欧洲的旅程通过费波那契是一个引人入胜的数学迁移故事。",
           "takeaways": [
-            "《侏罗纪公园》中提到智利海鲈，突显其文化影响。",
-            "牙齿鱼听起来不太美味，但聪明的命名让它受欢迎。",
-            "营销在塑造我们对食物的认知中扮演着重要角色。"
+            "零是由印度数学家阿耶布哈塔发明的。",
+            "费波那契以其著名的数列而闻名，而这个数列根植于印度数学。",
+            "围绕在学校教授阿拉伯数字的辩论中充满了幽默。"
           ],
-          "trendLabel": "5.5K 赞"
+          "trendLabel": "2.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xonw2g",
+      "id": "reddit-1xpygqo",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
+      "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "Married men of Reddit, what's the hardest thing about being a husband?",
-      "context": "Being a husband comes with its own set of challenges, ranging from meal planning to financial stress and the quest to stay funny.",
+      "headline": "As a woman, what’s a type of man you’d never marry?",
+      "context": "Redditors reveal the types of men they’d steer clear of—some lessons learned the hard way.",
       "takeaways": [
-        "External factors like finances often present the biggest challenges in marriage.",
-        "Listening without jumping to solutions can be tough but is essential.",
-        "Finding something to eat feels like an endless cycle."
+        "Gambling addiction can wreak havoc on relationships.",
+        "Be wary of men who view children as mere accessories.",
+        "Incompetence as a tactic is a major red flag."
       ],
       "topics": [
         "askreddit"
@@ -411,42 +239,128 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.2K upvotes",
+      "trendLabel": "2.3K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xonw2g/married_men_of_reddit_whats_the_hardest_thing/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xpygqo/as_a_woman_whats_a_type_of_man_youd_never_marry/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "已婚男士们，作为丈夫最难的事情是什么？",
-          "context": "作为丈夫会面临一系列挑战，从餐饮规划到财务压力，以及努力保持幽默感。",
+          "headline": "作为女性，你绝对不会嫁的男人类型？",
+          "context": "Reddit 用户揭示了她们绝对会避免的男人类型——有些教训是痛苦的。",
           "takeaways": [
-            "外部因素如财务常常是婚姻中最大的挑战。",
-            "倾听而不急于给出解决方案很困难但至关重要。",
-            "找吃的似乎是一个无尽的循环。"
+            "赌博成瘾会对关系造成严重影响。",
+            "警惕将孩子视为配件的男人。",
+            "将无能作为策略是个重大红旗。"
           ],
-          "trendLabel": "1.2K 赞"
+          "trendLabel": "2.3K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xoqxhe",
+      "id": "reddit-1xq1jx9",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that Guy Fawkes was hung, gutted and tortured for his plans. He was caught red handed after an anonymous tip off leading to his torture, which revealed co-conspirators. This was followed up by execution and his body parts paraded around London.",
-      "context": "Ever wonder how Guy Fawkes went from a plotter to a public spectacle? His fate was as explosive as his plans.",
+      "theme": "gold",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: If you're an introvert struggling to make friends, especially if you work from home or mostly follow a work-home routine, find an activity you can attend at the same place every week.",
+      "context": "Struggling to connect as an introvert? Sometimes, showing up weekly can turn strangers into friends—without the pressure of a big introduction.",
       "takeaways": [
-        "The Gunpowder Plot was reconstructed in 2005, revealing its potential for chaos.",
-        "Guy Fawkes humorously claimed his name was 'John Johnson' when captured.",
-        "Bonfire Night celebrates with fires, cider, and warmth—autumn at its best."
+        "Shared hobbies make conversations easier and more genuine.",
+        "Many people overlook the simple path to building community.",
+        "Classes like swing dancing offer social opportunities with minimal effort."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "71 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xq1jx9/lpt_if_youre_an_introvert_struggling_to_make/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小贴士：如果你是个内向的人，尤其是远程工作，寻找每周都能参加的活动来交朋友。",
+          "context": "作为内向的人很难建立联系？有时候，每周定期出现可以让陌生人变成朋友——而无需面对大型介绍的压力。",
+          "takeaways": [
+            "共同爱好让交流更简单、更真诚。",
+            "许多人忽视了建立社区的简单途径。",
+            "像社交舞这样的课程提供了轻松的社交机会。"
+          ],
+          "trendLabel": "71 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xqb74g",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "Those Who Cared for Isaac: Human Cost of a Religious Teaching in Dallas",
+      "context": "A tragic reminder of how beliefs can clash with medical needs, sparking a dialogue on faith and healthcare.",
+      "takeaways": [
+        "Community members often struggle with the consequences of rigid beliefs.",
+        "Personal loss can lead to shared feelings of grief and frustration.",
+        "Cultural perceptions of groups can change based on personal experiences."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "43 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xqb74g/those_who_cared_for_isaac_human_cost_of_a/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "关心以撒的人：达拉斯宗教教义的人性代价",
+          "context": "一个悲惨的提醒，信仰如何与医疗需求发生冲突，引发关于信仰与医疗的对话。",
+          "takeaways": [
+            "社区成员常常与严格信仰的后果作斗争。",
+            "个人的失落可以导致共同的悲伤和沮丧感。",
+            "对群体的文化认知可以根据个人经历而变化。"
+          ],
+          "trendLabel": "43 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xq7irn",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that a 1983 NATO nuclear war training exercise called Able Archer 83 alarmed the Soviet Union so much that a US intelligence board later investigated it, and its report stayed classified until 2015",
+      "context": "In 1983, a NATO exercise nearly triggered World War III, proving that sometimes practice makes perfect... for panic.",
+      "takeaways": [
+        "Soviet paranoia peaked during the Cold War, leading to distrust of their own intelligence.",
+        "Able Archer 83 occurred during a particularly tense time, following the downing of Flight 007.",
+        "A Russian spy claims to have prevented war by relaying accurate intelligence during the exercise."
       ],
       "topics": [
         "todayilearned"
@@ -454,23 +368,152 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.7K upvotes",
+      "trendLabel": "1.5K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xoqxhe/til_that_guy_fawkes_was_hung_gutted_and_tortured/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xq7irn/til_that_a_1983_nato_nuclear_war_training/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到盖·福克斯因其计划被绞死、剖腹和折磨",
-          "context": "想知道盖·福克斯是如何从阴谋家变成公众 spectacle 吗？他的命运和他的计划一样爆炸。",
+          "headline": "今天我了解到，1983年的北约核战争训练演习“阿贝尔·阿奇尔83”令苏联感到极大震惊，后来美国情报局对此进行了调查，报告直到2015年才解密。",
+          "context": "1983年，北约的一次演习差点引发第三次世界大战，这证明有时候，练习是为了完美……也为了恐慌。",
           "takeaways": [
-            "2005年重建了火药阴谋，展示了其潜在的混乱。",
-            "盖·福克斯被捕时幽默地声称自己叫“约翰·约翰逊”。",
-            "篝火之夜以篝火、苹果酒和温暖庆祝——秋天最美好的时光。"
+            "在冷战期间，苏联的偏执达到顶峰，导致对自身情报的怀疑。",
+            "阿贝尔·阿奇尔83发生在特别紧张的时期，恰逢007航班被击落。",
+            "一名俄罗斯间谍声称通过传递准确情报，阻止了战争的发生。"
           ],
-          "trendLabel": "3.7K 赞"
+          "trendLabel": "1.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xq339s",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "What is the best punchline to the old \"I like my men/women like I like my coffee..\" line?",
+      "context": "Redditors share their favorite punchlines to the classic coffee comparison, revealing humor in unexpected places.",
+      "takeaways": [
+        "Nostalgia plays a role in humor, as seen in references to childhood memories.",
+        "Coffee preferences often reflect deeper relationship dynamics and personality traits.",
+        "A surprising setting, like a hospital, can lead to hilariously candid moments."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.2K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xq339s/what_is_the_best_punchline_to_the_old_i_like_my/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "我喜欢我的男人/女人就像我喜欢我的咖啡一样……的最佳结尾是什么？",
+          "context": "Reddit用户分享他们对经典咖啡比较的最佳幽默结尾，揭示了幽默的意外之处。",
+          "takeaways": [
+            "怀旧在幽默中扮演着重要角色，正如对童年记忆的引用。",
+            "咖啡偏好通常反映了更深层次的关系动态和个性特点。",
+            "意外的场景，比如医院，可以导致幽默而坦率的时刻。"
+          ],
+          "trendLabel": "2.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xqbhoj",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL: Porsche was saved from bankruptcy in the early 1990s by taking on contract work for Mercedes making their W124 AMG sedan",
+      "context": "Porsche avoided bankruptcy in the '90s by moonlighting for Mercedes, proving that sometimes saving grace comes from unexpected places.",
+      "takeaways": [
+        "Porsche adopted the Toyota Production System to enhance their operations.",
+        "The 500E was a collaboration, not an AMG, as Mercedes hadn't fully integrated AMG yet.",
+        "Porsche also offers consultancy services to other car manufacturers."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "361 upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xqbhoj/til_porsche_was_saved_from_bankruptcy_in_the/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天学到: 保时捷在90年代初通过为梅赛德斯制造W124 AMG轿车而避免破产",
+          "context": "保时捷在90年代通过为梅赛德斯兼职工作来避免破产，证明了有时救赎来自意想不到的地方。",
+          "takeaways": [
+            "保时捷当时采用了丰田生产方式以提升运营效率。",
+            "500E是合作产品，而非AMG，因为梅赛德斯尚未完全整合AMG。",
+            "保时捷还为其他汽车制造商提供咨询服务。"
+          ],
+          "trendLabel": "361 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xq6c8u",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/AskReddit",
+      "headline": "What are some of your favorite brands that were bought by Private Equity and run into the ground or completely erased?",
+      "context": "Private equity has a knack for transforming beloved brands into shadows of their former selves. Here are some notable examples.",
+      "takeaways": [
+        "JoAnn's and Payless ShoeSource have seen better days under private equity.",
+        "Red Lobster's decline is tied to real estate decisions by private equity.",
+        "Panera has lost its charm, trading quality for consistency."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "900 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xq6c8u/what_are_some_of_your_favorite_brands_that_were/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "你最喜欢的被私募股权收购、并彻底毁掉的品牌有哪些？",
+          "context": "私募股权擅长将受欢迎的品牌转变为昔日的影子。这里有一些显著的例子。",
+          "takeaways": [
+            "JoAnn's 和 Payless ShoeSource 在私募股权下日渐衰退。",
+            "红龙虾的衰退与私募股权的房地产决策有关。",
+            "Panera 失去了魅力，质量被一致性所取代。"
+          ],
+          "trendLabel": "900 赞"
         }
       }
     }
