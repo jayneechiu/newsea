@@ -1,8 +1,51 @@
 {
-  "updatedAt": "2026-11-07T18:03:07+00:00",
+  "updatedAt": "2026-11-09T22:59:59+00:00",
   "cards": [
     {
-      "id": "reddit-1xpz512",
+      "id": "reddit-1xrtm2x",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that in 1881, Fanny Hesse suggested growing bacteria on agar, a jelly ingredient from her own kitchen, because the gelatin in her husband's experiments kept melting in the summer heat. Agar is still the standard in labs worldwide, and she never got credit for the idea.",
+      "context": "In 1881, Fanny Hesse's kitchen innovation saved summer experiments, yet her name remains a footnote in the history of microbiology.",
+      "takeaways": [
+        "Fanny Hesse was an unpaid assistant to her husband, who adopted her agar idea.",
+        "Agar resists bacterial proteases that destroy gelatin, making it superior for growth.",
+        "Despite breakthroughs, 99% of bacteria remain elusive and unplated."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "16.5K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xrtm2x/til_that_in_1881_fanny_hesse_suggested_growing/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到：1881年，范妮·赫斯提议用她厨房里的琼脂培养细菌，因她丈夫的实验在夏天热融化了明胶。",
+          "context": "在1881年，范妮·赫斯的厨房创新拯救了夏季实验，但她的名字仍然是微生物学史上的脚注。",
+          "takeaways": [
+            "范妮·赫斯是她丈夫的无薪助手，她的琼脂创意被丈夫采纳。",
+            "琼脂能抵御细菌的蛋白酶，优于明胶用于细菌培养。",
+            "尽管有突破，99%的细菌仍然难以在培养基上生长。"
+          ],
+          "trendLabel": "16.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xrtjxt",
       "lane": [
         "for-you",
         "everyone",
@@ -10,56 +53,13 @@
       ],
       "cardType": "community-insight",
       "theme": "ink",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL The Largest Employer in the Texas Panhandle is the Primary Nuclear Weapons Manufacturing Facility in the U.S.",
-      "context": "In the Texas Panhandle, the biggest employer is a nuclear weapons facility—because what else would you expect in Bomb City?",
-      "takeaways": [
-        "Amarillo is nicknamed Bomb City for its nuclear connection.",
-        "Pantex employs around 4,600 people, reflecting the area's overall low population.",
-        "The facility is heavily guarded, making it a unique workplace."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "6.8K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xpz512/til_the_largest_employer_in_the_texas_panhandle/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "TIL 德克萨斯州潘汉德尔地区最大的雇主是美国主要的核武器制造设施。",
-          "context": "在德克萨斯州潘汉德尔地区，最大的雇主是一个核武器设施——难道在炸弹城还能期待别的什么？",
-          "takeaways": [
-            "阿马里洛因其核连接而被称为炸弹城。",
-            "潘泰克斯雇佣约4600人，反映了该地区整体低人口。",
-            "该设施受到严格保护，使其成为一个独特的工作场所。"
-          ],
-          "trendLabel": "6.8K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xq27vm",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "If there were a public boycott list for companies and law firms that “kissed Trump’s ring,” who would you put on it and why?",
-      "context": "A list of companies and law firms that may have overstayed their welcome with some consumers, thanks to their Trump ties.",
+      "headline": "Divorce lawyers of Reddit, what's the most shocking secret you've seen come out during a divorce?",
+      "context": "Divorce lawyers reveal the wildest secrets unearthed during proceedings, including hidden families and shocking familial ties.",
       "takeaways": [
-        "Goya products have been off the shopping list for many since 2016.",
-        "Costco is praised for its resistance to the Trump administration.",
-        "WWE's close ties to the administration put them on the boycott radar."
+        "One client had three secret families while working as a trucker.",
+        "A husband demanded paternity tests, only to discover his wife was his half-sister.",
+        "A 'war hero' claimed veteran benefits to avoid child support calculations."
       ],
       "topics": [
         "askreddit"
@@ -67,42 +67,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.1K upvotes",
+      "trendLabel": "7.3K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xq27vm/if_there_were_a_public_boycott_list_for_companies/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xrtjxt/divorce_lawyers_of_reddit_whats_the_most_shocking/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "如果有一个公开抵制名单，列出那些“亲特朗普”的公司和律师事务所，你会把谁列上去，为什么？",
-          "context": "一些消费者对与特朗普有关系的公司和律师事务所表示抵制，可能已经超出了他们的欢迎范围。",
+          "headline": "离婚律师们，您见过的最令人震惊的离婚秘密是什么？",
+          "context": "离婚律师揭示了在离婚过程中发掘的惊人秘密，包括隐藏的家庭和令人震惊的亲属关系。",
           "takeaways": [
-            "自2016年以来，许多人就不再购买Goya产品。",
-            "Costco因抵制特朗普政府而受到赞扬。",
-            "WWE与政府的密切关系使他们成为抵制的对象。"
+            "一位客户在做卡车司机时竟有三个秘密家庭。",
+            "一位丈夫要求亲子鉴定，结果发现妻子是他的异母姐妹。",
+            "一位‘退伍军人’声称获得退伍军人福利以逃避子女抚养费计算。"
           ],
-          "trendLabel": "3.1K 赞"
+          "trendLabel": "7.3K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xpxt7a",
+      "id": "reddit-1xrhf4b",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
+      "theme": "ocean",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Flying Delta - File for Bags on Time for free points!!",
-      "context": "Want free Delta miles? Just wait a bit longer for your bag and file a quick claim—easy points for the patient traveler.",
+      "headline": "LPT Whenever you’re public speaking or presenting, speak slow enough that an interpreter/translator could catch up.",
+      "context": "Imagine you're at a summit, and your words are being translated live. Speaking slowly might just save the day.",
       "takeaways": [
-        "Start your timer when the plane reaches the gate for accurate timing.",
-        "Other airlines like Alaska offer similar perks.",
-        "Check your bag early to increase your chances of delays."
+        "Speaking slowly can improve clarity and audience engagement.",
+        "Even fast speakers can learn to adjust their pace with practice.",
+        "Clear communication often resembles the cadence of skilled speakers like Trevor Noah."
       ],
       "topics": [
         "lifeprotips"
@@ -110,200 +110,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "920 upvotes",
+      "trendLabel": "951 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xpxt7a/lpt_flying_delta_file_for_bags_on_time_for_free/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xrhf4b/lpt_whenever_youre_public_speaking_or_presenting/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活小窍门：搭乘达美航空时及时申请行李延误以获取免费积分！",
-          "context": "想要免费的达美航空里程吗？只需稍等行李到达并填写一个快速申请——耐心的旅客轻松赚取积分。",
+          "headline": "LPT：无论何时公开演讲或展示，都要说得足够慢，以便翻译员/口译员能跟上。",
+          "context": "想象一下，你在峰会上，您的话正在实时翻译。说得慢一点可能会拯救整个局面。",
           "takeaways": [
-            "当飞机到达登机口时开始计时以获取准确的延迟时间。",
-            "其他航空公司如阿拉斯加也提供类似的福利。",
-            "提前检查行李可以增加延误的机会。"
+            "说得慢可以提高清晰度和观众参与感。",
+            "即使是快速说话的人也可以通过练习来调整语速。",
+            "清晰的沟通通常类似于特雷弗·诺亚等熟练演讲者的节奏。"
           ],
-          "trendLabel": "920 赞"
+          "trendLabel": "951 赞"
         }
       }
     },
     {
-      "id": "reddit-1xq3eun",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "coral",
-      "eyebrow": "r/Dallas",
-      "headline": "apparently, this is the flag of Dallas County",
-      "context": "Who knew a county flag could be a conversation starter? Apparently, Dallas County's flag has been waving since '75 and looks quite lovely.",
-      "takeaways": [
-        "The BLEXAS flag is gaining some interesting attention.",
-        "Trivia enthusiasts are uncovering fascinating flag facts.",
-        "Many prefer the current design over the original."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "555 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xq3eun/apparently_this_is_the_flag_of_dallas_county/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "显然，这就是达拉斯县的旗帜",
-          "context": "谁知道一个县的旗帜能成为谈话的引子？显然，达拉斯县的旗帜自75年以来一直在飘扬，看起来相当美丽。",
-          "takeaways": [
-            "BLEXAS 旗帜正在引起有趣的关注。",
-            "Trivia 爱好者正在发现迷人的旗帜事实。",
-            "许多人更喜欢当前的设计而不是原来的。"
-          ],
-          "trendLabel": "555 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xqagmq",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that \"Arabic numerals\" (0–9) actually originated in India, were refined in Baghdad, and were brought to Europe by Fibonacci because of his dad’s job in North Africa.",
-      "context": "Arabic numerals may have a misleading name, but their journey from India to Europe via Fibonacci is a fascinating tale of mathematical migration.",
-      "takeaways": [
-        "Zero was innovated by the Indian mathematician Aryabhatta.",
-        "Fibonacci is known for his famous sequence, which has roots in Indian mathematics.",
-        "Humor abounds around the debate on teaching Arabic numerals in schools."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xqagmq/til_that_arabic_numerals_09_actually_originated/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今日学到：阿拉伯数字（0-9）实际上起源于印度，经过巴格达的改进，由费波那契因其父在北非的工作带到欧洲。",
-          "context": "阿拉伯数字的名字可能具有误导性，但它们从印度到欧洲的旅程通过费波那契是一个引人入胜的数学迁移故事。",
-          "takeaways": [
-            "零是由印度数学家阿耶布哈塔发明的。",
-            "费波那契以其著名的数列而闻名，而这个数列根植于印度数学。",
-            "围绕在学校教授阿拉伯数字的辩论中充满了幽默。"
-          ],
-          "trendLabel": "2.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xpygqo",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "As a woman, what’s a type of man you’d never marry?",
-      "context": "Redditors reveal the types of men they’d steer clear of—some lessons learned the hard way.",
-      "takeaways": [
-        "Gambling addiction can wreak havoc on relationships.",
-        "Be wary of men who view children as mere accessories.",
-        "Incompetence as a tactic is a major red flag."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.3K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xpygqo/as_a_woman_whats_a_type_of_man_youd_never_marry/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "作为女性，你绝对不会嫁的男人类型？",
-          "context": "Reddit 用户揭示了她们绝对会避免的男人类型——有些教训是痛苦的。",
-          "takeaways": [
-            "赌博成瘾会对关系造成严重影响。",
-            "警惕将孩子视为配件的男人。",
-            "将无能作为策略是个重大红旗。"
-          ],
-          "trendLabel": "2.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xq1jx9",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: If you're an introvert struggling to make friends, especially if you work from home or mostly follow a work-home routine, find an activity you can attend at the same place every week.",
-      "context": "Struggling to connect as an introvert? Sometimes, showing up weekly can turn strangers into friends—without the pressure of a big introduction.",
-      "takeaways": [
-        "Shared hobbies make conversations easier and more genuine.",
-        "Many people overlook the simple path to building community.",
-        "Classes like swing dancing offer social opportunities with minimal effort."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "71 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xq1jx9/lpt_if_youre_an_introvert_struggling_to_make/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小贴士：如果你是个内向的人，尤其是远程工作，寻找每周都能参加的活动来交朋友。",
-          "context": "作为内向的人很难建立联系？有时候，每周定期出现可以让陌生人变成朋友——而无需面对大型介绍的压力。",
-          "takeaways": [
-            "共同爱好让交流更简单、更真诚。",
-            "许多人忽视了建立社区的简单途径。",
-            "像社交舞这样的课程提供了轻松的社交机会。"
-          ],
-          "trendLabel": "71 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xqb74g",
+      "id": "reddit-1xrw0ua",
       "lane": [
         "for-you",
         "everyone",
@@ -312,12 +140,12 @@
       "cardType": "local-trend",
       "theme": "lime",
       "eyebrow": "r/Dallas",
-      "headline": "Those Who Cared for Isaac: Human Cost of a Religious Teaching in Dallas",
-      "context": "A tragic reminder of how beliefs can clash with medical needs, sparking a dialogue on faith and healthcare.",
+      "headline": "The Largest Urban Hardwood Forest in the U.S. is in ... Dallas?",
+      "context": "Who knew Dallas had the largest urban hardwood forest in the U.S.? Maybe those trees were hiding under the pavement all this time.",
       "takeaways": [
-        "Community members often struggle with the consequences of rigid beliefs.",
-        "Personal loss can lead to shared feelings of grief and frustration.",
-        "Cultural perceptions of groups can change based on personal experiences."
+        "Dallas is home to an unexpectedly large urban forest.",
+        "Many residents were unaware of the city's natural beauty.",
+        "The Trinity Forest Audubon Center offers a nice escape from urban life."
       ],
       "topics": [
         "dallas"
@@ -325,42 +153,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "43 upvotes",
+      "trendLabel": "248 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xqb74g/those_who_cared_for_isaac_human_cost_of_a/"
+          "url": "https://reddit.com/r/Dallas/comments/1xrw0ua/the_largest_urban_hardwood_forest_in_the_us_is_in/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "关心以撒的人：达拉斯宗教教义的人性代价",
-          "context": "一个悲惨的提醒，信仰如何与医疗需求发生冲突，引发关于信仰与医疗的对话。",
+          "headline": "美国最大的城市硬木森林在……达拉斯？",
+          "context": "谁知道达拉斯拥有美国最大的城市硬木森林？也许那些树一直藏在铺路石下。",
           "takeaways": [
-            "社区成员常常与严格信仰的后果作斗争。",
-            "个人的失落可以导致共同的悲伤和沮丧感。",
-            "对群体的文化认知可以根据个人经历而变化。"
+            "达拉斯拥有意想不到的大型城市森林。",
+            "许多居民对城市的自然美景一无所知。",
+            "特林提森林鸥鸟中心提供了一个逃离城市生活的好去处。"
           ],
-          "trendLabel": "43 赞"
+          "trendLabel": "248 赞"
         }
       }
     },
     {
-      "id": "reddit-1xq7irn",
+      "id": "reddit-1xrvt2m",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "violet",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that a 1983 NATO nuclear war training exercise called Able Archer 83 alarmed the Soviet Union so much that a US intelligence board later investigated it, and its report stayed classified until 2015",
-      "context": "In 1983, a NATO exercise nearly triggered World War III, proving that sometimes practice makes perfect... for panic.",
+      "headline": "TIL sleeping in a cold room is better for you as your core temperature needs to drop to signal to the brain and body that it's time to go to sleep. This lower temperature has been found to help people fall asleep faster and sleep more deeply.",
+      "context": "Turns out, keeping your cool at night might just be the secret to sweet dreams and a well-rested brain.",
       "takeaways": [
-        "Soviet paranoia peaked during the Cold War, leading to distrust of their own intelligence.",
-        "Able Archer 83 occurred during a particularly tense time, following the downing of Flight 007.",
-        "A Russian spy claims to have prevented war by relaying accurate intelligence during the exercise."
+        "A chilly room can enhance sleep quality and speed up the process.",
+        "Some have intuitively been practicing this sleep science for years.",
+        "The battle over blanket and heating preferences is real."
       ],
       "topics": [
         "todayilearned"
@@ -368,28 +196,157 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.5K upvotes",
+      "trendLabel": "14.4K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xq7irn/til_that_a_1983_nato_nuclear_war_training/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xrvt2m/til_sleeping_in_a_cold_room_is_better_for_you_as/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到，1983年的北约核战争训练演习“阿贝尔·阿奇尔83”令苏联感到极大震惊，后来美国情报局对此进行了调查，报告直到2015年才解密。",
-          "context": "1983年，北约的一次演习差点引发第三次世界大战，这证明有时候，练习是为了完美……也为了恐慌。",
+          "headline": "今天学到：在寒冷的房间睡觉对你更有好处，因为你的核心温度需要下降以向大脑和身体发出信号，表示该睡觉了。",
+          "context": "事实证明，晚上保持凉爽可能是美梦和充足休息的秘密。",
           "takeaways": [
-            "在冷战期间，苏联的偏执达到顶峰，导致对自身情报的怀疑。",
-            "阿贝尔·阿奇尔83发生在特别紧张的时期，恰逢007航班被击落。",
-            "一名俄罗斯间谍声称通过传递准确情报，阻止了战争的发生。"
+            "寒冷的房间可以提高睡眠质量并加快入睡速度。",
+            "有些人多年来一直在无意识地实践这种睡眠科学。",
+            "关于被子和取暖偏好的争斗是真实存在的。"
           ],
-          "trendLabel": "1.5K 赞"
+          "trendLabel": "14.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xq339s",
+      "id": "reddit-1xs1jkx",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/AskReddit",
+      "headline": "Millennials, as we approach 45, what is your midlife crisis starting to look like?",
+      "context": "As we near 45, our midlife crises seem less like a crisis and more like a series of evolving life choices.",
+      "takeaways": [
+        "Some are embracing fitness and self-improvement to counter midlife reflections.",
+        "The reality of aging parents adds emotional weight to this life stage.",
+        "For some, a drastic career change feels like the only way forward."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.3K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xs1jkx/millennials_as_we_approach_45_what_is_your/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "千禧一代，随着我们接近45岁，你的中年危机开始是什么样子的？",
+          "context": "随着我们接近45岁，中年危机似乎不再是危机，而是不断演变的生活选择。",
+          "takeaways": [
+            "一些人通过健身和自我提升来对抗中年反思。",
+            "父母的衰老现实给这个人生阶段增添了情感负担。",
+            "对于一些人来说，剧烈的职业改变似乎是前进的唯一途径。"
+          ],
+          "trendLabel": "1.3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xrlcn2",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Don't tie your digital life to a single company's ecosystem.",
+      "context": "Imagine losing access to everything because a big company didn’t like your digital footprint; diversify your digital life to avoid this fate.",
+      "takeaways": [
+        "Exporting data from apps is often easier than you think.",
+        "Relying on smaller, open-source alternatives can provide greater control.",
+        "Self-hosting gives you autonomy, but requires time and technical know-how."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "751 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xrlcn2/lpt_dont_tie_your_digital_life_to_a_single/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小贴士：不要将数字生活捆绑在单一公司的生态系统中。",
+          "context": "想象一下，因某大公司对您的数字足迹不满而失去对所有内容的访问权限；多样化您的数字生活以避免这种命运。",
+          "takeaways": [
+            "从应用程序导出数据通常比你想象的要容易。",
+            "依赖较小的开源替代品可以提供更大的控制权。",
+            "自托管让你更自主，但需要时间和技术知识。"
+          ],
+          "trendLabel": "751 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xs14l3",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "violet",
+      "eyebrow": "r/Dallas",
+      "headline": "What in your opinion is Dallas’s most mysterious restaurant?",
+      "context": "Dallas diners are left scratching their heads over how certain restaurants manage to thrive despite their baffling offerings and peculiar vibes.",
+      "takeaways": [
+        "Old Warsaw remains a classic enigma in the Dallas dining scene.",
+        "Magic Time Machine raises questions about food quality and staff conditions.",
+        "Mi Cocina's low-salt menu is a puzzling yet profitable business model."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "50 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xs14l3/what_in_your_opinion_is_dallass_most_mysterious/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "你认为达拉斯最神秘的餐厅是什么？",
+          "context": "达拉斯的食客们对某些餐厅如何在奇怪的菜品和古怪的氛围中生存感到困惑。",
+          "takeaways": [
+            "老华沙餐厅仍然是达拉斯餐饮界的经典谜团。",
+            "魔法时光机引发了对食物质量和员工状况的质疑。",
+            "米科西纳的低盐菜单是一个令人困惑但盈利的商业模式。"
+          ],
+          "trendLabel": "50 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xrzdo6",
       "lane": [
         "for-you",
         "everyone",
@@ -397,56 +354,13 @@
       ],
       "cardType": "community-insight",
       "theme": "coral",
-      "eyebrow": "r/AskReddit",
-      "headline": "What is the best punchline to the old \"I like my men/women like I like my coffee..\" line?",
-      "context": "Redditors share their favorite punchlines to the classic coffee comparison, revealing humor in unexpected places.",
-      "takeaways": [
-        "Nostalgia plays a role in humor, as seen in references to childhood memories.",
-        "Coffee preferences often reflect deeper relationship dynamics and personality traits.",
-        "A surprising setting, like a hospital, can lead to hilariously candid moments."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.2K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xq339s/what_is_the_best_punchline_to_the_old_i_like_my/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "我喜欢我的男人/女人就像我喜欢我的咖啡一样……的最佳结尾是什么？",
-          "context": "Reddit用户分享他们对经典咖啡比较的最佳幽默结尾，揭示了幽默的意外之处。",
-          "takeaways": [
-            "怀旧在幽默中扮演着重要角色，正如对童年记忆的引用。",
-            "咖啡偏好通常反映了更深层次的关系动态和个性特点。",
-            "意外的场景，比如医院，可以导致幽默而坦率的时刻。"
-          ],
-          "trendLabel": "2.2K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xqbhoj",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL: Porsche was saved from bankruptcy in the early 1990s by taking on contract work for Mercedes making their W124 AMG sedan",
-      "context": "Porsche avoided bankruptcy in the '90s by moonlighting for Mercedes, proving that sometimes saving grace comes from unexpected places.",
+      "headline": "TIL in 1982, 19 year old UT student Gregory Watson wrote a paper about how a 1789 Amendment to the Constitution was never ratified. The TA and professor gave him a C Grade. He campaigned for it and in 1992 the amendment was ratified. 35 years later his C was changed to an A.",
+      "context": "A college paper on a forgotten amendment led to a late grade change and an unexpected lesson in persistence.",
       "takeaways": [
-        "Porsche adopted the Toyota Production System to enhance their operations.",
-        "The 500E was a collaboration, not an AMG, as Mercedes hadn't fully integrated AMG yet.",
-        "Porsche also offers consultancy services to other car manufacturers."
+        "A grade change decades later feels more fitting than getting an A initially.",
+        "The 27th Amendment's impact on congressional salaries sparks debate about its effectiveness.",
+        "States that ratified the amendment long ago still count, raising questions about expiration."
       ],
       "topics": [
         "todayilearned"
@@ -454,42 +368,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "361 upvotes",
+      "trendLabel": "3.7K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xqbhoj/til_porsche_was_saved_from_bankruptcy_in_the/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xrzdo6/til_in_1982_19_year_old_ut_student_gregory_watson/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天学到: 保时捷在90年代初通过为梅赛德斯制造W124 AMG轿车而避免破产",
-          "context": "保时捷在90年代通过为梅赛德斯兼职工作来避免破产，证明了有时救赎来自意想不到的地方。",
+          "headline": "今天我了解到，1982年，19岁的德州大学学生格雷戈里·沃特森撰写了一篇关于1789年宪法修正案未被批准的论文。",
+          "context": "一篇关于被遗忘修正案的大学论文引发了迟到的成绩变更和意外的坚持教训。",
           "takeaways": [
-            "保时捷当时采用了丰田生产方式以提升运营效率。",
-            "500E是合作产品，而非AMG，因为梅赛德斯尚未完全整合AMG。",
-            "保时捷还为其他汽车制造商提供咨询服务。"
+            "几十年后改分数比一开始就拿A更合适。",
+            "第27修正案对国会薪资的影响引发了关于其有效性的争论。",
+            "很久以前批准修正案的州仍然有效，这引发了关于失效期限的问题。"
           ],
-          "trendLabel": "361 赞"
+          "trendLabel": "3.7K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xq6c8u",
+      "id": "reddit-1xrrc9z",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "What are some of your favorite brands that were bought by Private Equity and run into the ground or completely erased?",
-      "context": "Private equity has a knack for transforming beloved brands into shadows of their former selves. Here are some notable examples.",
+      "headline": "People who stayed with the same company for more than 15 years, even if the YoY salary increases were not that high, what were your reasons for staying?",
+      "context": "Ever wonder why some people stick around the same job for decades, even when the pay isn't sky-high? Spoiler: It's not just about the money.",
       "takeaways": [
-        "JoAnn's and Payless ShoeSource have seen better days under private equity.",
-        "Red Lobster's decline is tied to real estate decisions by private equity.",
-        "Panera has lost its charm, trading quality for consistency."
+        "Job satisfaction often outweighs the need for higher salaries.",
+        "Many value good retirement plans and coworkers over pay increases.",
+        "The concept of 'golden handcuffs' keeps employees tied to their jobs."
       ],
       "topics": [
         "askreddit"
@@ -497,23 +411,105 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "900 upvotes",
+      "trendLabel": "1.2K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xq6c8u/what_are_some_of_your_favorite_brands_that_were/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xrrc9z/people_who_stayed_with_the_same_company_for_more/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "你最喜欢的被私募股权收购、并彻底毁掉的品牌有哪些？",
-          "context": "私募股权擅长将受欢迎的品牌转变为昔日的影子。这里有一些显著的例子。",
+          "headline": "在同一家公司工作超过15年的人，年薪增长不高，他们留下来的原因是什么？",
+          "context": "你有没有想过，为什么有些人会在同一份工作上待几十年，即使薪水并不高？剧透：这不仅仅是为了钱。",
           "takeaways": [
-            "JoAnn's 和 Payless ShoeSource 在私募股权下日渐衰退。",
-            "红龙虾的衰退与私募股权的房地产决策有关。",
-            "Panera 失去了魅力，质量被一致性所取代。"
+            "工作满意度往往胜过对更高薪水的渴望。",
+            "许多人更看重良好的退休计划和同事，而不是薪资增长。",
+            "“金手铐”的概念让员工紧紧依附于他们的工作。"
           ],
-          "trendLabel": "900 赞"
+          "trendLabel": "1.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xrxlz0",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Activate limited warranties as soon as you get them. Companies have sneaky fine print.",
+      "context": "Activating warranties might seem like a hassle, but avoiding sneaky fine print can save you headaches later on.",
+      "takeaways": [
+        "Always activate limited warranties upon purchase to avoid issues.",
+        "Some credit cards offer extended warranties on purchases; check your benefits."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "265 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xrxlz0/lpt_activate_limited_warranties_as_soon_as_you/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小贴士：尽快激活有限保修，避免公司狡猾的细则。",
+          "context": "激活保修可能看起来麻烦，但避免狡猾的细则可以为您节省麻烦。",
+          "takeaways": [
+            "购买后立即激活有限保修，以避免问题。",
+            "一些信用卡提供购买的延长保修；检查您的权益。"
+          ],
+          "trendLabel": "265 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xryevr",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that in 2019, a Canadian woman scared off a cougar approaching her and her dog by playing Metallica's “Don’t Tread on Me” on her cellphone after shouting failed to deter it.",
+      "context": "Who knew that a little Metallica might just save you from a hungry cougar on a walk?",
+      "takeaways": [
+        "Playing music to deter wild animals is a bold strategy, but it worked.",
+        "Death grips might be the secret weapon for solo hikers facing cougars."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.7K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xryevr/til_that_in_2019_a_canadian_woman_scared_off_a/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到，在2019年，一名加拿大女性通过在手机上播放金属乐队Metallica的《Don't Tread on Me》吓跑了一只靠近她和她狗的美洲狮。",
+          "context": "谁知道一点金属乐可能会在散步时拯救你免于被饥饿的美洲狮袭击？",
+          "takeaways": [
+            "用音乐来吓跑野生动物是个大胆的策略，但它成功了。",
+            "Death grips可能是独自徒步旅行者面对美洲狮的秘密武器。"
+          ],
+          "trendLabel": "1.7K 赞"
         }
       }
     }
