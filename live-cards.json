@@ -1,194 +1,22 @@
 {
-  "updatedAt": "2026-11-09T22:59:59+00:00",
+  "updatedAt": "2026-11-11T20:13:13+00:00",
   "cards": [
     {
-      "id": "reddit-1xrtm2x",
+      "id": "reddit-1xthvfp",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that in 1881, Fanny Hesse suggested growing bacteria on agar, a jelly ingredient from her own kitchen, because the gelatin in her husband's experiments kept melting in the summer heat. Agar is still the standard in labs worldwide, and she never got credit for the idea.",
-      "context": "In 1881, Fanny Hesse's kitchen innovation saved summer experiments, yet her name remains a footnote in the history of microbiology.",
-      "takeaways": [
-        "Fanny Hesse was an unpaid assistant to her husband, who adopted her agar idea.",
-        "Agar resists bacterial proteases that destroy gelatin, making it superior for growth.",
-        "Despite breakthroughs, 99% of bacteria remain elusive and unplated."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "16.5K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xrtm2x/til_that_in_1881_fanny_hesse_suggested_growing/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到：1881年，范妮·赫斯提议用她厨房里的琼脂培养细菌，因她丈夫的实验在夏天热融化了明胶。",
-          "context": "在1881年，范妮·赫斯的厨房创新拯救了夏季实验，但她的名字仍然是微生物学史上的脚注。",
-          "takeaways": [
-            "范妮·赫斯是她丈夫的无薪助手，她的琼脂创意被丈夫采纳。",
-            "琼脂能抵御细菌的蛋白酶，优于明胶用于细菌培养。",
-            "尽管有突破，99%的细菌仍然难以在培养基上生长。"
-          ],
-          "trendLabel": "16.5K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xrtjxt",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/AskReddit",
-      "headline": "Divorce lawyers of Reddit, what's the most shocking secret you've seen come out during a divorce?",
-      "context": "Divorce lawyers reveal the wildest secrets unearthed during proceedings, including hidden families and shocking familial ties.",
-      "takeaways": [
-        "One client had three secret families while working as a trucker.",
-        "A husband demanded paternity tests, only to discover his wife was his half-sister.",
-        "A 'war hero' claimed veteran benefits to avoid child support calculations."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "7.3K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xrtjxt/divorce_lawyers_of_reddit_whats_the_most_shocking/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "离婚律师们，您见过的最令人震惊的离婚秘密是什么？",
-          "context": "离婚律师揭示了在离婚过程中发掘的惊人秘密，包括隐藏的家庭和令人震惊的亲属关系。",
-          "takeaways": [
-            "一位客户在做卡车司机时竟有三个秘密家庭。",
-            "一位丈夫要求亲子鉴定，结果发现妻子是他的异母姐妹。",
-            "一位‘退伍军人’声称获得退伍军人福利以逃避子女抚养费计算。"
-          ],
-          "trendLabel": "7.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xrhf4b",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT Whenever you’re public speaking or presenting, speak slow enough that an interpreter/translator could catch up.",
-      "context": "Imagine you're at a summit, and your words are being translated live. Speaking slowly might just save the day.",
-      "takeaways": [
-        "Speaking slowly can improve clarity and audience engagement.",
-        "Even fast speakers can learn to adjust their pace with practice.",
-        "Clear communication often resembles the cadence of skilled speakers like Trevor Noah."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "951 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xrhf4b/lpt_whenever_youre_public_speaking_or_presenting/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT：无论何时公开演讲或展示，都要说得足够慢，以便翻译员/口译员能跟上。",
-          "context": "想象一下，你在峰会上，您的话正在实时翻译。说得慢一点可能会拯救整个局面。",
-          "takeaways": [
-            "说得慢可以提高清晰度和观众参与感。",
-            "即使是快速说话的人也可以通过练习来调整语速。",
-            "清晰的沟通通常类似于特雷弗·诺亚等熟练演讲者的节奏。"
-          ],
-          "trendLabel": "951 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xrw0ua",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
       "theme": "lime",
-      "eyebrow": "r/Dallas",
-      "headline": "The Largest Urban Hardwood Forest in the U.S. is in ... Dallas?",
-      "context": "Who knew Dallas had the largest urban hardwood forest in the U.S.? Maybe those trees were hiding under the pavement all this time.",
-      "takeaways": [
-        "Dallas is home to an unexpectedly large urban forest.",
-        "Many residents were unaware of the city's natural beauty.",
-        "The Trinity Forest Audubon Center offers a nice escape from urban life."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "248 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xrw0ua/the_largest_urban_hardwood_forest_in_the_us_is_in/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "美国最大的城市硬木森林在……达拉斯？",
-          "context": "谁知道达拉斯拥有美国最大的城市硬木森林？也许那些树一直藏在铺路石下。",
-          "takeaways": [
-            "达拉斯拥有意想不到的大型城市森林。",
-            "许多居民对城市的自然美景一无所知。",
-            "特林提森林鸥鸟中心提供了一个逃离城市生活的好去处。"
-          ],
-          "trendLabel": "248 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xrvt2m",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL sleeping in a cold room is better for you as your core temperature needs to drop to signal to the brain and body that it's time to go to sleep. This lower temperature has been found to help people fall asleep faster and sleep more deeply.",
-      "context": "Turns out, keeping your cool at night might just be the secret to sweet dreams and a well-rested brain.",
+      "headline": "TIL spiders have existed for at least 380 million years, making them more than 100 million years older than the first dinosaurs.",
+      "context": "Spiders have been around for hundreds of millions of years, making them the ultimate survivors in a world of ever-changing environments.",
       "takeaways": [
-        "A chilly room can enhance sleep quality and speed up the process.",
-        "Some have intuitively been practicing this sleep science for years.",
-        "The battle over blanket and heating preferences is real."
+        "Spiders are closer in time to the last dinosaurs than the first dinosaurs were to the first spiders.",
+        "Mammals predate flowers by millions of years.",
+        "Spiders are officially classified as 'eldritch horrors' due to their ancient lineage."
       ],
       "topics": [
         "todayilearned"
@@ -196,28 +24,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "14.4K upvotes",
+      "trendLabel": "10.5K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xrvt2m/til_sleeping_in_a_cold_room_is_better_for_you_as/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xthvfp/til_spiders_have_existed_for_at_least_380_million/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天学到：在寒冷的房间睡觉对你更有好处，因为你的核心温度需要下降以向大脑和身体发出信号，表示该睡觉了。",
-          "context": "事实证明，晚上保持凉爽可能是美梦和充足休息的秘密。",
+          "headline": "今天我学到了：蜘蛛已经存在了至少3.8亿年，比第一批恐龙早了超过1亿年。",
+          "context": "蜘蛛已经存在了数亿年，成为在不断变化的环境中生存的终极生物。",
           "takeaways": [
-            "寒冷的房间可以提高睡眠质量并加快入睡速度。",
-            "有些人多年来一直在无意识地实践这种睡眠科学。",
-            "关于被子和取暖偏好的争斗是真实存在的。"
+            "蜘蛛与最后一批恐龙的时间更接近，而第一批恐龙与第一批蜘蛛的时间差则更远。",
+            "哺乳动物的出现比花朵要早几百万年。",
+            "由于其古老的血统，蜘蛛被正式归类为“超自然恐怖生物”。"
           ],
-          "trendLabel": "14.4K 赞"
+          "trendLabel": "10.5K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xs1jkx",
+      "id": "reddit-1xt3p8m",
       "lane": [
         "for-you",
         "everyone",
@@ -226,12 +54,12 @@
       "cardType": "community-insight",
       "theme": "lime",
       "eyebrow": "r/AskReddit",
-      "headline": "Millennials, as we approach 45, what is your midlife crisis starting to look like?",
-      "context": "As we near 45, our midlife crises seem less like a crisis and more like a series of evolving life choices.",
+      "headline": "What's the craziest thing someone has ever confessed to you that left you genuinely speechless?",
+      "context": "Sometimes, the most unassuming people have the wildest pasts—like hunting poachers or planning dramatic wedding crashers.",
       "takeaways": [
-        "Some are embracing fitness and self-improvement to counter midlife reflections.",
-        "The reality of aging parents adds emotional weight to this life stage.",
-        "For some, a drastic career change feels like the only way forward."
+        "People often share shocking confessions that reveal their unexpected pasts.",
+        "Encounters with strangers can lead to surprising and memorable stories.",
+        "Life experiences can be more dramatic than fiction."
       ],
       "topics": [
         "askreddit"
@@ -239,157 +67,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.3K upvotes",
+      "trendLabel": "5.4K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xs1jkx/millennials_as_we_approach_45_what_is_your/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xt3p8m/whats_the_craziest_thing_someone_has_ever/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "千禧一代，随着我们接近45岁，你的中年危机开始是什么样子的？",
-          "context": "随着我们接近45岁，中年危机似乎不再是危机，而是不断演变的生活选择。",
+          "headline": "有人向你透露过什么疯狂的秘密，让你无言以对吗？",
+          "context": "有时候，最不起眼的人却有着最疯狂的过去，例如猎杀偷猎者或策划戏剧性的婚礼闯入。",
           "takeaways": [
-            "一些人通过健身和自我提升来对抗中年反思。",
-            "父母的衰老现实给这个人生阶段增添了情感负担。",
-            "对于一些人来说，剧烈的职业改变似乎是前进的唯一途径。"
+            "人们常常分享令人震惊的秘密，揭示他们意想不到的过去。",
+            "与陌生人的相遇可能会带来令人惊讶和难忘的故事。",
+            "生活经历有时比小说更戏剧化。"
           ],
-          "trendLabel": "1.3K 赞"
+          "trendLabel": "5.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xrlcn2",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Don't tie your digital life to a single company's ecosystem.",
-      "context": "Imagine losing access to everything because a big company didn’t like your digital footprint; diversify your digital life to avoid this fate.",
-      "takeaways": [
-        "Exporting data from apps is often easier than you think.",
-        "Relying on smaller, open-source alternatives can provide greater control.",
-        "Self-hosting gives you autonomy, but requires time and technical know-how."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "751 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xrlcn2/lpt_dont_tie_your_digital_life_to_a_single/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小贴士：不要将数字生活捆绑在单一公司的生态系统中。",
-          "context": "想象一下，因某大公司对您的数字足迹不满而失去对所有内容的访问权限；多样化您的数字生活以避免这种命运。",
-          "takeaways": [
-            "从应用程序导出数据通常比你想象的要容易。",
-            "依赖较小的开源替代品可以提供更大的控制权。",
-            "自托管让你更自主，但需要时间和技术知识。"
-          ],
-          "trendLabel": "751 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xs14l3",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "violet",
-      "eyebrow": "r/Dallas",
-      "headline": "What in your opinion is Dallas’s most mysterious restaurant?",
-      "context": "Dallas diners are left scratching their heads over how certain restaurants manage to thrive despite their baffling offerings and peculiar vibes.",
-      "takeaways": [
-        "Old Warsaw remains a classic enigma in the Dallas dining scene.",
-        "Magic Time Machine raises questions about food quality and staff conditions.",
-        "Mi Cocina's low-salt menu is a puzzling yet profitable business model."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "50 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xs14l3/what_in_your_opinion_is_dallass_most_mysterious/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "你认为达拉斯最神秘的餐厅是什么？",
-          "context": "达拉斯的食客们对某些餐厅如何在奇怪的菜品和古怪的氛围中生存感到困惑。",
-          "takeaways": [
-            "老华沙餐厅仍然是达拉斯餐饮界的经典谜团。",
-            "魔法时光机引发了对食物质量和员工状况的质疑。",
-            "米科西纳的低盐菜单是一个令人困惑但盈利的商业模式。"
-          ],
-          "trendLabel": "50 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xrzdo6",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL in 1982, 19 year old UT student Gregory Watson wrote a paper about how a 1789 Amendment to the Constitution was never ratified. The TA and professor gave him a C Grade. He campaigned for it and in 1992 the amendment was ratified. 35 years later his C was changed to an A.",
-      "context": "A college paper on a forgotten amendment led to a late grade change and an unexpected lesson in persistence.",
-      "takeaways": [
-        "A grade change decades later feels more fitting than getting an A initially.",
-        "The 27th Amendment's impact on congressional salaries sparks debate about its effectiveness.",
-        "States that ratified the amendment long ago still count, raising questions about expiration."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "3.7K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xrzdo6/til_in_1982_19_year_old_ut_student_gregory_watson/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到，1982年，19岁的德州大学学生格雷戈里·沃特森撰写了一篇关于1789年宪法修正案未被批准的论文。",
-          "context": "一篇关于被遗忘修正案的大学论文引发了迟到的成绩变更和意外的坚持教训。",
-          "takeaways": [
-            "几十年后改分数比一开始就拿A更合适。",
-            "第27修正案对国会薪资的影响引发了关于其有效性的争论。",
-            "很久以前批准修正案的州仍然有效，这引发了关于失效期限的问题。"
-          ],
-          "trendLabel": "3.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xrrc9z",
+      "id": "reddit-1xt2hvr",
       "lane": [
         "for-you",
         "everyone",
@@ -397,13 +96,312 @@
       ],
       "cardType": "community-insight",
       "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "People who stayed with the same company for more than 15 years, even if the YoY salary increases were not that high, what were your reasons for staying?",
-      "context": "Ever wonder why some people stick around the same job for decades, even when the pay isn't sky-high? Spoiler: It's not just about the money.",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Before throwing out replacable toothbrush heads, use them one last time to clean the toothbrush & charger",
+      "context": "Why waste a toothbrush head when it can double as a cleaning tool for your electric toothbrush and charger? Genius or just gross?",
       "takeaways": [
-        "Job satisfaction often outweighs the need for higher salaries.",
-        "Many value good retirement plans and coworkers over pay increases.",
-        "The concept of 'golden handcuffs' keeps employees tied to their jobs."
+        "Using worn-out toothbrush heads can help with cleaning other areas in your bathroom.",
+        "Cleaning your toothbrush after use can prevent spreading germs.",
+        "Some prefer to use old toothbrush heads for cleaning instead of throwing them away."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.2K upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xt2hvr/lpt_before_throwing_out_replacable_toothbrush/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：在扔掉可更换的牙刷头之前，最后一次用它清洁牙刷和充电器",
+          "context": "为什么要浪费牙刷头呢？用它来清洁电动牙刷和充电器，聪明还是恶心？",
+          "takeaways": [
+            "使用旧牙刷头可以帮助清洁浴室其他地方。",
+            "使用后清洁牙刷可以防止细菌传播。",
+            "一些人更喜欢用旧牙刷头来清洁，而不是直接扔掉。"
+          ],
+          "trendLabel": "1.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xtj7xe",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "Preston-Royal Towers Win Dallas Council Approval After Months of Neighborhood Opposition",
+      "context": "Dallas City Council's decision on Preston-Royal Towers leaves some residents applauding while others are left fuming, proving rich neighborhoods can still pack a punch.",
+      "takeaways": [
+        "The council's split vote is unusual, suggesting a shift in local power dynamics.",
+        "NIMBY sentiments are strong, but some residents are eager for development.",
+        "The debate highlights stark divides among affluent neighborhoods."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "81 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xtj7xe/prestonroyal_towers_win_dallas_council_approval/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "德克萨斯州达拉斯市议会批准普雷斯顿-皇家塔楼项目，尽管邻里反对声不断",
+          "context": "达拉斯市议会对普雷斯顿-皇家塔楼的决定让一些居民欢呼，而另一些居民则愤怒，证明富裕社区依然强势。",
+          "takeaways": [
+            "市议会的分歧投票不寻常，暗示地方权力动态的变化。",
+            "反对开发的声音很强烈，但一些居民渴望发展。",
+            "辩论突显了富裕社区之间的明显分歧。"
+          ],
+          "trendLabel": "81 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xtizhw",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL about Children’s Games, a 16th century painting that shows more than 90 different children’s games- many of which are still played by kids at recess today.",
+      "context": "A 16th-century painting captures over 90 children's games, reminding us that some childhood antics haven’t changed much over the centuries.",
+      "takeaways": [
+        "Simple games like tag may trace back tens of thousands of years to hunter-gatherer activities.",
+        "The museum housing this painting is as stunning as the artwork itself.",
+        "Some games listed are less appealing, like 'stirring excrement with a stick.'"
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "7.9K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xtizhw/til_about_childrens_games_a_16th_century_painting/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我知道了关于儿童游戏的事情，这是一幅展示90多种儿童游戏的16世纪画作——许多游戏至今仍在孩子们的课间玩耍。",
+          "context": "一幅16世纪的画作捕捉了90多种儿童游戏，提醒我们一些童年恶作剧几个世纪以来几乎没有改变。",
+          "takeaways": [
+            "简单的游戏如捉迷藏可能追溯到数万年前的狩猎采集者活动。",
+            "这幅画作所在的博物馆同样令人惊叹。",
+            "其中一些列出的游戏不那么吸引人，比如'用棍子搅拌粪便。'"
+          ],
+          "trendLabel": "7.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xt3jjw",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/AskReddit",
+      "headline": "Santa leaves you a gaming PC made of warm, breathing flesh. It runs 1000x faster than anything on the market, but it eats one live rat a month. How would you react to that?",
+      "context": "What if Santa delivered a gaming PC made of flesh that requires feeding live rats? Redditors share their humorous takes on this bizarre gift.",
+      "takeaways": [
+        "Some see it as a quirky pet that can game.",
+        "Concerns arise about potential hygiene and future meal sizes.",
+        "Others joke about the possibility of having written to the wrong holiday figure."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "5.1K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xt3jjw/santa_leaves_you_a_gaming_pc_made_of_warm/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "圣诞老人给你送了一个由温暖的肉体制成的游戏电脑",
+          "context": "如果圣诞老人送来一台由肉体制成的游戏电脑，还需要喂活鼠？Reddit用户分享了他们对这个奇怪礼物的幽默看法。",
+          "takeaways": [
+            "有人认为这是一只可以玩游戏的奇特宠物。",
+            "人们担心卫生问题和未来的食量。",
+            "其他人开玩笑说可能写错了节日人物。"
+          ],
+          "trendLabel": "5.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xt76u0",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Before visiting a new city or country, watch a documentary about its history or everyday life.",
+      "context": "Want to enhance your travels? A quick documentary binge might just turn you into a local history buff before you even land.",
+      "takeaways": [
+        "Researching fun facts enriches the outdoor experience.",
+        "Unexpected encounters with knowledgeable locals can lead to memorable adventures.",
+        "Binge-watching shows about a culture can provide unique insights."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "561 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xt76u0/lpt_before_visiting_a_new_city_or_country_watch_a/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：在访问新城市或国家之前，观看关于其历史或日常生活的纪录片。",
+          "context": "想要提升旅行体验吗？快速观看几部纪录片或许能让你在落地前变成当地历史专家。",
+          "takeaways": [
+            "研究有趣的事实能丰富户外体验。",
+            "与知识渊博的当地人意外相遇可能带来难忘的冒险。",
+            "观看关于某种文化的剧集可以提供独特的见解。"
+          ],
+          "trendLabel": "561 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xt43vg",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "DFW Events - 11/10/2026 to 11/15/2026",
+      "context": "Get ready for a week of entertainment in DFW, where the events are as diverse as the weather in November.",
+      "takeaways": [
+        "Formatting issues may hinder mobile readers.",
+        "Holiday-themed activities are on the horizon."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "21 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xt43vg/dfw_events_11102026_to_11152026/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "达拉斯沃斯堡地区活动 - 2026年11月10日至11月15日",
+          "context": "准备好迎接达拉斯沃斯堡地区的一周娱乐活动吧，活动的多样性堪比十一月的天气。",
+          "takeaways": [
+            "格式问题可能影响移动设备用户的阅读体验。",
+            "假日主题活动即将到来。"
+          ],
+          "trendLabel": "21 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xtoibu",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL: Diesel engines are 30-40% more efficient because diesel contains 10-15% more energy per litre than gas and diesel engines have higher compression ratios than gas ones",
+      "context": "Ever wondered why diesel engines are praised for their efficiency? The answer is a bit more complicated than just fuel type.",
+      "takeaways": [
+        "Efficiency claims often lack clear sources, raising questions about accuracy.",
+        "Diesel engines thrive on high compression ratios, while gasoline engines can manage with less.",
+        "Electric motors outperform both diesel and gasoline engines in efficiency."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3.6K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xtoibu/til_diesel_engines_are_3040_more_efficient/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "有趣的是：柴油发动机由于每升燃料含能量更高而效率提升30-40%",
+          "context": "你是否想过为什么柴油发动机因其效率受到推崇？答案比燃料类型更复杂。",
+          "takeaways": [
+            "效率的声明往往缺乏明确的来源，令人质疑其准确性。",
+            "柴油发动机依赖高压缩比，而汽油发动机则可以用较低的压缩比。",
+            "电动机在效率上优于柴油和汽油发动机。"
+          ],
+          "trendLabel": "3.6K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xtj9ji",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "People who work behind the scenes in reality TV, what's the biggest lie viewers are made to believe?",
+      "context": "Behind the glam of reality TV, producers craft narratives that sometimes bear little resemblance to actual events or personalities.",
+      "takeaways": [
+        "Reality TV often features real people in artificially created situations.",
+        "Producers manipulate footage and coach participants for dramatic effect.",
+        "Viewers are frequently unaware of the extensive editing that shapes the final product."
       ],
       "topics": [
         "askreddit"
@@ -415,65 +413,67 @@
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xrrc9z/people_who_stayed_with_the_same_company_for_more/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xtj9ji/people_who_work_behind_the_scenes_in_reality_tv/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "在同一家公司工作超过15年的人，年薪增长不高，他们留下来的原因是什么？",
-          "context": "你有没有想过，为什么有些人会在同一份工作上待几十年，即使薪水并不高？剧透：这不仅仅是为了钱。",
+          "headline": "在现实电视节目背后的工作人员，观众被迫相信的最大谎言是什么？",
+          "context": "在现实电视的光鲜外表下，制片人编造的故事有时与实际事件或人物相去甚远。",
           "takeaways": [
-            "工作满意度往往胜过对更高薪水的渴望。",
-            "许多人更看重良好的退休计划和同事，而不是薪资增长。",
-            "“金手铐”的概念让员工紧紧依附于他们的工作。"
+            "现实电视常常将真实人物置于人为制造的情境中。",
+            "制片人操控镜头并指导参与者以增强戏剧效果。",
+            "观众通常对塑造最终产品的广泛编辑毫不知情。"
           ],
           "trendLabel": "1.2K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xrxlz0",
+      "id": "reddit-1xtqyz9",
       "lane": [
         "for-you",
         "everyone",
-        "other-worlds"
+        "dallas"
       ],
-      "cardType": "community-insight",
+      "cardType": "local-trend",
       "theme": "ink",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Activate limited warranties as soon as you get them. Companies have sneaky fine print.",
-      "context": "Activating warranties might seem like a hassle, but avoiding sneaky fine print can save you headaches later on.",
+      "eyebrow": "r/Dallas",
+      "headline": "Religious Property Exemption Atlas - Dallas County",
+      "context": "Dallas County's religious tax exemptions are raising eyebrows—could the local schools use that $29 million instead?",
       "takeaways": [
-        "Always activate limited warranties upon purchase to avoid issues.",
-        "Some credit cards offer extended warranties on purchases; check your benefits."
+        "Tax exemptions may hinder funding for public schools and infrastructure.",
+        "Most exempt properties are small congregations with limited financial impact.",
+        "Data suggests reconsideration of religious tax exemptions could be beneficial."
       ],
       "topics": [
-        "lifeprotips"
+        "dallas"
       ],
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "265 upvotes",
+      "trendLabel": "21 upvotes",
       "sources": [
         {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xrxlz0/lpt_activate_limited_warranties_as_soon_as_you/"
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xtqyz9/religious_property_exemption_atlas_dallas_county/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活小贴士：尽快激活有限保修，避免公司狡猾的细则。",
-          "context": "激活保修可能看起来麻烦，但避免狡猾的细则可以为您节省麻烦。",
+          "headline": "宗教财产免税图谱 - 达拉斯县",
+          "context": "达拉斯县的宗教税收免税引发关注——那2900万美元不如用来支持当地学校？",
           "takeaways": [
-            "购买后立即激活有限保修，以避免问题。",
-            "一些信用卡提供购买的延长保修；检查您的权益。"
+            "税收免税可能影响公共学校和基础设施的资金。",
+            "大多数免税财产是小型教会，财务影响有限。",
+            "数据表明重新考虑宗教税收免税可能是有利的。"
           ],
-          "trendLabel": "265 赞"
+          "trendLabel": "21 赞"
         }
       }
     },
     {
-      "id": "reddit-1xryevr",
+      "id": "reddit-1xtokeu",
       "lane": [
         "for-you",
         "everyone",
@@ -482,11 +482,12 @@
       "cardType": "community-insight",
       "theme": "ocean",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that in 2019, a Canadian woman scared off a cougar approaching her and her dog by playing Metallica's “Don’t Tread on Me” on her cellphone after shouting failed to deter it.",
-      "context": "Who knew that a little Metallica might just save you from a hungry cougar on a walk?",
+      "headline": "TIL about Peter Norman, the third guy on the podium during the black power salute; 1968 Olympics. His support to the moment led to issues back in Australia, but Smith and Carlos respected him so much they were pallbearers at his funeral.",
+      "context": "Peter Norman, the unsung hero of the 1968 Olympics podium, faced backlash for his support of Smith and Carlos' iconic gesture.",
       "takeaways": [
-        "Playing music to deter wild animals is a bold strategy, but it worked.",
-        "Death grips might be the secret weapon for solo hikers facing cougars."
+        "Norman requested not to be included in the salute statue so visitors could stand with him.",
+        "The Australian Olympic committee excluded him from the 1972 team due to his support for Smith and Carlos.",
+        "He also advocated for Aboriginal rights, which didn't sit well with the government."
       ],
       "topics": [
         "todayilearned"
@@ -494,22 +495,23 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.7K upvotes",
+      "trendLabel": "2.6K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xryevr/til_that_in_2019_a_canadian_woman_scared_off_a/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xtokeu/til_about_peter_norman_the_third_guy_on_the/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到，在2019年，一名加拿大女性通过在手机上播放金属乐队Metallica的《Don't Tread on Me》吓跑了一只靠近她和她狗的美洲狮。",
-          "context": "谁知道一点金属乐可能会在散步时拯救你免于被饥饿的美洲狮袭击？",
+          "headline": "今天我了解到彼得·诺曼，1968年奥运会黑色力量敬礼的第三人。",
+          "context": "彼得·诺曼，这位1968年奥运会领奖台上的无名英雄，因支持史密斯和卡洛斯的标志性举动而面临反对。",
           "takeaways": [
-            "用音乐来吓跑野生动物是个大胆的策略，但它成功了。",
-            "Death grips可能是独自徒步旅行者面对美洲狮的秘密武器。"
+            "诺曼请求不被包括在敬礼雕像中，以便游客可以与他站在一起。",
+            "澳大利亚奥委会因他支持史密斯和卡洛斯而将他排除在1972年队伍之外。",
+            "他还倡导土著权利，这让政府感到不满。"
           ],
-          "trendLabel": "1.7K 赞"
+          "trendLabel": "2.6K 赞"
         }
       }
     }
