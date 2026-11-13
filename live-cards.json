@@ -1,266 +1,8 @@
 {
-  "updatedAt": "2026-11-11T20:13:13+00:00",
+  "updatedAt": "2026-11-13T20:30:13+00:00",
   "cards": [
     {
-      "id": "reddit-1xthvfp",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL spiders have existed for at least 380 million years, making them more than 100 million years older than the first dinosaurs.",
-      "context": "Spiders have been around for hundreds of millions of years, making them the ultimate survivors in a world of ever-changing environments.",
-      "takeaways": [
-        "Spiders are closer in time to the last dinosaurs than the first dinosaurs were to the first spiders.",
-        "Mammals predate flowers by millions of years.",
-        "Spiders are officially classified as 'eldritch horrors' due to their ancient lineage."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "10.5K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xthvfp/til_spiders_have_existed_for_at_least_380_million/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我学到了：蜘蛛已经存在了至少3.8亿年，比第一批恐龙早了超过1亿年。",
-          "context": "蜘蛛已经存在了数亿年，成为在不断变化的环境中生存的终极生物。",
-          "takeaways": [
-            "蜘蛛与最后一批恐龙的时间更接近，而第一批恐龙与第一批蜘蛛的时间差则更远。",
-            "哺乳动物的出现比花朵要早几百万年。",
-            "由于其古老的血统，蜘蛛被正式归类为“超自然恐怖生物”。"
-          ],
-          "trendLabel": "10.5K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xt3p8m",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/AskReddit",
-      "headline": "What's the craziest thing someone has ever confessed to you that left you genuinely speechless?",
-      "context": "Sometimes, the most unassuming people have the wildest pasts—like hunting poachers or planning dramatic wedding crashers.",
-      "takeaways": [
-        "People often share shocking confessions that reveal their unexpected pasts.",
-        "Encounters with strangers can lead to surprising and memorable stories.",
-        "Life experiences can be more dramatic than fiction."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "5.4K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xt3p8m/whats_the_craziest_thing_someone_has_ever/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "有人向你透露过什么疯狂的秘密，让你无言以对吗？",
-          "context": "有时候，最不起眼的人却有着最疯狂的过去，例如猎杀偷猎者或策划戏剧性的婚礼闯入。",
-          "takeaways": [
-            "人们常常分享令人震惊的秘密，揭示他们意想不到的过去。",
-            "与陌生人的相遇可能会带来令人惊讶和难忘的故事。",
-            "生活经历有时比小说更戏剧化。"
-          ],
-          "trendLabel": "5.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xt2hvr",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Before throwing out replacable toothbrush heads, use them one last time to clean the toothbrush & charger",
-      "context": "Why waste a toothbrush head when it can double as a cleaning tool for your electric toothbrush and charger? Genius or just gross?",
-      "takeaways": [
-        "Using worn-out toothbrush heads can help with cleaning other areas in your bathroom.",
-        "Cleaning your toothbrush after use can prevent spreading germs.",
-        "Some prefer to use old toothbrush heads for cleaning instead of throwing them away."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.2K upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xt2hvr/lpt_before_throwing_out_replacable_toothbrush/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT：在扔掉可更换的牙刷头之前，最后一次用它清洁牙刷和充电器",
-          "context": "为什么要浪费牙刷头呢？用它来清洁电动牙刷和充电器，聪明还是恶心？",
-          "takeaways": [
-            "使用旧牙刷头可以帮助清洁浴室其他地方。",
-            "使用后清洁牙刷可以防止细菌传播。",
-            "一些人更喜欢用旧牙刷头来清洁，而不是直接扔掉。"
-          ],
-          "trendLabel": "1.2K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xtj7xe",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "lime",
-      "eyebrow": "r/Dallas",
-      "headline": "Preston-Royal Towers Win Dallas Council Approval After Months of Neighborhood Opposition",
-      "context": "Dallas City Council's decision on Preston-Royal Towers leaves some residents applauding while others are left fuming, proving rich neighborhoods can still pack a punch.",
-      "takeaways": [
-        "The council's split vote is unusual, suggesting a shift in local power dynamics.",
-        "NIMBY sentiments are strong, but some residents are eager for development.",
-        "The debate highlights stark divides among affluent neighborhoods."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "81 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xtj7xe/prestonroyal_towers_win_dallas_council_approval/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "德克萨斯州达拉斯市议会批准普雷斯顿-皇家塔楼项目，尽管邻里反对声不断",
-          "context": "达拉斯市议会对普雷斯顿-皇家塔楼的决定让一些居民欢呼，而另一些居民则愤怒，证明富裕社区依然强势。",
-          "takeaways": [
-            "市议会的分歧投票不寻常，暗示地方权力动态的变化。",
-            "反对开发的声音很强烈，但一些居民渴望发展。",
-            "辩论突显了富裕社区之间的明显分歧。"
-          ],
-          "trendLabel": "81 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xtizhw",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL about Children’s Games, a 16th century painting that shows more than 90 different children’s games- many of which are still played by kids at recess today.",
-      "context": "A 16th-century painting captures over 90 children's games, reminding us that some childhood antics haven’t changed much over the centuries.",
-      "takeaways": [
-        "Simple games like tag may trace back tens of thousands of years to hunter-gatherer activities.",
-        "The museum housing this painting is as stunning as the artwork itself.",
-        "Some games listed are less appealing, like 'stirring excrement with a stick.'"
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "7.9K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xtizhw/til_about_childrens_games_a_16th_century_painting/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我知道了关于儿童游戏的事情，这是一幅展示90多种儿童游戏的16世纪画作——许多游戏至今仍在孩子们的课间玩耍。",
-          "context": "一幅16世纪的画作捕捉了90多种儿童游戏，提醒我们一些童年恶作剧几个世纪以来几乎没有改变。",
-          "takeaways": [
-            "简单的游戏如捉迷藏可能追溯到数万年前的狩猎采集者活动。",
-            "这幅画作所在的博物馆同样令人惊叹。",
-            "其中一些列出的游戏不那么吸引人，比如'用棍子搅拌粪便。'"
-          ],
-          "trendLabel": "7.9K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xt3jjw",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/AskReddit",
-      "headline": "Santa leaves you a gaming PC made of warm, breathing flesh. It runs 1000x faster than anything on the market, but it eats one live rat a month. How would you react to that?",
-      "context": "What if Santa delivered a gaming PC made of flesh that requires feeding live rats? Redditors share their humorous takes on this bizarre gift.",
-      "takeaways": [
-        "Some see it as a quirky pet that can game.",
-        "Concerns arise about potential hygiene and future meal sizes.",
-        "Others joke about the possibility of having written to the wrong holiday figure."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "5.1K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xt3jjw/santa_leaves_you_a_gaming_pc_made_of_warm/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "圣诞老人给你送了一个由温暖的肉体制成的游戏电脑",
-          "context": "如果圣诞老人送来一台由肉体制成的游戏电脑，还需要喂活鼠？Reddit用户分享了他们对这个奇怪礼物的幽默看法。",
-          "takeaways": [
-            "有人认为这是一只可以玩游戏的奇特宠物。",
-            "人们担心卫生问题和未来的食量。",
-            "其他人开玩笑说可能写错了节日人物。"
-          ],
-          "trendLabel": "5.1K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xt76u0",
+      "id": "reddit-1xurvyn",
       "lane": [
         "for-you",
         "everyone",
@@ -268,13 +10,142 @@
       ],
       "cardType": "community-insight",
       "theme": "violet",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Before visiting a new city or country, watch a documentary about its history or everyday life.",
-      "context": "Want to enhance your travels? A quick documentary binge might just turn you into a local history buff before you even land.",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL the song Play That Funky Music by Wild Cherry came about when they were playing for a mostly Black crowd and during a break a patron asked \"Are you going to play some funky music, white boys?\" so they wrote up the song in 5 minutes.",
+      "context": "Ever wonder how a simple request led to a funky anthem? Turns out, it's all in the rhythm of a crowd.",
       "takeaways": [
-        "Researching fun facts enriches the outdoor experience.",
-        "Unexpected encounters with knowledgeable locals can lead to memorable adventures.",
-        "Binge-watching shows about a culture can provide unique insights."
+        "One fan claims to have inspired the iconic song's creation.",
+        "The song's legacy has earned its creator significant royalties.",
+        "Vanilla Ice's career was partially shaped by this funky classic."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "27K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xurvyn/til_the_song_play_that_funky_music_by_wild_cherry/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到了《Play That Funky Music》这首歌的创作故事",
+          "context": "你有没有想过一个简单的请求是如何导致一个放克国歌的？原来，这一切都在于人群的节奏。",
+          "takeaways": [
+            "一位粉丝声称自己激发了这首标志性歌曲的创作。",
+            "这首歌的遗产为创作者带来了可观的版税收入。",
+            "范尼拉·冰的职业生涯部分受到这首放克经典的影响。"
+          ],
+          "trendLabel": "27K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xuw9sz",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/AskReddit",
+      "headline": "Breaking News: Chris Van Hollen launches challenge against Chuck Schumer to lead Senate Democrats. How do you guys feel about that?",
+      "context": "In a surprising twist, Chris Van Hollen decides to challenge Chuck Schumer for Senate leadership—let the political games begin.",
+      "takeaways": [
+        "Many voters have a strong loyalty to Van Hollen and appreciate his track record.",
+        "There is a growing sentiment that Schumer may not be the best fit for leadership anymore.",
+        "Some commenters are looking for ways to actively support Van Hollen's campaign."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "19.1K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xuw9sz/breaking_news_chris_van_hollen_launches_challenge/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "突发新闻：克里斯·范霍伦发起挑战，竞选参议院民主党领袖。",
+          "context": "在一个令人惊讶的转折中，克里斯·范霍伦决定挑战查克·舒默担任参议院领导——政治游戏开始了。",
+          "takeaways": [
+            "许多选民对范霍伦有强烈的忠诚感，并欣赏他的过往表现。",
+            "越来越多的人认为舒默可能不再适合担任领导职务。",
+            "一些评论者正在寻找积极支持范霍伦竞选的方法。"
+          ],
+          "trendLabel": "19.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xuy05t",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ocean",
+      "eyebrow": "r/Dallas",
+      "headline": "This was me passing through today",
+      "context": "Ever felt like navigating traffic is akin to a chaotic game of chess? Welcome to the daily commute.",
+      "takeaways": [
+        "Driving can bring out the best and worst in people.",
+        "Gridlock is a universal experience we all share.",
+        "Using blinkers might just save you from a road rage incident."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.5K upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xuy05t/this_was_me_passing_through_today/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我路过时的情景",
+          "context": "是否觉得在交通中导航就像是一场混乱的国际象棋游戏？欢迎来到日常通勤。",
+          "takeaways": [
+            "开车能激发人性的最好和最糟的一面。",
+            "交通堵塞是我们共同的普遍经历。",
+            "使用转向灯可能会让你避免路怒事件。"
+          ],
+          "trendLabel": "1.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xv5vdx",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Get your pets used to stressful noises ahead of time",
+      "context": "Prepare your pet for noisy surprises; it might just save you from a chaotic holiday or a vacuum showdown.",
+      "takeaways": [
+        "Introducing pets to sounds gradually can ease their stress during loud events.",
+        "Associating noises with positive experiences, like treats, helps pets cope better.",
+        "Familiarizing pets with their environment can reduce anxiety on walks."
       ],
       "topics": [
         "lifeprotips"
@@ -282,28 +153,114 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "561 upvotes",
+      "trendLabel": "485 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xt76u0/lpt_before_visiting_a_new_city_or_country_watch_a/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xv5vdx/lpt_get_your_pets_used_to_stressful_noises_ahead/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "LPT：在访问新城市或国家之前，观看关于其历史或日常生活的纪录片。",
-          "context": "想要提升旅行体验吗？快速观看几部纪录片或许能让你在落地前变成当地历史专家。",
+          "headline": "生活小贴士：提前让宠物适应压力噪音",
+          "context": "提前为您的宠物做好噪音惊喜的准备，这可能会让您的假期或吸尘器大战变得更轻松。",
           "takeaways": [
-            "研究有趣的事实能丰富户外体验。",
-            "与知识渊博的当地人意外相遇可能带来难忘的冒险。",
-            "观看关于某种文化的剧集可以提供独特的见解。"
+            "逐渐让宠物接触声音可以减轻它们在嘈杂活动中的压力。",
+            "将噪音与积极体验（如奖赏）联系起来，能帮助宠物更好地应对。",
+            "熟悉环境可以减少宠物在散步时的焦虑。"
           ],
-          "trendLabel": "561 赞"
+          "trendLabel": "485 赞"
         }
       }
     },
     {
-      "id": "reddit-1xt43vg",
+      "id": "reddit-1xv5fyx",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that The Lone Ranger (2013) starring Johnny Depp was one of the biggest box office failures of all time and lost an estimated $221-263 million when adjusted for inflation",
+      "context": "Turns out Johnny Depp's The Lone Ranger wasn't just a lone ride; it was a box office crash landing of epic proportions.",
+      "takeaways": [
+        "Disney holds the record for the top four movie flops adjusted for inflation.",
+        "Cats lost significantly less at the box office compared to The Lone Ranger.",
+        "One crew member described the production as extremely stressful and hoped for better reception."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "7.4K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xv5fyx/til_that_the_lone_ranger_2013_starring_johnny/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到《大侠传奇》（2013）由约翰尼·德普主演，是史上最大的票房失败之一，调整通货膨胀后损失约2.21亿至2.63亿美元",
+          "context": "原来约翰尼·德普的《大侠传奇》不仅仅是孤独的骑行；它还是一场史诗般的票房坠毁。",
+          "takeaways": [
+            "迪士尼在调整通货膨胀后，拥有前四大票房亏损纪录。",
+            "与《大侠传奇》相比，《猫》在票房上损失显著更少。",
+            "一位制作成员形容制作过程极其紧张，希望能得到更好的反响。"
+          ],
+          "trendLabel": "7.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xv769z",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/AskReddit",
+      "headline": "What YouTuber or internet personality had the most tragic downfall?",
+      "context": "From science educators to fitness gurus, the internet has seen its fair share of tragic falls from grace.",
+      "takeaways": [
+        "Robert Murray-Smith inspired many with science until his downfall.",
+        "The Cracked.com team's decline marked a significant shift in online content.",
+        "Connor Murphy's journey into spirituality led to a drastic change in his YouTube career."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.7K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xv769z/what_youtuber_or_internet_personality_had_the/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "哪个YouTuber或互联网名人的下滑最悲惨？",
+          "context": "从科学教育者到健身大师，互联网见证了许多悲惨的堕落故事。",
+          "takeaways": [
+            "Robert Murray-Smith曾激励许多人，但最终遭遇滑铁卢。",
+            "Cracked.com团队的衰落标志着在线内容的重大转变。",
+            "Connor Murphy对灵性的探索使他的YouTube生涯发生了巨大变化。"
+          ],
+          "trendLabel": "2.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xvftc6",
       "lane": [
         "for-you",
         "everyone",
@@ -312,11 +269,11 @@
       "cardType": "local-trend",
       "theme": "lime",
       "eyebrow": "r/Dallas",
-      "headline": "DFW Events - 11/10/2026 to 11/15/2026",
-      "context": "Get ready for a week of entertainment in DFW, where the events are as diverse as the weather in November.",
+      "headline": "18-year-old faces capital murder charge in Deep Ellum shooting that killed 3.",
+      "context": "An 18-year-old's poor life choice leads to a capital murder charge in a triple homicide in Deep Ellum, sparking community concern.",
       "takeaways": [
-        "Formatting issues may hinder mobile readers.",
-        "Holiday-themed activities are on the horizon."
+        "A tragic event has left three victims dead and an 18-year-old facing serious charges.",
+        "Comments reflect a mix of sympathy for victims and criticism of the accused's choices."
       ],
       "topics": [
         "dallas"
@@ -324,41 +281,41 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "21 upvotes",
+      "trendLabel": "166 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xt43vg/dfw_events_11102026_to_11152026/"
+          "url": "https://reddit.com/r/Dallas/comments/1xvftc6/18yearold_faces_capital_murder_charge_in_deep/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "达拉斯沃斯堡地区活动 - 2026年11月10日至11月15日",
-          "context": "准备好迎接达拉斯沃斯堡地区的一周娱乐活动吧，活动的多样性堪比十一月的天气。",
+          "headline": "18岁青年在Deep Ellum枪击案中面临资本谋杀指控，造成3人死亡。",
+          "context": "一名18岁青年的不幸选择导致在Deep Ellum发生的三重谋杀案中面临资本谋杀指控，引发社区关注。",
           "takeaways": [
-            "格式问题可能影响移动设备用户的阅读体验。",
-            "假日主题活动即将到来。"
+            "这起悲剧事件导致三名受害者死亡，一名18岁青年面临严重指控。",
+            "评论反映出对受害者的同情以及对被告选择的批评。"
           ],
-          "trendLabel": "21 赞"
+          "trendLabel": "166 赞"
         }
       }
     },
     {
-      "id": "reddit-1xtoibu",
+      "id": "reddit-1xv7n5c",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "gold",
+      "theme": "violet",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL: Diesel engines are 30-40% more efficient because diesel contains 10-15% more energy per litre than gas and diesel engines have higher compression ratios than gas ones",
-      "context": "Ever wondered why diesel engines are praised for their efficiency? The answer is a bit more complicated than just fuel type.",
+      "headline": "TIL that before settling on \"Nvidia,\" the company's founders considered naming the company \"NVision,\" but scrapped the idea after discovering the name was already owned by a toilet paper manufacturer.",
+      "context": "Before settling on 'Nvidia,' the founders almost went with 'NVision'—until they found out it was already taken by a toilet paper company.",
       "takeaways": [
-        "Efficiency claims often lack clear sources, raising questions about accuracy.",
-        "Diesel engines thrive on high compression ratios, while gasoline engines can manage with less.",
-        "Electric motors outperform both diesel and gasoline engines in efficiency."
+        "Founders initially labeled files as 'NV' for 'next version' while brainstorming names.",
+        "A toilet paper company with 'vision' in its name raises eyebrows.",
+        "In the Philippines, 'Nvision' is known for budget computer monitors."
       ],
       "topics": [
         "todayilearned"
@@ -366,28 +323,157 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.6K upvotes",
+      "trendLabel": "4.9K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xtoibu/til_diesel_engines_are_3040_more_efficient/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xv7n5c/til_that_before_settling_on_nvidia_the_companys/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有趣的是：柴油发动机由于每升燃料含能量更高而效率提升30-40%",
-          "context": "你是否想过为什么柴油发动机因其效率受到推崇？答案比燃料类型更复杂。",
+          "headline": "今天我了解到，在决定使用“Nvidia”之前，公司的创始人考虑过命名为“NVision”，但在发现该名称已被一家公司占用后放弃了这个想法。",
+          "context": "在决定使用“Nvidia”之前，创始人几乎选择了“NVision”，直到他们发现这个名字已经被一家卫生纸公司占用。",
           "takeaways": [
-            "效率的声明往往缺乏明确的来源，令人质疑其准确性。",
-            "柴油发动机依赖高压缩比，而汽油发动机则可以用较低的压缩比。",
-            "电动机在效率上优于柴油和汽油发动机。"
+            "创始人在头脑风暴名称时，最初将文件标记为“NV”，代表“下一个版本”。",
+            "名为“vision”的卫生纸公司引人注目。",
+            "在菲律宾，“Nvision”以廉价计算机显示器而闻名。"
           ],
-          "trendLabel": "3.6K 赞"
+          "trendLabel": "4.9K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xtj9ji",
+      "id": "reddit-1xva1hk",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "What is a legal play in a sport which is considered so unsportsmanlike that professionals do not attempt it?",
+      "context": "Discover the legal yet unsportsmanlike plays in sports that professionals avoid like the plague.",
+      "takeaways": [
+        "Intentionally pitching to prevent a record-breaking home run is legal but frowned upon.",
+        "Kicking the ball out for an injured player is expected, but some teams exploit the moment.",
+        "In chess, resigning is common before a checkmate, but some strategies can be so shocking."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.9K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xva1hk/what_is_a_legal_play_in_a_sport_which_is/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "在运动中什么是合法的但被视为不体育精神的玩法？",
+          "context": "探讨运动中合法却被专业人士视为禁忌的玩法。",
+          "takeaways": [
+            "故意投球以阻止打破本垒打记录是合法的，但令人反感。",
+            "为了受伤球员而停球是预期的，但有些球队会利用这个机会。",
+            "在国际象棋中，提前认输是常见的，但有些策略令人震惊。"
+          ],
+          "trendLabel": "1.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xv02o3",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ocean",
+      "eyebrow": "r/Dallas",
+      "headline": "Freedom Friday Post",
+      "context": "Join the Freedom Friday Post where anything goes, and the usual rules take a day off—just like most of us on Fridays.",
+      "takeaways": [
+        "Users are excited to share diverse opinions and discussions.",
+        "Some are promoting local events and businesses.",
+        "A few are simply sharing how their week went."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "5 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xv02o3/freedom_friday_post/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "自由周五帖子",
+          "context": "加入自由周五帖子，任何话题都欢迎，平常的规则今天放假——就像我们大部分人在周五一样。",
+          "takeaways": [
+            "用户们对分享各种观点和讨论感到兴奋。",
+            "一些人正在宣传当地活动和商业。",
+            "还有一些人只是分享他们的周末经历。"
+          ],
+          "trendLabel": "5 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xvdd2k",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that Grover Cleveland was the only US President to get married in the White House, and the only President to have a baby born there as well",
+      "context": "Grover Cleveland made history in the White House, but his personal life might surprise you more than his politics.",
+      "takeaways": [
+        "Surprisingly, Cleveland remains the only president with a baby born while in office.",
+        "The age difference between Cleveland and Frances was quite notable.",
+        "JFK's son Patrick was born in the White House but sadly lived only a short time."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.7K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xvdd2k/til_that_grover_cleveland_was_the_only_us/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "TIL 格罗弗·克利夫兰是唯一在白宫结婚的美国总统，也是唯一在白宫出生的总统。",
+          "context": "格罗弗·克利夫兰在白宫创造了历史，但他的个人生活比政治更让人惊讶。",
+          "takeaways": [
+            "令人惊讶的是，克利夫兰是唯一一位在任期间有孩子出生的总统。",
+            "克利夫兰与弗朗西斯之间的年龄差距相当显著。",
+            "肯尼迪的儿子帕特里克在白宫出生，但不幸的是只活了短短时间。"
+          ],
+          "trendLabel": "2.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xv4o4q",
       "lane": [
         "for-you",
         "everyone",
@@ -396,12 +482,12 @@
       "cardType": "community-insight",
       "theme": "coral",
       "eyebrow": "r/AskReddit",
-      "headline": "People who work behind the scenes in reality TV, what's the biggest lie viewers are made to believe?",
-      "context": "Behind the glam of reality TV, producers craft narratives that sometimes bear little resemblance to actual events or personalities.",
+      "headline": "What was the song you heard where the singer was completely overwhelmed and consumed by pain and you could feel it so well?",
+      "context": "Redditors share songs that encapsulate heart-wrenching pain, making you feel like you just watched a sad movie unfold in real-time.",
       "takeaways": [
-        "Reality TV often features real people in artificially created situations.",
-        "Producers manipulate footage and coach participants for dramatic effect.",
-        "Viewers are frequently unaware of the extensive editing that shapes the final product."
+        "Freddie Mercury's 'The Show Must Go On' showcases his raw emotion despite his illness.",
+        "'Fast Car' by Tracy Chapman resonates with the struggle of escaping one's past.",
+        "Gord Downie's final performance of 'Grace Too' left a lasting emotional impact."
       ],
       "topics": [
         "askreddit"
@@ -409,109 +495,23 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.2K upvotes",
+      "trendLabel": "1.9K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xtj9ji/people_who_work_behind_the_scenes_in_reality_tv/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xv4o4q/what_was_the_song_you_heard_where_the_singer_was/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "在现实电视节目背后的工作人员，观众被迫相信的最大谎言是什么？",
-          "context": "在现实电视的光鲜外表下，制片人编造的故事有时与实际事件或人物相去甚远。",
+          "headline": "你听过哪首歌，让歌手被痛苦彻底吞噬，你能深切感受到？",
+          "context": "Reddit用户分享了能让人感受到心碎痛苦的歌曲，仿佛在现场目睹悲剧的发生。",
           "takeaways": [
-            "现实电视常常将真实人物置于人为制造的情境中。",
-            "制片人操控镜头并指导参与者以增强戏剧效果。",
-            "观众通常对塑造最终产品的广泛编辑毫不知情。"
+            "弗雷迪·墨丘利的《The Show Must Go On》展现了他尽管生病仍能表达的真挚情感。",
+            "特雷西·查普曼的《Fast Car》让人感受到挣脱过去的艰难。",
+            "戈德·唐尼的《Grace Too》最终演出给人留下了深刻的情感印象。"
           ],
-          "trendLabel": "1.2K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xtqyz9",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "Religious Property Exemption Atlas - Dallas County",
-      "context": "Dallas County's religious tax exemptions are raising eyebrows—could the local schools use that $29 million instead?",
-      "takeaways": [
-        "Tax exemptions may hinder funding for public schools and infrastructure.",
-        "Most exempt properties are small congregations with limited financial impact.",
-        "Data suggests reconsideration of religious tax exemptions could be beneficial."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "21 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xtqyz9/religious_property_exemption_atlas_dallas_county/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "宗教财产免税图谱 - 达拉斯县",
-          "context": "达拉斯县的宗教税收免税引发关注——那2900万美元不如用来支持当地学校？",
-          "takeaways": [
-            "税收免税可能影响公共学校和基础设施的资金。",
-            "大多数免税财产是小型教会，财务影响有限。",
-            "数据表明重新考虑宗教税收免税可能是有利的。"
-          ],
-          "trendLabel": "21 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xtokeu",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL about Peter Norman, the third guy on the podium during the black power salute; 1968 Olympics. His support to the moment led to issues back in Australia, but Smith and Carlos respected him so much they were pallbearers at his funeral.",
-      "context": "Peter Norman, the unsung hero of the 1968 Olympics podium, faced backlash for his support of Smith and Carlos' iconic gesture.",
-      "takeaways": [
-        "Norman requested not to be included in the salute statue so visitors could stand with him.",
-        "The Australian Olympic committee excluded him from the 1972 team due to his support for Smith and Carlos.",
-        "He also advocated for Aboriginal rights, which didn't sit well with the government."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.6K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xtokeu/til_about_peter_norman_the_third_guy_on_the/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到彼得·诺曼，1968年奥运会黑色力量敬礼的第三人。",
-          "context": "彼得·诺曼，这位1968年奥运会领奖台上的无名英雄，因支持史密斯和卡洛斯的标志性举动而面临反对。",
-          "takeaways": [
-            "诺曼请求不被包括在敬礼雕像中，以便游客可以与他站在一起。",
-            "澳大利亚奥委会因他支持史密斯和卡洛斯而将他排除在1972年队伍之外。",
-            "他还倡导土著权利，这让政府感到不满。"
-          ],
-          "trendLabel": "2.6K 赞"
+          "trendLabel": "1.9K 赞"
         }
       }
     }
