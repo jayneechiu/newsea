@@ -1,137 +1,8 @@
 {
-  "updatedAt": "2026-11-13T20:30:13+00:00",
+  "updatedAt": "2026-11-15T19:23:29+00:00",
   "cards": [
     {
-      "id": "reddit-1xurvyn",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL the song Play That Funky Music by Wild Cherry came about when they were playing for a mostly Black crowd and during a break a patron asked \"Are you going to play some funky music, white boys?\" so they wrote up the song in 5 minutes.",
-      "context": "Ever wonder how a simple request led to a funky anthem? Turns out, it's all in the rhythm of a crowd.",
-      "takeaways": [
-        "One fan claims to have inspired the iconic song's creation.",
-        "The song's legacy has earned its creator significant royalties.",
-        "Vanilla Ice's career was partially shaped by this funky classic."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "27K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xurvyn/til_the_song_play_that_funky_music_by_wild_cherry/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我学到了《Play That Funky Music》这首歌的创作故事",
-          "context": "你有没有想过一个简单的请求是如何导致一个放克国歌的？原来，这一切都在于人群的节奏。",
-          "takeaways": [
-            "一位粉丝声称自己激发了这首标志性歌曲的创作。",
-            "这首歌的遗产为创作者带来了可观的版税收入。",
-            "范尼拉·冰的职业生涯部分受到这首放克经典的影响。"
-          ],
-          "trendLabel": "27K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xuw9sz",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/AskReddit",
-      "headline": "Breaking News: Chris Van Hollen launches challenge against Chuck Schumer to lead Senate Democrats. How do you guys feel about that?",
-      "context": "In a surprising twist, Chris Van Hollen decides to challenge Chuck Schumer for Senate leadership—let the political games begin.",
-      "takeaways": [
-        "Many voters have a strong loyalty to Van Hollen and appreciate his track record.",
-        "There is a growing sentiment that Schumer may not be the best fit for leadership anymore.",
-        "Some commenters are looking for ways to actively support Van Hollen's campaign."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "19.1K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xuw9sz/breaking_news_chris_van_hollen_launches_challenge/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "突发新闻：克里斯·范霍伦发起挑战，竞选参议院民主党领袖。",
-          "context": "在一个令人惊讶的转折中，克里斯·范霍伦决定挑战查克·舒默担任参议院领导——政治游戏开始了。",
-          "takeaways": [
-            "许多选民对范霍伦有强烈的忠诚感，并欣赏他的过往表现。",
-            "越来越多的人认为舒默可能不再适合担任领导职务。",
-            "一些评论者正在寻找积极支持范霍伦竞选的方法。"
-          ],
-          "trendLabel": "19.1K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xuy05t",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ocean",
-      "eyebrow": "r/Dallas",
-      "headline": "This was me passing through today",
-      "context": "Ever felt like navigating traffic is akin to a chaotic game of chess? Welcome to the daily commute.",
-      "takeaways": [
-        "Driving can bring out the best and worst in people.",
-        "Gridlock is a universal experience we all share.",
-        "Using blinkers might just save you from a road rage incident."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.5K upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xuy05t/this_was_me_passing_through_today/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我路过时的情景",
-          "context": "是否觉得在交通中导航就像是一场混乱的国际象棋游戏？欢迎来到日常通勤。",
-          "takeaways": [
-            "开车能激发人性的最好和最糟的一面。",
-            "交通堵塞是我们共同的普遍经历。",
-            "使用转向灯可能会让你避免路怒事件。"
-          ],
-          "trendLabel": "1.5K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xv5vdx",
+      "id": "reddit-1xwl3v2",
       "lane": [
         "for-you",
         "everyone",
@@ -139,13 +10,99 @@
       ],
       "cardType": "community-insight",
       "theme": "gold",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Get your pets used to stressful noises ahead of time",
-      "context": "Prepare your pet for noisy surprises; it might just save you from a chaotic holiday or a vacuum showdown.",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL The United States Tomb of the Unknown Soldier has been continuously guarded 24 hours a day, 7 days a week, without interruption since July 2, 1937.",
+      "context": "Ever wondered who stands guard at the Tomb of the Unknown Soldier? Spoiler: they don’t take breaks, not even for hurricanes.",
       "takeaways": [
-        "Introducing pets to sounds gradually can ease their stress during loud events.",
-        "Associating noises with positive experiences, like treats, helps pets cope better.",
-        "Familiarizing pets with their environment can reduce anxiety on walks."
+        "Three unknown soldiers from WW1, WW2, and Korea are buried there; the Vietnam soldier was identified and moved.",
+        "Guards endure extreme weather, including hurricanes, unless ordered to evacuate.",
+        "The Changing of the Guard happens every half-hour in summer and hourly in winter."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "18.7K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xwl3v2/til_the_united_states_tomb_of_the_unknown_soldier/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "美国无名战士墓自1937年7月2日起24小时不间断守卫",
+          "context": "你有没有想过谁在无名战士墓守卫？剧透一下：他们不休息，甚至连飓风也不例外。",
+          "takeaways": [
+            "那里埋葬了三位无名战士，分别来自第一次世界大战、第二次世界大战和朝鲜战争；越南战争的士兵已被识别并移走。",
+            "守卫在极端天气下坚持工作，包括飓风，除非接到撤离命令。",
+            "换岗仪式夏季每半小时一次，冬季每小时一次。"
+          ],
+          "trendLabel": "18.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xwvu30",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "Those who work in Vegas hotels. Are rooms ever left as bad as the suite in the first Hangover film?",
+      "context": "Ever wondered about the wildest hotel room disasters in Vegas? Spoiler: they can be worse than what you see in movies.",
+      "takeaways": [
+        "Guests can cause extreme damage and still dispute minor charges.",
+        "Strange incidents happen in hotel rooms, sometimes without any repercussions.",
+        "Some guests have faced hefty fines for room damages."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.1K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xwvu30/those_who_work_in_vegas_hotels_are_rooms_ever/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "在拉斯维加斯酒店工作的你们，房间真的会像《宿醉》中的套房那样糟糕吗？",
+          "context": "你有没有想过在拉斯维加斯酒店中发生的最疯狂的房间灾难？剧透：它们可能比电影中看到的更糟。",
+          "takeaways": [
+            "客人可能造成极大的损坏，但仍会对小额收费提出异议。",
+            "酒店房间里发生奇怪事件，有时没有任何后果。",
+            "一些客人因房间损坏面临巨额罚款。"
+          ],
+          "trendLabel": "1.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xwi46z",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT for disabled vets. You are allowed to collect VA disability money AND Social Security disability money at the same time.",
+      "context": "Disabled veterans can double dip with VA and Social Security disability, but the application process can be a bit tricky.",
+      "takeaways": [
+        "VA and SSA use different criteria for disability evaluation.",
+        "Eligibility for VA benefits has expanded; check your status.",
+        "Many dispensaries offer discounts for veterans."
       ],
       "topics": [
         "lifeprotips"
@@ -153,127 +110,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "485 upvotes",
+      "trendLabel": "851 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xv5vdx/lpt_get_your_pets_used_to_stressful_noises_ahead/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1xwi46z/lpt_for_disabled_vets_you_are_allowed_to_collect/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活小贴士：提前让宠物适应压力噪音",
-          "context": "提前为您的宠物做好噪音惊喜的准备，这可能会让您的假期或吸尘器大战变得更轻松。",
+          "headline": "残疾退伍军人的生活建议：您可以同时领取VA残疾金和社会安全残疾金。",
+          "context": "残疾退伍军人可以双重领取VA和社会安全残疾金，但申请过程可能有点复杂。",
           "takeaways": [
-            "逐渐让宠物接触声音可以减轻它们在嘈杂活动中的压力。",
-            "将噪音与积极体验（如奖赏）联系起来，能帮助宠物更好地应对。",
-            "熟悉环境可以减少宠物在散步时的焦虑。"
+            "VA和SSA使用不同的残疾评估标准。",
+            "VA福利的资格有所扩大；请检查您的资格。",
+            "许多药房为退伍军人提供折扣。"
           ],
-          "trendLabel": "485 赞"
+          "trendLabel": "851 赞"
         }
       }
     },
     {
-      "id": "reddit-1xv5fyx",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that The Lone Ranger (2013) starring Johnny Depp was one of the biggest box office failures of all time and lost an estimated $221-263 million when adjusted for inflation",
-      "context": "Turns out Johnny Depp's The Lone Ranger wasn't just a lone ride; it was a box office crash landing of epic proportions.",
-      "takeaways": [
-        "Disney holds the record for the top four movie flops adjusted for inflation.",
-        "Cats lost significantly less at the box office compared to The Lone Ranger.",
-        "One crew member described the production as extremely stressful and hoped for better reception."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "7.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xv5fyx/til_that_the_lone_ranger_2013_starring_johnny/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到《大侠传奇》（2013）由约翰尼·德普主演，是史上最大的票房失败之一，调整通货膨胀后损失约2.21亿至2.63亿美元",
-          "context": "原来约翰尼·德普的《大侠传奇》不仅仅是孤独的骑行；它还是一场史诗般的票房坠毁。",
-          "takeaways": [
-            "迪士尼在调整通货膨胀后，拥有前四大票房亏损纪录。",
-            "与《大侠传奇》相比，《猫》在票房上损失显著更少。",
-            "一位制作成员形容制作过程极其紧张，希望能得到更好的反响。"
-          ],
-          "trendLabel": "7.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xv769z",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/AskReddit",
-      "headline": "What YouTuber or internet personality had the most tragic downfall?",
-      "context": "From science educators to fitness gurus, the internet has seen its fair share of tragic falls from grace.",
-      "takeaways": [
-        "Robert Murray-Smith inspired many with science until his downfall.",
-        "The Cracked.com team's decline marked a significant shift in online content.",
-        "Connor Murphy's journey into spirituality led to a drastic change in his YouTube career."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.7K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xv769z/what_youtuber_or_internet_personality_had_the/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "哪个YouTuber或互联网名人的下滑最悲惨？",
-          "context": "从科学教育者到健身大师，互联网见证了许多悲惨的堕落故事。",
-          "takeaways": [
-            "Robert Murray-Smith曾激励许多人，但最终遭遇滑铁卢。",
-            "Cracked.com团队的衰落标志着在线内容的重大转变。",
-            "Connor Murphy对灵性的探索使他的YouTube生涯发生了巨大变化。"
-          ],
-          "trendLabel": "2.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xvftc6",
+      "id": "reddit-1xwmp33",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "lime",
+      "theme": "coral",
       "eyebrow": "r/Dallas",
-      "headline": "18-year-old faces capital murder charge in Deep Ellum shooting that killed 3.",
-      "context": "An 18-year-old's poor life choice leads to a capital murder charge in a triple homicide in Deep Ellum, sparking community concern.",
+      "headline": "Downtown Lights on Veterans Day",
+      "context": "A city lights up for Veterans Day, but the comments section is as quiet as a library on a holiday.",
       "takeaways": [
-        "A tragic event has left three victims dead and an 18-year-old facing serious charges.",
-        "Comments reflect a mix of sympathy for victims and criticism of the accused's choices."
+        "No comments means no debates or disagreements, just a peaceful tribute.",
+        "Silence can sometimes speak louder than words in online discussions.",
+        "Veterans Day remains a solemn occasion, even in the digital realm."
       ],
       "topics": [
         "dallas"
@@ -281,41 +153,41 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "166 upvotes",
+      "trendLabel": "179 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xvftc6/18yearold_faces_capital_murder_charge_in_deep/"
+          "url": "https://reddit.com/r/Dallas/comments/1xwmp33/downtown_lights_on_veterans_day/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "18岁青年在Deep Ellum枪击案中面临资本谋杀指控，造成3人死亡。",
-          "context": "一名18岁青年的不幸选择导致在Deep Ellum发生的三重谋杀案中面临资本谋杀指控，引发社区关注。",
+          "headline": "退伍军人纪念日的市中心灯光",
+          "context": "城市在退伍军人纪念日亮起灯光，但评论区却像假期的图书馆一样安静。",
           "takeaways": [
-            "这起悲剧事件导致三名受害者死亡，一名18岁青年面临严重指控。",
-            "评论反映出对受害者的同情以及对被告选择的批评。"
+            "没有评论意味着没有争论或分歧，仅仅是一个平静的致敬。",
+            "沉默有时在网上讨论中比言语更能传达情感。",
+            "退伍军人纪念日即使在数字领域也是一个庄重的场合。"
           ],
-          "trendLabel": "166 赞"
+          "trendLabel": "179 赞"
         }
       }
     },
     {
-      "id": "reddit-1xv7n5c",
+      "id": "reddit-1xwm8nl",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "violet",
+      "theme": "coral",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that before settling on \"Nvidia,\" the company's founders considered naming the company \"NVision,\" but scrapped the idea after discovering the name was already owned by a toilet paper manufacturer.",
-      "context": "Before settling on 'Nvidia,' the founders almost went with 'NVision'—until they found out it was already taken by a toilet paper company.",
+      "headline": "TIL during the siege of Leningrad, while hundreds of thousands died of starvation, the first seed bank (containing rice, flour, nuts, fruits, vegetables, and 200,000 seeds and plants) was right below the city. The scientists guarding it ate none of it; nine dying of starvation.",
+      "context": "In a city starving for food, scientists chose to starve themselves to guard a seed bank, proving that dedication can be quite a heavy burden.",
       "takeaways": [
-        "Founders initially labeled files as 'NV' for 'next version' while brainstorming names.",
-        "A toilet paper company with 'vision' in its name raises eyebrows.",
-        "In the Philippines, 'Nvision' is known for budget computer monitors."
+        "The seed bank played a crucial role in post-war recovery, likely saving more lives than were lost during the siege.",
+        "Scientists guarded the seed bank with their lives, dying at their desks rather than consuming its contents."
       ],
       "topics": [
         "todayilearned"
@@ -323,157 +195,27 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "4.9K upvotes",
+      "trendLabel": "18.4K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xv7n5c/til_that_before_settling_on_nvidia_the_companys/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xwm8nl/til_during_the_siege_of_leningrad_while_hundreds/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到，在决定使用“Nvidia”之前，公司的创始人考虑过命名为“NVision”，但在发现该名称已被一家公司占用后放弃了这个想法。",
-          "context": "在决定使用“Nvidia”之前，创始人几乎选择了“NVision”，直到他们发现这个名字已经被一家卫生纸公司占用。",
+          "headline": "我了解到在列宁格勒围 siege 期间，尽管数十万人死于饥饿，但第一座种子银行就在城市下方。",
+          "context": "在一个饥饿的城市，科学家选择饿死自己来守护种子银行，证明了奉献可以是相当沉重的负担。",
           "takeaways": [
-            "创始人在头脑风暴名称时，最初将文件标记为“NV”，代表“下一个版本”。",
-            "名为“vision”的卫生纸公司引人注目。",
-            "在菲律宾，“Nvision”以廉价计算机显示器而闻名。"
+            "种子银行在战后恢复中发挥了关键作用，可能拯救的生命比围 siege 期间失去的还要多。",
+            "科学家们用生命守护种子银行，在办公桌上饿死，而不是消费其内容。"
           ],
-          "trendLabel": "4.9K 赞"
+          "trendLabel": "18.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xva1hk",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "What is a legal play in a sport which is considered so unsportsmanlike that professionals do not attempt it?",
-      "context": "Discover the legal yet unsportsmanlike plays in sports that professionals avoid like the plague.",
-      "takeaways": [
-        "Intentionally pitching to prevent a record-breaking home run is legal but frowned upon.",
-        "Kicking the ball out for an injured player is expected, but some teams exploit the moment.",
-        "In chess, resigning is common before a checkmate, but some strategies can be so shocking."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.9K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xva1hk/what_is_a_legal_play_in_a_sport_which_is/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "在运动中什么是合法的但被视为不体育精神的玩法？",
-          "context": "探讨运动中合法却被专业人士视为禁忌的玩法。",
-          "takeaways": [
-            "故意投球以阻止打破本垒打记录是合法的，但令人反感。",
-            "为了受伤球员而停球是预期的，但有些球队会利用这个机会。",
-            "在国际象棋中，提前认输是常见的，但有些策略令人震惊。"
-          ],
-          "trendLabel": "1.9K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xv02o3",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ocean",
-      "eyebrow": "r/Dallas",
-      "headline": "Freedom Friday Post",
-      "context": "Join the Freedom Friday Post where anything goes, and the usual rules take a day off—just like most of us on Fridays.",
-      "takeaways": [
-        "Users are excited to share diverse opinions and discussions.",
-        "Some are promoting local events and businesses.",
-        "A few are simply sharing how their week went."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "5 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xv02o3/freedom_friday_post/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "自由周五帖子",
-          "context": "加入自由周五帖子，任何话题都欢迎，平常的规则今天放假——就像我们大部分人在周五一样。",
-          "takeaways": [
-            "用户们对分享各种观点和讨论感到兴奋。",
-            "一些人正在宣传当地活动和商业。",
-            "还有一些人只是分享他们的周末经历。"
-          ],
-          "trendLabel": "5 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xvdd2k",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that Grover Cleveland was the only US President to get married in the White House, and the only President to have a baby born there as well",
-      "context": "Grover Cleveland made history in the White House, but his personal life might surprise you more than his politics.",
-      "takeaways": [
-        "Surprisingly, Cleveland remains the only president with a baby born while in office.",
-        "The age difference between Cleveland and Frances was quite notable.",
-        "JFK's son Patrick was born in the White House but sadly lived only a short time."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.7K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xvdd2k/til_that_grover_cleveland_was_the_only_us/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "TIL 格罗弗·克利夫兰是唯一在白宫结婚的美国总统，也是唯一在白宫出生的总统。",
-          "context": "格罗弗·克利夫兰在白宫创造了历史，但他的个人生活比政治更让人惊讶。",
-          "takeaways": [
-            "令人惊讶的是，克利夫兰是唯一一位在任期间有孩子出生的总统。",
-            "克利夫兰与弗朗西斯之间的年龄差距相当显著。",
-            "肯尼迪的儿子帕特里克在白宫出生，但不幸的是只活了短短时间。"
-          ],
-          "trendLabel": "2.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xv4o4q",
+      "id": "reddit-1xwy8oh",
       "lane": [
         "for-you",
         "everyone",
@@ -482,12 +224,12 @@
       "cardType": "community-insight",
       "theme": "coral",
       "eyebrow": "r/AskReddit",
-      "headline": "What was the song you heard where the singer was completely overwhelmed and consumed by pain and you could feel it so well?",
-      "context": "Redditors share songs that encapsulate heart-wrenching pain, making you feel like you just watched a sad movie unfold in real-time.",
+      "headline": "What is the most bizzare way someone you knew died?",
+      "context": "Sometimes, life ends in the most unexpected ways—like a family friend who met his fate under a lawn mower's weight.",
       "takeaways": [
-        "Freddie Mercury's 'The Show Must Go On' showcases his raw emotion despite his illness.",
-        "'Fast Car' by Tracy Chapman resonates with the struggle of escaping one's past.",
-        "Gord Downie's final performance of 'Grace Too' left a lasting emotional impact."
+        "Bizarre deaths often involve unexpected accidents, such as being trapped under machinery.",
+        "Family dynamics can complicate grief, especially in cases of estrangement or disownment.",
+        "Health conditions can lead to unpredictable and tragic outcomes."
       ],
       "topics": [
         "askreddit"
@@ -495,23 +237,281 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.9K upvotes",
+      "trendLabel": "287 upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xv4o4q/what_was_the_song_you_heard_where_the_singer_was/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xwy8oh/what_is_the_most_bizzare_way_someone_you_knew_died/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "你听过哪首歌，让歌手被痛苦彻底吞噬，你能深切感受到？",
-          "context": "Reddit用户分享了能让人感受到心碎痛苦的歌曲，仿佛在现场目睹悲剧的发生。",
+          "headline": "你认识的人中，最奇怪的死亡方式是什么？",
+          "context": "生活有时以最意想不到的方式结束，比如一位朋友在割草机下遭遇厄运。",
           "takeaways": [
-            "弗雷迪·墨丘利的《The Show Must Go On》展现了他尽管生病仍能表达的真挚情感。",
-            "特雷西·查普曼的《Fast Car》让人感受到挣脱过去的艰难。",
-            "戈德·唐尼的《Grace Too》最终演出给人留下了深刻的情感印象。"
+            "奇怪的死亡往往涉及意外事故，如被机械困住。",
+            "家庭关系可能会使悲伤变得复杂，尤其是在疏远或被断绝关系的情况下。",
+            "健康状况可能导致不可预测和悲惨的结果。"
           ],
-          "trendLabel": "1.9K 赞"
+          "trendLabel": "287 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xwy4e4",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT- when you cook and have grease in your pan, dispose of it in the trash before washing the pan.",
+      "context": "Before you wash that greasy pan, consider saving your pipes and your sanity by properly disposing of the grease first.",
+      "takeaways": [
+        "Let grease cool before throwing it away to avoid a trash disaster.",
+        "Using jars or containers is a great way to store leftover grease.",
+        "Wiping the pan with paper towels can help reduce grease buildup."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "618 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xwy4e4/lpt_when_you_cook_and_have_grease_in_your_pan/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小窍门：烹饪时，处理锅中的油脂，然后再洗锅。",
+          "context": "在你洗那个油腻的锅之前，先考虑正确处理油脂，以保护你的管道和理智。",
+          "takeaways": [
+            "让油脂冷却后再扔掉，以避免垃圾灾难。",
+            "使用罐子或容器是保存剩余油脂的好方法。",
+            "用纸巾擦拭锅可以帮助减少油脂积聚。"
+          ],
+          "trendLabel": "618 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xx41g0",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ink",
+      "eyebrow": "r/Dallas",
+      "headline": "I’m in dire need of a job!!",
+      "context": "Job hunting can feel like a full-time job, especially when your car decides it’s time for a break.",
+      "takeaways": [
+        "Persistence is key; keep applying and networking.",
+        "Consider reaching out to local charities for support.",
+        "Explore gig opportunities that fit your skills."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xx41g0/im_in_dire_need_of_a_job/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "我迫切需要一份工作！！",
+          "context": "找工作有时就像全职工作，尤其是当你的车决定休息时。",
+          "takeaways": [
+            "坚持是关键；继续申请和建立人脉。",
+            "考虑联系当地慈善机构寻求支持。",
+            "探索适合你技能的临时工作机会。"
+          ],
+          "trendLabel": "3 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xwr62i",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that in 2012, a group of juvenile gorillas were seen successfully disarming poachers' traps and snares, as well as warning nearby humans away from it.",
+      "context": "In a 2012 incident, juvenile gorillas showcased their problem-solving skills by disarming poachers' traps while the adults played the role of vigilant supervisors.",
+      "takeaways": [
+        "The gorilla silverback prioritized human safety while overseeing the juveniles' impressive trap disarming skills.",
+        "Gorilla behavior remains unaltered by human intervention, as per the Fossey Fund's policy.",
+        "Juvenile gorillas displayed remarkable teamwork and intelligence during the trap disarming process."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "7.2K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xwr62i/til_that_in_2012_a_group_of_juvenile_gorillas/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：2012年，一群幼年大猩猩成功拆除了偷猎者的陷阱和绳索，并警告附近的人类。",
+          "context": "在2012年的一起事件中，幼年大猩猩展示了解决问题的能力，拆除了偷猎者的陷阱，而成年猩猩则充当警惕的守卫。",
+          "takeaways": [
+            "大猩猩的银背在监督幼年猩猩拆除陷阱的同时，优先考虑人类的安全。",
+            "根据福西基金的政策，大猩猩的行为不会因人类干预而改变。",
+            "幼年大猩猩在拆除陷阱的过程中展示了出色的团队合作和智慧。"
+          ],
+          "trendLabel": "7.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xwz3ry",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/AskReddit",
+      "headline": "What’s your opinion about Trump blaming the Biden administration for the FAA grounding on Friday?",
+      "context": "Trump's finger seems always poised to point at Biden, even when it comes to grounding flights. Classic political blame game.",
+      "takeaways": [
+        "Many believe Trump avoids taking responsibility and prefers to blame others.",
+        "Some supporters might still accept his narrative despite its inconsistencies.",
+        "Critics highlight his past leadership choices as part of the problem."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "203 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xwz3ry/whats_your_opinion_about_trump_blaming_the_biden/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "特朗普指责拜登政府导致FAA周五停飞，你怎么看？",
+          "context": "特朗普似乎总是准备把责任推给拜登，甚至在航班停飞问题上。典型的政治指责游戏。",
+          "takeaways": [
+            "许多人认为特朗普避免承担责任，更喜欢指责他人。",
+            "一些支持者可能仍然接受他的叙述，尽管存在不一致之处。",
+            "批评者强调他过去的领导选择是问题的一部分。"
+          ],
+          "trendLabel": "203 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xwduv7",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Pick a favorite song you know the lyrics to by heart. Recite them like an interview answer. Do this to practice your pacing in speeches and interviews.",
+      "context": "Practice your speech pacing by reciting your favorite song's lyrics as if answering interview questions—it's both fun and effective.",
+      "takeaways": [
+        "Using song lyrics can help improve pacing in interviews.",
+        "Practicing familiar content reduces anxiety during speaking.",
+        "Talking about yourself can be a productive preparation method."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "606 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xwduv7/lpt_pick_a_favorite_song_you_know_the_lyrics_to/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：选择一首你熟悉歌词的最爱歌曲，像面试回答一样背诵。",
+          "context": "通过将你最喜欢的歌曲歌词像回答面试问题一样背诵，来练习演讲的节奏，这既有趣又有效。",
+          "takeaways": [
+            "用歌曲歌词可以帮助改善面试中的节奏。",
+            "练习熟悉的内容可以减少演讲时的焦虑。",
+            "谈论自己可以成为一种有效的准备方法。"
+          ],
+          "trendLabel": "606 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xwxeac",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL in the 18th century many prominent voices were concerned by an 'epidemic' affecting young people whereby they were spending too much time reading books. It was diagnosed as 'a dangerous disease' called ‘reading rage, reading fever, reading mania or reading lust.'",
+      "context": "In the 18th century, reading too much was seen as a dangerous epidemic, proving that every generation finds something to worry about.",
+      "takeaways": [
+        "People often label trends they dislike as diseases.",
+        "Cultural panics about new media have been around for centuries.",
+        "Books were once seen as a harmful distraction from 'better' reading."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "4.1K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xwxeac/til_in_the_18th_century_many_prominent_voices/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：18世纪许多杰出人士担心年轻人沉迷于阅读书籍，诊断为一种名为“阅读狂热”的“危险疾病”。",
+          "context": "在18世纪，阅读过多被视为一种危险流行病，证明了每一代人都会找到担忧的事情。",
+          "takeaways": [
+            "人们常常将他们不喜欢的趋势标记为疾病。",
+            "对新媒体的文化恐慌已经存在几个世纪。",
+            "书籍曾被视为一种有害的分心，而不是真正的阅读。"
+          ],
+          "trendLabel": "4.1K 赞"
         }
       }
     }
