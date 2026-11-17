@@ -1,350 +1,8 @@
 {
-  "updatedAt": "2026-11-15T19:23:29+00:00",
+  "updatedAt": "2026-11-17T21:46:40+00:00",
   "cards": [
     {
-      "id": "reddit-1xwl3v2",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL The United States Tomb of the Unknown Soldier has been continuously guarded 24 hours a day, 7 days a week, without interruption since July 2, 1937.",
-      "context": "Ever wondered who stands guard at the Tomb of the Unknown Soldier? Spoiler: they don’t take breaks, not even for hurricanes.",
-      "takeaways": [
-        "Three unknown soldiers from WW1, WW2, and Korea are buried there; the Vietnam soldier was identified and moved.",
-        "Guards endure extreme weather, including hurricanes, unless ordered to evacuate.",
-        "The Changing of the Guard happens every half-hour in summer and hourly in winter."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "18.7K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xwl3v2/til_the_united_states_tomb_of_the_unknown_soldier/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "美国无名战士墓自1937年7月2日起24小时不间断守卫",
-          "context": "你有没有想过谁在无名战士墓守卫？剧透一下：他们不休息，甚至连飓风也不例外。",
-          "takeaways": [
-            "那里埋葬了三位无名战士，分别来自第一次世界大战、第二次世界大战和朝鲜战争；越南战争的士兵已被识别并移走。",
-            "守卫在极端天气下坚持工作，包括飓风，除非接到撤离命令。",
-            "换岗仪式夏季每半小时一次，冬季每小时一次。"
-          ],
-          "trendLabel": "18.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwvu30",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "Those who work in Vegas hotels. Are rooms ever left as bad as the suite in the first Hangover film?",
-      "context": "Ever wondered about the wildest hotel room disasters in Vegas? Spoiler: they can be worse than what you see in movies.",
-      "takeaways": [
-        "Guests can cause extreme damage and still dispute minor charges.",
-        "Strange incidents happen in hotel rooms, sometimes without any repercussions.",
-        "Some guests have faced hefty fines for room damages."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.1K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xwvu30/those_who_work_in_vegas_hotels_are_rooms_ever/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "在拉斯维加斯酒店工作的你们，房间真的会像《宿醉》中的套房那样糟糕吗？",
-          "context": "你有没有想过在拉斯维加斯酒店中发生的最疯狂的房间灾难？剧透：它们可能比电影中看到的更糟。",
-          "takeaways": [
-            "客人可能造成极大的损坏，但仍会对小额收费提出异议。",
-            "酒店房间里发生奇怪事件，有时没有任何后果。",
-            "一些客人因房间损坏面临巨额罚款。"
-          ],
-          "trendLabel": "1.1K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwi46z",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT for disabled vets. You are allowed to collect VA disability money AND Social Security disability money at the same time.",
-      "context": "Disabled veterans can double dip with VA and Social Security disability, but the application process can be a bit tricky.",
-      "takeaways": [
-        "VA and SSA use different criteria for disability evaluation.",
-        "Eligibility for VA benefits has expanded; check your status.",
-        "Many dispensaries offer discounts for veterans."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "851 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xwi46z/lpt_for_disabled_vets_you_are_allowed_to_collect/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "残疾退伍军人的生活建议：您可以同时领取VA残疾金和社会安全残疾金。",
-          "context": "残疾退伍军人可以双重领取VA和社会安全残疾金，但申请过程可能有点复杂。",
-          "takeaways": [
-            "VA和SSA使用不同的残疾评估标准。",
-            "VA福利的资格有所扩大；请检查您的资格。",
-            "许多药房为退伍军人提供折扣。"
-          ],
-          "trendLabel": "851 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwmp33",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "coral",
-      "eyebrow": "r/Dallas",
-      "headline": "Downtown Lights on Veterans Day",
-      "context": "A city lights up for Veterans Day, but the comments section is as quiet as a library on a holiday.",
-      "takeaways": [
-        "No comments means no debates or disagreements, just a peaceful tribute.",
-        "Silence can sometimes speak louder than words in online discussions.",
-        "Veterans Day remains a solemn occasion, even in the digital realm."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "179 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xwmp33/downtown_lights_on_veterans_day/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "退伍军人纪念日的市中心灯光",
-          "context": "城市在退伍军人纪念日亮起灯光，但评论区却像假期的图书馆一样安静。",
-          "takeaways": [
-            "没有评论意味着没有争论或分歧，仅仅是一个平静的致敬。",
-            "沉默有时在网上讨论中比言语更能传达情感。",
-            "退伍军人纪念日即使在数字领域也是一个庄重的场合。"
-          ],
-          "trendLabel": "179 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwm8nl",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL during the siege of Leningrad, while hundreds of thousands died of starvation, the first seed bank (containing rice, flour, nuts, fruits, vegetables, and 200,000 seeds and plants) was right below the city. The scientists guarding it ate none of it; nine dying of starvation.",
-      "context": "In a city starving for food, scientists chose to starve themselves to guard a seed bank, proving that dedication can be quite a heavy burden.",
-      "takeaways": [
-        "The seed bank played a crucial role in post-war recovery, likely saving more lives than were lost during the siege.",
-        "Scientists guarded the seed bank with their lives, dying at their desks rather than consuming its contents."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "18.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xwm8nl/til_during_the_siege_of_leningrad_while_hundreds/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "我了解到在列宁格勒围 siege 期间，尽管数十万人死于饥饿，但第一座种子银行就在城市下方。",
-          "context": "在一个饥饿的城市，科学家选择饿死自己来守护种子银行，证明了奉献可以是相当沉重的负担。",
-          "takeaways": [
-            "种子银行在战后恢复中发挥了关键作用，可能拯救的生命比围 siege 期间失去的还要多。",
-            "科学家们用生命守护种子银行，在办公桌上饿死，而不是消费其内容。"
-          ],
-          "trendLabel": "18.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwy8oh",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/AskReddit",
-      "headline": "What is the most bizzare way someone you knew died?",
-      "context": "Sometimes, life ends in the most unexpected ways—like a family friend who met his fate under a lawn mower's weight.",
-      "takeaways": [
-        "Bizarre deaths often involve unexpected accidents, such as being trapped under machinery.",
-        "Family dynamics can complicate grief, especially in cases of estrangement or disownment.",
-        "Health conditions can lead to unpredictable and tragic outcomes."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "287 upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xwy8oh/what_is_the_most_bizzare_way_someone_you_knew_died/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "你认识的人中，最奇怪的死亡方式是什么？",
-          "context": "生活有时以最意想不到的方式结束，比如一位朋友在割草机下遭遇厄运。",
-          "takeaways": [
-            "奇怪的死亡往往涉及意外事故，如被机械困住。",
-            "家庭关系可能会使悲伤变得复杂，尤其是在疏远或被断绝关系的情况下。",
-            "健康状况可能导致不可预测和悲惨的结果。"
-          ],
-          "trendLabel": "287 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwy4e4",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT- when you cook and have grease in your pan, dispose of it in the trash before washing the pan.",
-      "context": "Before you wash that greasy pan, consider saving your pipes and your sanity by properly disposing of the grease first.",
-      "takeaways": [
-        "Let grease cool before throwing it away to avoid a trash disaster.",
-        "Using jars or containers is a great way to store leftover grease.",
-        "Wiping the pan with paper towels can help reduce grease buildup."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "618 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xwy4e4/lpt_when_you_cook_and_have_grease_in_your_pan/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小窍门：烹饪时，处理锅中的油脂，然后再洗锅。",
-          "context": "在你洗那个油腻的锅之前，先考虑正确处理油脂，以保护你的管道和理智。",
-          "takeaways": [
-            "让油脂冷却后再扔掉，以避免垃圾灾难。",
-            "使用罐子或容器是保存剩余油脂的好方法。",
-            "用纸巾擦拭锅可以帮助减少油脂积聚。"
-          ],
-          "trendLabel": "618 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xx41g0",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "I’m in dire need of a job!!",
-      "context": "Job hunting can feel like a full-time job, especially when your car decides it’s time for a break.",
-      "takeaways": [
-        "Persistence is key; keep applying and networking.",
-        "Consider reaching out to local charities for support.",
-        "Explore gig opportunities that fit your skills."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "3 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xx41g0/im_in_dire_need_of_a_job/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "我迫切需要一份工作！！",
-          "context": "找工作有时就像全职工作，尤其是当你的车决定休息时。",
-          "takeaways": [
-            "坚持是关键；继续申请和建立人脉。",
-            "考虑联系当地慈善机构寻求支持。",
-            "探索适合你技能的临时工作机会。"
-          ],
-          "trendLabel": "3 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwr62i",
+      "id": "reddit-1xyncej",
       "lane": [
         "for-you",
         "everyone",
@@ -353,12 +11,12 @@
       "cardType": "community-insight",
       "theme": "ocean",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that in 2012, a group of juvenile gorillas were seen successfully disarming poachers' traps and snares, as well as warning nearby humans away from it.",
-      "context": "In a 2012 incident, juvenile gorillas showcased their problem-solving skills by disarming poachers' traps while the adults played the role of vigilant supervisors.",
+      "headline": "TIL in 2007, Björk sent a letter to Britney Spears inviting her to move to her home in Iceland to escape all the drama and controversy surrounding her during that time.",
+      "context": "In 2007, Björk offered Britney Spears an escape to serene Iceland amidst her chaotic life—imagine the tranquility.",
       "takeaways": [
-        "The gorilla silverback prioritized human safety while overseeing the juveniles' impressive trap disarming skills.",
-        "Gorilla behavior remains unaltered by human intervention, as per the Fossey Fund's policy.",
-        "Juvenile gorillas displayed remarkable teamwork and intelligence during the trap disarming process."
+        "Many believe Britney missed a chance for peace in Iceland.",
+        "The allure of clean air and simplicity resonates with fans.",
+        "Britney's struggles highlight her lifelong entanglement with fame."
       ],
       "topics": [
         "todayilearned"
@@ -366,28 +24,372 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "7.2K upvotes",
+      "trendLabel": "27K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xwr62i/til_that_in_2012_a_group_of_juvenile_gorillas/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xyncej/til_in_2007_björk_sent_a_letter_to_britney_spears/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到：2012年，一群幼年大猩猩成功拆除了偷猎者的陷阱和绳索，并警告附近的人类。",
-          "context": "在2012年的一起事件中，幼年大猩猩展示了解决问题的能力，拆除了偷猎者的陷阱，而成年猩猩则充当警惕的守卫。",
+          "headline": "今日学到：2007年，碧昂丝邀请布兰妮·斯皮尔斯搬到冰岛，逃避当时的争议和戏剧。",
+          "context": "2007年，碧昂丝邀请布兰妮·斯皮尔斯前往宁静的冰岛，远离她混乱的生活——想象一下那种宁静。",
           "takeaways": [
-            "大猩猩的银背在监督幼年猩猩拆除陷阱的同时，优先考虑人类的安全。",
-            "根据福西基金的政策，大猩猩的行为不会因人类干预而改变。",
-            "幼年大猩猩在拆除陷阱的过程中展示了出色的团队合作和智慧。"
+            "许多人认为布兰妮错过了去冰岛寻找平静的机会。",
+            "清新空气和简单生活的吸引力引起了粉丝的共鸣。",
+            "布兰妮的挣扎突显了她与名声的终身纠缠。"
           ],
-          "trendLabel": "7.2K 赞"
+          "trendLabel": "27K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xwz3ry",
+      "id": "reddit-1xy3x8s",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "United Airlines just reported ANOTHER systemwide outage. First NVIDIA, then Microsoft, then the FAA ground stop, then banking apps and now United. What's your leading theory on all of this?",
+      "context": "As systems fail across industries, one wonders if prioritizing profits over people might have some unintended consequences.",
+      "takeaways": [
+        "A focus on efficiency has led to significant staffing cuts and overreliance on automation.",
+        "Replacing skilled developers with AI has resulted in systemic failures.",
+        "The private sector's profit motives may jeopardize vital infrastructure."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "22.6K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xy3x8s/united_airlines_just_reported_another_systemwide/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "联合航空再次报告系统性故障。先是NVIDIA，再是微软，然后是FAA的停飞，再到银行应用程序，现在是联合航空。对此，您有什么看法？",
+          "context": "当各行业系统频频崩溃时，难道将利润置于人之上会带来一些意想不到的后果吗？",
+          "takeaways": [
+            "对效率的过度追求导致了大量裁员和对自动化的过度依赖。",
+            "用AI替代熟练的开发人员导致了系统性故障。",
+            "私营部门的盈利动机可能危及重要基础设施。"
+          ],
+          "trendLabel": "22.6K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xyd76i",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Never pay a bill through a link in an SMS. Open your bank or the company’s app yourself instead.",
+      "context": "If you think clicking payment links in texts is safe, you might want to reconsider your cybersecurity strategy before your wallet starts crying.",
+      "takeaways": [
+        "Phishing scams often use fake payment links to steal money.",
+        "Legitimate companies won't send direct payment links via SMS.",
+        "Most people are aware, but it's a reminder for the less informed."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "431 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xyd76i/lpt_never_pay_a_bill_through_a_link_in_an_sms/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小贴士：切勿通过短信中的链接支付账单。请自行打开银行或公司的应用。",
+          "context": "如果你认为点击短信中的付款链接是安全的，或许该重新考虑你的网络安全策略，以免钱包哭泣。",
+          "takeaways": [
+            "网络钓鱼诈骗常利用假付款链接来偷钱。",
+            "合法公司不会通过短信发送直接的付款链接。",
+            "大多数人都知道这一点，但这是对不太了解者的提醒。"
+          ],
+          "trendLabel": "431 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xykjhu",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "gold",
+      "eyebrow": "r/Dallas",
+      "headline": "Arlington, TX 11/17/26",
+      "context": "A perplexing organization in Arlington seems committed to sharing their thoughts, raising eyebrows and concerns among locals.",
+      "takeaways": [
+        "Residents notice a persistent group with varying messages.",
+        "Some express discomfort with the group's presence.",
+        "Concerns arise about immigration and community dynamics."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "204 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xykjhu/arlington_tx_111726/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "阿灵顿，德克萨斯州 11/17/26",
+          "context": "阿灵顿的一家神秘组织似乎致力于传播他们的想法，引发当地人的关注与担忧。",
+          "takeaways": [
+            "居民注意到一个不断出现的群体，传达不同的信息。",
+            "一些人对该组织的存在感到不安。",
+            "关于移民和社区动态的担忧浮出水面。"
+          ],
+          "trendLabel": "204 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xydko2",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL in 2014, a California nursing home was shut down and abandoned by trained staff. Sixteen residents, some with dementia, were left behind. Seeing the need, the nursing home’s cook and janitor worked several days cooking, bathing and dispensing medications to residents until authorities arrived.",
+      "context": "In a bizarre twist, a nursing home was abandoned, leaving only a cook and a janitor to care for the residents until help arrived.",
+      "takeaways": [
+        "Authorities delayed their response, leaving vulnerable residents in limbo.",
+        "Similar neglect occurred in a Toronto nursing home during COVID-19, leading to tragic consequences.",
+        "Calls for accountability highlight the serious implications of abandoning care facilities."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "19.7K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xydko2/til_in_2014_a_california_nursing_home_was_shut/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：2014年，加州一家养老院被关闭并被工作人员遗弃，16名居民被留在了那里。",
+          "context": "在一个离奇的转折中，一家养老院被遗弃，只剩下厨师和清洁工照顾居民，直到援助到来。",
+          "takeaways": [
+            "当局反应缓慢，导致脆弱居民处于困境。",
+            "在COVID-19期间，多伦多的一家养老院也发生了类似的疏忽，导致悲惨后果。",
+            "对问责的呼声强调了放弃护理设施的严重影响。"
+          ],
+          "trendLabel": "19.7K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xyl6xo",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "What's a 10/10 life experience you must have at least once in your life?",
+      "context": "Ever wondered what experiences top the charts for a perfect life? Spoiler: money can help, but some are free!",
+      "takeaways": [
+        "Stargazing in a dark sky can be a profound experience.",
+        "Witnessing a total solar eclipse is nature's breathtaking show.",
+        "Financial stability opens doors to many life-enhancing experiences."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3.9K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xyl6xo/whats_a_1010_life_experience_you_must_have_at/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "一生中必须体验的10/10生活经历是什么？",
+          "context": "你是否想过哪些体验在完美生活中名列前茅？剧透：金钱能帮忙，但有些是免费的！",
+          "takeaways": [
+            "在无光污染的地方仰望星空是一种深刻的体验。",
+            "目睹日全食是大自然令人惊叹的表演。",
+            "经济稳定为许多提升生活的体验打开了大门。"
+          ],
+          "trendLabel": "3.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xyppli",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT Take Document Pictures Without Shadows",
+      "context": "Tired of document photos looking like a crime scene? Try zooming in from a distance to ditch those pesky shadows.",
+      "takeaways": [
+        "Using the 'scan' feature can eliminate shadows entirely.",
+        "Zooming in helps reduce document edge warping.",
+        "Both iPhone and Android offer native scanning options."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "291 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1xyppli/lpt_take_document_pictures_without_shadows/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "LPT：拍摄文档照片时避免阴影",
+          "context": "厌倦了文档照片看起来像犯罪现场吗？试试从远处放大拍摄，以摆脱那些讨厌的阴影。",
+          "takeaways": [
+            "使用“扫描”功能可以完全消除阴影。",
+            "放大拍摄有助于减少文档边缘的扭曲。",
+            "iPhone和Android都提供原生扫描选项。"
+          ],
+          "trendLabel": "291 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xyrzc0",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "H-E-B Sets December Opening Date For First Denton Store",
+      "context": "Denton's getting its first H-E-B, but some locals argue it's really in Argyle—geography can be quite the debate.",
+      "takeaways": [
+        "The new H-E-B opens at 6 a.m. on Dec. 16.",
+        "Some residents debate whether the store is truly in Denton or Argyle.",
+        "Dallas residents express their disappointment over the new store."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "41 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1xyrzc0/heb_sets_december_opening_date_for_first_denton/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "H-E-B 确定在十二月开设首家登顿商店的日期",
+          "context": "登顿即将迎来首家 H-E-B，但有些当地人认为这实际上是在阿盖尔，地理位置有时真是个争论点。",
+          "takeaways": [
+            "新的 H-E-B 将于 12 月 16 日早上 6 点开业。",
+            "一些居民争论这家商店到底是在登顿还是阿盖尔。",
+            "达拉斯居民对新商店表示失望。"
+          ],
+          "trendLabel": "41 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xymc5w",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that Abraham Lincoln spent hours shaking hands with visitors just before he signed the Emancipation Proclamation. By the time he picked up the pen, his hand was trembling. He worried that anyone who saw a shaky signature would think he’d had doubts about signing.",
+      "context": "Lincoln's signature trembled under the weight of history—proving that even great leaders have their shaky moments.",
+      "takeaways": [
+        "Lincoln's hands were swollen and trembling from shaking so many hands.",
+        "Signing the Emancipation Proclamation was a monumental moment that understandably made him shaky.",
+        "A genetic condition may have contributed to his hand tremors."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "4.4K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1xymc5w/til_that_abraham_lincoln_spent_hours_shaking/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "我知道亚伯拉罕·林肯在签署《解放宣言》之前花了几个小时与访客握手。",
+          "context": "林肯的签名在历史的重压下颤抖——即使是伟大的领导者也会有不稳之时。",
+          "takeaways": [
+            "林肯的手因握了太多手而肿胀、颤抖。",
+            "签署《解放宣言》这一重要时刻让他感到紧张，难免颤抖。",
+            "遗传病可能导致了他的手颤抖。"
+          ],
+          "trendLabel": "4.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xyjq4r",
       "lane": [
         "for-you",
         "everyone",
@@ -396,12 +398,12 @@
       "cardType": "community-insight",
       "theme": "lime",
       "eyebrow": "r/AskReddit",
-      "headline": "What’s your opinion about Trump blaming the Biden administration for the FAA grounding on Friday?",
-      "context": "Trump's finger seems always poised to point at Biden, even when it comes to grounding flights. Classic political blame game.",
+      "headline": "Experienced men: What's one mistake you made that you would warn younger men not to repeat?",
+      "context": "Wise men share their regrets; avoid financial faux pas and bad relationships to save yourself from costly lessons.",
       "takeaways": [
-        "Many believe Trump avoids taking responsibility and prefers to blame others.",
-        "Some supporters might still accept his narrative despite its inconsistencies.",
-        "Critics highlight his past leadership choices as part of the problem."
+        "Budget wisely and avoid debt to maintain your lifestyle.",
+        "Don't ignore your insecurities; understanding them is key to personal growth.",
+        "Choose partners based on compatibility, not just looks."
       ],
       "topics": [
         "askreddit"
@@ -409,85 +411,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "203 upvotes",
+      "trendLabel": "2.8K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xwz3ry/whats_your_opinion_about_trump_blaming_the_biden/"
+          "url": "https://reddit.com/r/AskReddit/comments/1xyjq4r/experienced_men_whats_one_mistake_you_made_that/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "特朗普指责拜登政府导致FAA周五停飞，你怎么看？",
-          "context": "特朗普似乎总是准备把责任推给拜登，甚至在航班停飞问题上。典型的政治指责游戏。",
+          "headline": "有经验的男人：你犯过的一个错误是什么？你会警告年轻人不要重蹈覆辙？",
+          "context": "聪明的男人分享他们的遗憾；避免财务失误和糟糕的关系，以节省代价高昂的教训。",
           "takeaways": [
-            "许多人认为特朗普避免承担责任，更喜欢指责他人。",
-            "一些支持者可能仍然接受他的叙述，尽管存在不一致之处。",
-            "批评者强调他过去的领导选择是问题的一部分。"
+            "明智地制定预算，避免债务以维持生活方式。",
+            "不要忽视自己的不安全感；理解它们是个人成长的关键。",
+            "选择伴侣时要基于兼容性，而不仅仅是外貌。"
           ],
-          "trendLabel": "203 赞"
+          "trendLabel": "2.8K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xwduv7",
+      "id": "reddit-1xyogtd",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Pick a favorite song you know the lyrics to by heart. Recite them like an interview answer. Do this to practice your pacing in speeches and interviews.",
-      "context": "Practice your speech pacing by reciting your favorite song's lyrics as if answering interview questions—it's both fun and effective.",
-      "takeaways": [
-        "Using song lyrics can help improve pacing in interviews.",
-        "Practicing familiar content reduces anxiety during speaking.",
-        "Talking about yourself can be a productive preparation method."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "606 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xwduv7/lpt_pick_a_favorite_song_you_know_the_lyrics_to/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT：选择一首你熟悉歌词的最爱歌曲，像面试回答一样背诵。",
-          "context": "通过将你最喜欢的歌曲歌词像回答面试问题一样背诵，来练习演讲的节奏，这既有趣又有效。",
-          "takeaways": [
-            "用歌曲歌词可以帮助改善面试中的节奏。",
-            "练习熟悉的内容可以减少演讲时的焦虑。",
-            "谈论自己可以成为一种有效的准备方法。"
-          ],
-          "trendLabel": "606 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xwxeac",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "violet",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL in the 18th century many prominent voices were concerned by an 'epidemic' affecting young people whereby they were spending too much time reading books. It was diagnosed as 'a dangerous disease' called ‘reading rage, reading fever, reading mania or reading lust.'",
-      "context": "In the 18th century, reading too much was seen as a dangerous epidemic, proving that every generation finds something to worry about.",
+      "headline": "TIL: the Chevrolet Suburban holds the record for the longest production run of any passenger vehicle (1935-present); it will hit 100 years of production in 2035.",
+      "context": "The Chevrolet Suburban, a family favorite since 1935, is set to celebrate its 100th birthday in just over a decade.",
       "takeaways": [
-        "People often label trends they dislike as diseases.",
-        "Cultural panics about new media have been around for centuries.",
-        "Books were once seen as a harmful distraction from 'better' reading."
+        "85% of Suburbans made in the last 25 years are still on the road.",
+        "The name 'Suburban' predates modern suburbia by several decades.",
+        "Many families have a long history with the Suburban model."
       ],
       "topics": [
         "todayilearned"
@@ -495,23 +454,66 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "4.1K upvotes",
+      "trendLabel": "2.1K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xwxeac/til_in_the_18th_century_many_prominent_voices/"
+          "url": "https://reddit.com/r/todayilearned/comments/1xyogtd/til_the_chevrolet_suburban_holds_the_record_for/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到：18世纪许多杰出人士担心年轻人沉迷于阅读书籍，诊断为一种名为“阅读狂热”的“危险疾病”。",
-          "context": "在18世纪，阅读过多被视为一种危险流行病，证明了每一代人都会找到担忧的事情。",
+          "headline": "今天了解到：雪佛兰 Suburban 以 1935 年至今的生产记录，成为任何乘用车中生产周期最长的车型。",
+          "context": "雪佛兰 Suburban，自1935年以来一直是家庭的最爱，预计在十多年后庆祝其100岁生日。",
           "takeaways": [
-            "人们常常将他们不喜欢的趋势标记为疾病。",
-            "对新媒体的文化恐慌已经存在几个世纪。",
-            "书籍曾被视为一种有害的分心，而不是真正的阅读。"
+            "过去25年中，85%的Suburban仍在路上行驶。",
+            "‘Suburban’这个名字的使用早于现代郊区几十年。",
+            "许多家庭与Suburban车型有着悠久的历史。"
           ],
-          "trendLabel": "4.1K 赞"
+          "trendLabel": "2.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1xylf23",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "gold",
+      "eyebrow": "r/AskReddit",
+      "headline": "Which Profession has highest rate of Infidelity?",
+      "context": "Curious about which profession tops the infidelity charts? Firefighters, cops, and perhaps even bartenders might surprise you.",
+      "takeaways": [
+        "Firefighters and police officers are frequently cited as having high infidelity rates.",
+        "A former police dispatcher noted rampant cheating among officers.",
+        "Bartenders also seem to have a reputation for infidelity."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.3K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1xylf23/which_profession_has_highest_rate_of_infidelity/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "哪个职业的出轨率最高？",
+          "context": "想知道哪个职业在出轨排行榜上名列前茅吗？消防员、警察，甚至可能还有酒保会让你感到惊讶。",
+          "takeaways": [
+            "消防员和警察常被认为有高出轨率。",
+            "一位前警察调度员指出，执法人员中普遍存在出轨现象。",
+            "酒保似乎也有出轨的名声。"
+          ],
+          "trendLabel": "2.3K 赞"
         }
       }
     }
