@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-17T21:46:40+00:00",
+  "updatedAt": "2026-11-19T21:33:23+00:00",
   "cards": [
     {
-      "id": "reddit-1xyncej",
+      "id": "reddit-1y025t8",
       "lane": [
         "for-you",
         "everyone",
@@ -11,12 +11,12 @@
       "cardType": "community-insight",
       "theme": "ocean",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL in 2007, Björk sent a letter to Britney Spears inviting her to move to her home in Iceland to escape all the drama and controversy surrounding her during that time.",
-      "context": "In 2007, Björk offered Britney Spears an escape to serene Iceland amidst her chaotic life—imagine the tranquility.",
+      "headline": "TIL about Tongyangxi, was a tradition of arranged marriage dating back to pre-modern China, in which a family would adopt a pre-adolescent daughter as a future bride for their pre-adolescent sons, and the children would be raised together.",
+      "context": "Discover the curious tradition of Tongyangxi, where childhood friendships were arranged to secure future marriages—a practice that has seen both charm and challenge.",
       "takeaways": [
-        "Many believe Britney missed a chance for peace in Iceland.",
-        "The allure of clean air and simplicity resonates with fans.",
-        "Britney's struggles highlight her lifelong entanglement with fame."
+        "Arranged childhood marriages have been documented in various cultures, often treating girls as domestic helpers.",
+        "Shifts in education and social attitudes have led to the decline of practices like sim-pua in Taiwan.",
+        "Personal stories reveal a mix of experiences, from kindness to disappointment in arranged marriages."
       ],
       "topics": [
         "todayilearned"
@@ -24,28 +24,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "27K upvotes",
+      "trendLabel": "8K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xyncej/til_in_2007_björk_sent_a_letter_to_britney_spears/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y025t8/til_about_tongyangxi_was_a_tradition_of_arranged/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今日学到：2007年，碧昂丝邀请布兰妮·斯皮尔斯搬到冰岛，逃避当时的争议和戏剧。",
-          "context": "2007年，碧昂丝邀请布兰妮·斯皮尔斯前往宁静的冰岛，远离她混乱的生活——想象一下那种宁静。",
+          "headline": "今日学到：童养媳是中国传统的包办婚姻",
+          "context": "了解童养媳这一传统，在这种安排中，童年友谊被用来确保未来婚姻，这一做法既有魅力也面临挑战。",
           "takeaways": [
-            "许多人认为布兰妮错过了去冰岛寻找平静的机会。",
-            "清新空气和简单生活的吸引力引起了粉丝的共鸣。",
-            "布兰妮的挣扎突显了她与名声的终身纠缠。"
+            "各文化中都有童年包办婚姻的现象，女孩常被当作家庭帮手。",
+            "教育和社会观念的变化导致台湾的童养媳现象逐渐减少。",
+            "个人故事展现了包办婚姻中善良与失望的不同经历。"
           ],
-          "trendLabel": "27K 赞"
+          "trendLabel": "8K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xy3x8s",
+      "id": "reddit-1y09f7r",
       "lane": [
         "for-you",
         "everyone",
@@ -54,12 +54,12 @@
       "cardType": "community-insight",
       "theme": "coral",
       "eyebrow": "r/AskReddit",
-      "headline": "United Airlines just reported ANOTHER systemwide outage. First NVIDIA, then Microsoft, then the FAA ground stop, then banking apps and now United. What's your leading theory on all of this?",
-      "context": "As systems fail across industries, one wonders if prioritizing profits over people might have some unintended consequences.",
+      "headline": "Men who married the \"quiet girl,\" what has life been like for you?",
+      "context": "Marrying the quiet girl often means discovering a vibrant personality hidden beneath the surface, especially when the two of you are alone.",
       "takeaways": [
-        "A focus on efficiency has led to significant staffing cuts and overreliance on automation.",
-        "Replacing skilled developers with AI has resulted in systemic failures.",
-        "The private sector's profit motives may jeopardize vital infrastructure."
+        "Quiet individuals may open up significantly in safe environments.",
+        "The quiet girl might surprise you with her insights after social gatherings.",
+        "Sometimes, quietness is just a sign of comfort around certain people."
       ],
       "topics": [
         "askreddit"
@@ -67,28 +67,372 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "22.6K upvotes",
+      "trendLabel": "2.4K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xy3x8s/united_airlines_just_reported_another_systemwide/"
+          "url": "https://reddit.com/r/AskReddit/comments/1y09f7r/men_who_married_the_quiet_girl_what_has_life_been/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "联合航空再次报告系统性故障。先是NVIDIA，再是微软，然后是FAA的停飞，再到银行应用程序，现在是联合航空。对此，您有什么看法？",
-          "context": "当各行业系统频频崩溃时，难道将利润置于人之上会带来一些意想不到的后果吗？",
+          "headline": "与“安静女孩”结婚的男性，生活是怎样的？",
+          "context": "与安静女孩结婚通常意味着在表面之下发现一个充满活力的个性，尤其是在你们单独相处时。",
           "takeaways": [
-            "对效率的过度追求导致了大量裁员和对自动化的过度依赖。",
-            "用AI替代熟练的开发人员导致了系统性故障。",
-            "私营部门的盈利动机可能危及重要基础设施。"
+            "安静的人在安全的环境中可能会大大开放。",
+            "安静女孩在社交聚会后可能会让你惊讶于她的见解。",
+            "有时候，安静只是对某些人感到舒适的表现。"
           ],
-          "trendLabel": "22.6K 赞"
+          "trendLabel": "2.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1xyd76i",
+      "id": "reddit-1y0h6mf",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Use companies’ retargeted and acquisition ads to save money",
+      "context": "Why pay full price when you can play the tracking game? Just remember, your email inbox might become a battlefield.",
+      "takeaways": [
+        "Use a disposable email for sign-ups to avoid spam.",
+        "Many retailers might not offer discounts despite the strategy.",
+        "Consider using extensions for extra savings opportunities."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "581 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1y0h6mf/lpt_use_companies_retargeted_and_acquisition_ads/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活窍门：利用公司的重定向和获取广告来省钱",
+          "context": "为什么要全价购买，当你可以玩追踪游戏？只需记住，你的邮箱可能会变成战场。",
+          "takeaways": [
+            "使用一次性邮箱注册以避免垃圾邮件。",
+            "许多零售商可能不会提供折扣，尽管使用了这个策略。",
+            "考虑使用扩展程序以获取额外的省钱机会。"
+          ],
+          "trendLabel": "581 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y0g0a3",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "The LDE road ragers in this city are undefeated.",
+      "context": "In a city full of road ragers, one driver's meltdown reveals the irony of rushing to a red light.",
+      "takeaways": [
+        "Little Dick Energy is a real phenomenon on the roads.",
+        "Drivers often forget that speed limits allow for safe lane changes.",
+        "A kiss blown to an angry driver might yield unexpected results."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "86 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y0g0a3/the_lde_road_ragers_in_this_city_are_undefeated/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "这个城市的路怒族无敌。",
+          "context": "在一个满是路怒族的城市，一位司机的失控反应揭示了急于赶到红灯的讽刺。",
+          "takeaways": [
+            "小鸡能量在路上确实存在。",
+            "司机常常忘记，限速允许安全变道。",
+            "对愤怒司机吹个吻可能会产生意想不到的效果。"
+          ],
+          "trendLabel": "86 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y0bydh",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL when Lee Harvey Oswald wanted to defect to the Soviet Union, Soviet officials found it incomprehensible as to why an American would want to become a Soviet citizen. Three years later, Oswald returned to the USA citing the USSR was a drab society with no means of recreation.",
+      "context": "Lee Harvey Oswald wanted to be a Soviet citizen, but the Soviets were puzzled by his ambition and later found him lacking in usefulness.",
+      "takeaways": [
+        "Oswald's experience in the USSR was far from glamorous, with limited entertainment options in Minsk.",
+        "Even the KGB dismissed Oswald as both foolish and unstable, seeing no value in him.",
+        "His return to the U.S. made him a minor celebrity, akin to modern viral figures."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "6K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y0bydh/til_when_lee_harvey_oswald_wanted_to_defect_to/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：李·哈维·奥斯瓦尔德想要投奔苏联，但苏联官员对此感到不可思议。",
+          "context": "李·哈维·奥斯瓦尔德想成为苏联公民，但苏联人对他的雄心感到困惑，后来发现他缺乏价值。",
+          "takeaways": [
+            "奥斯瓦尔德在苏联的经历远非光鲜，明斯克的娱乐选择有限。",
+            "连KGB都认为奥斯瓦尔德既愚蠢又不稳定，看不到他的价值。",
+            "他的回国让他成为小名人，类似现代的病毒式人物。"
+          ],
+          "trendLabel": "6K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y0fr1a",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/AskReddit",
+      "headline": "What do rich people have in their homes that other people just don’t have?",
+      "context": "Ever wonder what makes rich people's homes feel like a different world? Spoiler: it’s not just their gold coin swimming pools.",
+      "takeaways": [
+        "Ample space between furniture and walls creates a sense of luxury.",
+        "Hidden fridges make kitchens look sleek and organized.",
+        "Dedicated laundry rooms prevent wrinkles, turning a chore into a blissful experience."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "859 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y0fr1a/what_do_rich_people_have_in_their_homes_that/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "富人家中拥有的，普通人却没有的东西是什么？",
+          "context": "你是否想过，富人家的家居为何显得如此与众不同？剧透：这不仅仅是他们的金币游泳池。",
+          "takeaways": [
+            "家具与墙壁之间的宽敞空间营造出奢华感。",
+            "隐藏式冰箱让厨房看起来时尚整洁。",
+            "专门的洗衣房能避免衣物皱褶，让洗衣变得愉悦。"
+          ],
+          "trendLabel": "859 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y05b0m",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: It's that time of year again - here's how to safely deep fry a turkey for Thanksgiving",
+      "context": "Deep frying a turkey can be a game changer for Thanksgiving, but safety is key to avoid becoming a holiday horror story.",
+      "takeaways": [
+        "Watch the Good Eats episode 'Fry Turkey Fry' for essential tips.",
+        "Keep the fryer at least 10 feet away from structures.",
+        "Most refined peanut oils are safe for those with peanut allergies."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "99 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1y05b0m/lpt_its_that_time_of_year_again_heres_how_to/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小技巧：感恩节深炸火鸡的安全方法",
+          "context": "深炸火鸡可以改变感恩节的味道，但安全是避免节日恐怖故事的关键。",
+          "takeaways": [
+            "观看《美味佳肴》中的《炸火鸡炸》以获取必要的技巧。",
+            "将炸锅至少放在离建筑物10英尺远的地方。",
+            "大多数精炼的花生油对花生过敏者是安全的。"
+          ],
+          "trendLabel": "99 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y0je7u",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ink",
+      "eyebrow": "r/Dallas",
+      "headline": "Missing an exit in Dallas",
+      "context": "In Dallas, missing an exit is more a nuisance than a nightmare—unless you're at that infamous interchange.",
+      "takeaways": [
+        "Many Dallas drivers lack experience with more confusing areas elsewhere.",
+        "The I-35/I-30 interchange is notorious for being particularly tricky.",
+        "Dallas is generally forgiving when it comes to missed exits."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "52 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y0je7u/missing_an_exit_in_dallas/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "在达拉斯错过出口",
+          "context": "在达拉斯，错过出口更多是个小麻烦，而不是噩梦——除非你在那个臭名昭著的交汇处。",
+          "takeaways": [
+            "许多达拉斯司机缺乏在其他复杂地区行驶的经验。",
+            "I-35/I-30交汇处以特别棘手而著称。",
+            "在错过出口时，达拉斯通常是比较宽容的。"
+          ],
+          "trendLabel": "52 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y0fmtz",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that Eunice Carter, New York's first Black female Assistant District Attorney, was the lead investigator who built the prostitution racketeering case that convicted Mafia boss Lucky Luciano in 1936, though prosecutor Thomas E. Dewey got most of the public credit.",
+      "context": "Eunice Carter helped convict a Mafia boss, yet her contribution remained in the shadows while Dewey took the spotlight—classic team dynamics.",
+      "takeaways": [
+        "Many unsung heroes do the heavy lifting while leaders get the credit.",
+        "Carter's grandson wrote a book about her life titled 'Invisible.'",
+        "Carter and Dewey had mutual respect, collaborating on various occasions."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.2K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y0fmtz/til_that_eunice_carter_new_yorks_first_black/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到了：尤尼斯·卡特是纽约首位黑人女性助理地方检察官，她主导了让黑手党头目幸运·卢西亚诺在1936年定罪的卖淫敲诈案件，尽管检察官托马斯·E·杜威获得了大部分公众认可。",
+          "context": "尤尼斯·卡特帮助定罪了一位黑手党头目，但她的贡献却常常被忽视，杜威却占据了聚光灯——这就是团队动态的经典表现。",
+          "takeaways": [
+            "许多无名英雄做着艰苦的工作，而领导者却获得了荣誉。",
+            "卡特的孙子写了一本关于她生活的书，名为《隐形》。",
+            "卡特和杜威相互尊重，曾在各种场合合作。"
+          ],
+          "trendLabel": "2.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y0eivx",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/AskReddit",
+      "headline": "What screams poor hygiene?",
+      "context": "Ever wondered what not to do in public? Redditors share their top picks for signs of poor hygiene that might raise some eyebrows.",
+      "takeaways": [
+        "Leaving wet laundry in the washer can lead to a swampy smell.",
+        "Not noticing when soap runs out is a clear hygiene red flag.",
+        "Some odors linger long after the person has left the room."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "424 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y0eivx/what_screams_poor_hygiene/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "什么让人觉得卫生差？",
+          "context": "你有没有想过在公众场合该避免做什么？Reddit 用户分享了他们认为卫生差的迹象，可能会引发一些侧目。",
+          "takeaways": [
+            "长时间不洗的湿衣服会发出沼泽气味。",
+            "没有注意到肥皂用完是明显的卫生警告。",
+            "一些气味在离开房间后仍然挥之不去。"
+          ],
+          "trendLabel": "424 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y0hkoj",
       "lane": [
         "for-you",
         "everyone",
@@ -96,99 +440,13 @@
       ],
       "cardType": "community-insight",
       "theme": "ocean",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Never pay a bill through a link in an SMS. Open your bank or the company’s app yourself instead.",
-      "context": "If you think clicking payment links in texts is safe, you might want to reconsider your cybersecurity strategy before your wallet starts crying.",
-      "takeaways": [
-        "Phishing scams often use fake payment links to steal money.",
-        "Legitimate companies won't send direct payment links via SMS.",
-        "Most people are aware, but it's a reminder for the less informed."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "431 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xyd76i/lpt_never_pay_a_bill_through_a_link_in_an_sms/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小贴士：切勿通过短信中的链接支付账单。请自行打开银行或公司的应用。",
-          "context": "如果你认为点击短信中的付款链接是安全的，或许该重新考虑你的网络安全策略，以免钱包哭泣。",
-          "takeaways": [
-            "网络钓鱼诈骗常利用假付款链接来偷钱。",
-            "合法公司不会通过短信发送直接的付款链接。",
-            "大多数人都知道这一点，但这是对不太了解者的提醒。"
-          ],
-          "trendLabel": "431 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xykjhu",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "gold",
-      "eyebrow": "r/Dallas",
-      "headline": "Arlington, TX 11/17/26",
-      "context": "A perplexing organization in Arlington seems committed to sharing their thoughts, raising eyebrows and concerns among locals.",
-      "takeaways": [
-        "Residents notice a persistent group with varying messages.",
-        "Some express discomfort with the group's presence.",
-        "Concerns arise about immigration and community dynamics."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "204 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xykjhu/arlington_tx_111726/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "阿灵顿，德克萨斯州 11/17/26",
-          "context": "阿灵顿的一家神秘组织似乎致力于传播他们的想法，引发当地人的关注与担忧。",
-          "takeaways": [
-            "居民注意到一个不断出现的群体，传达不同的信息。",
-            "一些人对该组织的存在感到不安。",
-            "关于移民和社区动态的担忧浮出水面。"
-          ],
-          "trendLabel": "204 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xydko2",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL in 2014, a California nursing home was shut down and abandoned by trained staff. Sixteen residents, some with dementia, were left behind. Seeing the need, the nursing home’s cook and janitor worked several days cooking, bathing and dispensing medications to residents until authorities arrived.",
-      "context": "In a bizarre twist, a nursing home was abandoned, leaving only a cook and a janitor to care for the residents until help arrived.",
+      "headline": "TIL about Glacial Lake Agassiz. The Lake covered 170,000 sq miles of western Canada and the northern Plains. It abruptly drained in to the Arctic Ocean 13,000 years ago raising sea levels globally which may account for various flood myths of ancient cultures, including the Biblical flood narrative.",
+      "context": "Ever wondered how a massive lake could shape myths? Glacial Lake Agassiz drained suddenly, leaving behind a legacy of both geography and folklore.",
       "takeaways": [
-        "Authorities delayed their response, leaving vulnerable residents in limbo.",
-        "Similar neglect occurred in a Toronto nursing home during COVID-19, leading to tragic consequences.",
-        "Calls for accountability highlight the serious implications of abandoning care facilities."
+        "Glacial Lake Missoula significantly influenced eastern Washington's landscape, and humans likely witnessed its effects.",
+        "California's area is slightly less than the expanse of Glacial Lake Agassiz.",
+        "Many ancient cultures developed near rivers or floodplains, possibly explaining their flood myths."
       ],
       "topics": [
         "todayilearned"
@@ -196,324 +454,23 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "19.7K upvotes",
+      "trendLabel": "713 upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xydko2/til_in_2014_a_california_nursing_home_was_shut/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y0hkoj/til_about_glacial_lake_agassiz_the_lake_covered/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到：2014年，加州一家养老院被关闭并被工作人员遗弃，16名居民被留在了那里。",
-          "context": "在一个离奇的转折中，一家养老院被遗弃，只剩下厨师和清洁工照顾居民，直到援助到来。",
+          "headline": "今天我了解到阿加西湖的知识",
+          "context": "有没有想过一个巨大的湖如何塑造神话？阿加西湖突然排水，留下了地理和民间传说的遗产。",
           "takeaways": [
-            "当局反应缓慢，导致脆弱居民处于困境。",
-            "在COVID-19期间，多伦多的一家养老院也发生了类似的疏忽，导致悲惨后果。",
-            "对问责的呼声强调了放弃护理设施的严重影响。"
+            "阿加西湖的排水显著影响了东华盛顿的地形，人类可能亲眼目睹了其影响。",
+            "加利福尼亚的面积略小于阿加西湖的范围。",
+            "许多古代文化在河流或泛滥平原附近发展，这可能解释了他们的洪水神话。"
           ],
-          "trendLabel": "19.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xyl6xo",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "What's a 10/10 life experience you must have at least once in your life?",
-      "context": "Ever wondered what experiences top the charts for a perfect life? Spoiler: money can help, but some are free!",
-      "takeaways": [
-        "Stargazing in a dark sky can be a profound experience.",
-        "Witnessing a total solar eclipse is nature's breathtaking show.",
-        "Financial stability opens doors to many life-enhancing experiences."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "3.9K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xyl6xo/whats_a_1010_life_experience_you_must_have_at/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "一生中必须体验的10/10生活经历是什么？",
-          "context": "你是否想过哪些体验在完美生活中名列前茅？剧透：金钱能帮忙，但有些是免费的！",
-          "takeaways": [
-            "在无光污染的地方仰望星空是一种深刻的体验。",
-            "目睹日全食是大自然令人惊叹的表演。",
-            "经济稳定为许多提升生活的体验打开了大门。"
-          ],
-          "trendLabel": "3.9K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xyppli",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT Take Document Pictures Without Shadows",
-      "context": "Tired of document photos looking like a crime scene? Try zooming in from a distance to ditch those pesky shadows.",
-      "takeaways": [
-        "Using the 'scan' feature can eliminate shadows entirely.",
-        "Zooming in helps reduce document edge warping.",
-        "Both iPhone and Android offer native scanning options."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "291 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1xyppli/lpt_take_document_pictures_without_shadows/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "LPT：拍摄文档照片时避免阴影",
-          "context": "厌倦了文档照片看起来像犯罪现场吗？试试从远处放大拍摄，以摆脱那些讨厌的阴影。",
-          "takeaways": [
-            "使用“扫描”功能可以完全消除阴影。",
-            "放大拍摄有助于减少文档边缘的扭曲。",
-            "iPhone和Android都提供原生扫描选项。"
-          ],
-          "trendLabel": "291 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xyrzc0",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "lime",
-      "eyebrow": "r/Dallas",
-      "headline": "H-E-B Sets December Opening Date For First Denton Store",
-      "context": "Denton's getting its first H-E-B, but some locals argue it's really in Argyle—geography can be quite the debate.",
-      "takeaways": [
-        "The new H-E-B opens at 6 a.m. on Dec. 16.",
-        "Some residents debate whether the store is truly in Denton or Argyle.",
-        "Dallas residents express their disappointment over the new store."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "41 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1xyrzc0/heb_sets_december_opening_date_for_first_denton/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "H-E-B 确定在十二月开设首家登顿商店的日期",
-          "context": "登顿即将迎来首家 H-E-B，但有些当地人认为这实际上是在阿盖尔，地理位置有时真是个争论点。",
-          "takeaways": [
-            "新的 H-E-B 将于 12 月 16 日早上 6 点开业。",
-            "一些居民争论这家商店到底是在登顿还是阿盖尔。",
-            "达拉斯居民对新商店表示失望。"
-          ],
-          "trendLabel": "41 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xymc5w",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that Abraham Lincoln spent hours shaking hands with visitors just before he signed the Emancipation Proclamation. By the time he picked up the pen, his hand was trembling. He worried that anyone who saw a shaky signature would think he’d had doubts about signing.",
-      "context": "Lincoln's signature trembled under the weight of history—proving that even great leaders have their shaky moments.",
-      "takeaways": [
-        "Lincoln's hands were swollen and trembling from shaking so many hands.",
-        "Signing the Emancipation Proclamation was a monumental moment that understandably made him shaky.",
-        "A genetic condition may have contributed to his hand tremors."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "4.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xymc5w/til_that_abraham_lincoln_spent_hours_shaking/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "我知道亚伯拉罕·林肯在签署《解放宣言》之前花了几个小时与访客握手。",
-          "context": "林肯的签名在历史的重压下颤抖——即使是伟大的领导者也会有不稳之时。",
-          "takeaways": [
-            "林肯的手因握了太多手而肿胀、颤抖。",
-            "签署《解放宣言》这一重要时刻让他感到紧张，难免颤抖。",
-            "遗传病可能导致了他的手颤抖。"
-          ],
-          "trendLabel": "4.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xyjq4r",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/AskReddit",
-      "headline": "Experienced men: What's one mistake you made that you would warn younger men not to repeat?",
-      "context": "Wise men share their regrets; avoid financial faux pas and bad relationships to save yourself from costly lessons.",
-      "takeaways": [
-        "Budget wisely and avoid debt to maintain your lifestyle.",
-        "Don't ignore your insecurities; understanding them is key to personal growth.",
-        "Choose partners based on compatibility, not just looks."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.8K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xyjq4r/experienced_men_whats_one_mistake_you_made_that/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "有经验的男人：你犯过的一个错误是什么？你会警告年轻人不要重蹈覆辙？",
-          "context": "聪明的男人分享他们的遗憾；避免财务失误和糟糕的关系，以节省代价高昂的教训。",
-          "takeaways": [
-            "明智地制定预算，避免债务以维持生活方式。",
-            "不要忽视自己的不安全感；理解它们是个人成长的关键。",
-            "选择伴侣时要基于兼容性，而不仅仅是外貌。"
-          ],
-          "trendLabel": "2.8K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xyogtd",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL: the Chevrolet Suburban holds the record for the longest production run of any passenger vehicle (1935-present); it will hit 100 years of production in 2035.",
-      "context": "The Chevrolet Suburban, a family favorite since 1935, is set to celebrate its 100th birthday in just over a decade.",
-      "takeaways": [
-        "85% of Suburbans made in the last 25 years are still on the road.",
-        "The name 'Suburban' predates modern suburbia by several decades.",
-        "Many families have a long history with the Suburban model."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.1K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1xyogtd/til_the_chevrolet_suburban_holds_the_record_for/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天了解到：雪佛兰 Suburban 以 1935 年至今的生产记录，成为任何乘用车中生产周期最长的车型。",
-          "context": "雪佛兰 Suburban，自1935年以来一直是家庭的最爱，预计在十多年后庆祝其100岁生日。",
-          "takeaways": [
-            "过去25年中，85%的Suburban仍在路上行驶。",
-            "‘Suburban’这个名字的使用早于现代郊区几十年。",
-            "许多家庭与Suburban车型有着悠久的历史。"
-          ],
-          "trendLabel": "2.1K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1xylf23",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "gold",
-      "eyebrow": "r/AskReddit",
-      "headline": "Which Profession has highest rate of Infidelity?",
-      "context": "Curious about which profession tops the infidelity charts? Firefighters, cops, and perhaps even bartenders might surprise you.",
-      "takeaways": [
-        "Firefighters and police officers are frequently cited as having high infidelity rates.",
-        "A former police dispatcher noted rampant cheating among officers.",
-        "Bartenders also seem to have a reputation for infidelity."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.3K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1xylf23/which_profession_has_highest_rate_of_infidelity/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "哪个职业的出轨率最高？",
-          "context": "想知道哪个职业在出轨排行榜上名列前茅吗？消防员、警察，甚至可能还有酒保会让你感到惊讶。",
-          "takeaways": [
-            "消防员和警察常被认为有高出轨率。",
-            "一位前警察调度员指出，执法人员中普遍存在出轨现象。",
-            "酒保似乎也有出轨的名声。"
-          ],
-          "trendLabel": "2.3K 赞"
+          "trendLabel": "713 赞"
         }
       }
     }
