@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-11-19T21:33:23+00:00",
+  "updatedAt": "2026-11-21T20:07:05+00:00",
   "cards": [
     {
-      "id": "reddit-1y025t8",
+      "id": "reddit-1y1ztsm",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ocean",
+      "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL about Tongyangxi, was a tradition of arranged marriage dating back to pre-modern China, in which a family would adopt a pre-adolescent daughter as a future bride for their pre-adolescent sons, and the children would be raised together.",
-      "context": "Discover the curious tradition of Tongyangxi, where childhood friendships were arranged to secure future marriages—a practice that has seen both charm and challenge.",
+      "headline": "TIL that after an enemy archer wounded Genghis Khan he asked after the battle who had shot him. The archer himself confessed instead of begging for mercy and offered his loyalty. Impressed Khan spared him and named him Jebe meaning “arrow”. He later became one of history’s greatest cavalry generals.",
+      "context": "Genghis Khan's mercy turned an enemy archer into a legendary general, proving that loyalty can be found in unexpected places.",
       "takeaways": [
-        "Arranged childhood marriages have been documented in various cultures, often treating girls as domestic helpers.",
-        "Shifts in education and social attitudes have led to the decline of practices like sim-pua in Taiwan.",
-        "Personal stories reveal a mix of experiences, from kindness to disappointment in arranged marriages."
+        "Former enemies can become invaluable allies.",
+        "History's greatest generals often emerged from humble beginnings.",
+        "Circumstances can dramatically change a person's fate."
       ],
       "topics": [
         "todayilearned"
@@ -24,28 +24,71 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "8K upvotes",
+      "trendLabel": "11.4K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y025t8/til_about_tongyangxi_was_a_tradition_of_arranged/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y1ztsm/til_that_after_an_enemy_archer_wounded_genghis/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今日学到：童养媳是中国传统的包办婚姻",
-          "context": "了解童养媳这一传统，在这种安排中，童年友谊被用来确保未来婚姻，这一做法既有魅力也面临挑战。",
+          "headline": "我今天了解到，在一次战斗中，敌方弓箭手伤了成吉思汗，他在战后询问谁射中了他。弓箭手坦白承认而不是乞求宽恕，并表达了效忠。令人印象深刻的是，汗 spared him, and named him Jebe，意为“箭”。他后来成为历史上最伟大的骑兵将领之一。",
+          "context": "成吉思汗的宽恕让敌方弓箭手变成传奇将领，证明忠诚常常出现在意想不到的地方。",
           "takeaways": [
-            "各文化中都有童年包办婚姻的现象，女孩常被当作家庭帮手。",
-            "教育和社会观念的变化导致台湾的童养媳现象逐渐减少。",
-            "个人故事展现了包办婚姻中善良与失望的不同经历。"
+            "曾经的敌人可以成为宝贵的盟友。",
+            "历史上最伟大的将领往往来自卑微的背景。",
+            "环境可以极大地改变一个人的命运。"
           ],
-          "trendLabel": "8K 赞"
+          "trendLabel": "11.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y09f7r",
+      "id": "reddit-1y1xho6",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/AskReddit",
+      "headline": "What’s a career that SOUNDS good but is soul crushing?",
+      "context": "Ever thought a career sounds glamorous? Redditors reveal the harsh realities behind some seemingly ideal jobs.",
+      "takeaways": [
+        "Veterinarians often face emotional challenges and high euthanasia rates without pet insurance.",
+        "Video game testing involves tedious repetitive tasks rather than fun gameplay.",
+        "Orchestral musicians experience low job satisfaction despite years of training."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.1K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y1xho6/whats_a_career_that_sounds_good_but_is_soul/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "听起来不错但令人窒息的职业是什么？",
+          "context": "你是否想过某个职业听起来很光鲜？Reddit用户揭示了一些看似理想工作的严酷现实。",
+          "takeaways": [
+            "兽医常常面临情感挑战和高安乐死率，而宠物没有保险。",
+            "视频游戏测试涉及乏味的重复任务，而不是有趣的游戏玩法。",
+            "尽管经过多年的训练，管弦乐音乐家的工作满意度却很低。"
+          ],
+          "trendLabel": "2.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y22bi2",
       "lane": [
         "for-you",
         "everyone",
@@ -53,56 +96,13 @@
       ],
       "cardType": "community-insight",
       "theme": "coral",
-      "eyebrow": "r/AskReddit",
-      "headline": "Men who married the \"quiet girl,\" what has life been like for you?",
-      "context": "Marrying the quiet girl often means discovering a vibrant personality hidden beneath the surface, especially when the two of you are alone.",
-      "takeaways": [
-        "Quiet individuals may open up significantly in safe environments.",
-        "The quiet girl might surprise you with her insights after social gatherings.",
-        "Sometimes, quietness is just a sign of comfort around certain people."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.4K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y09f7r/men_who_married_the_quiet_girl_what_has_life_been/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "与“安静女孩”结婚的男性，生活是怎样的？",
-          "context": "与安静女孩结婚通常意味着在表面之下发现一个充满活力的个性，尤其是在你们单独相处时。",
-          "takeaways": [
-            "安静的人在安全的环境中可能会大大开放。",
-            "安静女孩在社交聚会后可能会让你惊讶于她的见解。",
-            "有时候，安静只是对某些人感到舒适的表现。"
-          ],
-          "trendLabel": "2.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y0h6mf",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Use companies’ retargeted and acquisition ads to save money",
-      "context": "Why pay full price when you can play the tracking game? Just remember, your email inbox might become a battlefield.",
+      "headline": "LPT: Don’t buy any vehicles next year that were registered in Florida this year",
+      "context": "If you're shopping for a used car, make sure it hasn't seen Florida's floodwaters this year unless you enjoy surprises.",
       "takeaways": [
-        "Use a disposable email for sign-ups to avoid spam.",
-        "Many retailers might not offer discounts despite the strategy.",
-        "Consider using extensions for extra savings opportunities."
+        "Be cautious of flood-damaged vehicles after major flooding events.",
+        "Check under floor mats and seatbelts for signs of water damage.",
+        "Florida-registered cars can be risky due to annual flooding."
       ],
       "topics": [
         "lifeprotips"
@@ -110,42 +110,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "581 upvotes",
+      "trendLabel": "846 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y0h6mf/lpt_use_companies_retargeted_and_acquisition_ads/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1y22bi2/lpt_dont_buy_any_vehicles_next_year_that_were/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "生活窍门：利用公司的重定向和获取广告来省钱",
-          "context": "为什么要全价购买，当你可以玩追踪游戏？只需记住，你的邮箱可能会变成战场。",
+          "headline": "生活小贴士：明年不要购买今年在佛罗里达注册的任何车辆",
+          "context": "如果你在找二手车，确保它没有在今年经历佛罗里达的洪水，除非你喜欢惊喜。",
           "takeaways": [
-            "使用一次性邮箱注册以避免垃圾邮件。",
-            "许多零售商可能不会提供折扣，尽管使用了这个策略。",
-            "考虑使用扩展程序以获取额外的省钱机会。"
+            "在重大洪水事件后，购买车辆要谨慎，可能会有水灾损坏。",
+            "检查地垫和安全带下是否有水损迹象。",
+            "佛罗里达注册的车辆由于每年洪水而风险较高。"
           ],
-          "trendLabel": "581 赞"
+          "trendLabel": "846 赞"
         }
       }
     },
     {
-      "id": "reddit-1y0g0a3",
+      "id": "reddit-1y231xw",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "lime",
+      "theme": "gold",
       "eyebrow": "r/Dallas",
-      "headline": "The LDE road ragers in this city are undefeated.",
-      "context": "In a city full of road ragers, one driver's meltdown reveals the irony of rushing to a red light.",
+      "headline": "I’m looking for a hill…",
+      "context": "Looking for a hill to roll pumpkins? Redditors suggest a fun, educational outing with a side of wildlife feeding.",
       "takeaways": [
-        "Little Dick Energy is a real phenomenon on the roads.",
-        "Drivers often forget that speed limits allow for safe lane changes.",
-        "A kiss blown to an angry driver might yield unexpected results."
+        "Flag Pole Hill Park is a popular suggestion for pumpkin rolling.",
+        "Consider turning this into a community event for more family fun.",
+        "Rolling down the hill yourself could lead to unforgettable laughs."
       ],
       "topics": [
         "dallas"
@@ -153,286 +153,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "86 upvotes",
+      "trendLabel": "24 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y0g0a3/the_lde_road_ragers_in_this_city_are_undefeated/"
+          "url": "https://reddit.com/r/Dallas/comments/1y231xw/im_looking_for_a_hill/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "这个城市的路怒族无敌。",
-          "context": "在一个满是路怒族的城市，一位司机的失控反应揭示了急于赶到红灯的讽刺。",
+          "headline": "我在找一个山坡……",
+          "context": "想找个山坡来滚南瓜？Reddit 用户建议进行一次有趣的教育活动，同时喂养野生动物。",
           "takeaways": [
-            "小鸡能量在路上确实存在。",
-            "司机常常忘记，限速允许安全变道。",
-            "对愤怒司机吹个吻可能会产生意想不到的效果。"
+            "Flag Pole Hill Park 是一个受欢迎的南瓜滚动地点建议。",
+            "考虑将此活动变成社区活动，增加家庭乐趣。",
+            "自己也一起滚下山坡可能会带来难忘的欢笑。"
           ],
-          "trendLabel": "86 赞"
+          "trendLabel": "24 赞"
         }
       }
     },
     {
-      "id": "reddit-1y0bydh",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL when Lee Harvey Oswald wanted to defect to the Soviet Union, Soviet officials found it incomprehensible as to why an American would want to become a Soviet citizen. Three years later, Oswald returned to the USA citing the USSR was a drab society with no means of recreation.",
-      "context": "Lee Harvey Oswald wanted to be a Soviet citizen, but the Soviets were puzzled by his ambition and later found him lacking in usefulness.",
-      "takeaways": [
-        "Oswald's experience in the USSR was far from glamorous, with limited entertainment options in Minsk.",
-        "Even the KGB dismissed Oswald as both foolish and unstable, seeing no value in him.",
-        "His return to the U.S. made him a minor celebrity, akin to modern viral figures."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "6K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y0bydh/til_when_lee_harvey_oswald_wanted_to_defect_to/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我学到：李·哈维·奥斯瓦尔德想要投奔苏联，但苏联官员对此感到不可思议。",
-          "context": "李·哈维·奥斯瓦尔德想成为苏联公民，但苏联人对他的雄心感到困惑，后来发现他缺乏价值。",
-          "takeaways": [
-            "奥斯瓦尔德在苏联的经历远非光鲜，明斯克的娱乐选择有限。",
-            "连KGB都认为奥斯瓦尔德既愚蠢又不稳定，看不到他的价值。",
-            "他的回国让他成为小名人，类似现代的病毒式人物。"
-          ],
-          "trendLabel": "6K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y0fr1a",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/AskReddit",
-      "headline": "What do rich people have in their homes that other people just don’t have?",
-      "context": "Ever wonder what makes rich people's homes feel like a different world? Spoiler: it’s not just their gold coin swimming pools.",
-      "takeaways": [
-        "Ample space between furniture and walls creates a sense of luxury.",
-        "Hidden fridges make kitchens look sleek and organized.",
-        "Dedicated laundry rooms prevent wrinkles, turning a chore into a blissful experience."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "859 upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y0fr1a/what_do_rich_people_have_in_their_homes_that/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "富人家中拥有的，普通人却没有的东西是什么？",
-          "context": "你是否想过，富人家的家居为何显得如此与众不同？剧透：这不仅仅是他们的金币游泳池。",
-          "takeaways": [
-            "家具与墙壁之间的宽敞空间营造出奢华感。",
-            "隐藏式冰箱让厨房看起来时尚整洁。",
-            "专门的洗衣房能避免衣物皱褶，让洗衣变得愉悦。"
-          ],
-          "trendLabel": "859 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y05b0m",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: It's that time of year again - here's how to safely deep fry a turkey for Thanksgiving",
-      "context": "Deep frying a turkey can be a game changer for Thanksgiving, but safety is key to avoid becoming a holiday horror story.",
-      "takeaways": [
-        "Watch the Good Eats episode 'Fry Turkey Fry' for essential tips.",
-        "Keep the fryer at least 10 feet away from structures.",
-        "Most refined peanut oils are safe for those with peanut allergies."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "99 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y05b0m/lpt_its_that_time_of_year_again_heres_how_to/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小技巧：感恩节深炸火鸡的安全方法",
-          "context": "深炸火鸡可以改变感恩节的味道，但安全是避免节日恐怖故事的关键。",
-          "takeaways": [
-            "观看《美味佳肴》中的《炸火鸡炸》以获取必要的技巧。",
-            "将炸锅至少放在离建筑物10英尺远的地方。",
-            "大多数精炼的花生油对花生过敏者是安全的。"
-          ],
-          "trendLabel": "99 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y0je7u",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ink",
-      "eyebrow": "r/Dallas",
-      "headline": "Missing an exit in Dallas",
-      "context": "In Dallas, missing an exit is more a nuisance than a nightmare—unless you're at that infamous interchange.",
-      "takeaways": [
-        "Many Dallas drivers lack experience with more confusing areas elsewhere.",
-        "The I-35/I-30 interchange is notorious for being particularly tricky.",
-        "Dallas is generally forgiving when it comes to missed exits."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "52 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y0je7u/missing_an_exit_in_dallas/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "在达拉斯错过出口",
-          "context": "在达拉斯，错过出口更多是个小麻烦，而不是噩梦——除非你在那个臭名昭著的交汇处。",
-          "takeaways": [
-            "许多达拉斯司机缺乏在其他复杂地区行驶的经验。",
-            "I-35/I-30交汇处以特别棘手而著称。",
-            "在错过出口时，达拉斯通常是比较宽容的。"
-          ],
-          "trendLabel": "52 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y0fmtz",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that Eunice Carter, New York's first Black female Assistant District Attorney, was the lead investigator who built the prostitution racketeering case that convicted Mafia boss Lucky Luciano in 1936, though prosecutor Thomas E. Dewey got most of the public credit.",
-      "context": "Eunice Carter helped convict a Mafia boss, yet her contribution remained in the shadows while Dewey took the spotlight—classic team dynamics.",
-      "takeaways": [
-        "Many unsung heroes do the heavy lifting while leaders get the credit.",
-        "Carter's grandson wrote a book about her life titled 'Invisible.'",
-        "Carter and Dewey had mutual respect, collaborating on various occasions."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.2K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y0fmtz/til_that_eunice_carter_new_yorks_first_black/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我学到了：尤尼斯·卡特是纽约首位黑人女性助理地方检察官，她主导了让黑手党头目幸运·卢西亚诺在1936年定罪的卖淫敲诈案件，尽管检察官托马斯·E·杜威获得了大部分公众认可。",
-          "context": "尤尼斯·卡特帮助定罪了一位黑手党头目，但她的贡献却常常被忽视，杜威却占据了聚光灯——这就是团队动态的经典表现。",
-          "takeaways": [
-            "许多无名英雄做着艰苦的工作，而领导者却获得了荣誉。",
-            "卡特的孙子写了一本关于她生活的书，名为《隐形》。",
-            "卡特和杜威相互尊重，曾在各种场合合作。"
-          ],
-          "trendLabel": "2.2K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y0eivx",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/AskReddit",
-      "headline": "What screams poor hygiene?",
-      "context": "Ever wondered what not to do in public? Redditors share their top picks for signs of poor hygiene that might raise some eyebrows.",
-      "takeaways": [
-        "Leaving wet laundry in the washer can lead to a swampy smell.",
-        "Not noticing when soap runs out is a clear hygiene red flag.",
-        "Some odors linger long after the person has left the room."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "424 upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y0eivx/what_screams_poor_hygiene/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "什么让人觉得卫生差？",
-          "context": "你有没有想过在公众场合该避免做什么？Reddit 用户分享了他们认为卫生差的迹象，可能会引发一些侧目。",
-          "takeaways": [
-            "长时间不洗的湿衣服会发出沼泽气味。",
-            "没有注意到肥皂用完是明显的卫生警告。",
-            "一些气味在离开房间后仍然挥之不去。"
-          ],
-          "trendLabel": "424 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y0hkoj",
+      "id": "reddit-1y20fx0",
       "lane": [
         "for-you",
         "everyone",
@@ -441,12 +183,12 @@
       "cardType": "community-insight",
       "theme": "ocean",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL about Glacial Lake Agassiz. The Lake covered 170,000 sq miles of western Canada and the northern Plains. It abruptly drained in to the Arctic Ocean 13,000 years ago raising sea levels globally which may account for various flood myths of ancient cultures, including the Biblical flood narrative.",
-      "context": "Ever wondered how a massive lake could shape myths? Glacial Lake Agassiz drained suddenly, leaving behind a legacy of both geography and folklore.",
+      "headline": "TIL about Princess (2000), a flash animation series by South Park creators Matt Stone and Trey Parker. The animated shorts were so inappropriate and full of crude humor that Macromedia, their commissioner, cancelled the series after just two of the intended 39 episodes were made.",
+      "context": "Discover how limitless creative freedom led to the quick demise of a wildly inappropriate animated series by the creators of South Park.",
       "takeaways": [
-        "Glacial Lake Missoula significantly influenced eastern Washington's landscape, and humans likely witnessed its effects.",
-        "California's area is slightly less than the expanse of Glacial Lake Agassiz.",
-        "Many ancient cultures developed near rivers or floodplains, possibly explaining their flood myths."
+        "Macromedia Flash evokes nostalgia for many users.",
+        "Expecting restraint from Stone and Parker was perhaps unrealistic.",
+        "The series is now preserved at the Internet Archives."
       ],
       "topics": [
         "todayilearned"
@@ -454,23 +196,324 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "713 upvotes",
+      "trendLabel": "2.4K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y0hkoj/til_about_glacial_lake_agassiz_the_lake_covered/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y20fx0/til_about_princess_2000_a_flash_animation_series/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到阿加西湖的知识",
-          "context": "有没有想过一个巨大的湖如何塑造神话？阿加西湖突然排水，留下了地理和民间传说的遗产。",
+          "headline": "今天我知道：关于《公主》（2000）的事情",
+          "context": "了解无限创作自由如何导致这部由《南方公园》创作者制作的极其不当动画系列迅速被取消。",
           "takeaways": [
-            "阿加西湖的排水显著影响了东华盛顿的地形，人类可能亲眼目睹了其影响。",
-            "加利福尼亚的面积略小于阿加西湖的范围。",
-            "许多古代文化在河流或泛滥平原附近发展，这可能解释了他们的洪水神话。"
+            "很多人对Macromedia Flash感到怀旧。",
+            "期待石头和帕克克制可能是不切实际的。",
+            "该系列现在保存在互联网档案馆。"
           ],
-          "trendLabel": "713 赞"
+          "trendLabel": "2.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y1wjky",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/AskReddit",
+      "headline": "Adults who were diagnosed with oppositional defiant disorder as a child, how has life turned out for you?",
+      "context": "Adults reflect on childhood oppositional defiant disorder diagnoses, revealing surprising twists in their life stories and the complexities of labels.",
+      "takeaways": [
+        "Many found their diagnosis was misattributed to conditions like ADHD or childhood trauma.",
+        "Some individuals successfully redirected their defiance into productive outlets, such as legal careers or union activism.",
+        "Childhood conflicts with caregivers often influenced the longevity of these labels."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.3K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y1wjky/adults_who_were_diagnosed_with_oppositional/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "作为孩子被诊断为对立违抗障碍的成年人，生活如何发展？",
+          "context": "成年人回顾儿童时期的对立违抗障碍诊断，揭示了他们生活故事中的惊人转折和标签的复杂性。",
+          "takeaways": [
+            "许多人发现自己的诊断被错误归因于多动症或童年创伤。",
+            "一些人将他们的对抗情绪成功转化为有意义的出口，例如法律职业或工会活动。",
+            "与监护人的童年冲突往往影响了这些标签的持续时间。"
+          ],
+          "trendLabel": "1.3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y22zgr",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: When coworkers ask you the same computer question more than once, record a short screen walkthrough showing them how to do it.",
+      "context": "Tired of repeating yourself at work? Consider recording a quick tutorial instead—unless you want to be the unofficial IT trainer forever.",
+      "takeaways": [
+        "Documenting processes can save time, but may lead to extra unpaid training duties.",
+        "Not everyone will take the time to read or watch the instructions provided.",
+        "Encourage coworkers to create their own guides to share the responsibility."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "23 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1y22zgr/lpt_when_coworkers_ask_you_the_same_computer/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "建议：当同事多次问你相同的电脑问题时，录制一个简短的屏幕演示来展示如何操作。",
+          "context": "厌倦了在工作中反复解释同样的事情？不妨考虑录制一个快速教程，除非你想一直当非正式的IT培训师。",
+          "takeaways": [
+            "记录流程可以节省时间，但可能导致额外的无薪培训责任。",
+            "并非每个人都会花时间阅读或观看提供的说明。",
+            "鼓励同事们自己创建指南，以分担责任。"
+          ],
+          "trendLabel": "23 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y2429e",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "gold",
+      "eyebrow": "r/Dallas",
+      "headline": "Why isn’t Cenzo’s recommended more here?",
+      "context": "Cenzo's pizza is a hidden gem in Dallas, but locals are keeping it under wraps to avoid long weekend lines.",
+      "takeaways": [
+        "Cenzo's is a popular choice among Oak Cliff residents.",
+        "When Cenzo's is on point, it's unbeatable.",
+        "The restaurant seems to be thriving despite low online buzz."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "16 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y2429e/why_isnt_cenzos_recommended_more_here/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "为什么这里不推荐Cenzo？",
+          "context": "Cenzo的披萨是达拉斯的隐藏宝石，但当地人为了避免周末排长队而保持低调。",
+          "takeaways": [
+            "Cenzo在Oak Cliff居民中颇受欢迎。",
+            "当Cenzo的表现出色时，无与伦比。",
+            "尽管网上讨论不多，Cenzo似乎仍在蓬勃发展。"
+          ],
+          "trendLabel": "16 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y22m3y",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL only nine public universities in the U.S. offer a degree in optometry.",
+      "context": "Who knew that pursuing a degree in optometry in the U.S. could feel like searching for a needle in a haystack with only nine options?",
+      "takeaways": [
+        "Only nine public universities in the U.S. offer optometry degrees.",
+        "There's limited collegiate education for optical engineering, just a chapter here and there.",
+        "Many eye health enthusiasts end up in ophthalmology instead."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y22m3y/til_only_nine_public_universities_in_the_us_offer/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到美国只有九所公立大学提供验光学学位。",
+          "context": "谁知道在美国追求验光学学位就像在稻草堆中寻找针一样，只有九个选择？",
+          "takeaways": [
+            "美国只有九所公立大学提供验光学学位。",
+            "光学工程的大学教育也很有限，只有一章一章的内容。",
+            "许多对眼健康感兴趣的人最终选择眼科学。"
+          ],
+          "trendLabel": "2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y1vj91",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/AskReddit",
+      "headline": "What is the worst video game mechanic ever?",
+      "context": "Sometimes, video game mechanics make you question if the developers were trying to annoy players on purpose. Here are some memorable offenders.",
+      "takeaways": [
+        "Unskippable cutscenes can turn a challenging boss into a tedious chore.",
+        "NPCs with odd combat choices can lead to hilariously frustrating moments.",
+        "Escort missions often feel like a test of patience rather than skill."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "985 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y1vj91/what_is_the_worst_video_game_mechanic_ever/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "最糟糕的视频游戏机制是什么？",
+          "context": "有时候，视频游戏机制让你怀疑开发者是不是故意想要惹恼玩家。这里有一些令人难忘的例子。",
+          "takeaways": [
+            "不可跳过的过场动画会让挑战性的Boss变成乏味的苦差。",
+            "选择奇怪战斗方式的NPC可能会导致令人沮丧的搞笑时刻。",
+            "护送任务常常让人感觉是在测试耐心而不是技能。"
+          ],
+          "trendLabel": "985 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y241ek",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that a very small handful of parts in your body, including eyes, spinal cord, and reproductive organs, have a trait called \"immune privilege\" that shields them from being accessed by your immune system.",
+      "context": "Did you know some body parts enjoy special immune protection? Apparently, they’re too important to be bothered by the immune system.",
+      "takeaways": [
+        "The term 'small handful' humorously excludes hands.",
+        "Some see immune privilege as a controversial concept.",
+        "An eye infection can surprisingly occur without pain."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.4K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y241ek/til_that_a_very_small_handful_of_parts_in_your/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "我了解到身体中一些部位具有“免疫特权”，如眼睛、脊髓和生殖器，这使它们免受免疫系统的攻击。",
+          "context": "你知道身体的一些部位享有特殊的免疫保护吗？显然，它们太重要了，免疫系统不想打扰。",
+          "takeaways": [
+            "‘小把手’这个说法幽默地排除了手。",
+            "一些人将免疫特权视为有争议的概念。",
+            "眼睛感染有时会在没有疼痛的情况下发生。"
+          ],
+          "trendLabel": "1.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y23yo8",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ocean",
+      "eyebrow": "r/AskReddit",
+      "headline": "Why weren't the Panama papers treated like the Epstien files?",
+      "context": "Why do some scandals fade into obscurity while others spark outrage? Explore the perplexing world of accountability in high-profile cases.",
+      "takeaways": [
+        "Both the Panama Papers and Epstein files faced media coverage but little accountability.",
+        "Investigators often work for the very people implicated in these scandals.",
+        "Public interest wanes, leading to a lack of action on serious issues."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "956 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y23yo8/why_werent_the_panama_papers_treated_like_the/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "为什么巴拿马文件没有像爱泼斯坦文件那样被对待？",
+          "context": "一些丑闻为何会被忽视，而另一些却引发愤怒？探索高调案件中问责制的复杂世界。",
+          "takeaways": [
+            "巴拿马文件和爱泼斯坦文件都受到媒体关注，但缺乏问责。",
+            "调查人员往往为被指控的人工作。",
+            "公众兴趣减退，导致对严重问题缺乏行动。"
+          ],
+          "trendLabel": "956 赞"
         }
       }
     }
