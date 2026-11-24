@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-11-21T20:07:05+00:00",
+  "updatedAt": "2026-11-24T00:51:14+00:00",
   "cards": [
     {
-      "id": "reddit-1y1ztsm",
+      "id": "reddit-1y3mlt8",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "gold",
+      "theme": "ink",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that after an enemy archer wounded Genghis Khan he asked after the battle who had shot him. The archer himself confessed instead of begging for mercy and offered his loyalty. Impressed Khan spared him and named him Jebe meaning “arrow”. He later became one of history’s greatest cavalry generals.",
-      "context": "Genghis Khan's mercy turned an enemy archer into a legendary general, proving that loyalty can be found in unexpected places.",
+      "headline": "TIL in 2019 DoorDash listed a pizzeria without permission and sold its $24 pizzas for $16, so the owner ordered his own pizzas and kept the $8 difference",
+      "context": "A pizzeria turned the tables on DoorDash, profiting from their unsolicited discounting scheme while keeping the dough rolling in.",
       "takeaways": [
-        "Former enemies can become invaluable allies.",
-        "History's greatest generals often emerged from humble beginnings.",
-        "Circumstances can dramatically change a person's fate."
+        "DoorDash often lists restaurants without permission to boost their own delivery traffic.",
+        "Some restaurant owners are unaware they are listed on delivery apps.",
+        "The pizzeria cleverly capitalized on DoorDash's aggressive tactics."
       ],
       "topics": [
         "todayilearned"
@@ -24,200 +24,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "11.4K upvotes",
+      "trendLabel": "39K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y1ztsm/til_that_after_an_enemy_archer_wounded_genghis/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y3mlt8/til_in_2019_doordash_listed_a_pizzeria_without/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "我今天了解到，在一次战斗中，敌方弓箭手伤了成吉思汗，他在战后询问谁射中了他。弓箭手坦白承认而不是乞求宽恕，并表达了效忠。令人印象深刻的是，汗 spared him, and named him Jebe，意为“箭”。他后来成为历史上最伟大的骑兵将领之一。",
-          "context": "成吉思汗的宽恕让敌方弓箭手变成传奇将领，证明忠诚常常出现在意想不到的地方。",
+          "headline": "今天我了解到2019年DoorDash在未获许可的情况下列出了一家比萨店，并以16美元的价格出售24美元的比萨，因此店主自己订购了比萨并保留了8美元的差价",
+          "context": "一家比萨店在DoorDash的未授权折扣策略中反转局势，巧妙盈利。",
           "takeaways": [
-            "曾经的敌人可以成为宝贵的盟友。",
-            "历史上最伟大的将领往往来自卑微的背景。",
-            "环境可以极大地改变一个人的命运。"
+            "DoorDash经常在未获许可的情况下列出餐厅，以提升自身的送餐流量。",
+            "一些餐厅老板并不知道他们在外卖应用上被列出。",
+            "比萨店巧妙利用了DoorDash的激进策略。"
           ],
-          "trendLabel": "11.4K 赞"
+          "trendLabel": "39K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y1xho6",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/AskReddit",
-      "headline": "What’s a career that SOUNDS good but is soul crushing?",
-      "context": "Ever thought a career sounds glamorous? Redditors reveal the harsh realities behind some seemingly ideal jobs.",
-      "takeaways": [
-        "Veterinarians often face emotional challenges and high euthanasia rates without pet insurance.",
-        "Video game testing involves tedious repetitive tasks rather than fun gameplay.",
-        "Orchestral musicians experience low job satisfaction despite years of training."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.1K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y1xho6/whats_a_career_that_sounds_good_but_is_soul/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "听起来不错但令人窒息的职业是什么？",
-          "context": "你是否想过某个职业听起来很光鲜？Reddit用户揭示了一些看似理想工作的严酷现实。",
-          "takeaways": [
-            "兽医常常面临情感挑战和高安乐死率，而宠物没有保险。",
-            "视频游戏测试涉及乏味的重复任务，而不是有趣的游戏玩法。",
-            "尽管经过多年的训练，管弦乐音乐家的工作满意度却很低。"
-          ],
-          "trendLabel": "2.1K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y22bi2",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Don’t buy any vehicles next year that were registered in Florida this year",
-      "context": "If you're shopping for a used car, make sure it hasn't seen Florida's floodwaters this year unless you enjoy surprises.",
-      "takeaways": [
-        "Be cautious of flood-damaged vehicles after major flooding events.",
-        "Check under floor mats and seatbelts for signs of water damage.",
-        "Florida-registered cars can be risky due to annual flooding."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "846 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y22bi2/lpt_dont_buy_any_vehicles_next_year_that_were/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小贴士：明年不要购买今年在佛罗里达注册的任何车辆",
-          "context": "如果你在找二手车，确保它没有在今年经历佛罗里达的洪水，除非你喜欢惊喜。",
-          "takeaways": [
-            "在重大洪水事件后，购买车辆要谨慎，可能会有水灾损坏。",
-            "检查地垫和安全带下是否有水损迹象。",
-            "佛罗里达注册的车辆由于每年洪水而风险较高。"
-          ],
-          "trendLabel": "846 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y231xw",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "gold",
-      "eyebrow": "r/Dallas",
-      "headline": "I’m looking for a hill…",
-      "context": "Looking for a hill to roll pumpkins? Redditors suggest a fun, educational outing with a side of wildlife feeding.",
-      "takeaways": [
-        "Flag Pole Hill Park is a popular suggestion for pumpkin rolling.",
-        "Consider turning this into a community event for more family fun.",
-        "Rolling down the hill yourself could lead to unforgettable laughs."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "24 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y231xw/im_looking_for_a_hill/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "我在找一个山坡……",
-          "context": "想找个山坡来滚南瓜？Reddit 用户建议进行一次有趣的教育活动，同时喂养野生动物。",
-          "takeaways": [
-            "Flag Pole Hill Park 是一个受欢迎的南瓜滚动地点建议。",
-            "考虑将此活动变成社区活动，增加家庭乐趣。",
-            "自己也一起滚下山坡可能会带来难忘的欢笑。"
-          ],
-          "trendLabel": "24 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y20fx0",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL about Princess (2000), a flash animation series by South Park creators Matt Stone and Trey Parker. The animated shorts were so inappropriate and full of crude humor that Macromedia, their commissioner, cancelled the series after just two of the intended 39 episodes were made.",
-      "context": "Discover how limitless creative freedom led to the quick demise of a wildly inappropriate animated series by the creators of South Park.",
-      "takeaways": [
-        "Macromedia Flash evokes nostalgia for many users.",
-        "Expecting restraint from Stone and Parker was perhaps unrealistic.",
-        "The series is now preserved at the Internet Archives."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "2.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y20fx0/til_about_princess_2000_a_flash_animation_series/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我知道：关于《公主》（2000）的事情",
-          "context": "了解无限创作自由如何导致这部由《南方公园》创作者制作的极其不当动画系列迅速被取消。",
-          "takeaways": [
-            "很多人对Macromedia Flash感到怀旧。",
-            "期待石头和帕克克制可能是不切实际的。",
-            "该系列现在保存在互联网档案馆。"
-          ],
-          "trendLabel": "2.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y1wjky",
+      "id": "reddit-1y3e0kj",
       "lane": [
         "for-you",
         "everyone",
@@ -226,12 +54,12 @@
       "cardType": "community-insight",
       "theme": "lime",
       "eyebrow": "r/AskReddit",
-      "headline": "Adults who were diagnosed with oppositional defiant disorder as a child, how has life turned out for you?",
-      "context": "Adults reflect on childhood oppositional defiant disorder diagnoses, revealing surprising twists in their life stories and the complexities of labels.",
+      "headline": "What is a cover song that completely eclipsed the original—to the point where most people don't even know it's a cover?",
+      "context": "Ever wondered which cover songs outshine the originals so much that they’re often mistaken for the first version? Let's explore some surprising examples.",
       "takeaways": [
-        "Many found their diagnosis was misattributed to conditions like ADHD or childhood trauma.",
-        "Some individuals successfully redirected their defiance into productive outlets, such as legal careers or union activism.",
-        "Childhood conflicts with caregivers often influenced the longevity of these labels."
+        "Aretha Franklin's 'Respect' outshines Otis Redding's original.",
+        "Natalie Imbruglia's 'Torn' eclipsed Ednaswap's version.",
+        "Tina Turner's 'The Best' is often credited to her, not Bonnie Tyler."
       ],
       "topics": [
         "askreddit"
@@ -239,42 +67,85 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.3K upvotes",
+      "trendLabel": "3.8K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y1wjky/adults_who_were_diagnosed_with_oppositional/"
+          "url": "https://reddit.com/r/AskReddit/comments/1y3e0kj/what_is_a_cover_song_that_completely_eclipsed_the/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "作为孩子被诊断为对立违抗障碍的成年人，生活如何发展？",
-          "context": "成年人回顾儿童时期的对立违抗障碍诊断，揭示了他们生活故事中的惊人转折和标签的复杂性。",
+          "headline": "有哪些翻唱歌曲完全超越了原作，以至于大多数人甚至不知道它是翻唱的？",
+          "context": "想知道哪些翻唱歌曲的光芒超过了原作，以至于人们常常误以为是首发版本吗？让我们来看看一些令人惊讶的例子。",
           "takeaways": [
-            "许多人发现自己的诊断被错误归因于多动症或童年创伤。",
-            "一些人将他们的对抗情绪成功转化为有意义的出口，例如法律职业或工会活动。",
-            "与监护人的童年冲突往往影响了这些标签的持续时间。"
+            "阿瑞莎·弗兰克林的《Respect》超越了奥蒂斯·雷丁的原版。",
+            "娜塔莉·因布鲁利亚的《Torn》超过了Ednaswap的版本。",
+            "蒂娜·特纳的《The Best》常常被认为是她的作品，而不是邦妮·泰勒的。"
           ],
-          "trendLabel": "1.3K 赞"
+          "trendLabel": "3.8K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y22zgr",
+      "id": "reddit-1y3qo6t",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ocean",
+      "eyebrow": "r/Dallas",
+      "headline": "This must be the reason it's easier to find a date here. So many people squished into a small space. I love it!",
+      "context": "Dating in DFW might feel packed, but it's really just a vast area with surprises like Massachusetts being less populous than expected.",
+      "takeaways": [
+        "DFW has a large population but is one of the least dense major metro areas.",
+        "Massachusetts' population came as a surprise, revealing Boston's smaller size.",
+        "Arizona's landscape is mostly dominated by Phoenix and vast stretches of nothing."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "536 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y3qo6t/this_must_be_the_reason_its_easier_to_find_a_date/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "这一定是为什么在这里更容易找到约会对象的原因。太多人挤在一个小空间里。我爱它！",
+          "context": "在DFW约会可能感觉拥挤，但其实只是一个广阔的区域，像马萨诸塞州的人口比预期的要少。",
+          "takeaways": [
+            "DFW人口众多，但却是最不密集的大城市地区之一。",
+            "马萨诸塞州的人口让人惊讶，显示出波士顿的规模较小。",
+            "亚利桑那州的地形大多被凤凰城和广阔的空地主导。"
+          ],
+          "trendLabel": "536 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y3v6vt",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "violet",
+      "theme": "lime",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT: When coworkers ask you the same computer question more than once, record a short screen walkthrough showing them how to do it.",
-      "context": "Tired of repeating yourself at work? Consider recording a quick tutorial instead—unless you want to be the unofficial IT trainer forever.",
+      "headline": "LPT if your computer crashes and in the recovery tools all you have left is the command line, launch Notepad ....",
+      "context": "When your computer crashes, don’t panic; even command lines can lead you to safety—just with a few extra steps.",
       "takeaways": [
-        "Documenting processes can save time, but may lead to extra unpaid training duties.",
-        "Not everyone will take the time to read or watch the instructions provided.",
-        "Encourage coworkers to create their own guides to share the responsibility."
+        "Removing the drive and using a dock can be a safer option.",
+        "Physical external drives are often seen as the best backup solution.",
+        "If you have command line access, it might be quicker than using a file explorer."
       ],
       "topics": [
         "lifeprotips"
@@ -282,85 +153,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "23 upvotes",
+      "trendLabel": "147 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y22zgr/lpt_when_coworkers_ask_you_the_same_computer/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1y3v6vt/lpt_if_your_computer_crashes_and_in_the_recovery/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "建议：当同事多次问你相同的电脑问题时，录制一个简短的屏幕演示来展示如何操作。",
-          "context": "厌倦了在工作中反复解释同样的事情？不妨考虑录制一个快速教程，除非你想一直当非正式的IT培训师。",
+          "headline": "如果你的电脑崩溃，在恢复工具中所有你剩下的只有命令行，启动记事本...",
+          "context": "当你的电脑崩溃时，不要惊慌；即使是命令行也能引导你走向安全，只需多几步。",
           "takeaways": [
-            "记录流程可以节省时间，但可能导致额外的无薪培训责任。",
-            "并非每个人都会花时间阅读或观看提供的说明。",
-            "鼓励同事们自己创建指南，以分担责任。"
+            "拆卸驱动器并使用底座可能是更安全的选择。",
+            "物理外部硬盘通常被视为最佳备份解决方案。",
+            "如果你有命令行访问，可能比使用文件资源管理器更快。"
           ],
-          "trendLabel": "23 赞"
+          "trendLabel": "147 赞"
         }
       }
     },
     {
-      "id": "reddit-1y2429e",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "gold",
-      "eyebrow": "r/Dallas",
-      "headline": "Why isn’t Cenzo’s recommended more here?",
-      "context": "Cenzo's pizza is a hidden gem in Dallas, but locals are keeping it under wraps to avoid long weekend lines.",
-      "takeaways": [
-        "Cenzo's is a popular choice among Oak Cliff residents.",
-        "When Cenzo's is on point, it's unbeatable.",
-        "The restaurant seems to be thriving despite low online buzz."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "16 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y2429e/why_isnt_cenzos_recommended_more_here/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "为什么这里不推荐Cenzo？",
-          "context": "Cenzo的披萨是达拉斯的隐藏宝石，但当地人为了避免周末排长队而保持低调。",
-          "takeaways": [
-            "Cenzo在Oak Cliff居民中颇受欢迎。",
-            "当Cenzo的表现出色时，无与伦比。",
-            "尽管网上讨论不多，Cenzo似乎仍在蓬勃发展。"
-          ],
-          "trendLabel": "16 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y22m3y",
+      "id": "reddit-1y3n99x",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "violet",
+      "theme": "coral",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL only nine public universities in the U.S. offer a degree in optometry.",
-      "context": "Who knew that pursuing a degree in optometry in the U.S. could feel like searching for a needle in a haystack with only nine options?",
+      "headline": "TIL that one of history's biggest heists took place in 1695 when English pirate Henry Every looted the Mughal ship Ganj-i-Sawai of jewels worth £325k–£600k.The robbery sparked a diplomatic crisis between Britain and the Mughals. Every vanished forever and a £500 bounty was placed on him.",
+      "context": "In 1695, pirate Henry Every pulled off a heist that left the British and Mughal empires at odds, while he mysteriously vanished.",
       "takeaways": [
-        "Only nine public universities in the U.S. offer optometry degrees.",
-        "There's limited collegiate education for optical engineering, just a chapter here and there.",
-        "Many eye health enthusiasts end up in ophthalmology instead."
+        "Every's crew missed most Mughal ships due to a botched plan.",
+        "He reportedly attempted to create a pirate utopia in Madagascar.",
+        "Before disappearing, Every claimed he left the loot intact."
       ],
       "topics": [
         "todayilearned"
@@ -368,28 +196,157 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "2K upvotes",
+      "trendLabel": "4.3K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y22m3y/til_only_nine_public_universities_in_the_us_offer/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y3n99x/til_that_one_of_historys_biggest_heists_took/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到美国只有九所公立大学提供验光学学位。",
-          "context": "谁知道在美国追求验光学学位就像在稻草堆中寻找针一样，只有九个选择？",
+          "headline": "今天学到的：历史上最大的抢劫之一发生在1695年，英国海盗亨利·埃弗里劫掠了穆斯林船只Ganj-i-Sawai，珠宝价值32.5万至60万英镑。",
+          "context": "在1695年，海盗亨利·埃弗里进行了一场抢劫，这使英国和莫卧儿帝国关系紧张，而他神秘消失了。",
           "takeaways": [
-            "美国只有九所公立大学提供验光学学位。",
-            "光学工程的大学教育也很有限，只有一章一章的内容。",
-            "许多对眼健康感兴趣的人最终选择眼科学。"
+            "埃弗里和他的船员因计划失误错过了大部分穆斯林船只。",
+            "他曾试图在马达加斯加建立一个海盗乌托邦。",
+            "在消失之前，埃弗里声称他将赃物完整留存。"
           ],
-          "trendLabel": "2K 赞"
+          "trendLabel": "4.3K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y1vj91",
+      "id": "reddit-1y3gzel",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "What's an industry that only survives because customers don't know how cheap it is to do themselves?",
+      "context": "Ever wonder what industries thrive because customers don’t realize how cheap DIY solutions can be? Spoiler: it's more common than you'd think.",
+      "takeaways": [
+        "Many people pay for services simply to save time and avoid hassle.",
+        "Basic auto repairs often seem daunting but can be done with a little guidance.",
+        "Simple tasks, like changing a cabin air filter, are often overpriced by professionals."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "3.5K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y3gzel/whats_an_industry_that_only_survives_because/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "有哪些行业因为客户不知道自己动手做其实很便宜而得以生存？",
+          "context": "你是否想过，有哪些行业因客户不知道DIY解决方案其实很便宜而得以生存？剧透：这比你想的要普遍。",
+          "takeaways": [
+            "许多人为服务付费，仅仅是为了节省时间和避免麻烦。",
+            "基本的汽车维修看似令人畏惧，但在一些指导下其实可以完成。",
+            "像更换舱内空气滤清器这样的简单任务，专业人士通常会收取高额费用。"
+          ],
+          "trendLabel": "3.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y3jund",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "ocean",
+      "eyebrow": "r/Dallas",
+      "headline": "Eric Johnson is now a Republican mayor in a Democratic state. What’s next for him?",
+      "context": "Dallas Mayor Eric Johnson's party switch has some residents wondering if his next move will be higher office or just a higher ego.",
+      "takeaways": [
+        "Many believe his switch is a strategic move for personal gain.",
+        "Residents express frustration over his frequent public announcements.",
+        "Critics see him as a placeholder for conservative interests."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "269 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y3jund/eric_johnson_is_now_a_republican_mayor_in_a/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "埃里克·约翰逊在一个民主州成为共和党市长。他接下来会做什么？",
+          "context": "达拉斯市长埃里克·约翰逊的政党转换让一些居民猜测，他的下一个举动会是更高的职位还是更大的自我。",
+          "takeaways": [
+            "许多人认为他的转换是为了个人利益的战略举动。",
+            "居民对他频繁的公共宣布表示沮丧。",
+            "批评者认为他是保守利益的代理人。"
+          ],
+          "trendLabel": "269 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y3to7b",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL black printer ink bought wholesale costs $1.18 per fl. oz., while the same ink in a cartridge costs $118 per fl. oz.",
+      "context": "Who knew that buying ink could be more expensive than buying a brand new printer? Talk about a costly cartridge conundrum.",
+      "takeaways": [
+        "Choosing a laser printer can save money on ink in the long run.",
+        "Sometimes it's cheaper to buy a new printer than replace ink cartridges.",
+        "Printer companies prioritize technology to ensure original cartridge use."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "4.2K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y3to7b/til_black_printer_ink_bought_wholesale_costs_118/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：批发黑色打印机墨水每盎司1.18美元，而墨盒里的相同墨水每盎司118美元。",
+          "context": "谁知道买墨水居然比买一台全新的打印机还贵？真是个昂贵的墨盒难题。",
+          "takeaways": [
+            "选择激光打印机可以在长远中节省墨水费用。",
+            "有时买一台新打印机比更换墨盒便宜。",
+            "打印机公司优先考虑技术以确保使用原装墨盒。"
+          ],
+          "trendLabel": "4.2K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y3jwfk",
       "lane": [
         "for-you",
         "everyone",
@@ -398,12 +355,12 @@
       "cardType": "community-insight",
       "theme": "ink",
       "eyebrow": "r/AskReddit",
-      "headline": "What is the worst video game mechanic ever?",
-      "context": "Sometimes, video game mechanics make you question if the developers were trying to annoy players on purpose. Here are some memorable offenders.",
+      "headline": "What can you do with a credit score over 800?",
+      "context": "With a credit score over 800, you might still find yourself broke and overpaying for that new car.",
       "takeaways": [
-        "Unskippable cutscenes can turn a challenging boss into a tedious chore.",
-        "NPCs with odd combat choices can lead to hilariously frustrating moments.",
-        "Escort missions often feel like a test of patience rather than skill."
+        "A high credit score may lead to better credit limits but does not guarantee financial stability.",
+        "After reaching around 780, the benefits of a higher score diminish significantly.",
+        "Dealerships might still try to upsell despite your excellent credit score."
       ],
       "topics": [
         "askreddit"
@@ -411,42 +368,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "985 upvotes",
+      "trendLabel": "1.7K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y1vj91/what_is_the_worst_video_game_mechanic_ever/"
+          "url": "https://reddit.com/r/AskReddit/comments/1y3jwfk/what_can_you_do_with_a_credit_score_over_800/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "最糟糕的视频游戏机制是什么？",
-          "context": "有时候，视频游戏机制让你怀疑开发者是不是故意想要惹恼玩家。这里有一些令人难忘的例子。",
+          "headline": "信用评分超过800可以做什么？",
+          "context": "拥有超过800的信用评分，你可能仍然发现自己身无分文，还为新车多花钱。",
           "takeaways": [
-            "不可跳过的过场动画会让挑战性的Boss变成乏味的苦差。",
-            "选择奇怪战斗方式的NPC可能会导致令人沮丧的搞笑时刻。",
-            "护送任务常常让人感觉是在测试耐心而不是技能。"
+            "高信用评分可能带来更好的信用额度，但并不保证财务稳定。",
+            "达到约780后，更高的评分带来的好处显著减少。",
+            "尽管你的信用评分优异，汽车经销商仍可能尝试推销额外费用。"
           ],
-          "trendLabel": "985 赞"
+          "trendLabel": "1.7K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y241ek",
+      "id": "reddit-1y3v9s4",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
+      "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL that a very small handful of parts in your body, including eyes, spinal cord, and reproductive organs, have a trait called \"immune privilege\" that shields them from being accessed by your immune system.",
-      "context": "Did you know some body parts enjoy special immune protection? Apparently, they’re too important to be bothered by the immune system.",
+      "headline": "TIL The last generation of Aboriginal people to live a traditional existence, did not have knowledge of or make contact with white people until the 1960s. Juwaliny people in the remote inland desert of northern Western Australia knew every waterhole and rocky outcrop for hundreds of kilometres",
+      "context": "Imagine living in the desert for centuries without a clue about the outside world—until 1967, that is.",
       "takeaways": [
-        "The term 'small handful' humorously excludes hands.",
-        "Some see immune privilege as a controversial concept.",
-        "An eye infection can surprisingly occur without pain."
+        "The Pintupi Nine lived traditionally in the Gibson Desert until 1984, unaware of European colonization.",
+        "Their diet included Goanna and rabbits, raising questions about their stories regarding introduced species.",
+        "Remote First Nations communities in Canada remain largely isolated, highlighted during the COVID pandemic."
       ],
       "topics": [
         "todayilearned"
@@ -454,42 +411,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "1.4K upvotes",
+      "trendLabel": "2.3K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y241ek/til_that_a_very_small_handful_of_parts_in_your/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y3v9s4/til_the_last_generation_of_aboriginal_people_to/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "我了解到身体中一些部位具有“免疫特权”，如眼睛、脊髓和生殖器，这使它们免受免疫系统的攻击。",
-          "context": "你知道身体的一些部位享有特殊的免疫保护吗？显然，它们太重要了，免疫系统不想打扰。",
+          "headline": "今天我学到: 直到1960年代，最后一代土著人仍过着传统生活，未接触白人。",
+          "context": "想象一下，几个世纪以来生活在沙漠中，对外部世界一无所知——直到1967年。",
           "takeaways": [
-            "‘小把手’这个说法幽默地排除了手。",
-            "一些人将免疫特权视为有争议的概念。",
-            "眼睛感染有时会在没有疼痛的情况下发生。"
+            "Pintupi九人组在1984年之前仍在吉布森沙漠过着传统生活，对欧洲殖民化毫不知情。",
+            "他们的饮食包括蜥蜴和兔子，让人好奇他们对引入物种的故事。",
+            "加拿大一些偏远的原住民社区仍然相对隔绝，在COVID疫情期间引起关注。"
           ],
-          "trendLabel": "1.4K 赞"
+          "trendLabel": "2.3K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y23yo8",
+      "id": "reddit-1y3yg8z",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ocean",
+      "theme": "ink",
       "eyebrow": "r/AskReddit",
-      "headline": "Why weren't the Panama papers treated like the Epstien files?",
-      "context": "Why do some scandals fade into obscurity while others spark outrage? Explore the perplexing world of accountability in high-profile cases.",
+      "headline": "Which job or profession attracts the biggest Douchbags?",
+      "context": "Ever wondered which professions seem to attract the most egos? Redditors have some strong opinions on the subject.",
       "takeaways": [
-        "Both the Panama Papers and Epstein files faced media coverage but little accountability.",
-        "Investigators often work for the very people implicated in these scandals.",
-        "Public interest wanes, leading to a lack of action on serious issues."
+        "Influencers top the list as the biggest douchbags.",
+        "Car salespeople and financial guys at dealerships also earn their fair share of disdain.",
+        "Real estate agents often exhibit an inflated sense of self-importance."
       ],
       "topics": [
         "askreddit"
@@ -497,23 +454,23 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "956 upvotes",
+      "trendLabel": "297 upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y23yo8/why_werent_the_panama_papers_treated_like_the/"
+          "url": "https://reddit.com/r/AskReddit/comments/1y3yg8z/which_job_or_profession_attracts_the_biggest/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "为什么巴拿马文件没有像爱泼斯坦文件那样被对待？",
-          "context": "一些丑闻为何会被忽视，而另一些却引发愤怒？探索高调案件中问责制的复杂世界。",
+          "headline": "哪个工作或职业吸引最多的自恋者？",
+          "context": "你有没有想过哪些职业似乎吸引了最多的自我膨胀者？Reddit 用户对此有一些强烈的看法。",
           "takeaways": [
-            "巴拿马文件和爱泼斯坦文件都受到媒体关注，但缺乏问责。",
-            "调查人员往往为被指控的人工作。",
-            "公众兴趣减退，导致对严重问题缺乏行动。"
+            "网红被认为是最大的自恋者。",
+            "汽车销售员和汽车经销商的金融人员同样受到蔑视。",
+            "房地产经纪人常常表现出自我重要感。"
           ],
-          "trendLabel": "956 赞"
+          "trendLabel": "297 赞"
         }
       }
     }
