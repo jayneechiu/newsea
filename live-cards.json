@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-11-24T00:51:14+00:00",
+  "updatedAt": "2026-11-25T22:32:31+00:00",
   "cards": [
     {
-      "id": "reddit-1y3mlt8",
+      "id": "reddit-1y557ke",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "coral",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL in 2019 DoorDash listed a pizzeria without permission and sold its $24 pizzas for $16, so the owner ordered his own pizzas and kept the $8 difference",
-      "context": "A pizzeria turned the tables on DoorDash, profiting from their unsolicited discounting scheme while keeping the dough rolling in.",
+      "headline": "TIL Physicians in the 19th century warned against girls taking up music lessons, as they believed it could overstimulate their nervous system and play havoc with their nerves and reproductive organs.",
+      "context": "In the 19th century, doctors cautioned against music lessons for girls, fearing harm to their delicate reproductive organs rather than their well-being.",
       "takeaways": [
-        "DoorDash often lists restaurants without permission to boost their own delivery traffic.",
-        "Some restaurant owners are unaware they are listed on delivery apps.",
-        "The pizzeria cleverly capitalized on DoorDash's aggressive tactics."
+        "19th-century physicians often prioritized reproductive concerns over women's overall health.",
+        "The absurdity of past medical beliefs mirrors some modern misconceptions.",
+        "Class differences highlighted the ridiculousness of the elite's worries about women's fragility."
       ],
       "topics": [
         "todayilearned"
@@ -24,42 +24,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "39K upvotes",
+      "trendLabel": "8.9K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y3mlt8/til_in_2019_doordash_listed_a_pizzeria_without/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y557ke/til_physicians_in_the_19th_century_warned_against/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到2019年DoorDash在未获许可的情况下列出了一家比萨店，并以16美元的价格出售24美元的比萨，因此店主自己订购了比萨并保留了8美元的差价",
-          "context": "一家比萨店在DoorDash的未授权折扣策略中反转局势，巧妙盈利。",
+          "headline": "今天我了解到19世纪的医生警告女孩不要上音乐课，因为他们相信这会刺激她们的神经系统，影响神经和生殖器官。",
+          "context": "在19世纪，医生担心音乐课程会伤害女孩脆弱的生殖器官，而不是关心她们的整体健康。",
           "takeaways": [
-            "DoorDash经常在未获许可的情况下列出餐厅，以提升自身的送餐流量。",
-            "一些餐厅老板并不知道他们在外卖应用上被列出。",
-            "比萨店巧妙利用了DoorDash的激进策略。"
+            "19世纪的医生常常优先考虑生殖问题，而非女性的整体健康。",
+            "过去医学信仰的荒谬与现代一些误解相似。",
+            "阶级差异凸显了上层社会对女性脆弱性的担忧的荒谬性。"
           ],
-          "trendLabel": "39K 赞"
+          "trendLabel": "8.9K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y3e0kj",
+      "id": "reddit-1y53ynl",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
+      "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "What is a cover song that completely eclipsed the original—to the point where most people don't even know it's a cover?",
-      "context": "Ever wondered which cover songs outshine the originals so much that they’re often mistaken for the first version? Let's explore some surprising examples.",
+      "headline": "Donald Trump just called Senator-elect Abdul El-Sayed a “smart guy” and said “maybe there’s some place in the middle” on a universal “Trumpcare” plan. Americans, what are your thoughts?",
+      "context": "Trump's endorsement of a 'middle ground' on healthcare has sparked a mix of hope and skepticism among Americans.",
       "takeaways": [
-        "Aretha Franklin's 'Respect' outshines Otis Redding's original.",
-        "Natalie Imbruglia's 'Torn' eclipsed Ednaswap's version.",
-        "Tina Turner's 'The Best' is often credited to her, not Bonnie Tyler."
+        "Many believe appealing to Trump's ego is too easy.",
+        "The name of the healthcare plan doesn't matter as long as it provides coverage.",
+        "Skepticism remains high regarding any genuine progress on healthcare reform."
       ],
       "topics": [
         "askreddit"
@@ -67,85 +67,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "3.8K upvotes",
+      "trendLabel": "6.2K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y3e0kj/what_is_a_cover_song_that_completely_eclipsed_the/"
+          "url": "https://reddit.com/r/AskReddit/comments/1y53ynl/donald_trump_just_called_senatorelect_abdul/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "有哪些翻唱歌曲完全超越了原作，以至于大多数人甚至不知道它是翻唱的？",
-          "context": "想知道哪些翻唱歌曲的光芒超过了原作，以至于人们常常误以为是首发版本吗？让我们来看看一些令人惊讶的例子。",
+          "headline": "唐纳德·特朗普刚刚称当选参议员阿卜杜勒·埃尔-萨耶德为“聪明人”，并表示“也许有某种中间地带”关于普遍的“特朗普医疗”计划。美国人，你们怎么看？",
+          "context": "特朗普对医疗保健的“中间立场”表示支持，引发了美国人间的希望与怀疑交织的反应。",
           "takeaways": [
-            "阿瑞莎·弗兰克林的《Respect》超越了奥蒂斯·雷丁的原版。",
-            "娜塔莉·因布鲁利亚的《Torn》超过了Ednaswap的版本。",
-            "蒂娜·特纳的《The Best》常常被认为是她的作品，而不是邦妮·泰勒的。"
+            "许多人认为讨好特朗普的自我感非常简单。",
+            "只要提供保障，医疗计划的名称并不重要。",
+            "对任何真正的医疗改革进展仍然持怀疑态度。"
           ],
-          "trendLabel": "3.8K 赞"
+          "trendLabel": "6.2K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y3qo6t",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "ocean",
-      "eyebrow": "r/Dallas",
-      "headline": "This must be the reason it's easier to find a date here. So many people squished into a small space. I love it!",
-      "context": "Dating in DFW might feel packed, but it's really just a vast area with surprises like Massachusetts being less populous than expected.",
-      "takeaways": [
-        "DFW has a large population but is one of the least dense major metro areas.",
-        "Massachusetts' population came as a surprise, revealing Boston's smaller size.",
-        "Arizona's landscape is mostly dominated by Phoenix and vast stretches of nothing."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "536 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y3qo6t/this_must_be_the_reason_its_easier_to_find_a_date/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "这一定是为什么在这里更容易找到约会对象的原因。太多人挤在一个小空间里。我爱它！",
-          "context": "在DFW约会可能感觉拥挤，但其实只是一个广阔的区域，像马萨诸塞州的人口比预期的要少。",
-          "takeaways": [
-            "DFW人口众多，但却是最不密集的大城市地区之一。",
-            "马萨诸塞州的人口让人惊讶，显示出波士顿的规模较小。",
-            "亚利桑那州的地形大多被凤凰城和广阔的空地主导。"
-          ],
-          "trendLabel": "536 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y3v6vt",
+      "id": "reddit-1y5ismc",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "lime",
+      "theme": "violet",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT if your computer crashes and in the recovery tools all you have left is the command line, launch Notepad ....",
-      "context": "When your computer crashes, don’t panic; even command lines can lead you to safety—just with a few extra steps.",
+      "headline": "LPT: If you're about to throw away a broken thing, take it apart first. (As long as it won't kill you.)",
+      "context": "Before tossing that broken gadget, why not channel your inner engineer and see what makes it tick—or at least what makes it break?",
       "takeaways": [
-        "Removing the drive and using a dock can be a safer option.",
-        "Physical external drives are often seen as the best backup solution.",
-        "If you have command line access, it might be quicker than using a file explorer."
+        "Large capacitors can retain harmful charges; proceed with caution.",
+        "Repairing can be rewarding; one user fixed a KitchenAid by replacing a blown fuse.",
+        "Disassembling can be an enjoyable way to learn and discover."
       ],
       "topics": [
         "lifeprotips"
@@ -153,128 +110,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "147 upvotes",
+      "trendLabel": "471 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y3v6vt/lpt_if_your_computer_crashes_and_in_the_recovery/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1y5ismc/lpt_if_youre_about_to_throw_away_a_broken_thing/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "如果你的电脑崩溃，在恢复工具中所有你剩下的只有命令行，启动记事本...",
-          "context": "当你的电脑崩溃时，不要惊慌；即使是命令行也能引导你走向安全，只需多几步。",
+          "headline": "LPT：如果你打算扔掉一个坏掉的东西，先把它拆开。 （只要不会要你的命。）",
+          "context": "在扔掉那个坏掉的小工具之前，为什么不试着做个工程师，看看它是怎么工作的——或者至少是什么让它坏的？",
           "takeaways": [
-            "拆卸驱动器并使用底座可能是更安全的选择。",
-            "物理外部硬盘通常被视为最佳备份解决方案。",
-            "如果你有命令行访问，可能比使用文件资源管理器更快。"
+            "大电容可能保持有害电荷，操作时要小心。",
+            "修理可以很有成就感；有用户通过更换保险丝修好了KitchenAid。",
+            "拆解可以是一种愉快的学习和发现方式。"
           ],
-          "trendLabel": "147 赞"
+          "trendLabel": "471 赞"
         }
       }
     },
     {
-      "id": "reddit-1y3n99x",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL that one of history's biggest heists took place in 1695 when English pirate Henry Every looted the Mughal ship Ganj-i-Sawai of jewels worth £325k–£600k.The robbery sparked a diplomatic crisis between Britain and the Mughals. Every vanished forever and a £500 bounty was placed on him.",
-      "context": "In 1695, pirate Henry Every pulled off a heist that left the British and Mughal empires at odds, while he mysteriously vanished.",
-      "takeaways": [
-        "Every's crew missed most Mughal ships due to a botched plan.",
-        "He reportedly attempted to create a pirate utopia in Madagascar.",
-        "Before disappearing, Every claimed he left the loot intact."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "4.3K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y3n99x/til_that_one_of_historys_biggest_heists_took/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天学到的：历史上最大的抢劫之一发生在1695年，英国海盗亨利·埃弗里劫掠了穆斯林船只Ganj-i-Sawai，珠宝价值32.5万至60万英镑。",
-          "context": "在1695年，海盗亨利·埃弗里进行了一场抢劫，这使英国和莫卧儿帝国关系紧张，而他神秘消失了。",
-          "takeaways": [
-            "埃弗里和他的船员因计划失误错过了大部分穆斯林船只。",
-            "他曾试图在马达加斯加建立一个海盗乌托邦。",
-            "在消失之前，埃弗里声称他将赃物完整留存。"
-          ],
-          "trendLabel": "4.3K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y3gzel",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/AskReddit",
-      "headline": "What's an industry that only survives because customers don't know how cheap it is to do themselves?",
-      "context": "Ever wonder what industries thrive because customers don’t realize how cheap DIY solutions can be? Spoiler: it's more common than you'd think.",
-      "takeaways": [
-        "Many people pay for services simply to save time and avoid hassle.",
-        "Basic auto repairs often seem daunting but can be done with a little guidance.",
-        "Simple tasks, like changing a cabin air filter, are often overpriced by professionals."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "3.5K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y3gzel/whats_an_industry_that_only_survives_because/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "有哪些行业因为客户不知道自己动手做其实很便宜而得以生存？",
-          "context": "你是否想过，有哪些行业因客户不知道DIY解决方案其实很便宜而得以生存？剧透：这比你想的要普遍。",
-          "takeaways": [
-            "许多人为服务付费，仅仅是为了节省时间和避免麻烦。",
-            "基本的汽车维修看似令人畏惧，但在一些指导下其实可以完成。",
-            "像更换舱内空气滤清器这样的简单任务，专业人士通常会收取高额费用。"
-          ],
-          "trendLabel": "3.5K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y3jund",
+      "id": "reddit-1y5c2h3",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "ocean",
+      "theme": "lime",
       "eyebrow": "r/Dallas",
-      "headline": "Eric Johnson is now a Republican mayor in a Democratic state. What’s next for him?",
-      "context": "Dallas Mayor Eric Johnson's party switch has some residents wondering if his next move will be higher office or just a higher ego.",
+      "headline": "Autumn colors hitting Reverchon Park",
+      "context": "Autumn in Reverchon Park is a hidden gem, especially when its colors pop right before Thanksgiving - who knew creek bottoms could be this vibrant?",
       "takeaways": [
-        "Many believe his switch is a strategic move for personal gain.",
-        "Residents express frustration over his frequent public announcements.",
-        "Critics see him as a placeholder for conservative interests."
+        "Late November is peak color time in North Texas, making it ideal for park visits.",
+        "Reverchon Park is often overlooked, but it offers stunning autumn foliage.",
+        "Few people walk Reverchon after Thanksgiving, leaving the beauty largely undiscovered."
       ],
       "topics": [
         "dallas"
@@ -282,114 +153,28 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "269 upvotes",
+      "trendLabel": "129 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y3jund/eric_johnson_is_now_a_republican_mayor_in_a/"
+          "url": "https://reddit.com/r/Dallas/comments/1y5c2h3/autumn_colors_hitting_reverchon_park/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "埃里克·约翰逊在一个民主州成为共和党市长。他接下来会做什么？",
-          "context": "达拉斯市长埃里克·约翰逊的政党转换让一些居民猜测，他的下一个举动会是更高的职位还是更大的自我。",
+          "headline": "秋天的色彩点亮雷维尔昌公园",
+          "context": "雷维尔昌公园的秋天是一个隐藏的瑰宝，尤其是在感恩节前夕它的色彩绚丽——谁知道溪谷底部可以如此生动？",
           "takeaways": [
-            "许多人认为他的转换是为了个人利益的战略举动。",
-            "居民对他频繁的公共宣布表示沮丧。",
-            "批评者认为他是保守利益的代理人。"
+            "11月底是北德克萨斯州的最佳观赏期，非常适合公园游玩。",
+            "雷维尔昌公园常常被忽视，但它的秋季景色令人惊叹。",
+            "感恩节后很少有人走雷维尔昌，留下美景未被发现。"
           ],
-          "trendLabel": "269 赞"
+          "trendLabel": "129 赞"
         }
       }
     },
     {
-      "id": "reddit-1y3to7b",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL black printer ink bought wholesale costs $1.18 per fl. oz., while the same ink in a cartridge costs $118 per fl. oz.",
-      "context": "Who knew that buying ink could be more expensive than buying a brand new printer? Talk about a costly cartridge conundrum.",
-      "takeaways": [
-        "Choosing a laser printer can save money on ink in the long run.",
-        "Sometimes it's cheaper to buy a new printer than replace ink cartridges.",
-        "Printer companies prioritize technology to ensure original cartridge use."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "4.2K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y3to7b/til_black_printer_ink_bought_wholesale_costs_118/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我学到：批发黑色打印机墨水每盎司1.18美元，而墨盒里的相同墨水每盎司118美元。",
-          "context": "谁知道买墨水居然比买一台全新的打印机还贵？真是个昂贵的墨盒难题。",
-          "takeaways": [
-            "选择激光打印机可以在长远中节省墨水费用。",
-            "有时买一台新打印机比更换墨盒便宜。",
-            "打印机公司优先考虑技术以确保使用原装墨盒。"
-          ],
-          "trendLabel": "4.2K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y3jwfk",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ink",
-      "eyebrow": "r/AskReddit",
-      "headline": "What can you do with a credit score over 800?",
-      "context": "With a credit score over 800, you might still find yourself broke and overpaying for that new car.",
-      "takeaways": [
-        "A high credit score may lead to better credit limits but does not guarantee financial stability.",
-        "After reaching around 780, the benefits of a higher score diminish significantly.",
-        "Dealerships might still try to upsell despite your excellent credit score."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1.7K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y3jwfk/what_can_you_do_with_a_credit_score_over_800/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "信用评分超过800可以做什么？",
-          "context": "拥有超过800的信用评分，你可能仍然发现自己身无分文，还为新车多花钱。",
-          "takeaways": [
-            "高信用评分可能带来更好的信用额度，但并不保证财务稳定。",
-            "达到约780后，更高的评分带来的好处显著减少。",
-            "尽管你的信用评分优异，汽车经销商仍可能尝试推销额外费用。"
-          ],
-          "trendLabel": "1.7K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y3v9s4",
+      "id": "reddit-1y5bh5v",
       "lane": [
         "for-you",
         "everyone",
@@ -398,12 +183,12 @@
       "cardType": "community-insight",
       "theme": "gold",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL The last generation of Aboriginal people to live a traditional existence, did not have knowledge of or make contact with white people until the 1960s. Juwaliny people in the remote inland desert of northern Western Australia knew every waterhole and rocky outcrop for hundreds of kilometres",
-      "context": "Imagine living in the desert for centuries without a clue about the outside world—until 1967, that is.",
+      "headline": "TIL 3 people got over $2.5 million out of DoorDash by marking orders delivered, getting paid, switching them back to \"in process\" and doing it again, usually in under 5 minutes a loop",
+      "context": "Three individuals managed to exploit DoorDash's system for millions, proving that sometimes, technology can be a double-edged sword even for criminals.",
       "takeaways": [
-        "The Pintupi Nine lived traditionally in the Gibson Desert until 1984, unaware of European colonization.",
-        "Their diet included Goanna and rabbits, raising questions about their stories regarding introduced species.",
-        "Remote First Nations communities in Canada remain largely isolated, highlighted during the COVID pandemic."
+        "Insider help was crucial for executing the fraudulent scheme.",
+        "The group re-assigned orders to their own accounts repeatedly.",
+        "Even seasoned criminals can overlook the obvious risks."
       ],
       "topics": [
         "todayilearned"
@@ -411,42 +196,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "2.3K upvotes",
+      "trendLabel": "8.4K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y3v9s4/til_the_last_generation_of_aboriginal_people_to/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y5bh5v/til_3_people_got_over_25_million_out_of_doordash/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我学到: 直到1960年代，最后一代土著人仍过着传统生活，未接触白人。",
-          "context": "想象一下，几个世纪以来生活在沙漠中，对外部世界一无所知——直到1967年。",
+          "headline": "有3人通过门到门送餐平台DoorDash的漏洞骗取超过250万美元",
+          "context": "三名个人成功利用DoorDash的系统骗取数百万，证明了技术有时对罪犯来说也是把双刃剑。",
           "takeaways": [
-            "Pintupi九人组在1984年之前仍在吉布森沙漠过着传统生活，对欧洲殖民化毫不知情。",
-            "他们的饮食包括蜥蜴和兔子，让人好奇他们对引入物种的故事。",
-            "加拿大一些偏远的原住民社区仍然相对隔绝，在COVID疫情期间引起关注。"
+            "内部帮助对执行欺诈计划至关重要。",
+            "该团伙反复将订单重新分配到自己的账户。",
+            "即使是经验丰富的罪犯也可能忽视明显的风险。"
           ],
-          "trendLabel": "2.3K 赞"
+          "trendLabel": "8.4K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y3yg8z",
+      "id": "reddit-1y56d16",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "ink",
+      "theme": "ocean",
       "eyebrow": "r/AskReddit",
-      "headline": "Which job or profession attracts the biggest Douchbags?",
-      "context": "Ever wondered which professions seem to attract the most egos? Redditors have some strong opinions on the subject.",
+      "headline": "Who's a famous person who is also very incompetent in their field?",
+      "context": "Sometimes, fame doesn't equate to skill. Redditors share their favorite examples of famous faces who stumbled in their professions.",
       "takeaways": [
-        "Influencers top the list as the biggest douchbags.",
-        "Car salespeople and financial guys at dealerships also earn their fair share of disdain.",
-        "Real estate agents often exhibit an inflated sense of self-importance."
+        "Tommy Wiseau built a career on his unique incompetence.",
+        "Dr. Phil's qualifications are often questioned.",
+        "Elizabeth Holmes represents a high-profile failure in the tech industry."
       ],
       "topics": [
         "askreddit"
@@ -454,23 +239,281 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "297 upvotes",
+      "trendLabel": "1K upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y3yg8z/which_job_or_profession_attracts_the_biggest/"
+          "url": "https://reddit.com/r/AskReddit/comments/1y56d16/whos_a_famous_person_who_is_also_very_incompetent/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "哪个工作或职业吸引最多的自恋者？",
-          "context": "你有没有想过哪些职业似乎吸引了最多的自我膨胀者？Reddit 用户对此有一些强烈的看法。",
+          "headline": "谁是一个在自己领域非常无能的名人？",
+          "context": "有时候，名声并不等于技能。Reddit用户分享了他们最喜欢的在职业生涯中跌倒的名人例子。",
           "takeaways": [
-            "网红被认为是最大的自恋者。",
-            "汽车销售员和汽车经销商的金融人员同样受到蔑视。",
-            "房地产经纪人常常表现出自我重要感。"
+            "汤米·维索凭借其独特的无能建立了事业。",
+            "德克·菲尔的资质常常受到质疑。",
+            "伊丽莎白·霍尔姆斯代表了科技行业的高调失败。"
           ],
-          "trendLabel": "297 赞"
+          "trendLabel": "1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y596zk",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: It's travel season again, make sure your emergency supplies in your car are working/not expired and your spare tire has air in it.",
+      "context": "As travel season kicks off, ensure your car's emergency supplies are ready—because nothing says adventure like a flat tire and expired snacks.",
+      "takeaways": [
+        "Consider a rechargeable jump starter for peace of mind.",
+        "A pee bottle can be a lifesaver during traffic jams.",
+        "Bicycle pumps may be more reliable than electric tire inflators."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "206 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1y596zk/lpt_its_travel_season_again_make_sure_your/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小贴士：旅行季节又到了，确保你车里的应急用品正常工作/未过期，备用轮胎充气。",
+          "context": "随着旅行季节的到来，确保你车里的应急用品准备就绪——没有什么比爆胎和过期零食更能体现冒险精神了。",
+          "takeaways": [
+            "考虑购买可充电的跳车启动器，安心无忧。",
+            "尿瓶在交通堵塞时可以成为救星。",
+            "与电动轮胎充气器相比，自行车泵可能更可靠。"
+          ],
+          "trendLabel": "206 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y5ju59",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "Jokes!",
+      "context": "Grandma's cooking sparks a lively debate over the best pie and favorite vegetables, proving humor is always on the menu.",
+      "takeaways": [
+        "Grandma's meat pies attract a crowd.",
+        "String beans with cream of mushroom are a classic.",
+        "Funny comments are still welcome, despite the rules."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "47 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y5ju59/jokes/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "笑话！",
+          "context": "奶奶的厨艺引发了关于最佳馅饼和最爱蔬菜的热烈讨论，证明幽默始终是餐桌上的主角。",
+          "takeaways": [
+            "奶奶的肉馅饼吸引了众多食客。",
+            "奶豆和蘑菇奶油是经典搭配。",
+            "尽管有规则，搞笑评论仍然受欢迎。"
+          ],
+          "trendLabel": "47 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y5alwd",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL it is actually illegal to propagate certain store-bought houseplants. Under the U.S. Plant Patent Act of 1930, breeders can patent new varieties for 20 years. Dividing a patented plant or rooting a cutting is technically federal patent infringement, even for personal use.",
+      "context": "It turns out your houseplant propagation hobby could land you in hot water with the feds—who knew plants could be so litigious?",
+      "takeaways": [
+        "Many gardeners disregard corporate patents when propagating plants.",
+        "The idea of grandmas in federal prison for propagating plants is amusing.",
+        "Big Plant might be worried, but most enthusiasts aren't."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "5.9K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y5alwd/til_it_is_actually_illegal_to_propagate_certain/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到，繁殖某些商店购买的室内植物实际上是非法的。",
+          "context": "原来你的室内植物繁殖爱好可能会让你与联邦法律产生冲突——谁知道植物可以这么爱打官司？",
+          "takeaways": [
+            "许多园丁在繁殖植物时无视公司专利。",
+            "想象祖母因繁殖植物而入狱的情景令人发笑。",
+            "大植物可能会担心，但大多数爱好者并不在意。"
+          ],
+          "trendLabel": "5.9K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y5gjlb",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "violet",
+      "eyebrow": "r/AskReddit",
+      "headline": "Which celebrity completely fakes their “Rags to riches” story?",
+      "context": "From peeling shrimp to billion-dollar empires, some celebrity rags-to-riches tales seem a bit too polished for comfort.",
+      "takeaways": [
+        "Tilman Fertitta's humble beginnings are questioned despite his billionaire status.",
+        "Posh Spice's rags-to-riches narrative was quickly called out by her husband.",
+        "Jesse Camp's portrayal of himself as a street rat contradicted his wealthy background."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "526 upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y5gjlb/which_celebrity_completely_fakes_their_rags_to/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "哪个名人的“白手起家”故事完全是虚构的？",
+          "context": "从剥虾到百亿帝国，一些名人的白手起家故事似乎过于完美，让人不安。",
+          "takeaways": [
+            "尽管是亿万富翁，Tilman Fertitta的谦卑起源引发质疑。",
+            "波什香水的白手起家叙述被丈夫当场揭穿。",
+            "杰西·坎普将自己描绘成街头流浪汉，与其富裕背景形成对比。"
+          ],
+          "trendLabel": "526 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y59lop",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Check Black Friday Deals online after 5pm",
+      "context": "Black Friday secrets revealed: retailers may offer sneaky discounts after hours, so check online when the suppliers aren’t watching.",
+      "takeaways": [
+        "Use price tracking services like Slickdeals for instant deal alerts.",
+        "Brands often enforce minimum advertised pricing, allowing hidden discounts at checkout.",
+        "Curiosity piqued: examples of this pricing trick would be helpful!"
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "201 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1y59lop/lpt_check_black_friday_deals_online_after_5pm/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小窍门：下午五点后查看黑色星期五特价",
+          "context": "黑色星期五的秘密揭晓：零售商可能在供应商不关注时提供暗中折扣，所以在网上查看晚些时候的价格。",
+          "takeaways": [
+            "使用像Slickdeals这样的价格跟踪服务以获取即时交易提醒。",
+            "品牌通常执行最低广告定价，允许结账时隐藏折扣。",
+            "引发好奇：这个定价技巧的例子会很有帮助！"
+          ],
+          "trendLabel": "201 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y4z0vo",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "coral",
+      "eyebrow": "r/Dallas",
+      "headline": "DFW Events - 11/24/2026 to 11/29/2026",
+      "context": "Dallas-Fort Worth has a lineup of events that might just make you forget how to relax over the holiday weekend.",
+      "takeaways": [
+        "The DFW community is excited for upcoming concerts and events.",
+        "More event listings are encouraged, showcasing local talent.",
+        "Karaoke enthusiasts are always looking for specialized sessions."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "18 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y4z0vo/dfw_events_11242026_to_11292026/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "达拉斯-沃斯堡活动 - 2026年11月24日至11月29日",
+          "context": "达拉斯-沃斯堡的活动安排让你在假期周末可能会忘记放松的方式。",
+          "takeaways": [
+            "DFW社区对即将到来的音乐会和活动感到兴奋。",
+            "鼓励更多活动列表，展示本地人才。",
+            "卡拉OK爱好者总是在寻找专业的活动。"
+          ],
+          "trendLabel": "18 赞"
         }
       }
     }
