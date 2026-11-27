@@ -1,8 +1,180 @@
 {
-  "updatedAt": "2026-11-25T22:32:31+00:00",
+  "updatedAt": "2026-11-27T21:58:27+00:00",
   "cards": [
     {
-      "id": "reddit-1y557ke",
+      "id": "reddit-1y6qwmb",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL 67% of Americans play video games regularly and the average age of a gamer is 37",
+      "context": "It seems that the gaming world is a multigenerational affair, with boomers holding their own amid the younger crowd.",
+      "takeaways": [
+        "Boomers surprisingly rank high in gaming time, just behind Gen Alpha.",
+        "Mobile games significantly inflate the overall gaming statistics.",
+        "There's a curious double standard regarding time spent on gaming versus phone use."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "11.5K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y6qwmb/til_67_of_americans_play_video_games_regularly/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我了解到67%的美国人定期玩视频游戏，平均年龄为37岁",
+          "context": "看起来游戏世界是一个跨世代的盛宴，婴儿潮一代在年轻人中也占有一席之地。",
+          "takeaways": [
+            "婴儿潮一代在游戏时间上出乎意料地名列前茅，仅次于Z世代。",
+            "手机游戏显著提高了整体游戏统计数据。",
+            "人们在游戏与手机使用时间上的双重标准颇为有趣。"
+          ],
+          "trendLabel": "11.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y6kj8o",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/AskReddit",
+      "headline": "Divorced people, what was the small, stupid argument that told you it was actually over?",
+      "context": "Sometimes, it's the small, seemingly trivial moments that reveal the cracks in a relationship long before the big breakup.",
+      "takeaways": [
+        "Counseling sessions can expose deep communication issues.",
+        "A simple comment can reveal underlying dissatisfaction.",
+        "Pets may become unexpected points of contention."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "6.6K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y6kj8o/divorced_people_what_was_the_small_stupid/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "离婚的人，是什么小争吵让你意识到其实已经结束了？",
+          "context": "有时候，似乎微不足道的瞬间会在大分手前揭露关系中的裂缝。",
+          "takeaways": [
+            "咨询会议可能暴露出深层的沟通问题。",
+            "简单的评论可以揭示潜在的不满。",
+            "宠物可能成为意想不到的争论点。"
+          ],
+          "trendLabel": "6.6K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y6nq2i",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT: Before clicking on \"submit\", ALWAYS select all your text and copy it",
+      "context": "Ever lost a heartfelt message to the digital void? Here's a simple tip to keep your words safe before hitting send.",
+      "takeaways": [
+        "Always copy your text before submitting to avoid losing it.",
+        "Consider drafting in an offline document for extra security.",
+        "Use clipboard history features to safeguard your content."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.3K upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1y6nq2i/lpt_before_clicking_on_submit_always_select_all/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小窍门：提交前请务必复制你的文本",
+          "context": "曾经有过心情文字消失在数字虚空的经历吗？在发送之前，这里有个简单的提示可以保护你的文字。",
+          "takeaways": [
+            "提交前务必复制你的文本，以免丢失。",
+            "考虑在离线文档中撰写，以增加安全性。",
+            "使用剪贴板历史功能保护你的内容。"
+          ],
+          "trendLabel": "2.3K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y6cz8q",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "violet",
+      "eyebrow": "r/Dallas",
+      "headline": "This is more beautiful than a burger with an ice cold Dr Pepper",
+      "context": "When a burger and Dr Pepper can't compete with the beauty of the open road, you know it’s a special day.",
+      "takeaways": [
+        "Dr Pepper ads are getting increasingly over the top.",
+        "Many are reminiscing about the joy of driving without stress.",
+        "Traffic can quickly ruin the bliss of a peaceful drive."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "1.5K upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y6cz8q/this_is_more_beautiful_than_a_burger_with_an_ice/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "这比汉堡配冰镇德克士可乐更美",
+          "context": "当汉堡和德克士可乐无法与开阔的公路之美竞争时，你就知道今天特别。",
+          "takeaways": [
+            "德克士可乐的广告越来越夸张了。",
+            "很多人怀念无压力驾驶的乐趣。",
+            "交通拥堵会迅速破坏平静驾驶的快乐。"
+          ],
+          "trendLabel": "1.5K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y70hlo",
       "lane": [
         "for-you",
         "everyone",
@@ -11,12 +183,11 @@
       "cardType": "community-insight",
       "theme": "coral",
       "eyebrow": "r/todayilearned",
-      "headline": "TIL Physicians in the 19th century warned against girls taking up music lessons, as they believed it could overstimulate their nervous system and play havoc with their nerves and reproductive organs.",
-      "context": "In the 19th century, doctors cautioned against music lessons for girls, fearing harm to their delicate reproductive organs rather than their well-being.",
+      "headline": "TIL a man in the UK suffered from chronic pain, had no bowel movements, and was \"continually vomiting\" after a 2020 surgery. A doctor later discovered the patient's small intestine had been connected back into his stomach, creating a deadly circular digestive system.",
+      "context": "A surgical mishap led to a man living with a deadly digestive loop—cautionary tales in the operating room are often more than just stories.",
       "takeaways": [
-        "19th-century physicians often prioritized reproductive concerns over women's overall health.",
-        "The absurdity of past medical beliefs mirrors some modern misconceptions.",
-        "Class differences highlighted the ridiculousness of the elite's worries about women's fragility."
+        "Surgeons are expected to avoid serious mistakes, but errors can happen even in meticulous procedures.",
+        "Doctors often celebrate when normal bowel function resumes post-surgery, indicating successful reconnections."
       ],
       "topics": [
         "todayilearned"
@@ -24,28 +195,197 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "8.9K upvotes",
+      "trendLabel": "10.2K upvotes",
       "sources": [
         {
           "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y557ke/til_physicians_in_the_19th_century_warned_against/"
+          "url": "https://reddit.com/r/todayilearned/comments/1y70hlo/til_a_man_in_the_uk_suffered_from_chronic_pain/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "今天我了解到19世纪的医生警告女孩不要上音乐课，因为他们相信这会刺激她们的神经系统，影响神经和生殖器官。",
-          "context": "在19世纪，医生担心音乐课程会伤害女孩脆弱的生殖器官，而不是关心她们的整体健康。",
+          "headline": "今天我知道：英国一名男子在2020年手术后遭受慢性疼痛，肠道错误连接导致致命循环消化系统。",
+          "context": "一次外科失误让一名男子生活在致命的消化循环中——手术室中的警示故事往往不止是故事。",
           "takeaways": [
-            "19世纪的医生常常优先考虑生殖问题，而非女性的整体健康。",
-            "过去医学信仰的荒谬与现代一些误解相似。",
-            "阶级差异凸显了上层社会对女性脆弱性的担忧的荒谬性。"
+            "外科医生被期望避免严重错误，但即使在细致的手术中也可能发生失误。",
+            "医生通常会庆祝手术后正常的肠道功能恢复，表明连接成功。"
           ],
-          "trendLabel": "8.9K 赞"
+          "trendLabel": "10.2K 赞"
         }
       }
     },
     {
-      "id": "reddit-1y53ynl",
+      "id": "reddit-1y6t7m5",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "coral",
+      "eyebrow": "r/AskReddit",
+      "headline": "Hospital and emergency room workers what’s a common household item you refuse to keep in your own home because of what you’ve seen at work?",
+      "context": "Hospital workers share the household items they've sworn off after witnessing too many accidents at work—what's on their no-go list?",
+      "takeaways": [
+        "Many refuse to own motorcycles, trampolines, or anything cone-shaped due to safety concerns.",
+        "Strict household rules often include mandatory swimming lessons and seatbelt use."
+      ],
+      "topics": [
+        "askreddit"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "2.1K upvotes",
+      "sources": [
+        {
+          "label": "r/AskReddit thread",
+          "url": "https://reddit.com/r/AskReddit/comments/1y6t7m5/hospital_and_emergency_room_workers_whats_a/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "医院和急诊室工作人员：由于在工作中看到的事情，你们拒绝在家中保留的常见家居用品是什么？",
+          "context": "医院工作人员分享了他们在工作中目睹过太多事故后发誓不再拥有的家居用品——他们的禁忌清单是什么？",
+          "takeaways": [
+            "许多人因安全考虑而拒绝拥有摩托车、蹦床或任何锥形物品。",
+            "严格的家庭规则通常包括强制游泳课程和使用安全带。"
+          ],
+          "trendLabel": "2.1K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y70f5g",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "lime",
+      "eyebrow": "r/LifeProTips",
+      "headline": "LPT Thinking about getting a pet for the holidays? Foster first. A shelter animal gets a home for the holidays, and you find out if your family is really ready. You might even find a new best friend in the process",
+      "context": "Thinking about a holiday pet? Try fostering first—it's like pet-sitting with bonus benefits, minus the commitment of a lifetime.",
+      "takeaways": [
+        "Fostering helps find the right pet without long-term commitment.",
+        "Some shelters cover food and vet expenses, but not all.",
+        "Fostering can lead to unexpected adoptions, as many fall in love."
+      ],
+      "topics": [
+        "lifeprotips"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "425 upvotes",
+      "sources": [
+        {
+          "label": "r/LifeProTips thread",
+          "url": "https://reddit.com/r/LifeProTips/comments/1y70f5g/lpt_thinking_about_getting_a_pet_for_the_holidays/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "生活小贴士：考虑在假期养宠物？先尝试寄养。",
+          "context": "考虑在假期养宠物？先尝试寄养——这就像宠物看护，有额外的好处，但没有终身承诺。",
+          "takeaways": [
+            "寄养有助于在不长期承诺的情况下找到合适的宠物。",
+            "一些收容所会提供食品和兽医费用，但并非所有。",
+            "寄养可能导致意外收养，因为很多人会爱上这些动物。"
+          ],
+          "trendLabel": "425 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y6haq5",
+      "lane": [
+        "for-you",
+        "everyone",
+        "dallas"
+      ],
+      "cardType": "local-trend",
+      "theme": "lime",
+      "eyebrow": "r/Dallas",
+      "headline": "How bout dem Cowboys!!!",
+      "context": "The Cowboys once again demonstrated their knack for turning wins into losses at crucial moments—who could have predicted that?",
+      "takeaways": [
+        "The Cowboys have a history of disappointing performances in crucial games.",
+        "Fans anticipated the loss, knowing the stakes were high.",
+        "The team's defense consistently fails to deliver when it matters most."
+      ],
+      "topics": [
+        "dallas"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "975 upvotes",
+      "sources": [
+        {
+          "label": "r/Dallas thread",
+          "url": "https://reddit.com/r/Dallas/comments/1y6haq5/how_bout_dem_cowboys/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "牛仔队怎么样！！！",
+          "context": "牛仔队再次展示了在关键时刻将胜利变为失利的能力——谁能预测到这一点？",
+          "takeaways": [
+            "牛仔队在关键比赛中的表现一直让人失望。",
+            "球迷们预料到会输，知道这场比赛至关重要。",
+            "球队的防守在关键时刻始终无法发挥作用。"
+          ],
+          "trendLabel": "975 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y6r1vm",
+      "lane": [
+        "for-you",
+        "everyone",
+        "other-worlds"
+      ],
+      "cardType": "community-insight",
+      "theme": "ink",
+      "eyebrow": "r/todayilearned",
+      "headline": "TIL that 3M made artificial turf. Its name, Tartan Track or Tartan Turf, is a reference to the company's Scotch Tape. 3M exited the business because the a) the patents expired and b) the material is so durable that there is little demand for replacement.",
+      "context": "Did you know 3M once made artificial turf? Turns out, their durable creations didn't need replacing, leading to their exit from the business.",
+      "takeaways": [
+        "3M's Tartan products were considered groundbreaking in the 1960s.",
+        "The name 'Tartan Bahn' is still used for rubber running tracks in Germany.",
+        "3M is known for its over-engineered materials in various applications."
+      ],
+      "topics": [
+        "todayilearned"
+      ],
+      "audience": "Everyone",
+      "sourceCount": 1,
+      "communityCount": 1,
+      "trendLabel": "6.4K upvotes",
+      "sources": [
+        {
+          "label": "r/todayilearned thread",
+          "url": "https://reddit.com/r/todayilearned/comments/1y6r1vm/til_that_3m_made_artificial_turf_its_name_tartan/"
+        }
+      ],
+      "i18n": {
+        "zh": {
+          "headline": "今天我学到：3M制造了人造草坪，名为Tartan Track或Tartan Turf，源于该公司的胶带。",
+          "context": "你知道3M曾经制造人造草坪吗？结果是，他们耐用的产品不需要更换，导致他们退出了这个市场。",
+          "takeaways": [
+            "3M的Tartan产品在1960年代被认为是突破性的。",
+            "‘Tartan Bahn’这个名称仍在德国用于橡胶跑道。",
+            "3M因其在各种应用中过度设计的材料而闻名。"
+          ],
+          "trendLabel": "6.4K 赞"
+        }
+      }
+    },
+    {
+      "id": "reddit-1y6vq6e",
       "lane": [
         "for-you",
         "everyone",
@@ -54,12 +394,12 @@
       "cardType": "community-insight",
       "theme": "gold",
       "eyebrow": "r/AskReddit",
-      "headline": "Donald Trump just called Senator-elect Abdul El-Sayed a “smart guy” and said “maybe there’s some place in the middle” on a universal “Trumpcare” plan. Americans, what are your thoughts?",
-      "context": "Trump's endorsement of a 'middle ground' on healthcare has sparked a mix of hope and skepticism among Americans.",
+      "headline": "What is a subtle sign that someone is going to be a terrible partner once the honeymoon phase ends?",
+      "context": "Ever notice the warning signs lurking beneath the romance? Let's explore subtle clues that hint at a future partner from hell.",
       "takeaways": [
-        "Many believe appealing to Trump's ego is too easy.",
-        "The name of the healthcare plan doesn't matter as long as it provides coverage.",
-        "Skepticism remains high regarding any genuine progress on healthcare reform."
+        "An inability to apologize may signal deeper issues in conflict resolution.",
+        "Grand gestures may distract from neglecting everyday acts of love.",
+        "How they handle disappointment can reveal their respect for your boundaries."
       ],
       "topics": [
         "askreddit"
@@ -67,42 +407,42 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "6.2K upvotes",
+      "trendLabel": "600 upvotes",
       "sources": [
         {
           "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y53ynl/donald_trump_just_called_senatorelect_abdul/"
+          "url": "https://reddit.com/r/AskReddit/comments/1y6vq6e/what_is_a_subtle_sign_that_someone_is_going_to_be/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "唐纳德·特朗普刚刚称当选参议员阿卜杜勒·埃尔-萨耶德为“聪明人”，并表示“也许有某种中间地带”关于普遍的“特朗普医疗”计划。美国人，你们怎么看？",
-          "context": "特朗普对医疗保健的“中间立场”表示支持，引发了美国人间的希望与怀疑交织的反应。",
+          "headline": "什么是一个人在蜜月期结束后会成为糟糕伴侣的微妙迹象？",
+          "context": "你是否注意到浪漫背后潜藏的警告信号？让我们探讨一下未来糟糕伴侣的微妙线索。",
           "takeaways": [
-            "许多人认为讨好特朗普的自我感非常简单。",
-            "只要提供保障，医疗计划的名称并不重要。",
-            "对任何真正的医疗改革进展仍然持怀疑态度。"
+            "无法道歉可能暗示解决冲突时存在更深层次的问题。",
+            "华丽的举动可能掩盖了日常爱的忽视。",
+            "他们如何处理失望可以揭示他们对你界限的尊重。"
           ],
-          "trendLabel": "6.2K 赞"
+          "trendLabel": "600 赞"
         }
       }
     },
     {
-      "id": "reddit-1y5ismc",
+      "id": "reddit-1y6vgeh",
       "lane": [
         "for-you",
         "everyone",
         "other-worlds"
       ],
       "cardType": "community-insight",
-      "theme": "violet",
+      "theme": "ink",
       "eyebrow": "r/LifeProTips",
-      "headline": "LPT: If you're about to throw away a broken thing, take it apart first. (As long as it won't kill you.)",
-      "context": "Before tossing that broken gadget, why not channel your inner engineer and see what makes it tick—or at least what makes it break?",
+      "headline": "LPT: Descale your coffee maker and kettle monthly with plain white vinegar to keep them heating fast and quiet",
+      "context": "Descale your coffee maker and kettle monthly with vinegar, unless you enjoy waiting for your coffee and listening to a symphony of gurgles.",
       "takeaways": [
-        "Large capacitors can retain harmful charges; proceed with caution.",
-        "Repairing can be rewarding; one user fixed a KitchenAid by replacing a blown fuse.",
-        "Disassembling can be an enjoyable way to learn and discover."
+        "Citric acid is a vinegar alternative for sensitive coffee makers.",
+        "Water hardness affects how often you need to descale.",
+        "Always check manufacturer instructions to avoid damaging your machine."
       ],
       "topics": [
         "lifeprotips"
@@ -110,214 +450,41 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "471 upvotes",
+      "trendLabel": "162 upvotes",
       "sources": [
         {
           "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y5ismc/lpt_if_youre_about_to_throw_away_a_broken_thing/"
+          "url": "https://reddit.com/r/LifeProTips/comments/1y6vgeh/lpt_descale_your_coffee_maker_and_kettle_monthly/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "LPT：如果你打算扔掉一个坏掉的东西，先把它拆开。 （只要不会要你的命。）",
-          "context": "在扔掉那个坏掉的小工具之前，为什么不试着做个工程师，看看它是怎么工作的——或者至少是什么让它坏的？",
+          "headline": "生活小窍门：每月用白醋除垢咖啡机和水壶，以保持加热迅速和安静",
+          "context": "每月用醋除垢咖啡机和水壶，除非你喜欢等待咖啡和听到咕噜声的交响乐。",
           "takeaways": [
-            "大电容可能保持有害电荷，操作时要小心。",
-            "修理可以很有成就感；有用户通过更换保险丝修好了KitchenAid。",
-            "拆解可以是一种愉快的学习和发现方式。"
+            "对于敏感的咖啡机，柠檬酸是醋的替代品。",
+            "水的硬度影响你多久需要除垢一次。",
+            "始终检查制造商说明，以避免损坏机器。"
           ],
-          "trendLabel": "471 赞"
+          "trendLabel": "162 赞"
         }
       }
     },
     {
-      "id": "reddit-1y5c2h3",
+      "id": "reddit-1y6lrkf",
       "lane": [
         "for-you",
         "everyone",
         "dallas"
       ],
       "cardType": "local-trend",
-      "theme": "lime",
-      "eyebrow": "r/Dallas",
-      "headline": "Autumn colors hitting Reverchon Park",
-      "context": "Autumn in Reverchon Park is a hidden gem, especially when its colors pop right before Thanksgiving - who knew creek bottoms could be this vibrant?",
-      "takeaways": [
-        "Late November is peak color time in North Texas, making it ideal for park visits.",
-        "Reverchon Park is often overlooked, but it offers stunning autumn foliage.",
-        "Few people walk Reverchon after Thanksgiving, leaving the beauty largely undiscovered."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "129 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y5c2h3/autumn_colors_hitting_reverchon_park/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "秋天的色彩点亮雷维尔昌公园",
-          "context": "雷维尔昌公园的秋天是一个隐藏的瑰宝，尤其是在感恩节前夕它的色彩绚丽——谁知道溪谷底部可以如此生动？",
-          "takeaways": [
-            "11月底是北德克萨斯州的最佳观赏期，非常适合公园游玩。",
-            "雷维尔昌公园常常被忽视，但它的秋季景色令人惊叹。",
-            "感恩节后很少有人走雷维尔昌，留下美景未被发现。"
-          ],
-          "trendLabel": "129 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y5bh5v",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
       "theme": "gold",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL 3 people got over $2.5 million out of DoorDash by marking orders delivered, getting paid, switching them back to \"in process\" and doing it again, usually in under 5 minutes a loop",
-      "context": "Three individuals managed to exploit DoorDash's system for millions, proving that sometimes, technology can be a double-edged sword even for criminals.",
-      "takeaways": [
-        "Insider help was crucial for executing the fraudulent scheme.",
-        "The group re-assigned orders to their own accounts repeatedly.",
-        "Even seasoned criminals can overlook the obvious risks."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "8.4K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y5bh5v/til_3_people_got_over_25_million_out_of_doordash/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "有3人通过门到门送餐平台DoorDash的漏洞骗取超过250万美元",
-          "context": "三名个人成功利用DoorDash的系统骗取数百万，证明了技术有时对罪犯来说也是把双刃剑。",
-          "takeaways": [
-            "内部帮助对执行欺诈计划至关重要。",
-            "该团伙反复将订单重新分配到自己的账户。",
-            "即使是经验丰富的罪犯也可能忽视明显的风险。"
-          ],
-          "trendLabel": "8.4K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y56d16",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "ocean",
-      "eyebrow": "r/AskReddit",
-      "headline": "Who's a famous person who is also very incompetent in their field?",
-      "context": "Sometimes, fame doesn't equate to skill. Redditors share their favorite examples of famous faces who stumbled in their professions.",
-      "takeaways": [
-        "Tommy Wiseau built a career on his unique incompetence.",
-        "Dr. Phil's qualifications are often questioned.",
-        "Elizabeth Holmes represents a high-profile failure in the tech industry."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "1K upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y56d16/whos_a_famous_person_who_is_also_very_incompetent/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "谁是一个在自己领域非常无能的名人？",
-          "context": "有时候，名声并不等于技能。Reddit用户分享了他们最喜欢的在职业生涯中跌倒的名人例子。",
-          "takeaways": [
-            "汤米·维索凭借其独特的无能建立了事业。",
-            "德克·菲尔的资质常常受到质疑。",
-            "伊丽莎白·霍尔姆斯代表了科技行业的高调失败。"
-          ],
-          "trendLabel": "1K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y596zk",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: It's travel season again, make sure your emergency supplies in your car are working/not expired and your spare tire has air in it.",
-      "context": "As travel season kicks off, ensure your car's emergency supplies are ready—because nothing says adventure like a flat tire and expired snacks.",
-      "takeaways": [
-        "Consider a rechargeable jump starter for peace of mind.",
-        "A pee bottle can be a lifesaver during traffic jams.",
-        "Bicycle pumps may be more reliable than electric tire inflators."
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "206 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y596zk/lpt_its_travel_season_again_make_sure_your/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小贴士：旅行季节又到了，确保你车里的应急用品正常工作/未过期，备用轮胎充气。",
-          "context": "随着旅行季节的到来，确保你车里的应急用品准备就绪——没有什么比爆胎和过期零食更能体现冒险精神了。",
-          "takeaways": [
-            "考虑购买可充电的跳车启动器，安心无忧。",
-            "尿瓶在交通堵塞时可以成为救星。",
-            "与电动轮胎充气器相比，自行车泵可能更可靠。"
-          ],
-          "trendLabel": "206 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y5ju59",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "lime",
       "eyebrow": "r/Dallas",
-      "headline": "Jokes!",
-      "context": "Grandma's cooking sparks a lively debate over the best pie and favorite vegetables, proving humor is always on the menu.",
+      "headline": "Freedom Friday Post",
+      "context": "It's Freedom Friday, the one day a week when r/Dallas users can chat about anything—no topic too wild.",
       "takeaways": [
-        "Grandma's meat pies attract a crowd.",
-        "String beans with cream of mushroom are a classic.",
-        "Funny comments are still welcome, despite the rules."
+        "Muscle Cleaning Services offers owner-operated cleaning across Dallas with high customer ratings.",
+        "Users share their thoughts on various news events and personal updates."
       ],
       "topics": [
         "dallas"
@@ -325,195 +492,22 @@
       "audience": "Everyone",
       "sourceCount": 1,
       "communityCount": 1,
-      "trendLabel": "47 upvotes",
+      "trendLabel": "3 upvotes",
       "sources": [
         {
           "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y5ju59/jokes/"
+          "url": "https://reddit.com/r/Dallas/comments/1y6lrkf/freedom_friday_post/"
         }
       ],
       "i18n": {
         "zh": {
-          "headline": "笑话！",
-          "context": "奶奶的厨艺引发了关于最佳馅饼和最爱蔬菜的热烈讨论，证明幽默始终是餐桌上的主角。",
+          "headline": "自由星期五帖子",
+          "context": "欢迎来到自由星期五帖子，这是r/Dallas用户讨论任何话题的地方，毫无禁忌。",
           "takeaways": [
-            "奶奶的肉馅饼吸引了众多食客。",
-            "奶豆和蘑菇奶油是经典搭配。",
-            "尽管有规则，搞笑评论仍然受欢迎。"
+            "Muscle Cleaning Services提供全方位的清洁服务，客户评分很高。",
+            "用户分享对各类新闻事件和个人更新的看法。"
           ],
-          "trendLabel": "47 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y5alwd",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "coral",
-      "eyebrow": "r/todayilearned",
-      "headline": "TIL it is actually illegal to propagate certain store-bought houseplants. Under the U.S. Plant Patent Act of 1930, breeders can patent new varieties for 20 years. Dividing a patented plant or rooting a cutting is technically federal patent infringement, even for personal use.",
-      "context": "It turns out your houseplant propagation hobby could land you in hot water with the feds—who knew plants could be so litigious?",
-      "takeaways": [
-        "Many gardeners disregard corporate patents when propagating plants.",
-        "The idea of grandmas in federal prison for propagating plants is amusing.",
-        "Big Plant might be worried, but most enthusiasts aren't."
-      ],
-      "topics": [
-        "todayilearned"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "5.9K upvotes",
-      "sources": [
-        {
-          "label": "r/todayilearned thread",
-          "url": "https://reddit.com/r/todayilearned/comments/1y5alwd/til_it_is_actually_illegal_to_propagate_certain/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "今天我了解到，繁殖某些商店购买的室内植物实际上是非法的。",
-          "context": "原来你的室内植物繁殖爱好可能会让你与联邦法律产生冲突——谁知道植物可以这么爱打官司？",
-          "takeaways": [
-            "许多园丁在繁殖植物时无视公司专利。",
-            "想象祖母因繁殖植物而入狱的情景令人发笑。",
-            "大植物可能会担心，但大多数爱好者并不在意。"
-          ],
-          "trendLabel": "5.9K 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y5gjlb",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "violet",
-      "eyebrow": "r/AskReddit",
-      "headline": "Which celebrity completely fakes their “Rags to riches” story?",
-      "context": "From peeling shrimp to billion-dollar empires, some celebrity rags-to-riches tales seem a bit too polished for comfort.",
-      "takeaways": [
-        "Tilman Fertitta's humble beginnings are questioned despite his billionaire status.",
-        "Posh Spice's rags-to-riches narrative was quickly called out by her husband.",
-        "Jesse Camp's portrayal of himself as a street rat contradicted his wealthy background."
-      ],
-      "topics": [
-        "askreddit"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "526 upvotes",
-      "sources": [
-        {
-          "label": "r/AskReddit thread",
-          "url": "https://reddit.com/r/AskReddit/comments/1y5gjlb/which_celebrity_completely_fakes_their_rags_to/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "哪个名人的“白手起家”故事完全是虚构的？",
-          "context": "从剥虾到百亿帝国，一些名人的白手起家故事似乎过于完美，让人不安。",
-          "takeaways": [
-            "尽管是亿万富翁，Tilman Fertitta的谦卑起源引发质疑。",
-            "波什香水的白手起家叙述被丈夫当场揭穿。",
-            "杰西·坎普将自己描绘成街头流浪汉，与其富裕背景形成对比。"
-          ],
-          "trendLabel": "526 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y59lop",
-      "lane": [
-        "for-you",
-        "everyone",
-        "other-worlds"
-      ],
-      "cardType": "community-insight",
-      "theme": "lime",
-      "eyebrow": "r/LifeProTips",
-      "headline": "LPT: Check Black Friday Deals online after 5pm",
-      "context": "Black Friday secrets revealed: retailers may offer sneaky discounts after hours, so check online when the suppliers aren’t watching.",
-      "takeaways": [
-        "Use price tracking services like Slickdeals for instant deal alerts.",
-        "Brands often enforce minimum advertised pricing, allowing hidden discounts at checkout.",
-        "Curiosity piqued: examples of this pricing trick would be helpful!"
-      ],
-      "topics": [
-        "lifeprotips"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "201 upvotes",
-      "sources": [
-        {
-          "label": "r/LifeProTips thread",
-          "url": "https://reddit.com/r/LifeProTips/comments/1y59lop/lpt_check_black_friday_deals_online_after_5pm/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "生活小窍门：下午五点后查看黑色星期五特价",
-          "context": "黑色星期五的秘密揭晓：零售商可能在供应商不关注时提供暗中折扣，所以在网上查看晚些时候的价格。",
-          "takeaways": [
-            "使用像Slickdeals这样的价格跟踪服务以获取即时交易提醒。",
-            "品牌通常执行最低广告定价，允许结账时隐藏折扣。",
-            "引发好奇：这个定价技巧的例子会很有帮助！"
-          ],
-          "trendLabel": "201 赞"
-        }
-      }
-    },
-    {
-      "id": "reddit-1y4z0vo",
-      "lane": [
-        "for-you",
-        "everyone",
-        "dallas"
-      ],
-      "cardType": "local-trend",
-      "theme": "coral",
-      "eyebrow": "r/Dallas",
-      "headline": "DFW Events - 11/24/2026 to 11/29/2026",
-      "context": "Dallas-Fort Worth has a lineup of events that might just make you forget how to relax over the holiday weekend.",
-      "takeaways": [
-        "The DFW community is excited for upcoming concerts and events.",
-        "More event listings are encouraged, showcasing local talent.",
-        "Karaoke enthusiasts are always looking for specialized sessions."
-      ],
-      "topics": [
-        "dallas"
-      ],
-      "audience": "Everyone",
-      "sourceCount": 1,
-      "communityCount": 1,
-      "trendLabel": "18 upvotes",
-      "sources": [
-        {
-          "label": "r/Dallas thread",
-          "url": "https://reddit.com/r/Dallas/comments/1y4z0vo/dfw_events_11242026_to_11292026/"
-        }
-      ],
-      "i18n": {
-        "zh": {
-          "headline": "达拉斯-沃斯堡活动 - 2026年11月24日至11月29日",
-          "context": "达拉斯-沃斯堡的活动安排让你在假期周末可能会忘记放松的方式。",
-          "takeaways": [
-            "DFW社区对即将到来的音乐会和活动感到兴奋。",
-            "鼓励更多活动列表，展示本地人才。",
-            "卡拉OK爱好者总是在寻找专业的活动。"
-          ],
-          "trendLabel": "18 赞"
+          "trendLabel": "3 赞"
         }
       }
     }
